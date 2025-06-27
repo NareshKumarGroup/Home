@@ -409,7 +409,12 @@ title: Research
 .research-hero {
     position: relative;
     overflow: hidden;
+    min-height: 380px;
+    padding: 3rem 0 2rem 0;
+    display: flex;
+    align-items: center;
 }
+
 .research-hero::before {
     content: '';
     position: absolute;
@@ -417,13 +422,14 @@ title: Research
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    height: 380px;
+    height: 100%;
     background: url('{{ site.baseurl }}/assets/images/junlab.jpg') center/cover no-repeat;
     opacity: 0.8;
     z-index: 1;
     pointer-events: none;
     mix-blend-mode: lighten;
 }
+
 .research-hero .container {
     position: relative;
     z-index: 2;
@@ -431,23 +437,12 @@ title: Research
 
 @media (max-width: 768px) {
     .research-hero {
-        position: relative;
-        padding-top: 220px; /* Space for the background image */
-        padding-bottom: 2rem;
         min-height: unset;
-        height: auto;
+        padding: 2rem 0 1rem 0;
         display: block;
     }
     .research-hero::before {
-        height: 220px; /* Fixed height for the background image at the top */
-        min-height: unset;
-    }
-    .section-title h2,
-    .research-intro {
-        margin-top: -180px; /* Pull text up into the image area */
-        margin-bottom: 1.5rem;
-        position: relative;
-        z-index: 2;
+        height: 100%;
     }
 }
 </style>

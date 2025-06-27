@@ -219,16 +219,22 @@ body {
     gap: 2rem;
 }
 
-// Hero section background image
+// Home hero section improvements
 .hero {
-  background: linear-gradient(rgba(148, 163, 146, 0.33), rgba(78, 96, 115, 0.3)), url('{{ site.baseurl }}/assets/images/lab-background1.jpg');
-  background-size: 120% auto;
+  background: linear-gradient(rgba(44, 62, 80, 0.4), rgba(44, 62, 80, 0.4)), url('{{ site.baseurl }}/assets/images/lab-background.jpg');
+  background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
-  height: 420px;
   padding: 8rem 0;
   margin-top: -80px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 4rem 0;
+    min-height: 250px;
+  }
 }
 
 // Improved mobile styles for people page and alumni section

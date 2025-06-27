@@ -428,6 +428,19 @@ title: Research
     position: relative;
     z-index: 2;
 }
+
+@media (max-width: 768px) {
+    .research-hero {
+        min-height: unset;
+        height: auto;
+        padding: 2rem 0 2rem 0;
+        display: block;
+    }
+    .research-hero::before {
+        height: 100%;
+        min-height: 100%;
+    }
+}
 </style>
 
 <script>

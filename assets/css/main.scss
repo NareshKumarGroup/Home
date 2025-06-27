@@ -229,4 +229,21 @@ body {
   height: 420px;
   padding: 8rem 0;
   margin-top: -80px;
+}
+
+// Improved mobile styles for people page
+@media (max-width: 768px) {
+  .team-grid {
+    display: block !important;
+  }
+  .member-card {
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
+  .member-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 } 

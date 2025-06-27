@@ -35,7 +35,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/antimicrobialpeptide.jpg" alt="Antimicrobial Peptide Research" >
+                                        <img src="/assets/images/antimicrobialpeptide.jpg" alt="Antimicrobial Peptide Research" >
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogen Research" >
+                                        <img src="/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogen Research" >
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/quorum-sensing.jpg" alt="Quorum Sensing Research" >
+                                        <img src="/assets/images/quorum-sensing.jpg" alt="Quorum Sensing Research" >
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <video class="research-video" autoplay loop muted playsinline>
-                                            <source src="{{ site.baseurl }}/assets/videos/myncresearch.mp4" type="video/mp4">
+                                            <source src="/assets/videos/myncresearch.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -120,7 +120,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/isoflavones.jpg" alt="Isoflavones Research" >
+                                        <img src="/assets/images/isoflavones.jpg" alt="Isoflavones Research" >
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ title: Research
                                        
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/ai.jpg" alt="AI Drug Design" >
+                                        <img src="/assets/images/ai.jpg" alt="AI Drug Design" >
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <video class="research-video" autoplay loop muted playsinline>
-                                            <source src="{{ site.baseurl }}/assets/images/simulation.mp4" type="video/mp4">
+                                            <source src="/assets/images/simulation.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -409,12 +409,7 @@ title: Research
 .research-hero {
     position: relative;
     overflow: hidden;
-    min-height: 380px;
-    padding: 3rem 0 2rem 0;
-    display: flex;
-    align-items: center;
 }
-
 .research-hero::before {
     content: '';
     position: absolute;
@@ -422,70 +417,16 @@ title: Research
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    height: 100%;
-    background: url('{{ site.baseurl }}/assets/images/junlab.jpg') center/cover no-repeat;
+    height: 380px;
+    background: url('/assets/images/junlab.jpg') center/cover no-repeat;
     opacity: 0.8;
     z-index: 1;
     pointer-events: none;
     mix-blend-mode: lighten;
 }
-
 .research-hero .container {
     position: relative;
     z-index: 2;
-}
-
-@media (max-width: 768px) {
-    .research-hero {
-        min-height: 380px;
-        padding: 2rem 0 1rem 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        max-height: 420px;
-        overflow: hidden;
-    }
-    .research-hero::before {
-        height: 100%;
-        min-height: 380px;
-        max-height: 420px;
-    }
-    .research-hero .container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100%;
-        z-index: 2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0 1rem;
-    }
-    .section-title h2 {
-        font-size: 2rem;
-        margin-bottom: 1.2rem;
-        text-align: center;
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    }
-    .research-intro {
-        font-size: 1rem;
-        max-width: 95vw;
-        margin: 0 auto;
-        color: #fff;
-        font-weight: 600;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-        background: rgba(0,0,0,0.0);
-        padding: 0 0.5rem;
-        position: relative;
-        z-index: 3;
-    }
-    .research-content {
-        margin-top: 0;
-    }
 }
 </style>
 

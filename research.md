@@ -418,7 +418,7 @@ title: Research
     transform: translateX(-50%);
     width: 100%;
     height: 380px;
-    background: url('https://github.com/NareshKumarGroup/Home/blob/main/assets/images/junlab.jpg') center/cover no-repeat;
+    background: url('https://github.com/NareshKumarGroup/Home/assets/images/junlab.jpg') center/cover no-repeat;
     opacity: 0.8;
     z-index: 1;
     pointer-events: none;

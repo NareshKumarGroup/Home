@@ -202,4 +202,12 @@ For questions about the website, please contact:
 - **Social Media**:
   - ResearchGate: [Naresh Kumar](https://www.researchgate.net/profile/Naresh-Kumar-100)
   - LinkedIn: [Profile Link]
-  - Twitter: [@handle] 
+  - Twitter: [@handle]
+ 
+
+
+
+
+
+
+This entire pipeline is made publicly available as open-source software, intended solely for educational and non-commercial use by the general public

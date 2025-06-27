@@ -210,4 +210,4 @@ For questions about the website, please contact:
 
 
 
-_This entire pipeline is made publicly available as open-source software, intended solely for educational. The developer assumes no responsibility or liability for any misuse, errors, or damages arising from the use of this code._
+_This entire pipeline is made publicly available as open-source software, intended solely for educational. The developer assumes no responsibility or liability for any misuse, errors, or damages arising from the use of this code. for further enquiry reach out to https://github.com/Ibisanmi1 (t.ibisanmi@unsw.edu.au)_ 

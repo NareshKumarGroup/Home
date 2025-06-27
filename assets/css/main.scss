@@ -231,7 +231,7 @@ body {
   margin-top: -80px;
 }
 
-// Improved mobile styles for people page
+// Improved mobile styles for people page and alumni section
 @media (max-width: 768px) {
   .team-grid {
     display: block !important;
@@ -245,5 +245,14 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+  .alumni-list {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem;
+  }
+  .alumni-item {
+    width: 100% !important;
+    margin-bottom: 0;
   }
 } 

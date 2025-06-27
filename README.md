@@ -210,4 +210,4 @@ For questions about the website, please contact:
 
 
 
-This entire pipeline is made publicly available as open-source software, intended solely for educational and non-commercial use by the general public
+_This entire pipeline is made publicly available as open-source software, intended solely for educational. The developer assumes no responsibility or liability for any misuse, errors, or damages arising from the use of this code._

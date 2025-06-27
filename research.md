@@ -409,10 +409,6 @@ title: Research
 .research-hero {
     position: relative;
     overflow: hidden;
-    min-height: 380px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .research-hero::before {
     content: '';
@@ -431,41 +427,27 @@ title: Research
 .research-hero .container {
     position: relative;
     z-index: 2;
-    width: 100%;
 }
 
 @media (max-width: 768px) {
     .research-hero {
-        min-height: 260px;
-        height: 260px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
+        position: relative;
+        padding-top: 220px; /* Space for the background image */
+        padding-bottom: 2rem;
+        min-height: unset;
+        height: auto;
+        display: block;
     }
     .research-hero::before {
-        height: 260px;
-        min-height: 260px;
+        height: 220px; /* Fixed height for the background image at the top */
+        min-height: unset;
     }
-    .research-content {
-        max-width: 100vw;
-        padding: 0 10px;
-    }
+    .section-title h2,
     .research-intro {
-        max-width: 90vw;
-        margin: 0 auto;
-        font-size: 1rem;
-        line-height: 1.4;
-        padding: 0 5px;
+        margin-top: -180px; /* Pull text up into the image area */
+        margin-bottom: 1.5rem;
         position: relative;
         z-index: 2;
-        color: #fff;
-        background: none;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    }
-    .section-title h2 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
     }
 }
 </style>

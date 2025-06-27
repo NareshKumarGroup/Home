@@ -1,0 +1,232 @@
+---
+---
+// Variables
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$text-color: #333;
+$light-gray: #f5f5f5;
+$border-color: #ddd;
+
+// Reset and base styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: $text-color;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+// Header styles
+.site-header {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+
+        .logo {
+            text-decoration: none;
+            color: $primary-color;
+
+            h1 {
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+
+            li {
+                margin-left: 2rem;
+
+                a {
+                    text-decoration: none;
+                    color: $text-color;
+                    font-weight: 500;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+
+        .mobile-menu-btn {
+            display: none;
+        }
+    }
+}
+
+// Main content
+.site-content {
+    margin-top: 80px;
+    min-height: calc(100vh - 80px - 300px);
+    padding: 2rem 0;
+}
+
+// Footer styles
+.site-footer {
+    background-color: $primary-color;
+    color: white;
+    padding: 3rem 0 1rem;
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+
+        .footer-section {
+            h3 {
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+            }
+
+            .social-links {
+                display: flex;
+                gap: 1rem;
+
+                a {
+                    color: white;
+                    font-size: 1.5rem;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255,255,255,0.1);
+    }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+    .site-header {
+        .main-nav {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: white;
+                padding: 1rem;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+                &.active {
+                    display: block;
+                }
+
+                li {
+                    margin: 1rem 0;
+                }
+            }
+
+            .mobile-menu-btn {
+                display: block;
+                background: none;
+                border: none;
+                cursor: pointer;
+
+                span {
+                    display: block;
+                    width: 25px;
+                    height: 3px;
+                    background-color: $text-color;
+                    margin: 5px 0;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
+
+// Utility classes
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: $secondary-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darken($secondary-color, 10%);
+    }
+}
+
+.section {
+    padding: 4rem 0;
+
+    &-title {
+        text-align: center;
+        margin-bottom: 3rem;
+
+        h2 {
+            font-size: 2rem;
+            color: $primary-color;
+        }
+    }
+}
+
+// Card styles
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    &-title {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        color: $primary-color;
+    }
+}
+
+// Grid system
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+// Hero section background image
+.hero {
+  background: linear-gradient(rgba(148, 163, 146, 0.33), rgba(78, 96, 115, 0.3)), url('{{ site.baseurl }}/assets/images/lab-background1.jpg');
+  background-size: 120% auto;
+  background-position: center;
+  color: white;
+  text-align: center;
+  height: 420px;
+  padding: 8rem 0;
+  margin-top: -80px;
+} 

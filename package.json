@@ -1,0 +1,16 @@
+{
+  "name": "kumar-group-website",
+  "version": "1.0.0",
+  "description": "Kumar Group Research Website",
+  "scripts": {
+    "security-audit": "npm audit",
+    "check-deps": "npm-check-updates",
+    "lint": "eslint .",
+    "security-scan": "npm audit && npm run check-deps && npm run lint"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^18.0.1",
+    "eslint": "^9.27.0",
+    "eslint-plugin-security": "^3.0.1"
+  }
+} 

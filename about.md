@@ -20,7 +20,7 @@ title: About
 
 
                 <div class="about-image">
-                    <img src="assets/images/dec2024part.png" alt="December 2024 Party" class="about-hero-image">
+                    <img src="{{ site.baseurl }}/assets/images/dec2024part.png" alt="December 2024 Party" class="about-hero-image">
                 </div>
                 
                 <h3>Our Mission</h3>

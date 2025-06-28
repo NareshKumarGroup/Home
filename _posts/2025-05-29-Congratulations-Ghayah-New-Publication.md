@@ -7,7 +7,7 @@ categories: news achievements
 
 <div class="post-content">
     <div class="post-image">
-        <img src="{{ site.baseurl }}/assets/images/ghayah-publication.png" alt="Ghayah Publication 2025" class="featured-image">
+        <img src="{{ site.baseurl }}/assets/images/ghayah-publication.jpg" alt="Ghayah Publication 2025" class="featured-image">
     </div>
 
     <p>We're delighted to announce that Ghayah Bahatheg new paper titled <strong>"Functionalized Phenyl Peptoids with Enhanced Antibacterial Potency"</strong> in <em>ACS Infectious Diseases</em>!</p>

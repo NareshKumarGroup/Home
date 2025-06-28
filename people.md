@@ -168,7 +168,7 @@ title: People
 
                     <div class="member-card">
                         <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/tope.jpeg" alt="Tope">
+                            <img src="{{ site.baseurl }}/assets/images/tope.jpg" alt="Tope">
                         </div>
                         <div class="member-info">
                             <h4>Tope A. Ibisanmi </h4>

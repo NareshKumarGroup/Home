@@ -35,7 +35,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="/assets/images/antimicrobialpeptide.jpg" alt="Antimicrobial Peptide Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/antimicrobialpeptide.jpg" alt="Antimicrobial Peptide Research" >
                                     </div>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogen Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogen Research" >
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="/assets/images/quorum-sensing.jpg" alt="Quorum Sensing Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/quorum-sensing.jpg" alt="Quorum Sensing Research" >
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <video class="research-video" autoplay loop muted playsinline>
-                                            <source src="/assets/videos/myncresearch.mp4" type="video/mp4">
+                                            <source src="{{ site.baseurl }}/assets/videos/myncresearch.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>
@@ -120,7 +120,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="/assets/images/isoflavones.jpg" alt="Isoflavones Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/isoflavones.jpg" alt="Isoflavones Research" >
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ title: Research
                                        
                                     </div>
                                     <div class="project-image">
-                                        <img src="/assets/images/ai.jpg" alt="AI Drug Design" >
+                                        <img src="{{ site.baseurl }}/assets/images/ai.jpg" alt="AI Drug Design" >
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <video class="research-video" autoplay loop muted playsinline>
-                                            <source src="/assets/images/simulation.mp4" type="video/mp4">
+                                            <source src="{{ site.baseurl }}/assets/images/simulation.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
                                     </div>

@@ -7,7 +7,7 @@ categories: news achievements
 
 <div class="post-content">
     <div class="post-image">
-        <img src="/assets/images/yao-publication.png" alt="Yao Publication 2025" class="featured-image">
+        <img src="{{ site.baseurl }}/assets/images/yao-publication.jpg" alt="Yao Publication 2025" class="featured-image">
     </div>
 
     <p>We're thrilled to share the exciting news that **Yao** has published a new paper titled <strong>"Synthesis of 1,4-Benzodiazepin-2-ones from Isatins"</strong> in <em>The Journal of Organic Chemistry</em>!</p>

@@ -12,13 +12,6 @@ title: About
             <div class="about-text">
                 <p>The Naresh Kumar Research Group at UNSW Sydney is dedicated to advancing the field of medicinal chemistry through innovative research and collaboration. Our work focuses on developing novel therapeutic agents for various diseases, with a particular emphasis on infectious disease and cancer.</p>
 
-                .
-                .
-        
-
-
-
-
                 <div class="about-image">
                     <img src="{{ site.baseurl }}/assets/images/dec2024part.jpg" alt="December 2024 Party" class="about-hero-image">
                 </div>
@@ -76,15 +69,16 @@ title: About
 
 .about-image {
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 .about-hero-image {
-    width: 100%;
-    max-width: 600px;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
 }
 
 .about-text {
@@ -123,5 +117,17 @@ title: About
 .research-area h4 {
     color: #2c3e50;
     margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .research-areas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .research-areas {
+        grid-template-columns: 1fr;
+    }
 }
 </style> 

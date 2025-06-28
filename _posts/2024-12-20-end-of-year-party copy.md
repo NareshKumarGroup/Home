@@ -7,7 +7,7 @@ categories: news events
 
 <div class="post-content">
     <div class="post-image">
-        <img src="/assets/images/dec2024part.png" alt="End of Year Party 2024" class="featured-image">
+        <img src="{{ site.baseurl }}/assets/images/dec2024part.jpg" alt="End of Year Party 2024" class="featured-image">
     </div>
 
     <p>The Kumar and Mark Group celebrated another successful year with a festive end-of-year party! The event was filled with laughter, delicious food, and friendly competition as team members engaged in various games and activities.</p>

@@ -65,8 +65,8 @@ title: People
                         </div>
                         <div class="member-info">
                             <h4>Jun Sun, PhD</h4>
-                            <p>Research focus: chemistry</p>
-                            <p>Hobbies: Board games</p>
+                            <p>Research focus: PFAS remediation, environmental science and analytical chemistry</p>
+                            <p>Hobbies: Painting, Gym </p>
                         </div>
                     </div>
                     <div class="member-card">
@@ -75,8 +75,8 @@ title: People
                         </div>
                         <div class="member-info">
                             <h4>Tuong To, PhD</h4>
-                            <p>Research focus: PFAS remediation, environmental science and analytical chemistry</p>
-                            <p>Hobbies: Painting, Gym</p>
+                            <p>Research focus: synthetic chemistry </p>
+                            <p>Hobbies: Board games </p>
                         </div>
                     </div>
                 </div>
@@ -162,8 +162,26 @@ title: People
                             <h4>Matthew Erlik</h4>
                             <p>Research focus: My research interests include the discovery of anticancer drugs </p>
                             <p>Hobbies: </p>
+                        </div>  
+                    </div>
+
+
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="{{ site.baseurl }}/assets/images/tope.jpeg" alt="Tope">
+                        </div>
+                        <div class="member-info">
+                            <h4>Tope A. Ibisanmi </h4>
+                            <p>Research focus: Research interest: Antimicrobial resistance, computational and experimental drug design </p>
+                            <p>Hobbies: Adventures, Cooking, reading, web surfing, football.</p>
                         </div>
                     </div>
+
+
+
+
+
+                    
                 </div>
             </div>
 

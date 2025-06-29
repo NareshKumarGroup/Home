@@ -218,14 +218,58 @@ title: People
             <div class="team-section">
                 <h3>Alumni</h3>
                 <div class="alumni-list">
+
+
+
+
+
+                    <div class="alumni-item">
+                        <h4>Ghayah Bahatheg</h4>
+                        <p>2025</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Phuoc Dan Nguyen</h4>
+                        <p>2025</p>
+                    </div>
+                    
+
+                    <div class="alumni-item">
+                        <h4>Robert Rourke</h4>
+                        <p>2025</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Phuoc Dan Nguyen</h4>
+                        <p>2025</p>
+                    </div>
+
+
+
+
+                    <div class="alumni-item">
+                        <h4>Maryam Miranediny</h4>
+                        <p>2025</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Phuoc Dan Nguyen</h4>
+                        <p>2025</p>
+                    </div>
+
+
+
+
+
+
+
+
                     <div class="alumni-item">
                         <h4>Alyssa Morelling</h4>
                         <p>2025</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Tran, Quoc Phuong</h4>
+                        <h4>Phuoc Dan Nguyen</h4>
                         <p>2025</p>
                     </div>
+
                     <div class="alumni-item">
                         <h4>Sun, Jun</h4>
                         <p>2024</p>

@@ -156,7 +156,7 @@ title: People
                     
                     <div class="member-card">
                         <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newmatt.jpg" alt="Matthew Erlik">
+                            <img src="{{ site.baseurl }}/assets/images/...newmatt.jpg" alt="Matthew Erlik">
                         </div>
                         <div class="member-info">
                             <h4>Matthew Erlik</h4>

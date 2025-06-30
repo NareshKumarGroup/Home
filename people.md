@@ -27,7 +27,7 @@ title: People
                         </div>
                         <div class="social-links">
                             <a href="https://www.researchgate.net/profile/Naresh-Kumar-100" target="_blank"><i class="fab fa-researchgate"></i></a>
-                            <a href="http://au.linkedin.com/pub/naresh-kumar/28/547/700" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/naresh-kumar-70054728/?originalSubdomain=au" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-google-scholar"></i></a>
                         </div>
                     </div>

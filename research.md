@@ -41,12 +41,12 @@ title: Research
                             </div>
 
                             <div class="antimicrobial-project">
-                                <h4>2. Antimicrobial Hydrogen</h4>
+                                <h4>2. Antimicrobial Hydrogel</h4>
                                 <div class="project-content-inner">
                                     <div class="project-text">
-                                        <p>We are investigating the antimicrobial properties of hydrogen-based compounds, focusing on:</p>
+                                        <p>We are investigating the antimicrobial properties of hydrogel-based compounds, focusing on:</p>
                                         <ul>
-                                            <li>Development of novel hydrogen-based antimicrobial agents</li>
+                                            <li>Development of novel hydrogel-based antimicrobial agents</li>
                                             <li>Mechanism of antimicrobial action</li>
                                             <li>Synergistic effects with existing antibiotics</li>
                                             <li>Safety and efficacy studies</li>

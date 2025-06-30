@@ -161,7 +161,7 @@ title: People
                         <div class="member-info">
                             <h4>Matthew Erlik</h4>
                             <p>Research focus: My research interests include the discovery of anticancer drugs </p>
-                            <p>Hobbies: </p>
+                            <p>Hobbies: Video games, music  </p>
                         </div>  
                     </div>
 

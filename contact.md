@@ -41,7 +41,7 @@ title: Contact
                         <h4>Follow Us</h4>
                         <div class="links">
                             <a href="https://www.researchgate.net/profile/Naresh-Kumar-100" target="_blank"><i class="fab fa-researchgate"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/naresh-kumar-70054728/?originalSubdomain=au" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>

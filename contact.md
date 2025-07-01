@@ -18,9 +18,9 @@ title: Contact
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>Address</h4>
-                            <p>Kumar Group, School of Chemistry</p>
-                            <p>UNSW Sydney</p>
-                            <p>NSW 2052, Australia</p>
+                            <p>Dalton Building, F12 University Mall</p>
+                            <p>Kensington NSW 2033</p>
+                            <p>Australia</p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -77,7 +77,7 @@ title: Contact
                 <h3>Location</h3>
                 <div class="map-container">
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8278533985427!2d151.2273!3d-33.9173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b1d4e7074a1f%3A0x5017d681632c1c0!2sSchool%20of%20Chemistry%2C%20Dalton%20Building%2C%20UNSW%20Sydney!5e0!3m2!1sen!2sau!4v1234567890!5m2!1sen!2sau" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8278533985427!2d151.2273!3d-33.9173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b18b76f1d05d%3A0x253250491d5c4621!2sSchool+of+Chemistry!5e0!3m2!1sen!2sau!4v1718770000000!5m2!1sen!2sau" 
                         width="100%" 
                         height="450" 
                         style="border:0;" 

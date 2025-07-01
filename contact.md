@@ -34,7 +34,7 @@ title: Contact
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Phone</h4>
-                            <p>+61 2 9385 XXXX</p>
+                            <p> 938 546 98</p>
                         </div>
                     </div>
                     <div class="social-links">

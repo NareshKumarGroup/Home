@@ -177,6 +177,38 @@ title: People
                         </div>
                     </div>
 
+                    <div class="member-card">
+                        <div class="member-info">
+                            <h4>Phuoc Linh Dan Nguyen</h4>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-info">
+                            <h4>Marayam Mirabediny</h4>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-info">
+                            <h4>Robert Rourke</h4>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-info">
+                            <h4>Sandy Yang</h4>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-info">
+                            <h4>Ghayah Bahatheg</h4>
+                        </div>
+                    </div>
+
+                   
+
 
 
 
@@ -210,6 +242,10 @@ title: People
                             <p>Hobbies: Reading, hiking, crocheting</p>
                         </div>
                     </div>
+
+
+
+
                 </div>
             </div>
 
@@ -220,163 +256,211 @@ title: People
                 <div class="alumni-list">
                     
                     <div class="alumni-item">
-                        <h4>Ghayah Bahatheg</h4>
-                        <p>2025</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Robert Rourke</h4>
-                        <p>2025</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Maryam Miranediny</h4>
-                        <p>2025</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Phuoc Dan Nguyen</h4>
-                        <p>2025</p>
-                    </div>
-
-                    <div class="alumni-item">
                         <h4>Alyssa Morelling</h4>
-                        <p>2025</p>
+                        <p>Honours, 2025</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Sun, Jun</h4>
-                        <p>2024</p>
+                        <h4>Jun Sun</h4>
+                        <p>PhD, 2025</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Nguyen, Ashley</h4>
-                        <p>2024</p>
+                        <h4>Xiaoming Fu</h4>
+                        <p>PhD, 2024</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Fu, Xiaoming</h4>
-                        <p>2024</p>
+                        <h4>Katrina Brownie</h4>
+                        <p>PhD, 2023</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Hong, Zijian</h4>
-                        <p>2024</p>
+                        <h4>Sudip Chakraborty</h4>
+                        <p>PhD, 2023</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Jayathilaka, Honda</h4>
-                        <p>2023</p>
+                        <h4>Zijian Hong</h4>
+                        <p>MPhil, 2023</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Adib, Mohiminul</h4>
-                        <p>2023</p>
+                        <h4>Sabir Shekh</h4>
+                        <p>PhD, 2022</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Browne, Kate</h4>
-                        <p>2023</p>
+                        <h4>John Jones</h4>
+                        <p>MPhil, 2022</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Chakraborty, Sudip</h4>
-                        <p>2023</p>
+                        <h4>Satyanaryana Gadde</h4>
+                        <p>PhD, 2022</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Pham, Phuong Chi</h4>
-                        <p>2023</p>
+                        <h4>Tsz Tin Yu</h4>
+                        <p>PhD, 2022</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Sabir, Shekh</h4>
-                        <p>2022</p>
+                        <h4>Eloise O'Brien</h4>
+                        <p>MIR, 2021</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Jones, John</h4>
-                        <p>2022</p>
+                        <h4>Daniel Wenholz</h4>
+                        <p>PhD, 2020</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Yu, Tsz Tin</h4>
-                        <p>2022</p>
+                        <h4>Rajesh Kuppusamy</h4>
+                        <p>PhD, 2019</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Gadde, Satyanarayana</h4>
-                        <p>2022</p>
+                        <h4>Jeremy Dobrowolski</h4>
+                        <p>PhD, 2019</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Amaldoss, Maria John Newton</h4>
-                        <p>2022</p>
+                        <h4>Basmah Almohaywi</h4>
+                        <p>PhD, 2020</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Wang, Guannan</h4>
-                        <p>2021</p>
+                        <h4>Vina Aldilla</h4>
+                        <p>PhD, 2020</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Khine, Yee Yee</h4>
-                        <p>2021</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Ahmed, Ezaz</h4>
-                        <p>2021</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Liu, Qinwen</h4>
-                        <p>2021</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Rahimi, Marwa N.</h4>
-                        <p>2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Almohaywi, Basmah</h4>
-                        <p>2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Aldilla, Vina</h4>
-                        <p>2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Wenholz, Daniel</h4>
-                        <p>2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Fan, Sanjun</h4>
-                        <p>2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Rowell, Keiran</h4>
-                        <p>2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Kuppusamy, Rajesh</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Lizarme Salas, Yuvixza</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Wang, Huixin</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Cao, Cheng</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Elton, Timothy</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Noy, Janina-Miriam</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Lyons, Demelza</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Kelly, Cameron</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>McPherson, James</h4>
-                        <p>2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Dobrowolski, Jeremy</h4>
-                        <p>2019</p>
+                        <h4>Vidia Nuraini</h4>
+                        <p>MSc, 2018</p>
                     </div>
                 </div>
+                <details style="margin-top:2rem;">
+                  <summary style="font-size:1.1rem;cursor:pointer;padding:1rem 0;outline:none;">Show Alumni 2017 and Earlier</summary>
+                  <div class="alumni-list" style="margin-top:1rem;">
+                    <div class="alumni-item">
+                        <h4>Shashidhar Nizalapur</h4>
+                        <p>PhD, 2017</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Eugene Ming Han Yee</h4>
+                        <p>PhD, 2017</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Hao Jiang</h4>
+                        <p>PhD, 2017</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Kenneth Hong</h4>
+                        <p>PhD, 2016</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Aditi Taunk</h4>
+                        <p>PhD, 2017</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Nripendra Biswas</h4>
+                        <p>PhD, 2015</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Christopher Gardner</h4>
+                        <p>PhD, 2014</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Marcin Mielczarek</h4>
+                        <p>PhD, 2014</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Thanh Le</h4>
+                        <p>PhD, 2014</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Murat Bingul</h4>
+                        <p>PhD, 2014</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Kitty Ho</h4>
+                        <p>PhD, 2013</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Venty Suryanti</h4>
+                        <p>PhD, 2013</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Adeline Lukmantara</h4>
+                        <p>PhD, 2013</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Rui Chen</h4>
+                        <p>PhD, 2013</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Nidup Phushanto</h4>
+                        <p>MSc, 2013</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Samuel Kutty</h4>
+                        <p>PhD, 2012</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Ruth Devakaram</h4>
+                        <p>PhD, 2012</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Hakan Kandemir</h4>
+                        <p>PhD, 2012</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Renxun Chen</h4>
+                        <p>PhD, 2012</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Ibrahim Sengul</h4>
+                        <p>PhD, 2012</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Santosh Rajput</h4>
+                        <p>PhD, 2012</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Ruonan Zhang</h4>
+                        <p>PhD, 2011</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Taj Khan</h4>
+                        <p>PhD, 2010</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Kasey Wood</h4>
+                        <p>PhD, 2010</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Eleanor Eiffe</h4>
+                        <p>PhD Part-time, 2012</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Ji Qu</h4>
+                        <p>PhD, 2010</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Mandar Deodhar</h4>
+                        <p>PhD, 2007</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Kittiya Somphol</h4>
+                        <p>PhD, 2007</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Wai Ching Cheah</h4>
+                        <p>PhD, 2008</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Chao-Wei Leu</h4>
+                        <p>PhD, 2008</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Wai-Kean (Alex) Goh</h4>
+                        <p>PhD, 2008</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Paulo da Silva</h4>
+                        <p>PhD, 2005</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Felicia Maharaj</h4>
+                        <p>PhD, 2007</p>
+                    </div>
+                  </div>
+                </details>
             </div>
         </div>
 

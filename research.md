@@ -108,19 +108,13 @@ title: Research
                             </div>
 
                             <div class="cancer-project">
-                                <h4>2. Novel Heterocyclic Analogues of Isoflavones as Anticancer Agents</h4>
+                                <h4>2. Design And Synthesis of Novel Inhibitors Targeting Acute Myeloid Leukemia </h4>
                                 <div class="project-content-inner">
                                     <div class="project-text">
-                                        <p>In collaboration with Dr Daniel Wenholz (UNSW), we are developing novel anticancer agents based on isoflavones, the largest and most widely studied class of phytoestrogens. Our work includes:</p>
-                                        <ul>
-                                            <li>Development of new phenoxodiol conjugates with potent biological activities</li>
-                                            <li>Cyclodextrin formulation of phenoxodiol for increased aqueous solubility</li>
-                                            <li>Covalent conjugation of phenoxodiol to dextran for enhanced stability and efficacy</li>
-                                            <li>Synthesis of novel analogues of fused flavonoid natural products (dependensin, rottlerin, and kamalachalcone)</li>
-                                        </ul>
+                                        <p> (in collaboration with Dr Daniel Wenholz UNSW)  Acute Myeloid Leukemia (AML) is a blood cancer (leukaemia) that represents ~40% of all new adult-onset leukemias in Australia. It is characterised by the overproduction of abnormal myeloblasts in the bone marrow, preventing healthy myeloblast, platelet and erythrocyte production. FMS-like tyrosine kinase 3 (FLT3) is a class III tyrosine kinase receptor involved in the regulation of hematopoietic cell differentiation, survival and proliferation. FLT3 mutations are among the most frequently identified mutations involved in leukaemia development and occur in approximately 28% of AML patients. Mutations of FLT3 have been associated with a poor prognosis, specifically adverse disease features, poor survival and a reduced rate of remission. A derivative of phenoxodiol has been identified as a screening hit compound for inhibition against FLT3 mutants. The overall aim of this project is to investigate the structure activity relationship on FLT3 through the synthesis of a library of novel analogues. </p>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/isoflavones.jpg" alt="Isoflavones Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/flpt3.jpg" alt="FLT3 Inhibitor Research" style="width: 50%; height: auto;">
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +169,7 @@ title: Research
 <style>
 .research-content {
     max-width: 1200px; 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0 auto;
 }
 
@@ -192,7 +186,7 @@ title: Research
     text-align: center;
     max-width: 800px;
     margin: 0 auto 4rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8;
     color: #ffffff;
     font-weight: 600;

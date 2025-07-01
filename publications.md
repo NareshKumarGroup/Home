@@ -18,7 +18,6 @@ title: Publications
                 <div class="filter-buttons">
                     <button class="filter-btn active" data-filter="all">All</button>
                     <button class="filter-btn" data-filter="journal">Journal Articles</button>
-                    <button class="filter-btn" data-filter="conference">Conference Papers</button>
                     <button class="filter-btn" data-filter="book">Book Chapters</button>
                     <button class="filter-btn" data-filter="patent">Patents</button>
                 </div>

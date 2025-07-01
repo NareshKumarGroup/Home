@@ -17,10 +17,11 @@ title: Contact
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
+
                             <h4>Address</h4>
-                            <p>Dalton Building, F12 University Mall</p>
-                            <p>Kensington NSW 2033</p>
-                            <p>Australia</p>
+                            <p>Kumar Group, School of Chemistry</p>
+                            <p>UNSW Sydney</p>
+                            <p>NSW 2052, Australia</p>
                         </div>
                     </div>
                     <div class="info-item">

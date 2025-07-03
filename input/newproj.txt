@@ -1,0 +1,13 @@
+Development of Scalable Synthetic Strategies 
+
+
+Synthesis of Indoles through C2−C3 Bond Formation Using Lawesson’s Reagent
+
+We have developed an efficient, metal-free synthetic route for the construction of functionalized indoles through C2–C3 bond formation, mediated by Lawesson’s reagent. This versatile methodology employs readily available amidophenylglyoxylic esters and exhibits broad substrate tolerance, yielding a wide range of 2,3-disubstituted indoles. The process is scalable to gram quantities and facilitates diverse downstream modifications, underscoring its significant utility in organic synthesis.
+
+
+
+
+Synthesis of 1,4-benzodiazepin-2-ones from isatins
+
+We have developed an effective synthetic strategy for the construction of 1,4-benzodiazepin-2-ones, a crucial class of compounds in medicinal chemistry with broad therapeutic applications. Our method provides a versatile approach to synthesize derivatives bearing diverse ester or amide functionalities at the C5 position, addressing a previously challenging area. This high-yielding protocol demonstrates excellent substrate tolerance, enabling the efficient preparation of over 50 novel benzodiazepine analogues. Furthermore, the process is scalable to gram quantities, showcasing its potential for practical applications in drug discovery and development.

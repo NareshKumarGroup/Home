@@ -159,6 +159,39 @@ title: Research
                         </div>
                     </div>
                 </div>
+
+                <div class="project">
+                    <div class="project-header" onclick="toggleSection(this)">
+                        <h3>Development of Scalable Synthetic Strategies</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="cancer-projects">
+                            <div class="cancer-project">
+                                <h4>Synthesis of Indoles through C2−C3 Bond Formation Using Lawesson's Reagent</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>We have developed an efficient, metal-free synthetic route for the construction of functionalized indoles through C2–C3 bond formation, mediated by Lawesson's reagent. This versatile methodology employs readily available amidophenylglyoxylic esters and exhibits broad substrate tolerance, yielding a wide range of 2,3-disubstituted indoles. The process is scalable to gram quantities and facilitates diverse downstream modifications, underscoring its significant utility in organic synthesis.</p>
+                                    </div>
+                                </div>
+                                <div class="project-image">
+                                    <img src="{{ site.baseurl }}/assets/images/yaoproj2.jpg" alt="Indole Synthesis Project">
+                                </div>
+                            </div>
+                            <div class="cancer-project">
+                                <h4>Synthesis of 1,4-benzodiazepin-2-ones from isatins</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>We have developed an effective synthetic strategy for the construction of 1,4-benzodiazepin-2-ones, a crucial class of compounds in medicinal chemistry with broad therapeutic applications. Our method provides a versatile approach to synthesize derivatives bearing diverse ester or amide functionalities at the C5 position, addressing a previously challenging area. This high-yielding protocol demonstrates excellent substrate tolerance, enabling the efficient preparation of over 50 novel benzodiazepine analogues. Furthermore, the process is scalable to gram quantities, showcasing its potential for practical applications in drug discovery and development.</p>
+                                    </div>
+                                </div>
+                                <div class="project-image">
+                                    <img src="{{ site.baseurl }}/assets/images/yaoproj1.jpg" alt="Benzodiazepine Synthesis Project">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             

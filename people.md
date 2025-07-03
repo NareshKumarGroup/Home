@@ -185,7 +185,7 @@ title: People
 
                     <div class="member-card">
                         <div class="member-info">
-                            <h4>Marayam Mirabediny</h4>
+                            <h4>Maryam Mirabediny</h4>
                         </div>
                     </div>
 
@@ -256,7 +256,7 @@ title: People
                 <div class="alumni-list">
                     
                     <div class="alumni-item">
-                        <h4>Alyssa Morelling</h4>
+                        <h4>Alyssa Morellin</h4>
                         <p>Honours, 2025</p>
                     </div>
                     <div class="alumni-item">
@@ -288,7 +288,7 @@ title: People
                         <p>MPhil, 2022</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Satyanaryana Gadde</h4>
+                        <h4>Satyanarayana Gadde</h4>
                         <p>PhD, 2022</p>
                     </div>
                     <div class="alumni-item">

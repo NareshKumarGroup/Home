@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Congratulations to Maryam on the Completion of Her PhD!"
-date: 2025-06-20 10:00:00 +1000
-categories: news achievements
+date: 2025-07-14 10:00:00 +1000
+categories: news
 ---
 
 <div class="post-content">

@@ -50,7 +50,7 @@ title: Home
                 <img src="{{ site.baseurl }}/assets/images/Maryham.jpg" alt="Maryam PhD Graduation" style="width: 152px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex-shrink: 0;">
                 <div>
                     <h3 class="card-title">{{ post.title }}</h3>
-                    <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+                    <p class="date">July 14, 2025</p>
                     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                     <a href="{{ post.url | relative_url }}" class="btn">Read More</a>
                 </div>

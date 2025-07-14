@@ -11,7 +11,7 @@ categories: news
     </div>
 
     <h3>Congratulations, Dr. Maryam!</h3>
-    <p>We are thrilled to celebrate Maryam's successful completion of her PhD! Her dedication, passion, and perseverance have been an inspiration to everyone in the Naresh Research Group and beyond.</p>
+    <p>We are thrilled to celebrate Maryam's successful completion of her PhD! Her dedication, passion, and perseverance have been an inspiration to everyone in the Kumar Group and beyond.</p>
 
     <blockquote>
         <p>“Today I officially graduate, and I couldn’t be prouder.<br/>

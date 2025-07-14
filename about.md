@@ -10,7 +10,7 @@ title: About
         </div>
         <div class="about-content">
             <div class="about-text">
-                <p>The Naresh Kumar Research Group at UNSW Sydney is dedicated to advancing the field of medicinal chemistry through innovative research and collaboration. Our work focuses on developing novel therapeutic agents for various diseases, with a particular emphasis on infectious disease and cancer.</p>
+                <p>The Naresh Kumar Research Group at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney is dedicated to advancing the field of medicinal chemistry through innovative research and collaboration. Our work focuses on developing novel therapeutic agents for various diseases, with a particular emphasis on infectious disease and cancer.</p>
 
                 <div class="about-image">
                     <img src="{{ site.baseurl }}/assets/images/dec2024part.jpg" alt="December 2024 Party" class="about-hero-image">
@@ -48,13 +48,13 @@ title: About
                 </div>
 
                 <h3>Facilities</h3>
-                <p>Our group has access to state-of-the-art facilities at UNSW Sydney, including:</p>
+                <p>Our group has access to state-of-the-art facilities at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney, including:</p>
                 <ul>
                     <li>Modern synthetic chemistry laboratories</li>
                     <li>High-throughput screening facilities</li>
-                    <li>Advanced analytical instrumentation</li>
+                    <li><a href="https://www.unsw.edu.au/research/facilities-and-infrastructure/mwac" target="_blank">Mark Wainwright Analytical Centre (MWAC)</a></li>
                     <li>Advance modelling computational resources for drug design</li>
-                    <li>High-performing computers: National Computational Infrastructure (Gadi) and UNSW Katana</li>
+                    <li>High-performing computers: <a href="https://nci.org.au" target="_blank">National Computational Infrastructure (Gadi)</a> and <a href="https://docs.restech.unsw.edu.au/using_katana/about_katana/" target="_blank">UNSW Katana</a></li>
                 </ul>
             </div>
         </div>

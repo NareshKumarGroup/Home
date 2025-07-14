@@ -1,7 +1,7 @@
 # Home
 # Naresh Kumar Medicinal Chemistry Research Group Website
 
-This is the website for the Naresh Kumar Medicinal Chemistry Research Group at UNSW Sydney. The website is built using Jekyll, a static site generator that transforms plain text files into a complete website.
+This is the website for the Naresh Kumar Medicinal Chemistry Research Group at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney. The website is built using Jekyll, a static site generator that transforms plain text files into a complete website.
 
 ## Technologies Used
 
@@ -71,7 +71,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 For questions about the website, please contact:
 
 - **Email**: n.kumar@unsw.edu.au
-- **Address**: School of Chemistry, UNSW Sydney, NSW 2052, Australia
+- **Address**: <a href="https://www.unsw.edu.au/science/our-schools/chemistry" target="_blank">School of Chemistry</a>, UNSW Sydney, NSW 2052, Australia
 - **Social Media**:
   - ResearchGate: [Naresh Kumar](https://www.researchgate.net/profile/Naresh-Kumar-100)
   - LinkedIn: [Profile Link]

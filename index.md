@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
     <div class="container">
         <h1>Welcome to the Naresh Kumar Research Group</h1>
-        <p class="subtitle">Medicinal Chemistry Research at UNSW Sydney</p>
+        <p class="subtitle">Medicinal Chemistry Research at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney</p>
     </div>
 </div>
 

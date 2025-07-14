@@ -19,11 +19,11 @@ title: People
                     <div class="pi-info">
                         <h3>Professor Naresh Kumar</h3>
                         <p class="title">Principal Investigator</p>
-                        <p class="bio">Prof Naresh Kumar completed his PhD in organic chemistry at Wollongong University in 1983, and after working as a Research Scientist at the School of Chemistry, University of NSW was appointed a Lecturer in 2003. He moved through the ranks to become Professor of chemistry in 2009. Prof Kumar has a full-time research and teaching appointment at the University of New South Wales. During the past ten years, he has carried out both vigorous independent and strong collaborative research in organic synthesis, natural products chemistry and biomaterials. This activity is reflected in 7 book chapters, and 250 publications that have appeared in major peer-reviewed international journals of chemistry. The major emphasis of his research has been in the area of heterocyclic chemistry and, more recently, in the areas of medicinal chemistry and biomaterials. These projects have been well supported by ARC grants, NHMRC grants, and commercial research contracts. Prof Kumar's group has access to state-of-the-art research facilities through the School of Chemistry and the UNSW Mark Wainwright Analytical Centre.</p>
+                        <p class="bio">Prof Naresh Kumar completed his PhD in organic chemistry at Wollongong University in 1983, and after working as a Research Scientist at the <a href="https://www.unsw.edu.au/science/our-schools/chemistry" target="_blank">School of Chemistry</a>, University of <a href="https://www.unsw.edu.au" target="_blank">NSW</a> was appointed a Lecturer in 2003. He moved through the ranks to become Professor of chemistry in 2009. Prof Kumar has a full-time research and teaching appointment at the University of New South Wales. During the past ten years, he has carried out both vigorous independent and strong collaborative research in organic synthesis, natural products chemistry and biomaterials. This activity is reflected in 7 book chapters, and 250 publications that have appeared in major peer-reviewed international journals of chemistry. The major emphasis of his research has been in the area of heterocyclic chemistry and, more recently, in the areas of medicinal chemistry and biomaterials. These projects have been well supported by ARC grants, NHMRC grants, and commercial research contracts. Prof Kumar's group has access to state-of-the-art research facilities through the <a href="https://www.unsw.edu.au/science/our-schools/chemistry" target="_blank">School of Chemistry</a> and the <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Mark Wainwright Analytical Centre.</p>
                         <div class="contact-info">
                             <p><i class="fas fa-envelope"></i> n.kumar@unsw.edu.au</p>
                             <p><i class="fas fa-phone"></i> 9385 4698</p>
-                            <p><i class="fas fa-map-marker-alt"></i> School of Chemistry, UNSW Sydney</p>
+                            <p><i class="fas fa-map-marker-alt"></i> <a href="https://www.unsw.edu.au/science/our-schools/chemistry" target="_blank">School of Chemistry</a>, <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney</p>
                         </div>
                         <div class="social-links">
                             <a href="https://www.researchgate.net/profile/Naresh-Kumar-100" target="_blank"><i class="fab fa-researchgate"></i></a>
@@ -477,7 +477,7 @@ title: People
                             </div>
                             <div class="biography">
                                 <h5>Biography</h5>
-                                <p>Born 1938. Research Associate at Columbia University 1963 - 1964. Appointed Lecturer at Monash University 1965, promoted to Senior Lecturer 1971, Reader 1975. Appointed to Chair of Organic Chemistry UNSW in 1983. Secretary General of IUPAC 2004-2011.</p>
+                                <p>Born 1938. Research Associate at Columbia University 1963 - 1964. Appointed Lecturer at Monash University 1965, promoted to Senior Lecturer 1971, Reader 1975. Appointed to Chair of Organic Chemistry <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> in 1983. Secretary General of IUPAC 2004-2011.</p>
                             </div>
                         </div>
                     </div>

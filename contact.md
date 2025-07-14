@@ -19,8 +19,8 @@ title: Contact
                         <div>
 
                             <h4>Address</h4>
-                            <p>Kumar Group, School of Chemistry</p>
-                            <p>UNSW Sydney</p>
+                            <p>Kumar Group, <a href="https://www.unsw.edu.au/science/our-schools/chemistry" target="_blank">School of Chemistry</a></p>
+                            <p><a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney</p>
                             <p>NSW 2052, Australia</p>
                         </div>
                     </div>

@@ -10,7 +10,6 @@ categories: news
         <img src="{{ site.baseurl }}/assets/images/Maryham.jpg" alt="Maryam PhD Graduation" class="featured-image">
     </div>
 
-    <h1>Congratulations to Maryam on the Completion of Her PhD!</h1>
     <h3>Congratulations, Dr. Maryam!</h3>
     <p>We are thrilled to celebrate Maryam's successful completion of her PhD! Her dedication, passion, and perseverance have been an inspiration to everyone in the Naresh Research Group and beyond.</p>
 
@@ -22,7 +21,7 @@ categories: news
         </p>
     </blockquote>
 
-    <p>Maryam's research has made a significant impact in the field of environmental science. Her journey exemplifies the spirit of curiosity, resilience, and global collaboration that defines our group.</p>
+    <p>Maryam's research has made a significant impact in the field of environmental science. Her journey exemplifies the spirit of curiosity, resilience, and global collaboration.</p>
 
     <p><strong>Congratulations, Maryam!</strong> We wish you all the best in your future endeavors and look forward to seeing the amazing things you will accomplish as Dr. Maryam.</p>
 </div>
@@ -33,14 +32,18 @@ categories: news
     margin: 0 auto;
 }
 
+.post-content h1 {
+    text-align: center;
+}
+
 .post-image {
     margin: 2rem 0;
     text-align: center;
 }
 
 .featured-image {
-    max-width: 100%;
-    width: 75%;
+    max-width: 50%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -71,10 +74,7 @@ categories: news
     line-height: 1.6;
 }
 
-.post-content h1 {
-    text-align: center;
-}
-.post-content h3 {
-    text-align: center;
+h1.post-title, .post-title, h1 {
+    text-align: center !important;
 }
 </style> 

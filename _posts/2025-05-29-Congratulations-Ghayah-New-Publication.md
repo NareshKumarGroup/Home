@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Congratulations to Ghayah on Her New Publication!"
+title: "Congratulations to Ghayah on a New Publication!"
 date: 2025-05-29 10:00:00 +1000
 categories: news achievements
 ---

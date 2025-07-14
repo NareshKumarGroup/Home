@@ -148,7 +148,7 @@ title: People
                         </div>
                         <div class="member-info">
                             <h4>Samuel Attard</h4>
-                            <p>Research focus: development of antimicrobial hydrogen-based compounds, f</p>
+                            <p>Research focus: development of antimicrobial hydrogel-based compounds</p>
                             <p>Hobbies:   </p>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ title: People
                         <div class="member-info">
                             <h4>Tope A. Ibisanmi </h4>
                             <p>Research focus: Research interest: Antimicrobial resistance, computational and experimental drug design </p>
-                            <p>Hobbies: Adventures, Cooking, web surfing, football.</p>
+                            <p>Hobbies: Adventures, web surfing, football.</p>
                         </div>
                     </div>
 
@@ -195,11 +195,7 @@ title: People
                         </div>
                     </div>
 
-                    <div class="member-card">
-                        <div class="member-info">
-                            <h4>Sandy Yang</h4>
-                        </div>
-                    </div>
+                   
 
                     <div class="member-card">
                         <div class="member-info">
@@ -256,7 +252,7 @@ title: People
                 <div class="alumni-list">
                     
                     <div class="alumni-item">
-                        <h4>Alyssa Morellin</h4>
+                        <h4>Alyssa Morellini</h4>
                         <p>Honours, 2025</p>
                     </div>
                     <div class="alumni-item">
@@ -268,7 +264,7 @@ title: People
                         <p>PhD, 2024</p>
                     </div>
                     <div class="alumni-item">
-                        <h4>Katrina Brownie</h4>
+                        <h4>Katrina Browne</h4>
                         <p>PhD, 2023</p>
                     </div>
                     <div class="alumni-item">

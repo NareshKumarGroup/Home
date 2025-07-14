@@ -23,7 +23,7 @@ categories: news
 
     <p>Maryam's research has made a significant impact in the field of environmental science. Her journey exemplifies the spirit of curiosity, resilience, and global collaboration.</p>
 
-    <p><strong>Congratulations, Maryam!</strong> We wish you all the best in your future endeavors and look forward to seeing the amazing things you will accomplish as Dr. Maryam.</p>
+    <p><strong>Congratulations, Maryam</strong> We wish you all the best in your future endeavors and look forward to seeing the amazing things you will accomplish as Dr. Maryam.</p>
 </div>
 
 <style>

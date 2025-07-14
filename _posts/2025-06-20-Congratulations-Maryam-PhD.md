@@ -10,6 +10,7 @@ categories: news
         <img src="{{ site.baseurl }}/assets/images/Maryham.jpg" alt="Maryam PhD Graduation" class="featured-image">
     </div>
 
+    <h1>Congratulations to Maryam on the Completion of Her PhD!</h1>
     <h3>Congratulations, Dr. Maryam!</h3>
     <p>We are thrilled to celebrate Maryam's successful completion of her PhD! Her dedication, passion, and perseverance have been an inspiration to everyone in the Naresh Research Group and beyond.</p>
 
@@ -68,5 +69,12 @@ categories: news
 .post-content li {
     margin-bottom: 0.5rem;
     line-height: 1.6;
+}
+
+.post-content h1 {
+    text-align: center;
+}
+.post-content h3 {
+    text-align: center;
 }
 </style> 

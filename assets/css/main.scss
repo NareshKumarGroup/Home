@@ -261,4 +261,13 @@ body {
     width: 100% !important;
     margin-bottom: 0;
   }
+}
+
+.center-single-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.center-single-card .card {
+  min-height: 100%;
+  grid-column: 2 / 3;
 } 

@@ -10,7 +10,7 @@ categories: news achievements
         <img src="{{ site.baseurl }}/assets/images/ghayah-publication.jpg" alt="Ghayah Publication 2025" class="featured-image">
     </div>
 
-    <p>We're delighted to announce that Ghayah Bahatheg new paper titled <strong>"Functionalized Phenyl Peptoids with Enhanced Antibacterial Potency"</strong> in <em>ACS Infectious Diseases</em>!</p>
+    <p>We're delighted to announce that Ghayah Bahatheg has published a new paper titled <strong>"Functionalized Phenyl Peptoids with Enhanced Antibacterial Potency"</strong> in <em>ACS Infectious Diseases</em>!</p>
 
     <p>The study, published in May 2025, presents groundbreaking research on the development of functionalized phenyl peptoids with improved antibacterial properties. This work represents a significant advancement in the field of antimicrobial research and demonstrates the team's commitment to addressing critical healthcare challenges.</p>
 

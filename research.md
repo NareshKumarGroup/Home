@@ -175,7 +175,7 @@ title: Research
                                     </div>
                                 </div>
                                 <div class="project-image">
-                                    <img src="{{ site.baseurl }}/assets/images/yaoproj2.jpg" alt="Indole Synthesis Project">
+                                    <img src="{{ site.baseurl }}/assets/images/yaoproj1.jpg" alt="Indole Synthesis Project">
                                 </div>
                             </div>
                             <div class="cancer-project">
@@ -186,7 +186,7 @@ title: Research
                                     </div>
                                 </div>
                                 <div class="project-image">
-                                    <img src="{{ site.baseurl }}/assets/images/yaoproj1.jpg" alt="Benzodiazepine Synthesis Project">
+                                    <img src="{{ site.baseurl }}/assets/images/yaoproj2.jpg" alt="Benzodiazepine Synthesis Project">
                                 </div>
                             </div>
                         </div>

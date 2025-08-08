@@ -177,17 +177,7 @@ title: People
                         </div>
                     </div>
 
-                    <div class="member-card">
-                        <div class="member-info">
-                            <h4>Phuoc Linh Dan Nguyen</h4>
-                        </div>
-                    </div>
-
-                    <div class="member-card">
-                        <div class="member-info">
-                            <h4>Maryam Mirabediny</h4>
-                        </div>
-                    </div>
+                    
 
                     <div class="member-card">
                         <div class="member-info">
@@ -250,7 +240,15 @@ title: People
             <div class="team-section">
                 <h3>Alumni</h3>
                 <div class="alumni-list">
-                    
+                    <div class="alumni-item">
+                        <h4>Phuoc Linh Dan Nguye</h4>
+                        <p>PhD, 2025</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Maryam Mirabediny</h4>
+                        <p>PhD, 2025</p>
+                    </div>
+
                     <div class="alumni-item">
                         <h4>Alyssa Morellini</h4>
                         <p>Honours, 2025</p>

@@ -29,6 +29,42 @@ title: Publications
                 <div class="year-section">
                     <h3>2025</h3>
                     
+                    
+                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Synthesis of novel isoflavone derivatives with anti-tumour activity</h4>
+                            <p class="authors">V Falasca, DS Wenholz, TT Yu, N Kumar</p>
+                            <p class="journal">Bioorganic & Medicinal Chemistry Letters, 130350</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1016/j.bmcl.2025.130350" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>CRO-67 has anti-cancer activity in pancreatic tumor cells and stromal cancer association</h4>
+                            <p class="authors">S Chiang, K Garcia Netto, J Kokkinos, KS Haginhi, AS Raina, ...</p>
+                            <p class="journal">Scientific Reports 15 (1), 24488</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1038/s41598-025-09411-2" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>The Ability of Bacteriophages to Reduce Biofilms Produced by Pseudomonas aeruginosa in Corneal Infections</h4>
+                            <p class="authors">KD Urgeya, D Subedi, N Kumar, M Willcox</p>
+                            <p class="journal">Antibiotics 14 (7), 629</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3390/antibiotics14070629" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>The effect of immobilisation strategies on the ability of peptoids to reduce the adhesion of P. aeruginosa strains to contact lenses</h4>
@@ -90,40 +126,6 @@ title: Publications
                             <p class="journal">Water Research. 2025; Volume 268, Part B, 122717</p>
                         </div>
                     </div>
-
-                    <div class="publication-item" data-type="journal">
-                        <div class="publication-content">
-                            <h4>Synthesis of novel isoflavone derivatives with anti-tumour activity</h4>
-                            <p class="authors">V Falasca, DS Wenholz, TT Yu, N Kumar</p>
-                            <p class="journal">Bioorganic & Medicinal Chemistry Letters, 130350</p>
-                            <div class="publication-links">
-                                <a href="https://doi.org/10.1016/j.bmcl.2025.130350" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="publication-item" data-type="journal">
-                        <div class="publication-content">
-                            <h4>CRO-67 has anti-cancer activity in pancreatic tumor cells and stromal cancer association</h4>
-                            <p class="authors">S Chiang, K Garcia Netto, J Kokkinos, KS Haginhi, AS Raina, ...</p>
-                            <p class="journal">Scientific Reports 15 (1), 24488</p>
-                            <div class="publication-links">
-                                <a href="https://doi.org/10.1038/s41598-025-09411-2" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="publication-item" data-type="journal">
-                        <div class="publication-content">
-                            <h4>The Ability of Bacteriophages to Reduce Biofilms Produced by Pseudomonas aeruginosa in Corneal Infections</h4>
-                            <p class="authors">KD Urgeya, D Subedi, N Kumar, M Willcox</p>
-                            <p class="journal">Antibiotics 14 (7), 629</p>
-                            <div class="publication-links">
-                                <a href="https://doi.org/10.3390/antibiotics14070629" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- 2024 -->
                 <div class="year-section">

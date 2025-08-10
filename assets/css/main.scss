@@ -168,7 +168,18 @@ body {
     }
 }
 
-// Utility classes
+// Global link styles
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Button links (keep existing styling)
 .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
@@ -180,6 +191,42 @@ body {
 
     &:hover {
         background-color: darken($secondary-color, 10%);
+        text-decoration: none;
+    }
+}
+
+// Social media links (keep existing styling)
+.social-links a {
+    color: inherit;
+    text-decoration: none;
+    
+    &:hover {
+        color: $secondary-color;
+        text-decoration: none;
+    }
+}
+
+// Navigation links (keep existing styling)
+.nav-links a {
+    color: $text-color;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+
+    &:hover {
+        color: $secondary-color;
+        text-decoration: none;
+    }
+}
+
+// Footer links (keep existing styling)
+.site-footer a {
+    color: white;
+    text-decoration: none;
+    
+    &:hover {
+        color: $secondary-color;
+        text-decoration: none;
     }
 }
 
@@ -228,6 +275,16 @@ body {
   text-align: center;
   padding: 8rem 0;
   margin-top: -80px;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
 }
 
 @media (max-width: 768px) {

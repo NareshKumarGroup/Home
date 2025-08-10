@@ -9,9 +9,9 @@ excerpt: ""
 <div class="post-content">
     <h3>Congratulations, Dr. Phuoc Linh Dan Nguyen</h3>
     
-    <p>We are delighted to celebrate Phuoc Linh Dan Nguyen's successful completion of her PhD! Her dedication, passion, and perseverance have been an inspiration to everyone in the Kumar Group and beyond.</p>
+    <p>We are delighted to celebrate Phuoc Linh Dan Nguyen's successful completion of her PhD Dan dedication, passion, and perseverance have been an inspiration to everyone in the Kumar Group and beyond.</p>
 
-    <p> We have no doubt that she will continue to make meaningful contributions to her field and inspire others with her passion for research. Congratulations, Dr. Phuoc Linh Dan We wish you all the best in your future endeavors.</p>
+    <p> We have no doubt that Dan will continue to make meaningful contributions to her field and inspire others. Congratulations, Dr. Phuoc Linh Dan We wish you all the best in your future endeavors.</p>
 </div>
 
 <style>

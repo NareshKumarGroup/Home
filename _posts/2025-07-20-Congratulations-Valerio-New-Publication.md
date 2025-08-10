@@ -10,7 +10,7 @@ categories: news achievements
         <img src="{{ site.baseurl }}/assets/images/new/isoflavene.jpg" alt="Valerio Isoflavone Publication 2025" class="featured-image">
     </div>
 
-    <p>We're delighted to announce that Valerio Falasca has published a new paper titled <strong>"Synthesis of novel isoflavone derivatives with anti-tumour activity"</strong> in <em>Bioorganic & Medicinal Chemistry Letters</em>!</p>
+    <p>We're delighted to announce that Valerio Falasca has published a new paper titled <strong>"Synthesis of novel isoflavone derivatives with anti-tumour activity"</strong> in <em>Bioorganic & Medicinal Chemistry Letters</em></p>
 
     <p>The study presents groundbreaking research on novel series of isoflavonoid derivatives generated through click chemistry modifications of the biologically
 active isoflavene phenoxodiol (PXD). </p>

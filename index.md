@@ -71,6 +71,86 @@ title: Home
 <section class="section">
     <div class="container">
         <div class="section-title">
+            <h2>Gallery</h2>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow-wrapper">
+
+                 <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/dec2024part.jpg" alt="December 2024 Research">
+                </div>
+                
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/1-s2.0-S0960894X25002598-ga1-2.jpg" alt="Research Image 1">
+                </div>
+                 <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/5A2D7F64-EA1D-41F9-94E2-A9547A8C7BEE.jpeg" alt="Research Image 4">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/id5c00148_0012-2.webp" alt="Research Image 2">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/1-s2.0-S0968089625000781-ga1.jpg" alt="Research Image 3">
+                </div>
+               
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/3AA8A75A-7356-4CC6-8745-A153EC92D57D.jpeg" alt="Research Image 5">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/25B80DED-9513-4D01-8463-FDC2B0549E46.jpeg" alt="Research Image 6">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/yaoproj2.jpg" alt="Research Image 7">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/yaoproj1.jpg" alt="Research Image 8">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/quorum-sensing.jpg" alt="Quorum Sensing Research">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/flpt3.jpg" alt="FLT3 Research">
+                </div>
+                <div class="slide fade">
+                    <video controls autoplay muted loop>
+                        <source src="{{ site.baseurl }}/assets/images/slideshows/myncresearch.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="slide fade">
+                    <video controls autoplay muted loop>
+                        <source src="{{ site.baseurl }}/assets/images/slideshows/simulation.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+               
+            </div>
+            
+            <button class="slideshow-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="slideshow-btn next" onclick="changeSlide(1)">&#10095;</button>
+            
+            <div class="slideshow-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+                <span class="dot" onclick="currentSlide(12)"></span>
+                <span class="dot" onclick="currentSlide(13)"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-title">
             <h2>Join Our Team</h2>
         </div>
         <div class="grid">
@@ -86,4 +166,53 @@ title: Home
             </div>
         </div>
     </div>
-</section> 
+</section>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function changeSlide(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("slide");
+    let dots = document.getElementsByClassName("dot");
+    
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        // Pause any videos when hiding slides
+        let videos = slides[i].getElementsByTagName("video");
+        for (let j = 0; j < videos.length; j++) {
+            videos[j].pause();
+            videos[j].currentTime = 0; // Reset video to beginning
+        }
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    
+    // Autoplay video if the current slide contains one
+    let currentVideos = slides[slideIndex-1].getElementsByTagName("video");
+    for (let j = 0; j < currentVideos.length; j++) {
+        currentVideos[j].play();
+    }
+}
+
+// Auto-advance slides every 5 seconds
+setInterval(function() {
+    changeSlide(1);
+}, 5000);
+</script> 

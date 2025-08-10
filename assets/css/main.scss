@@ -270,4 +270,153 @@ body {
 .center-single-card .card {
   min-height: 100%;
   grid-column: 2 / 3;
+}
+
+// Slideshow styles
+.slideshow-container {
+    position: relative;
+    max-width: 480px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    background: #f8f9fa;
+}
+
+.slideshow-wrapper {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    img, video {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    video {
+        border-radius: 8px;
+    }
+}
+
+.slide.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.slideshow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 16px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+    z-index: 10;
+    
+    &:hover {
+        background: rgba(0,0,0,0.8);
+    }
+    
+    &.prev {
+        left: 10px;
+    }
+    
+    &.next {
+        right: 10px;
+    }
+}
+
+.slideshow-dots {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(255,255,255,0.9);
+    
+    .dot {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin: 0 5px;
+        background-color: #bbb;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        
+        &:hover {
+            background-color: #717171;
+        }
+        
+        &.active {
+            background-color: $secondary-color;
+        }
+    }
+}
+
+// Responsive slideshow
+@media (max-width: 768px) {
+    .slideshow-container {
+        max-width: 60%;
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    .slideshow-wrapper {
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .slide {
+        width: 100%;
+        height: 100%;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    
+    .slideshow-btn {
+        padding: 12px 8px;
+        font-size: 16px;
+    }
+    
+    .slideshow-dots {
+        padding: 15px 0;
+        
+        .dot {
+            width: 10px;
+            height: 10px;
+            margin: 0 3px;
+        }
+    }
 } 

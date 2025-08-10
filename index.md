@@ -89,6 +89,14 @@ title: Home
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/slideshows/id5c00148_0012-2.webp" alt="Research Image 2">
                 </div>
+
+
+                 <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/slideshows/maydinner.jpg" alt="Research Image 2">
+                </div>
+               
+               
+               
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/slideshows/1-s2.0-S0968089625000781-ga1.jpg" alt="Research Image 3">
                 </div>

@@ -333,6 +333,18 @@ a {
   grid-column: 2 / 3;
 }
 
+// Mobile fix for center-single-card
+@media (max-width: 768px) {
+  .center-single-card {
+    display: block;
+  }
+  .center-single-card .card {
+    grid-column: auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 // Slideshow styles
 .slideshow-container {
     position: relative;

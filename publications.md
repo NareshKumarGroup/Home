@@ -33,7 +33,7 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
-                            <h4>Synthesis of novel isoflavone derivatives with anti-tumour activity</h4>
+                            <h4>Synthesis of novel isoflavene derivatives with anti-tumour activity</h4>
                             <p class="authors">V Falasca, DS Wenholz, TT Yu, N Kumar</p>
                             <p class="journal">Bioorganic & Medicinal Chemistry Letters, 130350</p>
                             <div class="publication-links">
@@ -44,7 +44,7 @@ title: Publications
 
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
-                            <h4>CRO-67 has anti-cancer activity in pancreatic tumor cells and stromal cancer association</h4>
+                            <h4>CRO-67 has anti-cancer activity in pancreatic tumor cells and stromal cancer-associated fibroblasts</h4>
                             <p class="authors">S Chiang, K Garcia Netto, J Kokkinos, KS Haginhi, AS Raina, ...</p>
                             <p class="journal">Scientific Reports 15 (1), 24488</p>
                             <div class="publication-links">
@@ -817,7 +817,7 @@ title: Publications
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Antimicrobial compounds and uses thereof</h4><p class="journal">PCT International Application (2012), PCT/IB2012/056599</p><p class="authors">Willcox, M.D.P.; Kumar, N., Chen, R.; Cole, N.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation pyranoindole compounds and uses thereof</h4><p class="journal">PCT International Application (2011), WO 2011066606</p><p class="authors">Khan, T.; Black, D. StC.; Kumar, N.; Jeoffreys, G.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation and use of 6-substituted isoflavonoid compounds</h4><p class="journal">PCT International Application (2010), WO 2010012037</p><p class="authors">Husband, A.; James, M.; Kumar, N.</p></div></div>
-                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Antiinflammatory isoflavones and analogues</h4><p class="journal">US Patent Application (2009), US 2009233999</p><p class="authors">Heaton, A.; Kumar, N.; Kelly, G.; Husband, A.</p></div></div>
+                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Antiinflammatory isoflavenes and analogues</h4><p class="journal">US Patent Application (2009), US 2009233999</p><p class="authors">Heaton, A.; Kumar, N.; Kelly, G.; Husband, A.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Synthesis of oxazinyl isoflavonoid compounds for pharmaceutical use</h4><p class="journal">PCT International Application (2008), 115pp, WO 20080229</p><p class="authors">Heaton, A.; Kumar, N.; Walker, C.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of furanone derivatives as antibacterial agents</h4><p class="journal">PCT International Application (2007), 68pp, WO 20071008</p><p class="authors">Kumar, N.; Iskander, G.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Lactams, process for preparing them, pharmaceutical compositions containing them, and their use as antibacterial agents</h4><p class="journal">PCT International Application (2007), 54pp, WO 20070124</p><p class="authors">Kumar, N.; Iskander, G.</p></div></div>
@@ -826,11 +826,11 @@ title: Publications
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of halomethylene alkanones as regulators of bacterial signaling pathways</h4><p class="journal">PCT International Application (2005), 40pp, WO 20050621</p><p class="authors">Kumar, N.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Association of antimicrobial furanone/lactam compounds with surfaces and polymers</h4><p class="journal">PCT International Application (2005), 40pp, WO 20041206</p><p class="authors">Kumar, N.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of furanones and pyrrolone derivatives as antimicrobial and/or antifouling agents</h4><p class="journal">PCT International Application (2004), 77pp, WO 2004016588 A1 20040226</p><p class="authors">Kumar, N.</p></div></div>
-                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of dimeric isoflavones for a variety of therapeutic uses</h4><p class="journal">PCT International Application (2002), WO 2002070502 A1 20020912</p><p class="authors">Heaton, A.; Kelly, G.; Husband, A., Kumar, N.</p></div></div>
+                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of dimeric isoflavenes for a variety of therapeutic uses</h4><p class="journal">PCT International Application (2002), WO 2002070502 A1 20020912</p><p class="authors">Heaton, A.; Kelly, G.; Husband, A., Kumar, N.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation and antimicrobial activity of fimbrolides</h4><p class="journal">PCT International Application (2002), WO 2002000639 A1 20020103</p><p class="authors">Read, R.; Kumar, N.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Antimicrobial coatings containing furanones</h4><p class="journal">PCT International Application (2001), WO 2001076594 A1 20011018</p><p class="authors">Read, R.; Kumar, N.; Wilcox, M.; Zhu, H.; Griesser, H.; Muir, B.; Thissen, H.; Hughes, T.</p></div></div>
-                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of isoflavones as therapeutic agents with estrogen receptor binding activity</h4><p class="journal">PCT International Application (2001), WO 2001017986 A1 20010315</p><p class="authors">Heaton, A.; Kelly, G.; Husband, A., Kumar, N.</p></div></div>
-                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of isoflavone derivatives</h4><p class="journal">PCT International Application (2000), WO 2000049009 A1 20000824</p><p class="authors">Heaton, A.; Kumar, N.</p></div></div>
+                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of isoflavenes as therapeutic agents with estrogen receptor binding activity</h4><p class="journal">PCT International Application (2001), WO 2001017986 A1 20010315</p><p class="authors">Heaton, A.; Kelly, G.; Husband, A., Kumar, N.</p></div></div>
+                <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of isoflavene derivatives</h4><p class="journal">PCT International Application (2000), WO 2000049009 A1 20000824</p><p class="authors">Heaton, A.; Kumar, N.</p></div></div>
                 <div class="publication-item" data-type="patent"><div class="publication-content"><h4>Preparation of fimbrolide analog fouling inhibitors and bactericides</h4><p class="journal">PCT International Application (1999), WO 9954323 A1 19991028</p><p class="authors">Read, R.; Kumar, N.</p></div></div>
             </div>
         </div>

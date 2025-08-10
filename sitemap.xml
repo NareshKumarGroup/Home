@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in site.pages %}
+    {% unless page.layout == null or page.layout == 'feed' or page.url contains '/assets/' or page.url contains '/_posts/' %}
+    <url>
+      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+      <lastmod>{{ page.date | default: site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>{% if page.url == '/' %}weekly{% else %}monthly{% endif %}</changefreq>
+      <priority>{% if page.url == '/' %}1.0{% else %}0.8{% endif %}</priority>
+    </url>
+    {% endunless %}
+  {% endfor %}
+  
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  {% endfor %}
+</urlset> 

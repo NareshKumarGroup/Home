@@ -79,11 +79,12 @@ title: Home
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/iupac/PHOTO-2025-08-28-17-03-45.jpg" alt="Kumar Group at IUPAC Conference">
                 </div>
-                <div class="slide fade">
-                    <img src="{{ site.baseurl }}/assets/images/iupac/1756963452749.jpeg" alt="IUPAC Conference 2025">
-                </div>                <div class="slide fade">
+                 </div>                <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/kiama/Raselposter.JPG" alt="Rasel Khan Poster Prize Winner">
                 </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/iupac/1756963452749.jpeg" alt="IUPAC Conference 2025">
+               
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/new/isoflavene.jpg" alt="Valerio Isoflavene Publication">
                 </div>

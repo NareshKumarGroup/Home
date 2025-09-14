@@ -77,6 +77,11 @@ title: Home
                     <img src="{{ site.baseurl }}/assets/images/kiama/Kiamagrouppicture.JPG" alt="Kumar Group at Kiama Conference">
                 </div>
                 <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/iupac/PHOTO-2025-08-28-17-03-45.jpg" alt="Kumar Group at IUPAC Conference">
+                </div>
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/iupac/1756963452749.jpeg" alt="IUPAC Conference 2025">
+                </div>                <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/kiama/Raselposter.JPG" alt="Rasel Khan Poster Prize Winner">
                 </div>
                 <div class="slide fade">
@@ -163,6 +168,8 @@ title: Home
                 <span class="dot" onclick="currentSlide(15)"></span>
                 <span class="dot" onclick="currentSlide(16)"></span>
                 <span class="dot" onclick="currentSlide(17)"></span>
+                <span class="dot" onclick="currentSlide(18)"></span>
+                <span class="dot" onclick="currentSlide(19)"></span>
             </div>
         </div>
     </div>

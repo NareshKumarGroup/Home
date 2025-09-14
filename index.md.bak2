@@ -47,9 +47,6 @@ title: Home
             {% for post in site.posts limit:4 %}
             {% if post.title == "Congratulations to Maryam on the Completion of Her PhD!" %}
             <div class="card maryam-news-card" style="display: flex; align-items: center; gap: 2rem;">
-                <img src="{{ site.baseurl }}/assets/images/Maryham.jpg" alt="Maryam PhD Graduation" style="width: 152px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex-shrink: 0;">
-                <div>
-                    <h3 class="card-title">{{ post.title }}</h3>
                     <p class="date">July 14, 2025</p>
                     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                     <a href="{{ post.url | relative_url }}" class="btn">Read More</a>
@@ -80,10 +77,12 @@ title: Home
                     <img src="{{ site.baseurl }}/assets/images/kiama/Kiamagrouppicture.JPG" alt="Kumar Group at Kiama Conference">
                 </div>
                 <div class="slide fade">
-                    <img src="{{ site.baseurl }}/assets/images/kiama/Raselposter.JPG" alt="Rasel Khan Poster Prize Winner">
+                    <img src="{{ site.baseurl }}/assets/images/iupac/PHOTO-2025-08-28-17-03-45.jpg" alt="Kumar Group at IUPAC Conference">
                 </div>
                 <div class="slide fade">
-                    <img src="{{ site.baseurl }}/assets/images/Maryham.jpg" alt="Maryam PhD Graduation">
+                    <img src="{{ site.baseurl }}/assets/images/iupac/1756963452749.jpeg" alt="IUPAC Conference 2025">
+                </div>                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/kiama/Raselposter.JPG" alt="Rasel Khan Poster Prize Winner">
                 </div>
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/new/isoflavene.jpg" alt="Valerio Isoflavene Publication">
@@ -169,8 +168,6 @@ title: Home
                 <span class="dot" onclick="currentSlide(15)"></span>
                 <span class="dot" onclick="currentSlide(16)"></span>
                 <span class="dot" onclick="currentSlide(17)"></span>
-                <span class="dot" onclick="currentSlide(18)"></span>
-                <span class="dot" onclick="currentSlide(19)"></span>
             </div>
         </div>
     </div>

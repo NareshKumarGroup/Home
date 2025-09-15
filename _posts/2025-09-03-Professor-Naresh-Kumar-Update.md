@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Congratulations to Professor Naresh Kumar "
+title: "🏆 Congratulations to Professor Naresh Kumar "
 date: 2025-09-03 10:00:00 +1000
 categories: news achievements congratulations leadership
 ---

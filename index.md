@@ -79,6 +79,20 @@ title: Home
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/kiama/Raselposter.JPG" alt="Rasel Khan Poster Prize Winner">
                 </div>
+
+                 <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/kiama/dcba3174-4f39-4117-801c-a005f12d709e.JPG" alt="Rasel Prize Winner">
+                </div>
+                
+                
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/iupac/Lilla.jpg" alt="lilla">
+                </div>
+                     
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/Alyssa.jpg" alt="alyssa">
+                </div>
+
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/iupac/PHOTO-2025-08-28-17-03-45.jpg" alt="Kumar Group at IUPAC Conference">
                 </div>

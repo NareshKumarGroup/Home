@@ -83,7 +83,7 @@ title: Home
                  <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/kiama/dcba3174-4f39-4117-801c-a005f12d709e.JPG" alt="Rasel Prize Winner">
                 </div>
-                
+                 
                 
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/iupac/Lilla.jpg" alt="lilla">

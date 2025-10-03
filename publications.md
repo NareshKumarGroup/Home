@@ -29,7 +29,16 @@ title: Publications
                 <div class="year-section">
                     <h3>2025</h3>
                     
-                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Antibacterial peptidomimetics based on guanidine-functionalized di-tertiary amides</h4>
+                            <p class="authors">Ghayah Bahatheg, Rajesh Kuppusamy, Lissy Hartmann, Charles Gordon Cranfield, David StClair Black, Mark D. P. Willcox, Naresh Kumar</p>
+                            <p class="journal">RSC Medicinal Chemistry</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1039/D5MD00688K" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">

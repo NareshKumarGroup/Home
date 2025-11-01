@@ -31,6 +31,17 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>Synthesis of novel fused-ring idronoxil derivatives incorporating coumarin, pyran, and furan moieties</h4>
+                            <p class="authors">Valerio Falasca, Eugene Yee, Shekh Sabir, Mohan Bhadbhade, Daniel S. Wenholz, David StC. Black</p>
+                            <p class="journal">RSC Advances</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1039/D5RA06129F" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>Antibacterial peptidomimetics based on guanidine-functionalized di-tertiary amides</h4>
                             <p class="authors">Ghayah Bahatheg, Rajesh Kuppusamy, Lissy Hartmann, Charles Gordon Cranfield, David StClair Black, Mark D. P. Willcox, Naresh Kumar</p>
                             <p class="journal">RSC Medicinal Chemistry</p>

@@ -43,27 +43,154 @@ title: Home
         <div class="section-title">
             <h2>Latest News</h2>
         </div>
-        <div class="grid">
-            {% for post in site.posts limit:4 %}
-            {% if post.title == "Congratulations to Maryam on the Completion of Her PhD!" %}
-            <div class="card maryam-news-card" style="display: flex; align-items: center; gap: 2rem;">
-                    <p class="date">July 14, 2025</p>
-                    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-                    <a href="{{ post.url | relative_url }}" class="btn">Read More</a>
+        
+        <!-- Featured News - Latest Publication -->
+        {% assign latest_post = site.posts.first %}
+        {% if latest_post %}
+        <div class="featured-news-home">
+            <div class="featured-card-home">
+                <div class="featured-content-home">
+                    <div class="featured-image-home">
+                        {% if latest_post.title contains "Valerio" %}
+                          <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% elsif latest_post.title contains "Yao" %}
+                          <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% elsif latest_post.title contains "Ghayah" %}
+                          <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% else %}
+                          <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% endif %}
+                    </div>
+                    <div class="featured-text-home">
+                        <h3 class="featured-title-home">{{ latest_post.title }}</h3>
+                        <p class="featured-date-home">{{ latest_post.date | date: "%B %d, %Y" }}</p>
+                        <p class="featured-excerpt-home">{{ latest_post.excerpt | strip_html | truncatewords: 30 }}</p>
+                        <a href="{{ latest_post.url | relative_url }}" class="btn btn-featured-home">Read More</a>
+                    </div>
                 </div>
             </div>
-            {% else %}
+        </div>
+        {% endif %}
+        
+        <!-- Recent News Grid -->
+        <div class="grid">
+            {% for post in site.posts limit:3 %}
             <div class="card">
                 <h3 class="card-title">{{ post.title }}</h3>
                 <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
                 <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                 <a href="{{ post.url | relative_url }}" class="btn">Read More</a>
             </div>
-            {% endif %}
             {% endfor %}
+        </div>
+        
+        <!-- View All News Button -->
+        <div class="text-center" style="margin-top: 2rem;">
+            <a href="{{ '/news' | relative_url }}" class="btn btn-outline">View All News</a>
         </div>
     </div>
 </section>
+
+<style>
+.featured-news-home {
+  margin-bottom: 2rem;
+}
+
+.featured-card-home {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  margin-bottom: 2rem;
+}
+
+.featured-content-home {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.featured-image-home {
+  flex-shrink: 0;
+}
+
+.featured-img-home {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.featured-text-home {
+  flex: 1;
+}
+
+.featured-title-home {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.featured-date-home {
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.featured-excerpt-home {
+  color: rgba(255,255,255,0.9);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.btn-featured-home {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 2px solid rgba(255,255,255,0.3);
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.btn-featured-home:hover {
+  background: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.5);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: #667eea;
+  border: 2px solid #667eea;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .featured-content-home {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .featured-img-home {
+    width: 100%;
+    max-width: 250px;
+    height: 150px;
+  }
+  
+  .featured-title-home {
+    font-size: 1.1rem;
+  }
+}
+</style>
 
 <section class="section">
     <div class="container">
@@ -73,6 +200,9 @@ title: Home
         <div class="slideshow-container">
             <div class="slideshow-wrapper">
 
+                <div class="slide fade">
+                    <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/921f4a39-ad25-4da7-8007-037b3a7a4be8.JPG" alt="Yao Farewell Dinner">
+                </div>
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/kiama/Kiamagrouppicture.JPG" alt="Kumar Group at Kiama Conference">
                 </div>
@@ -186,6 +316,7 @@ title: Home
                 <span class="dot" onclick="currentSlide(17)"></span>
                 <span class="dot" onclick="currentSlide(18)"></span>
                 <span class="dot" onclick="currentSlide(19)"></span>
+                <span class="dot" onclick="currentSlide(20)"></span>
             </div>
         </div>
     </div>

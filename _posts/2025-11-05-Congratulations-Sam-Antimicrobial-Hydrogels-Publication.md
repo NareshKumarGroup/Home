@@ -24,7 +24,7 @@ excerpt: "Congratulations to Sam and the team on the publication of a new paper 
         <li><strong>Journal:</strong> Antibiotics</li>
         <li><strong>Title:</strong> Structural Features of Antimicrobial Peptide-Mimic Hydrogels</li>
         <li><strong>DOI:</strong> <a href="https://doi.org/10.3390/antibiotics14111118" target="_blank">10.3390/antibiotics14111118</a></li>
-        <li><strong>Authors:</strong> Muel T. Attard, Vina R. Aldilla, Rajesh Kuppusamy, Renxun Chen, David StC. Black, Pall Thordarson, Mark D. P. Willcox, and Naresh Kumar</li>
+        <li><strong>Authors:</strong> Samuel T. Attard, Vina R. Aldilla, Rajesh Kuppusamy, Renxun Chen, David StC. Black, Pall Thordarson, Mark D. P. Willcox, and Naresh Kumar</li>
         <li><strong>Published:</strong> November 5, 2025</li>
     </ul>
 

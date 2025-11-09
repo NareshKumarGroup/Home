@@ -31,6 +31,17 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>Structural Features of Antimicrobial Peptide-Mimic Hydrogels</h4>
+                            <p class="authors">Muel T. Attard, Vina R. Aldilla, Rajesh Kuppusamy, Renxun Chen, David StC. Black, Pall Thordarson, Mark D. P. Willcox, Naresh Kumar</p>
+                            <p class="journal">Antibiotics 2025, 14(11), 1118</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3390/antibiotics14111118" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>Synthesis of novel fused-ring idronoxil derivatives incorporating coumarin, pyran, and furan moieties</h4>
                             <p class="authors">Valerio Falasca, Eugene Yee, Shekh Sabir, Mohan Bhadbhade, Daniel S. Wenholz, David StC. Black</p>
                             <p class="journal">RSC Advances</p>

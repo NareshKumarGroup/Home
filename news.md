@@ -17,7 +17,9 @@ permalink: /news/
       <div class="featured-card">
         <div class="featured-content">
           <div class="featured-image">
-            {% if latest_post.title contains "Valerio" %}
+            {% if latest_post.title contains "Sam" %}
+              <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Valerio" %}
               <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Yao" %}
               <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ latest_post.title }}" class="featured-img">

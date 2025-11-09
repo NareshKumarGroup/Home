@@ -51,7 +51,9 @@ title: Home
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if latest_post.title contains "Valerio" %}
+                        {% if latest_post.title contains "Sam" %}
+                          <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% elsif latest_post.title contains "Valerio" %}
                           <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Yao" %}
                           <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
@@ -317,6 +319,10 @@ title: Home
                 <span class="dot" onclick="currentSlide(18)"></span>
                 <span class="dot" onclick="currentSlide(19)"></span>
                 <span class="dot" onclick="currentSlide(20)"></span>
+                <span class="dot" onclick="currentSlide(21)"></span>
+                <span class="dot" onclick="currentSlide(22)"></span>
+                <span class="dot" onclick="currentSlide(23)"></span>
+                <span class="dot" onclick="currentSlide(24)"></span>
             </div>
         </div>
     </div>

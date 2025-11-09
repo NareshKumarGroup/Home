@@ -1,0 +1,133 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="section-title">
+      <h2>Latest News</h2>
+    </div>
+    
+    <!-- Featured News Section -->
+    <div class="featured-news">
+      {% assign latest_post = site.posts.first %}
+      {% if latest_post %}
+      <div class="featured-card">
+        <div class="featured-content">
+          <div class="featured-image">
+            {% if latest_post.title contains "Valerio" %}
+              <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Yao" %}
+              <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Ghayah" %}
+              <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% else %}
+              <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% endif %}
+          </div>
+          <div class="featured-text">
+            <h3 class="featured-title">{{ latest_post.title }}</h3>
+            <p class="featured-date">{{ latest_post.date | date: "%B %d, %Y" }}</p>
+            <p class="featured-excerpt">{{ latest_post.excerpt | strip_html | truncatewords: 30 }}</p>
+            <a href="{{ latest_post.url | relative_url }}" class="btn btn-featured">Read More</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    
+    <!-- All News Grid -->
+    <div class="grid">
+      {% for post in site.posts %}
+      <div class="card">
+        <h3 class="card-title">{{ post.title }}</h3>
+        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <a href="{{ post.url | relative_url }}" class="btn">Read More</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+.featured-news {
+  margin-bottom: 3rem;
+}
+
+.featured-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  color: white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.featured-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.featured-image {
+  flex-shrink: 0;
+}
+
+.featured-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.featured-text {
+  flex: 1;
+}
+
+.featured-title {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.featured-date {
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.featured-excerpt {
+  color: rgba(255,255,255,0.9);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.btn-featured {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 2px solid rgba(255,255,255,0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-featured:hover {
+  background: rgba(255,255,255,0.3);
+  border-color: rgba(255,255,255,0.5);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .featured-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .featured-img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+  }
+}
+</style> 

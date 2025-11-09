@@ -8,7 +8,7 @@ excerpt: "Congratulations to Sam and the team on the publication of a new paper 
 
 <div class="post-content">
     <div class="post-image">
-        <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogels Publication 2025" class="featured-image">
+        <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="Antimicrobial Hydrogels Publication 2025" class="featured-image">
     </div>
 
     <p>Congratulations to <strong>Sam</strong> and the team on the publication of a new paper in <em>Antibiotics</em>!</p>

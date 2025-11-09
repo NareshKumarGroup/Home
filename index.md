@@ -52,7 +52,7 @@ title: Home
                 <div class="featured-content-home">
                     <div class="featured-image-home">
                         {% if latest_post.title contains "Sam" %}
-                          <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
+                          <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Valerio" %}
                           <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Yao" %}

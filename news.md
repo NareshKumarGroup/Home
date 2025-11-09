@@ -18,7 +18,7 @@ permalink: /news/
         <div class="featured-content">
           <div class="featured-image">
             {% if latest_post.title contains "Sam" %}
-              <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="{{ latest_post.title }}" class="featured-img">
+              <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Valerio" %}
               <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Yao" %}

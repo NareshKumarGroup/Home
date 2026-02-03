@@ -110,7 +110,7 @@ title: People
                     
                     <div class="member-card">
                         <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/nathan.jpg" alt="Nathan Carey">
+                            <img src="{{ site.baseurl }}/assets/images/Nathan.jpg" alt="Nathan Carey">
                         </div>
                         <div class="member-info">
                             <h4>Nathan Carey</h4>

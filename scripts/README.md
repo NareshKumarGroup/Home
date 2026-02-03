@@ -4,7 +4,9 @@
 
 Syncs publications from **Naresh Kumar's ORCID** (0000-0002-0951-9621) to `publications.md`.
 
-- Fetches works from the ORCID Public API (title, authors, year, journal, DOI, URL).
+- Fetches works from the ORCID Public API (title, year, journal, DOI, URL).
+- **Enriches each work with CrossRef** (by DOI) to get **full author list**, journal, and year when available.
+- Strips HTML from titles (e.g. `<i>H</i>` → `H`).
 - Compares with existing entries in `publications.md` by **DOI** and **normalized title** to avoid duplicates.
 - Appends only new publications into the correct year section (same HTML format as the rest of the page).
 - Uses only Python standard library (no pip install).
@@ -12,6 +14,11 @@ Syncs publications from **Naresh Kumar's ORCID** (0000-0002-0951-9621) to `publi
 **Run locally:**
 ```bash
 python3 scripts/sync_orcid_publications.py
+```
+
+**Update existing entries** with full authors and journal from CrossRef (run occasionally to backfill):
+```bash
+UPDATE_EXISTING=1 python3 scripts/sync_orcid_publications.py
 ```
 
 **Override ORCID (optional):**

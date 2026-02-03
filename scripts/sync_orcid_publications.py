@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
 """
 Sync publications from Naresh Kumar's ORCID to publications.md.
-Fetches works from ORCID Public API and appends new entries to the publications page.
+Fetches works from ORCID Public API, enriches with CrossRef (full authors, journal, year),
+and appends new entries to the publications page.
 Only adds works that don't already exist (matched by DOI or normalized title).
-Uses only Python stdlib (urllib, xml.etree, re, os, html).
+Uses only Python stdlib (urllib, xml.etree, re, os, html, json).
 """
 
 import html
+import json
 import os
 import re
 import sys
+import time
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
 ORCID_API = "https://pub.orcid.org/v3.0"
+CROSSREF_API = "https://api.crossref.org/works"
 NARESH_ORCID = "0000-0002-0951-9621"
 
 
@@ -149,11 +154,79 @@ def fetch_orcid_works(orcid_id):
     return out
 
 
-def normalize_title(title):
-    """Normalize title for comparison (lowercase, collapse spaces)."""
+def strip_html_from_title(title):
+    """Remove HTML tags from title (e.g. <i>H</i> -> H)."""
     if not title:
         return ""
-    s = re.sub(r"\s+", " ", title.lower().strip())
+    return re.sub(r"<[^>]+>", "", title).strip()
+
+
+def fetch_crossref_metadata(doi):
+    """Fetch full metadata from CrossRef by DOI. Returns dict with authors, journal, year, title or None."""
+    if not doi or not doi.strip():
+        return None
+    enc_doi = urllib.parse.quote(doi.strip())
+    url = f"{CROSSREF_API}/{enc_doi}"
+    req = urllib.request.Request(url, headers={"User-Agent": "KumarGroupWebsite/1.0 (mailto:n.kumar@unsw.edu.au)"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+    except Exception:
+        return None
+    msg = data.get("message") or {}
+    authors_list = msg.get("author") or []
+    author_parts = []
+    for a in authors_list:
+        given = (a.get("given") or "").strip()
+        family = (a.get("family") or "").strip()
+        if family:
+            name = f"{given} {family}".strip() if given else family
+            author_parts.append(name)
+    authors_str = ", ".join(author_parts) if author_parts else None
+    container = msg.get("container-title") or []
+    journal = (container[0] or "").strip() if container else None
+    published = msg.get("published") or msg.get("created") or {}
+    date_parts = published.get("date-parts") or []
+    year = None
+    if date_parts and date_parts[0]:
+        year = str(date_parts[0][0]) if date_parts[0][0] else None
+    title_list = msg.get("title") or []
+    title = (title_list[0] or "").strip() if title_list else None
+    if title:
+        title = strip_html_from_title(title)
+    return {
+        "authors": authors_str,
+        "journal": journal,
+        "year": year,
+        "title": title,
+    }
+
+
+def enrich_work_with_crossref(work):
+    """Enrich work dict with full authors, journal, year from CrossRef when DOI present."""
+    doi = (work.get("doi") or "").strip()
+    if not doi:
+        return work
+    meta = fetch_crossref_metadata(doi)
+    if not meta:
+        return work
+    if meta.get("authors"):
+        work["authors"] = meta["authors"]
+    if meta.get("journal"):
+        work["journal"] = meta["journal"]
+    if meta.get("year"):
+        work["year"] = meta["year"]
+    if meta.get("title"):
+        work["title"] = meta["title"]
+    return work
+
+
+def normalize_title(title):
+    """Normalize title for comparison (lowercase, collapse spaces, strip HTML)."""
+    if not title:
+        return ""
+    s = strip_html_from_title(title)
+    s = re.sub(r"\s+", " ", s.lower().strip())
     return s[:200]
 
 
@@ -181,7 +254,7 @@ def load_existing_from_publications_md(filepath):
 
 def publication_html_block(work):
     """Generate one publication HTML block for publications.md."""
-    title = work["title"]
+    title = strip_html_from_title(work.get("title") or "")
     authors = work.get("authors") or "Naresh Kumar et al."
     journal = work.get("journal") or ""
     doi = work.get("doi") or ""
@@ -206,6 +279,53 @@ def publication_html_block(work):
     lines.append("                        </div>")
     lines.append("                    </div>")
     return "\n".join(lines)
+
+
+def update_existing_publications_with_crossref(filepath):
+    """Update existing publication blocks in publications.md with full authors and journal from CrossRef."""
+    try:
+        with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+            content = f.read()
+    except Exception as e:
+        print(f"Error reading {filepath}: {e}", file=sys.stderr)
+        return 0
+    # Find each DOI link and the authors/journal lines that precede it (same block)
+    blocks = []
+    for m in re.finditer(r'href="https://doi\.org/([^"]+)"', content):
+        doi = m.group(1).strip()
+        pos = m.start()
+        before = content[:pos]
+        auth_m = list(re.finditer(r'<p class="authors">([^<]*)</p>', before))
+        jour_m = list(re.finditer(r'<p class="journal">([^<]*)</p>', before))
+        if auth_m and jour_m:
+            last_auth, last_jour = auth_m[-1], jour_m[-1]
+            blocks.append((doi, last_auth.start(), last_auth.end(), last_jour.start(), last_jour.end()))
+    if not blocks:
+        return 0
+    # Fetch CrossRef for each DOI and build replacements (start, end, new_text)
+    replacements = []
+    seen_spans = set()
+    for doi, a_start, a_end, j_start, j_end in blocks:
+        meta = fetch_crossref_metadata(doi)
+        time.sleep(0.35)
+        if not meta:
+            continue
+        if meta.get("authors") and (a_start, a_end) not in seen_spans:
+            seen_spans.add((a_start, a_end))
+            replacements.append((a_start, a_end, "<p class=\"authors\">" + html.escape(meta["authors"]) + "</p>"))
+        if meta.get("journal") and (j_start, j_end) not in seen_spans:
+            seen_spans.add((j_start, j_end))
+            replacements.append((j_start, j_end, "<p class=\"journal\">" + html.escape(meta["journal"]) + "</p>"))
+    # Apply in reverse order by start so positions don't shift
+    for start, end, new_text in sorted(replacements, key=lambda x: -x[0]):
+        content = content[:start] + new_text + content[end:]
+    try:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(content)
+    except Exception as e:
+        print(f"Error writing {filepath}: {e}", file=sys.stderr)
+        return 0
+    return len(blocks)
 
 
 def insert_new_publications_into_md(filepath, new_works):
@@ -273,6 +393,12 @@ def main():
     repo_root = os.environ.get("GITHUB_WORKSPACE") or os.environ.get("REPO_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     orcid_id = os.environ.get("ORCID_ID") or NARESH_ORCID
     publications_md = os.path.join(repo_root, "publications.md")
+    update_existing = os.environ.get("UPDATE_EXISTING", "").strip().lower() in ("1", "true", "yes")
+
+    # Optionally update existing entries with full authors/journal from CrossRef
+    if update_existing:
+        updated = update_existing_publications_with_crossref(publications_md)
+        print(f"Existing publications updated with CrossRef: {updated}")
 
     existing_dois, existing_titles = load_existing_from_publications_md(publications_md)
     try:
@@ -294,6 +420,11 @@ def main():
             existing_dois.add(doi.lower())
         if title_norm:
             existing_titles.add(title_norm)
+
+    # Enrich each new work with full authors, journal, year from CrossRef (by DOI)
+    for w in new_works:
+        enrich_work_with_crossref(w)
+        time.sleep(0.35)  # be nice to CrossRef API
 
     added = insert_new_publications_into_md(publications_md, new_works)
     print(f"ORCID works fetched: {len(works)}")

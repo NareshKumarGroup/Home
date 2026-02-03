@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of new biheterocycles by a one-pot sonogashira coupling reaction"
-authors: "Naresh Kumar et al."
+authors: "David StC Black, Naresh Kumar, Mandar Deodhar"
 type: "journal"
 year: 2010
 journal: "Heterocycles"

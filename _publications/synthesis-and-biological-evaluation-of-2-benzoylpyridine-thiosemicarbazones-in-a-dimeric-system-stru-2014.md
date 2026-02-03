@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and biological evaluation of 2-benzoylpyridine thiosemicarbazones in a dimeric system: Structure-activity relationship studies on their anti-proliferative and iron chelation efficacy"
-authors: "Naresh Kumar et al."
+authors: "Adeline Y. Lukmantara, Danuta S. Kalinowski, Naresh Kumar, Des R. Richardson"
 type: "journal"
 year: 2014
 journal: "Journal of Inorganic Biochemistry"

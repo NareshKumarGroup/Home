@@ -1,6 +1,6 @@
 ---
 title: "Design, Synthesis and Biological Evaluation of Triazole-Containing 2-Phenylindole and Salicylic Acid as Quorum Sensing Inhibitors Against Pseudomonas aeruginosa"
-authors: "Naresh Kumar et al."
+authors: "Singireddi Srinivasarao, Shashidhar Nizalapur, Tsz Tin Yu, Daniel Stanley Wenholz, Prakruti Trivedi, Balaram Ghosh, Krishnan Rangan, Naresh Kumar, Kondapalli Venkata Gowri Chandra Sekhar"
 type: "journal"
 year: 2018
 journal: "ChemistrySelect"

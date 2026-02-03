@@ -1,6 +1,6 @@
 ---
 title: "Stereospecific Synthesis of Hexahydrobenzopyrroloisoquinoline and Tetrahydrobenzisoquinoline Derivatives"
-authors: "Naresh Kumar et al."
+authors: "E Gellert, N Kumar"
 type: "journal"
 year: 1984
 journal: "Australian Journal of Chemistry"

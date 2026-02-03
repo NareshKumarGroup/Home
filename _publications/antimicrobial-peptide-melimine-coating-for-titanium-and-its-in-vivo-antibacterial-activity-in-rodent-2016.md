@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial peptide melimine coating for titanium and its in vivo antibacterial activity in rodent subcutaneous infection models"
-authors: "Naresh Kumar et al."
+authors: "Renxun Chen, Mark D.P. Willcox, Kitty Ka Kit Ho, Daniel Smyth, Naresh Kumar"
 type: "journal"
 year: 2016
 journal: "Biomaterials"

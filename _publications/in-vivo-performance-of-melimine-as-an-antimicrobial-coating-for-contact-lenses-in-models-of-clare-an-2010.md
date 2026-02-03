@@ -1,6 +1,6 @@
 ---
 title: "In vivo performance of melimine as an antimicrobial coating for contact lenses in models of CLARE and CLPU"
-authors: "Naresh Kumar et al."
+authors: "Nerida Cole, Emma B. H. Hume, Ajay K. Vijay, Padmaja Sankaridurg, Naresh Kumar, Mark D. P. Willcox"
 type: "journal"
 year: 2010
 journal: "Investigative Ophthalmology and Visual Science"

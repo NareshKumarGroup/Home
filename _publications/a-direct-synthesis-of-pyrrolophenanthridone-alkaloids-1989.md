@@ -1,6 +1,6 @@
 ---
 title: "A direct synthesis of pyrrolophenanthridone alkaloids"
-authors: "Naresh Kumar et al."
+authors: "David St C. Black, Paul A. Keller, Naresh Kumar"
 type: "journal"
 year: 1989
 journal: "Tetrahedron Letters"

@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial and cytotoxic activities of synthetically derived tambjamines C and E-J, BE-18591, and a related alkaloid from the marine bacterium Pseudoalteromonas tunicata"
-authors: "Naresh Kumar et al."
+authors: "David M. Pinkerton, Martin G. Banwell, Mary J. Garson, Naresh Kumar, Manoel Odorico de Moraes, Bruno C. Cavalcanti, Francisco W. A. Barros, Cláudia Pessoa"
 type: "journal"
 year: 2010
 journal: "Chemistry and Biodiversity"

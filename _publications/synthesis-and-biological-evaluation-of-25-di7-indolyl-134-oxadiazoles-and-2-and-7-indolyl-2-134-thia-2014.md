@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and biological evaluation of 2,5-di(7-indolyl)-1,3,4-oxadiazoles, and 2- and 7-indolyl 2-(1,3,4-thiadiazolyl)ketones as antimicrobials"
-authors: "Naresh Kumar et al."
+authors: "Hakan Kandemir, Cong Ma, Samuel K. Kutty, David StC. Black, Renate Griffith, Peter J. Lewis, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Bioorganic and Medicinal Chemistry"

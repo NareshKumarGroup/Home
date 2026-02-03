@@ -1,6 +1,6 @@
 ---
 title: "New reactivity patterns in activated indoles with 2-methyl substituents"
-authors: "Naresh Kumar et al."
+authors: "Ashley W. Jones, Tutik Dwi Wahyuningsih, Karin Pchalek, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2005
 journal: "Tetrahedron"

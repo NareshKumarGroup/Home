@@ -1,6 +1,6 @@
 ---
 title: "Controlling the distance between hydrogen-bonded chloro-: S -triazine tapes: Crystal engineering using N -alkyl chains and the influence of temperature"
-authors: "Naresh Kumar et al."
+authors: "Vina R. Aldilla, Mohan Bhadbhade, Saroj Bhattacharyya, Naresh Kumar, Anne M. Rich, Christopher E. Marjo"
 type: "journal"
 year: 2017
 journal: "CrystEngComm"

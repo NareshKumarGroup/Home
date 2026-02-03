@@ -1,6 +1,6 @@
 ---
 title: "Synthesis, quorum sensing inhibition and docking studies of 1,5-dihydropyrrol-2-ones"
-authors: "Naresh Kumar et al."
+authors: "Wai-Kean Goh, Christopher R. Gardner, Kondapalli V.G. Chandra Sekhar, Nripendra N. Biswas, Shashidhar Nizalapur, Scott A. Rice, Mark Willcox, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2015
 journal: "Bioorganic and Medicinal Chemistry"

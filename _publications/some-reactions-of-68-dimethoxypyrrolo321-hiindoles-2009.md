@@ -1,6 +1,6 @@
 ---
 title: "Some reactions of 6,8-dimethoxypyrrolo[3,2,1-hi]indoles"
-authors: "Naresh Kumar et al."
+authors: "Jumina, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2009
 journal: "Tetrahedron"

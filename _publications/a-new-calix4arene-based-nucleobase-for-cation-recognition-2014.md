@@ -1,6 +1,6 @@
 ---
 title: "A new calix[4]arene based nucleobase for cation recognition"
-authors: "Naresh Kumar et al."
+authors: "Har Mohindra Chawla, Jyotsna Rani Kar, Weqar Ahmad Siddiqui, Naresh Kumar, David StC Black"
 type: "journal"
 year: 2014
 journal: "Tetrahedron Letters"

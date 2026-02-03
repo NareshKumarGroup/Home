@@ -1,6 +1,6 @@
 ---
 title: "Spore release in Acrochaetium sp. (Rhodophyta) is bacterially controlled"
-authors: "Naresh Kumar et al."
+authors: "Florian Weinberger, Jessica Beltran, Juan A. Correa, Ulrich Lion, Georg Pohnert, Naresh Kumar, Peter Steinberg, Bernard Kloareg, Philippe Potin"
 type: "journal"
 year: 2007
 journal: "Journal of Phycology"

@@ -1,6 +1,6 @@
 ---
 title: "Phenazine virulence factor binding to extracellular DNA is important for Pseudomonas aeruginosa biofilm formation"
-authors: "Naresh Kumar et al."
+authors: "Theerthankar Das, Samuel K. Kutty, Roya Tavallaie, Amaye I. Ibugo, Janjira Panchompoo, Shama Sehar, Leigh Aldous, Amanda W. S. Yeung, Shane R. Thomas, Naresh Kumar, J. Justin Gooding, Mike Manefield"
 type: "journal"
 year: 2015
 journal: "Scientific Reports"

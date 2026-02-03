@@ -1,6 +1,6 @@
 ---
 title: "Melimine-coated antimicrobial contact lenses reduce microbial keratitis in an animal model"
-authors: "Naresh Kumar et al."
+authors: "Debarun Dutta, Ajay K. Vijay, Naresh Kumar, Mark D. P. Willcox"
 type: "journal"
 year: 2016
 journal: "Investigative Ophthalmology and Visual Science"

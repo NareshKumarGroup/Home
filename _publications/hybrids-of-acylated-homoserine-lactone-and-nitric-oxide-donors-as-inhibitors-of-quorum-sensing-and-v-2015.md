@@ -1,6 +1,6 @@
 ---
 title: "Hybrids of acylated homoserine lactone and nitric oxide donors as inhibitors of quorum sensing and virulence factors in Pseudomonas aeruginosa"
-authors: "Naresh Kumar et al."
+authors: "Samuel K. Kutty, Nicolas Barraud, Kitty K. K. Ho, George M. Iskander, Renate Griffith, Scott A. Rice, Mohan Bhadbhade, Mark D. P. Willcox, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2015
 journal: "Organic and Biomolecular Chemistry"

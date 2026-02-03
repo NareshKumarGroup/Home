@@ -1,6 +1,6 @@
 ---
 title: "Crosslinked Platform Coatings Incorporating Bioactive Signals for the Control of Biointerfacial Interactions"
-authors: "Naresh Kumar et al."
+authors: "Berkay Ozcelik, Renxun Chen, Veronica Glattauer, Naresh Kumar, MarkD.P. Willcox, Helmut Thissen"
 type: "journal"
 year: 2017
 journal: "Macromolecular Bioscience"

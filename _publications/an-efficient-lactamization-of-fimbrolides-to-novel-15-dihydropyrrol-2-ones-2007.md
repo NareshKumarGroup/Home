@@ -1,6 +1,6 @@
 ---
 title: "An efficient lactamization of fimbrolides to novel 1,5-dihydropyrrol-2-ones"
-authors: "Naresh Kumar et al."
+authors: "Wai Kean Goh, George Iskander, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2007
 journal: "Tetrahedron Letters"

@@ -1,6 +1,6 @@
 ---
 title: "Pyocyanin Facilitates Extracellular DNA Binding to Pseudomonas aeruginosa Influencing Cell Surface Properties and Aggregation"
-authors: "Naresh Kumar et al."
+authors: "Theerthankar Das, Samuel K. Kutty, Naresh Kumar, Mike Manefield"
 type: "journal"
 year: 2013
 journal: "PLoS ONE"

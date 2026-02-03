@@ -1,6 +1,6 @@
 ---
 title: "Serratia secondary metabolite prodigiosin inhibits Pseudomonas aeruginosa biofilm development by producing reactive oxygen species that damage biological molecules"
-authors: "Naresh Kumar et al."
+authors: "Önder Kimyon, Theerthankar Das, Amaye I. Ibugo, Samuel K. Kutty, Kitty K. Ho, Jan Tebben, Naresh Kumar, Mike Manefield"
 type: "journal"
 year: 2016
 journal: "Frontiers in Microbiology"

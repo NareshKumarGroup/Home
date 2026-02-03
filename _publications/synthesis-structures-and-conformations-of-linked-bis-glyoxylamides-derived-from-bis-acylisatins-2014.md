@@ -1,6 +1,6 @@
 ---
 title: "Synthesis, structures, and conformations of linked bis-glyoxylamides derived from bis-acylisatins"
-authors: "Naresh Kumar et al."
+authors: "Venty Suryanti, Glenn C. Condie, Mohan Bhadbhade, Roger Bishop, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Australian Journal of Chemistry"

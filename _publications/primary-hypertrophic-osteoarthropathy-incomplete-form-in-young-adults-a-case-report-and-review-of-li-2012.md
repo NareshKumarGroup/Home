@@ -1,6 +1,6 @@
 ---
 title: "Primary hypertrophic osteoarthropathy (incomplete form) in young adults: A case report and review of literature"
-authors: "Naresh Kumar et al."
+authors: "Hemanta K Nayak, Vangipuram Deepak Rajkumar, Naresh Kumar, Premashis Kar"
 type: "journal"
 year: 2012
 journal: "BMJ Case Reports"

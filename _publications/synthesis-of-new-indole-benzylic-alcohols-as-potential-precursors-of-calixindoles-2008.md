@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of new indole benzylic alcohols as potential precursors of calixindoles"
-authors: "Naresh Kumar et al."
+authors: "David StC Black, Naresh Kumar, Tutik Dwi Wahyuningsih"
 type: "journal"
 year: 2008
 journal: "Arkivoc"

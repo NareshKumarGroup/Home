@@ -1,6 +1,6 @@
 ---
 title: "An efficient synthesis of novel 2,4-disubstituted tetrahydroquinolines and quinolines"
-authors: "Naresh Kumar et al."
+authors: "Ruth Devakaram, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "Tetrahedron Letters"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of octandrenolone, flemiculosin, (±)-3-deoxy-MS-II and laxichalcone"
-authors: "Naresh Kumar et al."
+authors: "Mandar Deodhar, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2006
 journal: "Organic Preparations and Procedures International"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of N-(3-mercaptopropanoyl)-aza-18-crown-6, N-(4-mercaptobutanoyl)-aza-18-crown-6 and their dimers"
-authors: "Naresh Kumar et al."
+authors: "Xinhao Yang, J. Justin Gooding, D. Brynn Hibbert, Naresh Kumar"
 type: "journal"
 year: 1999
 journal: "Organic Preparations and Procedures International"

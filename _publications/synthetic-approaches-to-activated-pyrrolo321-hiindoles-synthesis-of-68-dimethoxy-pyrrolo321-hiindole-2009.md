@@ -1,6 +1,6 @@
 ---
 title: "Synthetic approaches to activated pyrrolo[3,2,1-hi]indoles: synthesis of 6,8-dimethoxy pyrrolo[3,2,1-hi]indole"
-authors: "Naresh Kumar et al."
+authors: "Jumina, Naresh Kumar, David St.C. Black"
 type: "journal"
 year: 2009
 journal: "Tetrahedron"

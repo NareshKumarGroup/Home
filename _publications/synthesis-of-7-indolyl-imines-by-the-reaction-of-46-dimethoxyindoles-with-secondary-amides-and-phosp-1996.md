@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of 7-indolyl-imines by the reaction of 4,6-dimethoxyindoles with secondary amides and phosphoryl chloride"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Michael C. Bowyer, Andrew J. Ivory, Katrina A. Jolliffe, Naresh Kumar"
 type: "journal"
 year: 1996
 journal: "Tetrahedron"

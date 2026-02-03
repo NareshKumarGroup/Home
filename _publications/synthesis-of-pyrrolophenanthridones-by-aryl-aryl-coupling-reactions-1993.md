@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of pyrrolophenanthridones by aryl-aryl coupling reactions"
-authors: "Naresh Kumar et al."
+authors: "David St.C. Black, Paul A. Keller, Naresh Kumar"
 type: "journal"
 year: 1993
 journal: "Tetrahedron"

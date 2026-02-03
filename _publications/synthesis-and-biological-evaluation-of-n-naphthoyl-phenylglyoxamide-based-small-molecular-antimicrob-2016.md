@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and biological evaluation of N-naphthoyl-phenylglyoxamide-based small molecular antimicrobial peptide mimics as novel antimicrobial agents and biofilm inhibitors"
-authors: "Naresh Kumar et al."
+authors: "Shashidhar Nizalapur, Kitty K. K. Ho, Önder Kimyon, Eugene Yee, Thomas Berry, Mike Manefield, Charles G. Cranfield, Mark Willcox, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2016
 journal: "Organic and Biomolecular Chemistry"

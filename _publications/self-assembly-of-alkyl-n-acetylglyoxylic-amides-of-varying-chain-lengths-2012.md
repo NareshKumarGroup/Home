@@ -1,6 +1,6 @@
 ---
 title: "Self-assembly of alkyl N-acetylglyoxylic amides of varying chain lengths"
-authors: "Naresh Kumar et al."
+authors: "Venty Suryanti, Mohan Bhadbhade, Roger Bishop, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "CrystEngComm"

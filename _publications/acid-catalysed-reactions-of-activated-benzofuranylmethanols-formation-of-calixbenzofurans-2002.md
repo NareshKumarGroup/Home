@@ -1,6 +1,6 @@
 ---
 title: "Acid-catalysed reactions of activated benzofuranylmethanols: Formation of calixbenzofurans"
-authors: "Naresh Kumar et al."
+authors: "David StC Black, Donald C Craig, Naresh Kumar, Robert Rezaie"
 type: "journal"
 year: 2002
 journal: "Tetrahedron"

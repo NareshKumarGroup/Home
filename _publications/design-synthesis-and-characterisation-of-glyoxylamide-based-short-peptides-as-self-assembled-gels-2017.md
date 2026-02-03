@@ -1,6 +1,6 @@
 ---
 title: "Design, synthesis, and characterisation of glyoxylamide-based short peptides as self-assembled gels"
-authors: "Naresh Kumar et al."
+authors: "Vina R. Aldilla, Shashidhar Nizalapur, Adam Martin, Chris E. Marjo, Anne Rich, Eugene Yee, Panthipa Suwannakot, David StC. Black, Pall Thordarson, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "New Journal of Chemistry"

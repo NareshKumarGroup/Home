@@ -1,6 +1,6 @@
 ---
 title: "Copper-mediated Chan-Evans-Lam N-arylation of 5-methylene-4-aryl-1,5-dihydro-2H-pyrrol-2-one derivatives"
-authors: "Naresh Kumar et al."
+authors: "Basmah Almohaywi, George Iskander, Tsz Tin Yu, Mohan Bhadbhade, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2018
 journal: "Tetrahedron Letters"

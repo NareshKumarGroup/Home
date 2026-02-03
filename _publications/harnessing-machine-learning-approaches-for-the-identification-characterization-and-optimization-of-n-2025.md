@@ -1,6 +1,6 @@
 ---
 title: "Harnessing Machine Learning Approaches for the Identification, Characterization, and Optimization of Novel Antimicrobial Peptides"
-authors: "Naresh Kumar et al."
+authors: "Naveed Saleem, Naresh Kumar, Emad El-Omar, Mark Willcox, Xiao-Tao Jiang"
 type: "journal"
 year: 2025
 journal: "Antibiotics"

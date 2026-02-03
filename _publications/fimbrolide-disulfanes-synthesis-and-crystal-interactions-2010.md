@@ -1,6 +1,6 @@
 ---
 title: "Fimbrolide disulfanes: Synthesis and crystal interactions"
-authors: "Naresh Kumar et al."
+authors: "Samuel K. Kutty, Mohan M. Bhadbhade, George Iskander, Roger Bishop, Renate Griffith, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2010
 journal: "Tetrahedron Letters"

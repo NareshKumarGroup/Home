@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of some indolylpyrroles and indolylpyrrolylketones"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Michael C. Bowyer, Naresh Kumar"
 type: "journal"
 year: 1997
 journal: "Tetrahedron"

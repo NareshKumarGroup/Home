@@ -1,6 +1,6 @@
 ---
 title: "Acid catalyzed stereoselective rearrangement and dimerization of flavenes: synthesis of dependensin"
-authors: "Naresh Kumar et al."
+authors: "Mandar Deodhar, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2007
 journal: "Tetrahedron"

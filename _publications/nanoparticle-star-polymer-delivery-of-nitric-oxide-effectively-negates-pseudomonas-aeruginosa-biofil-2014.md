@@ -1,6 +1,6 @@
 ---
 title: "Nanoparticle (star polymer) delivery of nitric oxide effectively negates Pseudomonas aeruginosa biofilm formation"
-authors: "Naresh Kumar et al."
+authors: "Hien T. T. Duong, Kenward Jung, Samuel K. Kutty, Sri Agustina, Nik Nik M. Adnan, Johan S. Basuki, Naresh Kumar, Thomas P. Davis, Nicolas Barraud, Cyrille Boyer"
 type: "journal"
 year: 2014
 journal: "Biomacromolecules"

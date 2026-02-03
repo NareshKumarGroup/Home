@@ -1,6 +1,6 @@
 ---
 title: "Evidence that halogenated furanones from Delisea pulchra inhibit acylated homoserine lactone (AHL)-mediated gene expression by displacing the AHL signal from its receptor protein"
-authors: "Naresh Kumar et al."
+authors: "Michael Manefield, Rocky de Nys, Kumar Naresh, Read Roger, Michael Givskov, Steinberg Peter, Staffan Kjelleberg"
 type: "journal"
 year: 1999
 journal: "Microbiology"

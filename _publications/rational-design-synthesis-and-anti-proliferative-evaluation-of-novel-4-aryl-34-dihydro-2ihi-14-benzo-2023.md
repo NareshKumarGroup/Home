@@ -1,6 +1,6 @@
 ---
 title: "Rational Design, Synthesis, and Anti-Proliferative Evaluation of Novel 4-Aryl-3,4-Dihydro-2<i>H</i>-1,4-Benzoxazines"
-authors: "Naresh Kumar et al."
+authors: "Xiaoming Fu, Daniel Wenholz, Daniel S. H. Chan, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2023
 journal: "Molecules"

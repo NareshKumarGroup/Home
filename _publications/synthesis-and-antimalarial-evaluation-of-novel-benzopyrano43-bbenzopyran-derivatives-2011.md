@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and antimalarial evaluation of novel benzopyrano[4,3-b]benzopyran derivatives"
-authors: "Naresh Kumar et al."
+authors: "Ruth Devakaram, David StC. Black, Katherine T. Andrews, Gillian M. Fisher, Rohan A. Davis, Naresh Kumar"
 type: "journal"
 year: 2011
 journal: "Bioorganic and Medicinal Chemistry"

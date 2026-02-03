@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of macrocyclic systems derived from di-(2-indolyl)heteroarenes"
-authors: "Naresh Kumar et al."
+authors: "Ibrahim F. Sengul, Kasey Wood, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2012
 journal: "Tetrahedron"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of a new class of indole-containing macrocycles"
-authors: "Naresh Kumar et al."
+authors: "David St. C. Black, Donald C. Craig, Naresh Kumar"
 type: "journal"
 year: 1989
 journal: "Journal of the Chemical Society, Chemical Communications"

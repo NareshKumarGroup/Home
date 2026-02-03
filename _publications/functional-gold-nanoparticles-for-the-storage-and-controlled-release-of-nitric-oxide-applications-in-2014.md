@@ -1,6 +1,6 @@
 ---
 title: "Functional gold nanoparticles for the storage and controlled release of nitric oxide: Applications in biofilm dispersal and intracellular delivery"
-authors: "Naresh Kumar et al."
+authors: "Hien T. T. Duong, Nik Nik M. Adnan, Nicolas Barraud, Johan S. Basuki, Samuel K. Kutty, Kenward Jung, Naresh Kumar, Thomas P. Davis, Cyrille Boyer"
 type: "journal"
 year: 2014
 journal: "Journal of Materials Chemistry B"

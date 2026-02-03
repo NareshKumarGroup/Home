@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of dipyrrolo[2,3-a:1′,2′,3′-fg]acridin-12(1H)-ones"
-authors: "Naresh Kumar et al."
+authors: "Renée L. Beyer, Hakan Kandemir, Mohan Bhadbhade, Ibrahim F. Sengul, Chao-wei Leu, Daniel Wenholz, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2018
 journal: "Tetrahedron Letters"

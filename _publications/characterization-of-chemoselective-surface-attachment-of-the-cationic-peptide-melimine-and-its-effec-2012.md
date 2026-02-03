@@ -1,6 +1,6 @@
 ---
 title: "Characterization of chemoselective surface attachment of the cationic peptide melimine and its effects on antimicrobial activity"
-authors: "Naresh Kumar et al."
+authors: "Renxun Chen, Mark D.P. Willcox, Nerida Cole, Kitty K.K. Ho, Riaz Rasul, John A. Denman, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "Acta Biomaterialia"

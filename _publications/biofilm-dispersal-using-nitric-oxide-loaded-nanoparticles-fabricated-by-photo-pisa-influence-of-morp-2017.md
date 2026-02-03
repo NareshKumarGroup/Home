@@ -1,6 +1,6 @@
 ---
 title: "Biofilm dispersal using nitric oxide loaded nanoparticles fabricated by photo-PISA: Influence of morphology"
-authors: "Naresh Kumar et al."
+authors: "Zahra Sadrearhami, Jonathan Yeow, Thuy-Khanh Nguyen, Kitty K. K. Ho, Naresh Kumar, Cyrille Boyer"
 type: "journal"
 year: 2017
 journal: "Chemical Communications"

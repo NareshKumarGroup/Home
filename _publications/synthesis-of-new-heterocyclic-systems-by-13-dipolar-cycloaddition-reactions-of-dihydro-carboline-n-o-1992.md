@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of new heterocyclic systems by 1,3-dipolar cycloaddition reactions of dihydro-β-carboline n-oxides with alkynes"
-authors: "Naresh Kumar et al."
+authors: "David St C. Black, Renu B. Deb-Das, Naresh Kumar, Timothy A. Wright"
 type: "journal"
 year: 1992
 journal: "Tetrahedron Letters"

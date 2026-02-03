@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of macrocyclic tetraindolyls via oxidative coupling reactions"
-authors: "Naresh Kumar et al."
+authors: "Rui Chen, Mohan Bhadbhade, Naresh Kumar, David StClair Black"
 type: "journal"
 year: 2012
 journal: "Tetrahedron Letters"

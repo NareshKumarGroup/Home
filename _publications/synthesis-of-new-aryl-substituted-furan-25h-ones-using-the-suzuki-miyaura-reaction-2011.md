@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of new aryl substituted furan-2(5H)-ones using the Suzuki-Miyaura reaction"
-authors: "Naresh Kumar et al."
+authors: "Ruonan Zhang, George Iskander, Paulo da Silva, Daniel Chan, Valentina Vignevich, Vi Nguyen, Mohan M. Bhadbhade, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2011
 journal: "Tetrahedron"

@@ -28,14 +28,6 @@ url: "https://nareshkumargroup.github.io" # the base hostname & protocol for you
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# ORCID for sync script (scripts/sync_orcid_publications.py); ORCID_ID env overrides
-orcid_id: "0000-0002-0951-9621"
-
-# Collections
-collections:
-  publications:
-    output: false
-
 # Build settings
 theme: minima
 plugins:

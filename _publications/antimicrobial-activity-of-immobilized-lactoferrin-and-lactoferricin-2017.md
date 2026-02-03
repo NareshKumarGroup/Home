@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial activity of immobilized lactoferrin and lactoferricin"
-authors: "Naresh Kumar et al."
+authors: "Renxun Chen, Nerida Cole, Debarun Dutta, Naresh Kumar, Mark D. P. Willcox"
 type: "journal"
 year: 2017
 journal: "Journal of Biomedical Materials Research - Part B Applied Biomaterials"

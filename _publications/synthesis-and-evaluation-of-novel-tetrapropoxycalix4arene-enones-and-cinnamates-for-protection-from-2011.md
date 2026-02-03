@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and evaluation of novel tetrapropoxycalix[4]arene enones and cinnamates for protection from ultraviolet radiation"
-authors: "Naresh Kumar et al."
+authors: "H.M. Chawla, Nalin Pant, Satish Kumar, Sarika Mrig, Bindu Srivastava, Naresh Kumar, D. StC. Black"
 type: "journal"
 year: 2011
 journal: "Journal of Photochemistry and Photobiology B: Biology"

@@ -1,6 +1,6 @@
 ---
 title: "The control of Staphylococcus epidermidis biofilm formation and in vivo infection rates by covalently bound furanones"
-authors: "Naresh Kumar et al."
+authors: "E.B.H. Hume, J. Baveja, B. Muir, T.L. Schubert, N. Kumar, S. Kjelleberg, H.J. Griesser, H. Thissen, R. Read, L.A. Poole-Warren, K. Schindhelm, M.D.P. Willcox"
 type: "journal"
 year: 2004
 journal: "Biomaterials"

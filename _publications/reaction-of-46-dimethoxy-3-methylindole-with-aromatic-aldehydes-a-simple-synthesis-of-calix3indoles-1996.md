@@ -1,6 +1,6 @@
 ---
 title: "Reaction of 4,6-dimethoxy-3-methylindole with aromatic aldehydes: A simple synthesis of calix[3]indoles"
-authors: "Naresh Kumar et al."
+authors: "DS Black, DC Craig, N Kumar"
 type: "journal"
 year: 1996
 journal: "Australian Journal of Chemistry"

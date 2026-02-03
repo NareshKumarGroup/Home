@@ -1,6 +1,6 @@
 ---
 title: "Photocatalytic antimicrobial films on fluorinated contact lens polymers"
-authors: "Naresh Kumar et al."
+authors: "Nathan Doran, Wen-Fan Chen, Pramod Koshy, Kitty Ka Kit Ho, Naresh Kumar, Charles Christopher Sorrell"
 type: "journal"
 year: 2018
 journal: "Materials Letters"

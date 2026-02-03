@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of antimicrobial glucosamides as bacterial quorum sensing mechanism inhibitors"
-authors: "Naresh Kumar et al."
+authors: "Nripendra N. Biswas, Tsz Tin Yu, Önder Kimyon, Shashidhar Nizalapur, Christopher R. Gardner, Mike Manefield, Renate Griffith, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Bioorganic and Medicinal Chemistry"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of novel isoflavene-propranolol hybrids as anti-tumor agents"
-authors: "Naresh Kumar et al."
+authors: "Eugene M.H. Yee, Eddy Pasquier, George Iskander, Kasey Wood, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2013
 journal: "Bioorganic and Medicinal Chemistry"

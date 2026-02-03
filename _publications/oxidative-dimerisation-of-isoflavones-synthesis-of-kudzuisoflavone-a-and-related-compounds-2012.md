@@ -1,6 +1,6 @@
 ---
 title: "Oxidative dimerisation of isoflavones: Synthesis of kudzuisoflavone a and related compounds"
-authors: "Naresh Kumar et al."
+authors: "Mandar Deodhar, Kasey Wood, David StClair Black, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "Australian Journal of Chemistry"

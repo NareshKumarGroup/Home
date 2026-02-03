@@ -1,6 +1,6 @@
 ---
 title: "N-acetylglyoxylic amide bearing a nitrophenyl group as anion receptors: NMR and X-ray investigations on anion binding and selectivity"
-authors: "Naresh Kumar et al."
+authors: "Venty Suryanti, Mohan Bhadbhade, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Journal of Molecular Structure"

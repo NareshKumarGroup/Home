@@ -1,6 +1,6 @@
 ---
 title: "Calix[4]indoles: New Macrocyclic Tetra(indolylmethylene) Compounds with 2,7-Linkages"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Donald C. Craig, Naresh Kumar"
 type: "journal"
 year: 1995
 journal: "Tetrahedron Letters"

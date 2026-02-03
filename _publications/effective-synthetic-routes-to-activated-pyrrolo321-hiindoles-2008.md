@@ -1,6 +1,6 @@
 ---
 title: "Effective synthetic routes to activated pyrrolo[3,2,1-hi]indoles"
-authors: "Naresh Kumar et al."
+authors: "Jumina, Paul A. Keller, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2008
 journal: "Tetrahedron"

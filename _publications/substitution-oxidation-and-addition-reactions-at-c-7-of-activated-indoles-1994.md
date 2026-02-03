@@ -1,6 +1,6 @@
 ---
 title: "Substitution, oxidation and addition reactions at C-7 of activated indoles"
-authors: "Naresh Kumar et al."
+authors: "David St.C. Black, Michael C. Bowyer, Maria M. Catalano, Andrew J. Ivory, Paul A. Keller, Naresh Kumar, Stephen J. Nugent"
 type: "journal"
 year: 1994
 journal: "Tetrahedron"

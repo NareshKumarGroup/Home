@@ -1,6 +1,6 @@
 ---
 title: "Amphipathic guanidine-embedded glyoxamide-based peptidomimetics as novel antibacterial agents and biofilm disruptors"
-authors: "Naresh Kumar et al."
+authors: "Shashidhar Nizalapur, Onder Kimyon, Eugene Yee, Kitty Ho, Thomas Berry, Mike Manefield, Charles G. Cranfield, Mark Willcox, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Organic and Biomolecular Chemistry"

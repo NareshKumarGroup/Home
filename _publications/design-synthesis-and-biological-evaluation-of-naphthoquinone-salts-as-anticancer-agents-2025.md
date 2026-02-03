@@ -1,6 +1,6 @@
 ---
 title: "Design, Synthesis, and Biological Evaluation of Naphthoquinone Salts as Anticancer Agents"
-authors: "Naresh Kumar et al."
+authors: "Yao Cheng, Tsz Tin Yu, Ellen M. Olzomer, Kyle L. Hoehn, Frances L. Byrne, Naresh Kumar, David StC Black"
 type: "journal"
 year: 2025
 journal: "Molecules"

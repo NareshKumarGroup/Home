@@ -1,6 +1,6 @@
 ---
 title: "Sulfur-Assisted Deprotection of Methylene Nitrile Group: One-Pot Synthesis of 4-Substituted-2H-1,2,3-triazoles"
-authors: "Naresh Kumar et al."
+authors: "Hunsur Nagendra Nagesh, Srinivasarao Singireddi, Amaroju Suresh, Shashidhar Nizalapur, Sankaranarayanan Murugesan, Kumar Kanneboina, Naresh Kumar, Kondapalli Venkata Gowri Chandra Sekhar"
 type: "journal"
 year: 2018
 journal: "ChemistrySelect"

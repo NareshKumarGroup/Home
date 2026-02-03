@@ -1,6 +1,6 @@
 ---
 title: "Rational Design of Single-Chain Polymeric Nanoparticles That Kill Planktonic and Biofilm Bacteria"
-authors: "Naresh Kumar et al."
+authors: "Thuy-Khanh Nguyen, Shu Jie Lam, Kitty K. K. Ho, Naresh Kumar, Greg G. Qiao, Suhelen Egan, Cyrille Boyer, Edgar H. H. Wong"
 type: "journal"
 year: 2017
 journal: "ACS Infectious Diseases"

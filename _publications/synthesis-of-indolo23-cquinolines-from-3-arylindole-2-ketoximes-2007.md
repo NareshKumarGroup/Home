@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of indolo[2,3-c]quinolines from 3-arylindole-2-ketoximes"
-authors: "Naresh Kumar et al."
+authors: "Tutik Dwi Wahyuningsih, Naresh Kumar, David StC Black"
 type: "journal"
 year: 2007
 journal: "Tetrahedron"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of tethered indoles in the search for conformationally controlled calixindoles: An indole 3-substituent tether"
-authors: "Naresh Kumar et al."
+authors: "David StC Black, Naresh Kumar, Darryl B McConnell"
 type: "journal"
 year: 2001
 journal: "Tetrahedron"

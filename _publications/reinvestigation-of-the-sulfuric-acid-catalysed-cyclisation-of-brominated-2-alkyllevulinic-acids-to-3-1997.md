@@ -1,6 +1,6 @@
 ---
 title: "Reinvestigation of the sulfuric acid-catalysed cyclisation of brominated 2-alkyllevulinic acids to 3-alkyl-5-methylene-2(5H)-furanones"
-authors: "Naresh Kumar et al."
+authors: "Anthony J. Manny, Staffan Kjelleberg, Naresh Kumar, Rocky de Nys, Roger W. Read, Peter Steinberg"
 type: "journal"
 year: 1997
 journal: "Tetrahedron"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of dendrimeric N-glyoxylamide peptide mimics"
-authors: "Naresh Kumar et al."
+authors: "Thanh Le, Wai Ching Cheah, Kasey Wood, David St.C. Black, Mark D. Willcox, Naresh Kumar"
 type: "journal"
 year: 2011
 journal: "Tetrahedron Letters"

@@ -1,6 +1,6 @@
 ---
 title: "Dual-Action Biomaterial Surfaces with Quorum Sensing Inhibitor and Nitric Oxide to Reduce Bacterial Colonization"
-authors: "Naresh Kumar et al."
+authors: "Aditi Taunk, Renxun Chen, George Iskander, Kitty K. K. Ho, David StClair Black, Mark D. P. Willcox, Naresh Kumar"
 type: "journal"
 year: 2018
 journal: "ACS Biomaterials Science and Engineering"

@@ -1,6 +1,6 @@
 ---
 title: "Sacroiliac joint injections"
-authors: "Naresh Kumar et al."
+authors: "Naresh Kumar, Barry W. L. Tan"
 type: "journal"
 year: 2013
 journal: "Techniques in Orthopaedics"

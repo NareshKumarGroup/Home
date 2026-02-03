@@ -1,6 +1,6 @@
 ---
 title: "Fragmentation observed in continuous extraction linear MALDI: A cautionary note [2]"
-authors: "Naresh Kumar et al."
+authors: "R. O. Lidgard, D. B. McConnell, D. St. C. Black, N. Kumar, M. W. Duncan"
 type: "journal"
 year: 1996
 journal: "Journal of Mass Spectrometry"

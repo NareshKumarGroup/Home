@@ -1,6 +1,6 @@
 ---
 title: "Effective synthesis of some indole nitriles from the related carbaldoximes"
-authors: "Naresh Kumar et al."
+authors: "Tutik Dwi Wahyuningsih, Naresh Kumar, Stephen J. Nugent, David StC. Black"
 type: "journal"
 year: 2005
 journal: "Tetrahedron"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of pyrroloquinolines as indole analogues of flavonols"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Naresh Kumar, Peter S. R. Mitchell"
 type: "journal"
 year: 2002
 journal: "Journal of Organic Chemistry"

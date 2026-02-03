@@ -1,6 +1,6 @@
 ---
 title: "Crystallographic and inclusion properties of some diacetylated calix[4]arenes"
-authors: "Naresh Kumar et al."
+authors: "Felicia Maharaj, Donald C. Craig, Marcia L. Scudder, Roger Bishop, Naresh Kumar"
 type: "journal"
 year: 2006
 journal: "Journal of Inclusion Phenomena and Macrocyclic Chemistry"

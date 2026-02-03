@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and biological activity of novel bis-indole inhibitors of bacterial transcription initiation complex formation"
-authors: "Naresh Kumar et al."
+authors: "Marcin Mielczarek, Ruth V. Devakaram, Cong Ma, Xiao Yang, Hakan Kandemir, Bambang Purwono, David StC. Black, Renate Griffith, Peter J. Lewis, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Organic and Biomolecular Chemistry"

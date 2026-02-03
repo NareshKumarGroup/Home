@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of retinoid enhancers based on 2-aminobenzothiazoles for anti-cancer therapy"
-authors: "Naresh Kumar et al."
+authors: "Christopher R. Gardner, Belamy B. Cheung, Jessica Koach, David StC. Black, Glenn M. Marshall, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "Bioorganic and Medicinal Chemistry"

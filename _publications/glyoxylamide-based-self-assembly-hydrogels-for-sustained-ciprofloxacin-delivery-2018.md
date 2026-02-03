@@ -1,6 +1,6 @@
 ---
 title: "Glyoxylamide-based self-assembly hydrogels for sustained ciprofloxacin delivery"
-authors: "Naresh Kumar et al."
+authors: "Vina R. Aldilla, Adam D. Martin, Shashidhar Nizalapur, Christopher E. Marjo, Anne M. Rich, Kitty K. K. Ho, Lars M. Ittner, David StC. Black, Pall Thordarson, Naresh Kumar"
 type: "journal"
 year: 2018
 journal: "Journal of Materials Chemistry B"

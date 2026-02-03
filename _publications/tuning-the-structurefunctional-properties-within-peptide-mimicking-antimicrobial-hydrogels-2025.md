@@ -1,6 +1,6 @@
 ---
 title: "Tuning the Structure–Functional Properties Within Peptide-Mimicking Antimicrobial Hydrogels"
-authors: "Naresh Kumar et al."
+authors: "Samuel T. Attard, Vina R. Aldilla, Rajesh Kuppusamy, Renxun Chen, David StC Black, Pall Thordarson, Mark D. P. Willcox, Naresh Kumar"
 type: "journal"
 year: 2025
 journal: "Antibiotics"

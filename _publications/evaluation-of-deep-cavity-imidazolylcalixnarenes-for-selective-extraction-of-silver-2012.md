@@ -1,6 +1,6 @@
 ---
 title: "Evaluation of deep cavity imidazolylcalix[n]arenes for selective extraction of silver"
-authors: "Naresh Kumar et al."
+authors: "H. M. Chawla, A. Santra, N. Pant, S. Kumar, N. Kumar, D. StC. Black"
 type: "journal"
 year: 2012
 journal: "Journal of Inclusion Phenomena and Macrocyclic Chemistry"

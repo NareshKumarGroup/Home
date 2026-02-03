@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of a 7-(aminomethyl)indole and related bis-indole derivatives"
-authors: "Naresh Kumar et al."
+authors: "Hakan Kandemir, Ibrahim F. Sengul, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2016
 journal: "Arkivoc"

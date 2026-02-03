@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of Alkyne-Substituted Dihydropyrrolones as Bacterial Quorum-Sensing Inhibitors of <i>Pseudomonas aeruginosa</i>"
-authors: "Naresh Kumar et al."
+authors: "Basmah Almohaywi; Tsz Tin Yu; George Iskander; Shekh Sabir; Mohan Bhadbhade; David StC. Black; Naresh Kumar"
 type: "journal"
 year: 2022
 journal: "Antibiotics"

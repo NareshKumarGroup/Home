@@ -1,6 +1,6 @@
 ---
 title: "A general and efficient synthesis of 5,6-dihydrodibenzo[b,h][1,6]naphthyridine derivatives"
-authors: "Naresh Kumar et al."
+authors: "Jeremy C. Dobrowolski, Alice Katen, Benjamin H. Fraser, Mohan Bhadbhade, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2016
 journal: "Tetrahedron Letters"

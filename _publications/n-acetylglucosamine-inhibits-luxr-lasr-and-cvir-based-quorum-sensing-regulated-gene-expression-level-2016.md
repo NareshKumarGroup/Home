@@ -1,6 +1,6 @@
 ---
 title: "N-acetylglucosamine inhibits LuxR, LasR and CviR based quorum sensing regulated gene expression levels"
-authors: "Naresh Kumar et al."
+authors: "Önder Kimyon, Zehra İ. Ulutürk, Shashidhar Nizalapur, Matthew Lee, Samuel K. Kutty, Sabrina Beckmann, Naresh Kumar, Mike Manefield"
 type: "journal"
 year: 2016
 journal: "Frontiers in Microbiology"

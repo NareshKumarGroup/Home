@@ -1,6 +1,6 @@
 ---
 title: "Induction of settlement of larvae of the sea urchin Holopneustes purpurascens by histamine from a host alga"
-authors: "Naresh Kumar et al."
+authors: "Rebecca L. Swanson, Jane E. Williamson, Rocky De Nys, Naresh Kumar, Martin P. Bucknall, Peter D. Steinberg"
 type: "journal"
 year: 2004
 journal: "Biological Bulletin"

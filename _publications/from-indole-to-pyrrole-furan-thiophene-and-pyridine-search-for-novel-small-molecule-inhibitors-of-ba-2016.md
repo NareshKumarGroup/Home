@@ -1,6 +1,6 @@
 ---
 title: "From indole to pyrrole, furan, thiophene and pyridine: Search for novel small molecule inhibitors of bacterial transcription initiation complex formation"
-authors: "Naresh Kumar et al."
+authors: "Oscar Thach, Marcin Mielczarek, Cong Ma, Samuel K. Kutty, Xiao Yang, David StC. Black, Renate Griffith, Peter J. Lewis, Naresh Kumar"
 type: "journal"
 year: 2016
 journal: "Bioorganic and Medicinal Chemistry"

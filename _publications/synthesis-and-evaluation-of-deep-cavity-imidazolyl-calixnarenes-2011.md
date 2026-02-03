@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and evaluation of deep cavity imidazolyl calix[n]arenes"
-authors: "Naresh Kumar et al."
+authors: "H. M. Chawla, S. Kumar, N. Pant, A. Santra, K. Sriniwas, N. Kumar, David StC. Black"
 type: "journal"
 year: 2011
 journal: "Journal of Inclusion Phenomena and Macrocyclic Chemistry"

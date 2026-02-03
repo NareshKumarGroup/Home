@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of oxygenated 4-arylisoflavans and 4-arylflavans"
-authors: "Naresh Kumar et al."
+authors: "Mandar Deodhar, Kasey Wood, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "Tetrahedron Letters"

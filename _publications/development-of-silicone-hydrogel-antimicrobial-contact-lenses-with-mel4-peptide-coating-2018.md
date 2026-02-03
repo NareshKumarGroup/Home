@@ -1,6 +1,6 @@
 ---
 title: "Development of silicone hydrogel antimicrobial contact lenses with mel4 peptide coating"
-authors: "Naresh Kumar et al."
+authors: "Debarun Dutta, Bjorn Kamphuis, Berkay Ozcelik, Helmut Thissen, Rasim Pinarbasi, Naresh Kumar, Mark D. P. Willcox"
 type: "journal"
 year: 2018
 journal: "Optometry and Vision Science"

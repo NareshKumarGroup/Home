@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of some new biheterocycles by a one-pot Suzuki-Miyaura coupling reaction"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Naresh Kumar, Mandar Deodhar, Daniel Shiu-Hin Chan"
 type: "journal"
 year: 2010
 journal: "Heterocycles"

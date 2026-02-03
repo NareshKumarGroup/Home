@@ -1,6 +1,6 @@
 ---
 title: "A new calix[4]arene based molecular probe for selective and sensitive detection of CN- ions in aqueous media"
-authors: "Naresh Kumar et al."
+authors: "Har Mohindra Chawla, Mohammad Shahid, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "New Journal of Chemistry"

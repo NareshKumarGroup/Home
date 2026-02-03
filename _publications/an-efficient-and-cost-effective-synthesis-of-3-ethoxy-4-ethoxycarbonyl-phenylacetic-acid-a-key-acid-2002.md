@@ -1,6 +1,6 @@
 ---
 title: "An efficient and cost-effective synthesis of 3-ethoxy-4-ethoxycarbonyl-phenylacetic acid: A key acid synthon of repaglinide"
-authors: "Naresh Kumar et al."
+authors: "Mohammad Salman, Suresh J. Babu, Purna C. Ray, Sujoy Biswas, Naresh Kumar"
 type: "journal"
 year: 2002
 journal: "Organic Process Research and Development"

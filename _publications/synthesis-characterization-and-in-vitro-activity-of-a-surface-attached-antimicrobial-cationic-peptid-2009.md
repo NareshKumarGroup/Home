@@ -1,6 +1,6 @@
 ---
 title: "Synthesis, characterization and in vitro activity of a surface-attached antimicrobial cationic peptide"
-authors: "Naresh Kumar et al."
+authors: "Renxun Chen, Nerida Cole, Mark D.P. Willcox, Josephine Park, Riaz Rasul, Elizabeth Carter, Naresh Kumar"
 type: "journal"
 year: 2009
 journal: "Biofouling"

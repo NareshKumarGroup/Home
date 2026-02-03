@@ -1,6 +1,6 @@
 ---
 title: "Effect of Deposition and Protease Digestion on the Ex Vivo Activity of Antimicrobial Peptide-Coated Contact Lenses"
-authors: "Naresh Kumar et al."
+authors: "Parthasarathi Kalaiselvan, Debarun Dutta, Nagaraju V. Konda, Savitri Sharma, Naresh Kumar, Fiona Stapleton, Mark D. P. Willcox"
 type: "journal"
 year: 2023
 journal: "Nanomaterials"

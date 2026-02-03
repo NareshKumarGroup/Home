@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of anti-bacterial peptidomimetics derived from N-acylisatins"
-authors: "Naresh Kumar et al."
+authors: "Wai Ching Cheah, David StC Black, Wai Kean Goh, Naresh Kumar"
 type: "journal"
 year: 2008
 journal: "Tetrahedron Letters"

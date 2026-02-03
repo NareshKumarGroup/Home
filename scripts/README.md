@@ -2,8 +2,21 @@
 
 ## sync_orcid_publications.py
 
-Syncs publications from ORCID (Naresh Kumar, `0000-0002-0951-9621`) to the site’s `_publications/` folder.
+Syncs publications from **Naresh Kumar's ORCID** (0000-0002-0951-9621) to `publications.md`.
 
-- **What it does:** Calls the ORCID Public API for the configured ORCID ID, fetches works, and adds any that aren’t already in `_publications/` (matched by DOI or slug). New entries are written as Jekyll markdown files with front matter (`title`, `authors`, `type`, `year`, `journal`, `doi`, `url`).
-- **When it runs:** A GitHub Action runs this script on a schedule (1st of each month) and on manual trigger. See `.github/workflows/sync-orcid-publications.yml`.
-- **Run locally:** From the repo root, `python3 scripts/sync_orcid_publications.py`. Uses `GITHUB_WORKSPACE` or current directory as repo root. Override ORCID with `ORCID_ID=0000-0002-0951-9621`.
+- Fetches works from the ORCID Public API (title, authors, year, journal, DOI, URL).
+- Compares with existing entries in `publications.md` by **DOI** and **normalized title** to avoid duplicates.
+- Appends only new publications into the correct year section (same HTML format as the rest of the page).
+- Uses only Python standard library (no pip install).
+
+**Run locally:**
+```bash
+python3 scripts/sync_orcid_publications.py
+```
+
+**Override ORCID (optional):**
+```bash
+ORCID_ID=0000-0002-0951-9621 python3 scripts/sync_orcid_publications.py
+```
+
+**GitHub Actions:** The workflow `.github/workflows/sync-orcid-publications.yml` runs this script on the 1st of each month and on manual trigger, then commits and pushes `publications.md` if there are new entries.

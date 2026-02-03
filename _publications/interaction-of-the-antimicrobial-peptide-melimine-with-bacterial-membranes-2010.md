@@ -1,6 +1,6 @@
 ---
 title: "Interaction of the antimicrobial peptide melimine with bacterial membranes"
-authors: "Naresh Kumar et al."
+authors: "R. Rasul, N. Cole, D. Balasubramanian, R. Chen, N. Kumar, M.D.P. Willcox"
 type: "journal"
 year: 2010
 journal: "International Journal of Antimicrobial Agents"

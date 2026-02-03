@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and biological evaluation of substituted 2-benzoylpyridine thiosemicarbazones: Novel structure-activity relationships underpinning their anti-proliferative and chelation efficacy"
-authors: "Naresh Kumar et al."
+authors: "Adeline Y. Lukmantara, Danuta S. Kalinowski, Naresh Kumar, Des R. Richardson"
 type: "journal"
 year: 2013
 journal: "Bioorganic and Medicinal Chemistry Letters"

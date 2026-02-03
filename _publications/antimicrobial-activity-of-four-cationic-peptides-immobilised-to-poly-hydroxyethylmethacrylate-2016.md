@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial activity of four cationic peptides immobilised to poly-hydroxyethylmethacrylate"
-authors: "Naresh Kumar et al."
+authors: "Debarun Dutta, Naresh Kumar, Mark D. P. Willcox"
 type: "journal"
 year: 2016
 journal: "Biofouling"

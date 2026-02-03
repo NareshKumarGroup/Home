@@ -1,6 +1,6 @@
 ---
 title: "Impact of Pseudomonas aeruginosa quorum sensing of biofilm persistence in an in vivo intraperitoneal foreign-body infection model"
-authors: "Naresh Kumar et al."
+authors: "Louise D Christensen, Claus Moser, Peter Ø Jensen, Thomas B Rasmussen, Lars Christophersen, Staffan Kjelleberg, Naresh Kumar, Niels Høiby, Michael Givskov, Thomas Bjarnsholt"
 type: "journal"
 year: 2007
 journal: "Microbiology"

@@ -1,6 +1,6 @@
 ---
 title: "Poly(ethylene glycol)-based coatings combining low-biofouling and quorum-sensing inhibiting properties to reduce bacterial colonization"
-authors: "Naresh Kumar et al."
+authors: "Berkay Ozcelik, Kitty Ka Kit Ho, Veronica Glattauer, Mark Willcox, Naresh Kumar, Helmut Thissen"
 type: "journal"
 year: 2017
 journal: "ACS Biomaterials Science and Engineering"

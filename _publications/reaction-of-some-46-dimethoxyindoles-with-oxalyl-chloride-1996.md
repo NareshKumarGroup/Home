@@ -1,6 +1,6 @@
 ---
 title: "Reaction of some 4,6-dimethoxyindoles with oxalyl chloride"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Naresh Kumar, Darryl B. McConnell"
 type: "journal"
 year: 1996
 journal: "Tetrahedron"

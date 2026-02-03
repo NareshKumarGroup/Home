@@ -1,6 +1,6 @@
 ---
 title: "Isolation and structure elucidation of a novel yellow pigment from the marine bacterium pseudoalteromonas tunicata"
-authors: "Naresh Kumar et al."
+authors: "A. Franks, P. Haywood, C. Holmström, S. Egan, S. Kjelleberg, N. Kumar"
 type: "journal"
 year: 2005
 journal: "Molecules"

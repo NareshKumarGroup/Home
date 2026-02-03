@@ -1,6 +1,6 @@
 ---
 title: "Ring closing metathesis strategies towards functionalised 1,7-annulated 4,6-dimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "Kasey Wood, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2011
 journal: "Tetrahedron"

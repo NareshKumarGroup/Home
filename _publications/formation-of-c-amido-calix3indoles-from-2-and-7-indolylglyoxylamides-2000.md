@@ -1,6 +1,6 @@
 ---
 title: "Formation of C-amido-calix[3]indoles from 2'- and 7'-indolylglyoxylamides"
-authors: "Naresh Kumar et al."
+authors: "David StC Black, Naresh Kumar, Darryl B McConnell"
 type: "journal"
 year: 2000
 journal: "Tetrahedron"

@@ -1,6 +1,6 @@
 ---
 title: "Unusual cycloaddition of some 1-acyl indoles to an o-quinone monoimide"
-authors: "Naresh Kumar et al."
+authors: "David St C. Black, Donald C. Craig, Harold W. Heine, Naresh Kumar, Elizabeth A. Williams"
 type: "journal"
 year: 1987
 journal: "Tetrahedron Letters"

@@ -1,6 +1,6 @@
 ---
 title: "Nitric Oxide Donors as Antimicrobial Agents"
-authors: "Naresh Kumar et al."
+authors: "Samuel K. Kutty, Kitty Ka Kit Ho, Naresh Kumar"
 type: "book"
 year: 2017
 journal: "Nitric Oxide Donors: Novel Biomedical Applications and Perspectives"

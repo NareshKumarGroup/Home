@@ -1,6 +1,6 @@
 ---
 title: "A new cytotoxic quinolone alkaloid and a pentacyclic steroidal glycoside from the stem bark of Crataeva nurvala: Study of anti-proliferative and apoptosis inducing property"
-authors: "Naresh Kumar et al."
+authors: "Sadhna Sinha, Priyanka Mishra, Hina Amin, Bilal Rah, Debasis Nayak, Anindya Goswami, Naresh Kumar, Ram Vishwakarma, Sabari Ghosal"
 type: "journal"
 year: 2013
 journal: "European Journal of Medicinal Chemistry"

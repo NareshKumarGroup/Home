@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of mixed cyclotriveratrylenes"
-authors: "Naresh Kumar et al."
+authors: "Kittiya Somphol, Mardi Santoso, Mohan Bhadbhade, Christopher Gardner, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2012
 journal: "Tetrahedron"

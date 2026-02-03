@@ -1,6 +1,6 @@
 ---
 title: "Indole-based novel small molecules for the modulation of bacterial signalling pathways"
-authors: "Naresh Kumar et al."
+authors: "Nripendra Nath Biswas, Samuel K. Kutty, Nicolas Barraud, George M. Iskander, Renate Griffith, Scott A. Rice, Mark Willcox, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2015
 journal: "Organic and Biomolecular Chemistry"

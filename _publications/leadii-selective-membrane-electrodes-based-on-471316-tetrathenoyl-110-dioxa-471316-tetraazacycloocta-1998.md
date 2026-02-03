@@ -1,6 +1,6 @@
 ---
 title: "Lead(II)-Selective Membrane Electrodes Based on 4,7,13,16-Tetrathenoyl-1,10-dioxa-4,7,13,16-tetraazacyclooctadecane"
-authors: "Naresh Kumar et al."
+authors: "Xinhao Yang, Naresh Kumar, D. Brynn Hibbert, Peter W. Alexander"
 type: "journal"
 year: 1998
 journal: "Electroanalysis"

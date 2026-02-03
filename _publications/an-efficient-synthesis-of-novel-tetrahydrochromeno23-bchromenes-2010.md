@@ -1,6 +1,6 @@
 ---
 title: "An efficient synthesis of novel tetrahydrochromeno[2,3-b]chromenes"
-authors: "Naresh Kumar et al."
+authors: "Ruth Devakaram, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2010
 journal: "Tetrahedron Letters"

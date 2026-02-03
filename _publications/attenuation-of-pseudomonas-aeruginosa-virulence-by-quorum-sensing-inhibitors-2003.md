@@ -1,6 +1,6 @@
 ---
 title: "Attenuation of Pseudomonas aeruginosa virulence by quorum sensing inhibitors"
-authors: "Naresh Kumar et al."
+authors: "M. Hentzer"
 type: "journal"
 year: 2003
 journal: "EMBO Journal"

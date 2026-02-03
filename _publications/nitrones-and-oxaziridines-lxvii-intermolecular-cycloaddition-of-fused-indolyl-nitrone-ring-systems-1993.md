@@ -1,6 +1,6 @@
 ---
 title: "Nitrones and Oxaziridines. LXVII. Intermolecular Cycloaddition of Fused Indolyl Nitrone Ring Systems"
-authors: "Naresh Kumar et al."
+authors: "DSC Black, DC Craig, RB Debdas, N Kumar, TA Wright"
 type: "journal"
 year: 1993
 journal: "Australian Journal of Chemistry"

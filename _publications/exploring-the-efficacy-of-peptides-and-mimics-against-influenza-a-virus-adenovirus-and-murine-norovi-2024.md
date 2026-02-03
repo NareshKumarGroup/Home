@@ -1,6 +1,6 @@
 ---
 title: "Exploring the Efficacy of Peptides and Mimics against Influenza A Virus, Adenovirus, and Murine Norovirus"
-authors: "Naresh Kumar et al."
+authors: "Umme Laila Urmi; Ajay Kumar Vijay; Mark D. P. Willcox; Samuel Attard; George Enninful; Naresh Kumar; Salequl Islam; Rajesh Kuppusamy"
 type: "journal"
 year: 2024
 journal: "International Journal of Molecular Sciences"

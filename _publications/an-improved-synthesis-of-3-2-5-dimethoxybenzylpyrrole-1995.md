@@ -1,6 +1,6 @@
 ---
 title: "An improved synthesis of 3-(2, 5-dimethoxybenzyl)pyrrole"
-authors: "Naresh Kumar et al."
+authors: "Christina Aquino-Binag, Naresh Kumar, Paul Pigram"
 type: "journal"
 year: 1995
 journal: "Organic Preparations and Procedures International"

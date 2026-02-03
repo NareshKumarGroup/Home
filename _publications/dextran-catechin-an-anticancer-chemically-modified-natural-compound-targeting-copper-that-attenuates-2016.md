@@ -1,6 +1,6 @@
 ---
 title: "Dextran-Catechin: An anticancer chemically-modified natural compound targeting copper that attenuates neuroblastoma growth"
-authors: "Naresh Kumar et al."
+authors: "Orazio Vittorio, Miriam Brandl, Giuseppe Cirillo, Kathleen Kimpton, Elizabeth Hinde, Katharina Gaus, Eugene Yee, Naresh Kumar, Hien Duong, Claudia Fleming, Michelle Haber, Murray Norris, Cyrille Boyer, Maria Kavallaris"
 type: "journal"
 year: 2016
 journal: "Oncotarget"

@@ -1,6 +1,6 @@
 ---
 title: "Acid-catalysed reaction of activated indoles with methyl ketones"
-authors: "Naresh Kumar et al."
+authors: "David St.C. Black, Donald C. Craig, Naresh Kumar"
 type: "journal"
 year: 1991
 journal: "Tetrahedron Letters"

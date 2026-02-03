@@ -1,6 +1,6 @@
 ---
 title: "Fabrication and Characterization of a Hydroquinone-Functionalized Polypyrrole Thin-Film pH Sensor"
-authors: "Naresh Kumar et al."
+authors: "Christina N. Aquino-Binag, Naresh Kumar, Robert N. Lamb, Paul J. Pigram"
 type: "journal"
 year: 1996
 journal: "Chemistry of Materials"

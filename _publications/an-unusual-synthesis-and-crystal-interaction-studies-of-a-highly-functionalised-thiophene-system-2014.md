@@ -1,6 +1,6 @@
 ---
 title: "An unusual synthesis and crystal interaction studies of a highly functionalised thiophene system"
-authors: "Naresh Kumar et al."
+authors: "Samuel K. Kutty, Mohan M. Bhadbhade, George Iskander, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Tetrahedron Letters"

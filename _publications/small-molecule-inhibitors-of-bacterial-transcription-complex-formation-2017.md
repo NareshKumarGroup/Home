@@ -1,6 +1,6 @@
 ---
 title: "Small molecule inhibitors of bacterial transcription complex formation"
-authors: "Naresh Kumar et al."
+authors: "Daniel S. Wenholz, Ming Zeng, Cong Ma, Marcin Mielczarek, Xiao Yang, Mohan Bhadbhade, David St. C. Black, Peter J. Lewis, Renate Griffith, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Bioorganic and Medicinal Chemistry Letters"

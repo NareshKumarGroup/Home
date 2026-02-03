@@ -1,6 +1,6 @@
 ---
 title: "Effects of ribosomes and intracellular solutes on activities and stabilities of elongation factor 2 proteins from psychrotolerant and thermophilic methanogens"
-authors: "Naresh Kumar et al."
+authors: "Torsten Thomas, Naresh Kumar, Ricardo Cavicchioli"
 type: "journal"
 year: 2001
 journal: "Journal of Bacteriology"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of 4, 6-Dimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "DSC Black, N Kumar, LCH Wong"
 type: "journal"
 year: 1985
 journal: "Australian Journal of Chemistry"

@@ -1,6 +1,6 @@
 ---
 title: "Facile ring-opening of N-acylisatins for the development of novel peptidomimetics"
-authors: "Naresh Kumar et al."
+authors: "Wai Ching Cheah, Kasey Wood, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2011
 journal: "Tetrahedron"

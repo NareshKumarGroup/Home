@@ -1,6 +1,6 @@
 ---
 title: "A novel compound which sensitizes BRAF wild-type melanoma cells to vemurafenib in a TRIM16-dependent manner"
-authors: "Naresh Kumar et al."
+authors: "Selina K. Sutton, Daniel R. Carter, Patrick Kim, Owen Tan, Greg M. Arndt, Xu Dong Zhang, Jonathan Baell, Benjamin D. Noll, Shudong Wang, Naresh Kumar, Grant A. McArthur, Belamy B. Cheung, Glenn M. Marshall"
 type: "journal"
 year: 2016
 journal: "Oncotarget"

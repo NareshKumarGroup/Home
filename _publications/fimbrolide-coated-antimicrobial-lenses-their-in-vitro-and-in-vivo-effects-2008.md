@@ -1,6 +1,6 @@
 ---
 title: "Fimbrolide-coated antimicrobial lenses: Their in vitro and in vivo effects"
-authors: "Naresh Kumar et al."
+authors: "HUA ZHU, AJAY KUMAR, JEROME OZKAN, RANI BANDARA, AIDONG DING, INDRANI PERERA, PETER STEINBERG, NARESH KUMAR, WILLIAM LAO, STEFANI S. GRIESSER, LEANNE BRITCHER, HANS J. GRIESSER, MARK D.P. WILLCOX"
 type: "journal"
 year: 2008
 journal: "Optometry and Vision Science"

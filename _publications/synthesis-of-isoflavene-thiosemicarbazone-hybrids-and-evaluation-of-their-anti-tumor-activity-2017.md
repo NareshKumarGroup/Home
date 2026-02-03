@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of isoflavene-thiosemicarbazone hybrids and evaluation of their anti-tumor activity"
-authors: "Naresh Kumar et al."
+authors: "Eugene M.H. Yee, Miriam B. Brandl, David StC Black, Orazio Vittorio, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Bioorganic and Medicinal Chemistry Letters"

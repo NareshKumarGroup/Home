@@ -1,6 +1,6 @@
 ---
 title: "Design and synthesis of lactams derived from mucochloric and mucobromic acids as pseudomonas aeruginosa quorum sensing inhibitors"
-authors: "Naresh Kumar et al."
+authors: "Basmah Almohaywi, Aditi Taunk, Daniel S. Wenholz, Shashidhar Nizalapur, Nripendra N. Biswas, Kitty K. K. Ho, Scott A. Rice, George Iskander, David StC. Black, Renate Griffith, Naresh Kumar"
 type: "journal"
 year: 2018
 journal: "Molecules"

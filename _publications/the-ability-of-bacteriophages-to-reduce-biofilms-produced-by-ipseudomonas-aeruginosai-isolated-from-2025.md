@@ -1,6 +1,6 @@
 ---
 title: "The Ability of Bacteriophages to Reduce Biofilms Produced by <i>Pseudomonas aeruginosa</i> Isolated from Corneal Infections"
-authors: "Naresh Kumar et al."
+authors: "Kuma Diriba Urgeya, Dinesh Subedi, Naresh Kumar, Mark Willcox"
 type: "journal"
 year: 2025
 journal: "Antibiotics"

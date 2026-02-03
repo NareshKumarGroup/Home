@@ -1,6 +1,6 @@
 ---
 title: "Reactivity of 3-substituted indolin-2-ones in Vilsmeier-type reactions of 4,6-dimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Andrew J. Ivory, Naresh Kumar"
 type: "journal"
 year: 1996
 journal: "Tetrahedron"

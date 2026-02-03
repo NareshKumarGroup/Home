@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and antiplasmodial evaluation of novel chromeno[2,3-b]chromene derivatives"
-authors: "Naresh Kumar et al."
+authors: "Ruth Devakaram, David StC. Black, Vanida Choomuenwai, Rohan A. Davis, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "Bioorganic and Medicinal Chemistry"

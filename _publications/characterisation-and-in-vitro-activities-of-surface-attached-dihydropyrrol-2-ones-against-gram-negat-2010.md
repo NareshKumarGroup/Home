@@ -1,6 +1,6 @@
 ---
 title: "Characterisation and in vitro activities of surface attached dihydropyrrol-2-ones against Gram-negative and Gram-positive bacteria."
-authors: "Naresh Kumar et al."
+authors: "Kitty K.K. Ho, Nerida Cole, Renxun Chen, Mark D.P. Willcox, Scott A. Rice, Naresh Kumar"
 type: "journal"
 year: 2010
 journal: "Biofouling"

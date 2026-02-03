@@ -1,6 +1,6 @@
 ---
 title: "Nitrones and Oxaziridines. XLIII. Synthesis of an Indol-7-yl-Substituted 1-Pyrroline 1-Oxide and Related Compounds"
-authors: "Naresh Kumar et al."
+authors: "DS Black, RB Debdas, N Kumar"
 type: "journal"
 year: 1992
 journal: "Australian Journal of Chemistry"

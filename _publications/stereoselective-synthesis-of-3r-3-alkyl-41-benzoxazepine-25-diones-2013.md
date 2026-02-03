@@ -1,6 +1,6 @@
 ---
 title: "Stereoselective synthesis of (3r)-3-alkyl-4,1-benzoxazepine-2,5-diones"
-authors: "Naresh Kumar et al."
+authors: "Bushra Nisar, Abdul Rauf Raza, David Stc. Black, Naresh Kumar, Muhammad Nawaz Tahir"
 type: "journal"
 year: 2013
 journal: "Chirality"

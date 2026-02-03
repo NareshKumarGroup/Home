@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of novel 1,7-annulated 4,6-dimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "Kasey Wood, David StC Black, Irishi N.N. Namboothiri, Naresh Kumar"
 type: "journal"
 year: 2010
 journal: "Tetrahedron Letters"

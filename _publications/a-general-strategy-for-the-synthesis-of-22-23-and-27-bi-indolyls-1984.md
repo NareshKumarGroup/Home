@@ -1,6 +1,6 @@
 ---
 title: "A general strategy for the synthesis of 2,2′-, 2,3′-, and 2,7′-bi-indolyls"
-authors: "Naresh Kumar et al."
+authors: "David St. C. Black, Naresh Kumar"
 type: "journal"
 year: 1984
 journal: "Journal of the Chemical Society, Chemical Communications"

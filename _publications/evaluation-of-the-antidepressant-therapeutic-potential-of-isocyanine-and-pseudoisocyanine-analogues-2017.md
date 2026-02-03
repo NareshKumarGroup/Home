@@ -1,6 +1,6 @@
 ---
 title: "Evaluation of the antidepressant therapeutic potential of isocyanine and pseudoisocyanine analogues of the organic cation decynium-22"
-authors: "Naresh Kumar et al."
+authors: "Anwen M. Krause-Heuer, Rheaclare Fraser-Spears, Jeremy C. Dobrowolski, Mark E. Ashford, Naomi A. Wyatt, Maxine P. Roberts, Georgianna G. Gould, Wai-Ching Cheah, Clarissa K.L. Ng, Mohan Bhadbhade, Bo Zhang, Ivan Greguric, Nial J. Wheate, Naresh Kumar, Wouter Koek, Paul D. Callaghan, Lynette C. Daws, Benjamin H. Fraser"
 type: "journal"
 year: 2017
 journal: "European Journal of Medicinal Chemistry"

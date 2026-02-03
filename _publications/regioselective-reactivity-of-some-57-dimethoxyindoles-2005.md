@@ -1,6 +1,6 @@
 ---
 title: "Regioselective reactivity of some 5,7-dimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "Glenn C. Condie, Michelle F. Channon, Andrew J. Ivory, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2005
 journal: "Tetrahedron"

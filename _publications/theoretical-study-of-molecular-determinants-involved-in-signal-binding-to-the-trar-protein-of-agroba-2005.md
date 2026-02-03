@@ -1,6 +1,6 @@
 ---
 title: "Theoretical study of molecular determinants involved in signal binding to the TraR protein of Agrobacterium tumefaciens"
-authors: "Naresh Kumar et al."
+authors: "W. Goh, S. Rice, N. Kumar"
 type: "journal"
 year: 2005
 journal: "Molecules"

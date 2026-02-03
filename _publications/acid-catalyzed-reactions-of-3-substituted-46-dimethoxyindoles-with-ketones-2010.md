@@ -1,6 +1,6 @@
 ---
 title: "Acid-catalyzed reactions of 3-substituted-4,6-dimethoxyindoles with ketones"
-authors: "Naresh Kumar et al."
+authors: "Kasey Wood, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2010
 journal: "Australian Journal of Chemistry"

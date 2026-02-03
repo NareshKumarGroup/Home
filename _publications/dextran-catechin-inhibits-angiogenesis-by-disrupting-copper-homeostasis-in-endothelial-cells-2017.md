@@ -1,6 +1,6 @@
 ---
 title: "Dextran-Catechin inhibits angiogenesis by disrupting copper homeostasis in endothelial cells"
-authors: "Naresh Kumar et al."
+authors: "Eugene M. H. Yee, Miriam B. Brandl, Eddy Pasquier, Giuseppe Cirillo, Kathleen Kimpton, Maria Kavallaris, Naresh Kumar, Orazio Vittorio"
 type: "journal"
 year: 2017
 journal: "Scientific Reports"

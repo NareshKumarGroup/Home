@@ -1,6 +1,6 @@
 ---
 title: "13C NMR study of N‐acyl‐ and N‐sulphonyl‐isatins and their ring‐opened derivatives"
-authors: "Naresh Kumar et al."
+authors: "E. Charles Angell, David St C. Black, Naresh Kumar"
 type: "journal"
 year: 1992
 journal: "Magnetic Resonance in Chemistry"

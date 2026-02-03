@@ -1,6 +1,6 @@
 ---
 title: "Halogenated Dihydropyrrol-2-One Molecules Inhibit Pyocyanin Biosynthesis by Blocking the <i>Pseudomonas</i> Quinolone Signaling System"
-authors: "Naresh Kumar et al."
+authors: "Theerthankar Das, Shekh Sabir, Ren Chen, Jessica Farrell, Frederik H. Kriel, Gregory S. Whiteley, Trevor O. Glasbey, Jim Manos, Mark D. P. Willcox, Naresh Kumar"
 type: "journal"
 year: 2022
 journal: "Molecules"

@@ -1,6 +1,6 @@
 ---
 title: "Induction of metamorphosis in the sea urchin Holopneustes purpurascens by a metabolite complex from the algal host Delisea pulchra"
-authors: "Naresh Kumar et al."
+authors: "JE Williamson, R De Nys, N Kumar, DG Carson, PD Steinberg"
 type: "journal"
 year: 2000
 journal: "Biological Bulletin"

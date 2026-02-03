@@ -1,6 +1,6 @@
 ---
 title: "Inhibitors of bacterial transcription initiation complex formation"
-authors: "Naresh Kumar et al."
+authors: "Cong Ma, Xiao Yang, Hakan Kandemir, Marcin Mielczarek, Elecia B Johnston, Renate Griffith, Naresh Kumar, Peter J. Lewis"
 type: "journal"
 year: 2013
 journal: "ACS Chemical Biology"

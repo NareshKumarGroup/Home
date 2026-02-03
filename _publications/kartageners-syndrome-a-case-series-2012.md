@@ -1,6 +1,6 @@
 ---
 title: "Kartagener's syndrome: A case series"
-authors: "Naresh Kumar et al."
+authors: "Surya Kant, Mayank Mishra, Naresh Kumar, Ashish Jaiswal, AjayK Verma"
 type: "journal"
 year: 2012
 journal: "Lung India"

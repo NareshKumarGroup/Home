@@ -1,6 +1,6 @@
 ---
 title: "Design, synthesis, and evaluation of fimbrolide-nitric oxide donor hybrids as antimicrobial agents"
-authors: "Naresh Kumar et al."
+authors: "Samuel K. Kutty, Nicolas Barraud, Amy Pham, George Iskander, Scott A. Rice, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2013
 journal: "Journal of Medicinal Chemistry"

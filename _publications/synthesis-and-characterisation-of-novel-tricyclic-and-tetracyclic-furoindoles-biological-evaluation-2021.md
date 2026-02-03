@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and Characterisation of Novel Tricyclic and Tetracyclic Furoindoles: Biological Evaluation as SAHA Enhancer against Neuroblastoma and Breast Cancer Cells"
-authors: "Naresh Kumar et al."
+authors: "Murat Bingul, Greg M. Arndt, Glenn M. Marshall, David StC. Black, Belamy B. Cheung, Naresh Kumar"
 type: "journal"
 year: 2021
 journal: "Molecules"

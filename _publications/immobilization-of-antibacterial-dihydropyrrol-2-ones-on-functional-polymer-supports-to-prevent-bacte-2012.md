@@ -1,6 +1,6 @@
 ---
 title: "Immobilization of antibacterial dihydropyrrol-2-ones on functional polymer supports to prevent bacterial infections in vivo"
-authors: "Naresh Kumar et al."
+authors: "Kitty Ka Kit Ho, Nerida Cole, Renxun Chen, Mark D. P. Willcox, Scott A. Rice, Naresh Kumar"
 type: "journal"
 year: 2012
 journal: "Antimicrobial Agents and Chemotherapy"

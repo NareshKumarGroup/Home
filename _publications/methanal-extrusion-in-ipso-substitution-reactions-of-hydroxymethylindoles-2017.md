@@ -1,6 +1,6 @@
 ---
 title: "Methanal extrusion in ipso-substitution reactions of hydroxymethylindoles"
-authors: "Naresh Kumar et al."
+authors: "Jeremy C. Dobrowolski, Kittiya Somphol, Mardi Santoso, Hung Duong, Christopher R. Gardner, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2017
 journal: "Australian Journal of Chemistry"

@@ -1,6 +1,6 @@
 ---
 title: "Preparation, characterization and in vitro biological evaluation of (1:2) phenoxodiol-β-cyclodextrin complex"
-authors: "Naresh Kumar et al."
+authors: "Eugene M.H. Yee, James M. Hook, Mohan M. Bhadbhade, Orazio Vittorio, Rhiannon P. Kuchel, Miriam B. Brandl, Richard D. Tilley, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Carbohydrate Polymers"

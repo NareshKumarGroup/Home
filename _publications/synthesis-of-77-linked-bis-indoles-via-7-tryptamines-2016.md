@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of 7,7′-linked-bis-indoles via 7-tryptamines"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Hakan Kandemir, Ibrahim F. Sengul, Christopher R. Gardner, Eryn L. Werry, Melissa L. Barron, Michael Kassiou"
 type: "journal"
 year: 2016
 journal: "Heterocycles"

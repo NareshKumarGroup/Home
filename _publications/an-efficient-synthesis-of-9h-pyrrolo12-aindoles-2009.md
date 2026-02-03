@@ -1,6 +1,6 @@
 ---
 title: "An efficient synthesis of 9H-pyrrolo[1,2-a]indoles"
-authors: "Naresh Kumar et al."
+authors: "Kasey Wood, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2009
 journal: "Tetrahedron Letters"

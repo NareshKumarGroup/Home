@@ -1,6 +1,6 @@
 ---
 title: "Lipid Membrane Interactions of the Cationic Antimicrobial Peptide Chimeras Melimine and Cys-Melimine"
-authors: "Naresh Kumar et al."
+authors: "Thomas Berry, Debarun Dutta, Renxun Chen, Andrea Leong, Huixin Wang, William A. Donald, Maryam Parviz, Bruce Cornell, Mark Willcox, Naresh Kumar, Charles G. Cranfield"
 type: "journal"
 year: 2018
 journal: "Langmuir"

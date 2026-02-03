@@ -1,6 +1,6 @@
 ---
 title: "Quorum-sensing cross talk: Isolation and chemical characterization of cyclic dipeptides from Pseudomonas aeruginosa and other Gram-negative bacteria"
-authors: "Naresh Kumar et al."
+authors: "Matthew T.G. Holden, Siri Ram Chhabra, Rocky De Nys, Paul Stead, Nigel J. Bainton, Philip J. Hill, Mike Manefield, Naresh Kumar, Maurice Labatte, Dacre England, Scott Rice, Mike Givskov, George P.C. Salmond, Gordon S.A.B. Stewart, Barrie W. Bycroft, Staffan Kjelleberg, Paul Williams"
 type: "journal"
 year: 1999
 journal: "Molecular Microbiology"

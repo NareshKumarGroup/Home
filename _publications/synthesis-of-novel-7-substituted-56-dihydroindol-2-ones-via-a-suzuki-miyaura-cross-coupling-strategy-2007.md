@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of novel 7-substituted 5,6-dihydroindol-2-ones via a Suzuki-Miyaura cross-coupling strategy"
-authors: "Naresh Kumar et al."
+authors: "Wai Kean Goh, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2007
 journal: "Tetrahedron Letters"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of brominated novel N-heterocycles: New scaffolds for antimicrobial discovery"
-authors: "Naresh Kumar et al."
+authors: "Nripendra Nath Biswas, Samuel K. Kutty, George M. Iskander, Marcin Mielczarek, Mohan M. Bhadbhade, Christopher R. Gardner, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2016
 journal: "Tetrahedron"

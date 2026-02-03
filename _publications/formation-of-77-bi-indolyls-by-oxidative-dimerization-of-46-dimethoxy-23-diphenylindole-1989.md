@@ -1,6 +1,6 @@
 ---
 title: "Formation of 7,7′-bi-indolyls by oxidative dimerization of 4,6-dimethoxy-2,3-diphenylindole"
-authors: "Naresh Kumar et al."
+authors: "D. St C. Black, Anna Choy, Donald C. Craig, Andrew J. Ivory, Naresh Kumar"
 type: "journal"
 year: 1989
 journal: "Journal of the Chemical Society, Chemical Communications"

@@ -1,6 +1,6 @@
 ---
 title: "Furanones as potential anti-bacterial coatings on biomaterials"
-authors: "Naresh Kumar et al."
+authors: "J.K Baveja, M.D.P Willcox, E.B.H Hume, N Kumar, R Odell, L.A Poole-Warren"
 type: "journal"
 year: 2004
 journal: "Biomaterials"

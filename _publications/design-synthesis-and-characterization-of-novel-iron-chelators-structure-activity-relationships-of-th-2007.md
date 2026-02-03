@@ -1,6 +1,6 @@
 ---
 title: "Design, synthesis, and characterization of novel iron chelators: Structure-activity relationships of the 2-benzoylpyridine thiosemicarbazone series and their 3-nitrobenzoyl analogues as potent antitumor agents"
-authors: "Naresh Kumar et al."
+authors: "Danuta S. Kalinowski, Yu, Philip C. Sharpe, Mohammad Islam, Yi-Tyng Liao, David B. Lovejoy, Naresh Kumar, Paul V. Bernhardt, Des R. Richardson"
 type: "journal"
 year: 2007
 journal: "Journal of Medicinal Chemistry"

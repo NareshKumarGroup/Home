@@ -1,6 +1,6 @@
 ---
 title: "Quantifying alkyl chain disorder in crystalline models of lipid bilayers using Raman spectroscopy"
-authors: "Naresh Kumar et al."
+authors: "Anne M. Rich, Saroj Bhattacharyya, Vina R. Aldilla, Jonathon E. Beves, Mohan Bhadbhade, Naresh Kumar, Ena T. Luis, Christopher E. Marjo"
 type: "journal"
 year: 2018
 journal: "Journal of Raman Spectroscopy"

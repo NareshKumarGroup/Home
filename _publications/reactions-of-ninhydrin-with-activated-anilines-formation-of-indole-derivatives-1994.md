@@ -1,6 +1,6 @@
 ---
 title: "Reactions of ninhydrin with activated anilines: Formation of indole derivatives"
-authors: "Naresh Kumar et al."
+authors: "David St.C. Black, Michael C. Bowyer, Glenn C. Condie, Donald C. Craig, Naresh Kumar"
 type: "journal"
 year: 1994
 journal: "Tetrahedron"

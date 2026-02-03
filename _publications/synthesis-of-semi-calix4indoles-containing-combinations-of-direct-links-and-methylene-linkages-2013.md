@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of semi-calix[4]indoles containing combinations of direct links and methylene linkages"
-authors: "Naresh Kumar et al."
+authors: "David Black, Rui Chen, Kittiya Somphol, Mohan Bhadbhade, Naresh Kumar"
 type: "journal"
 year: 2013
 journal: "Synlett"

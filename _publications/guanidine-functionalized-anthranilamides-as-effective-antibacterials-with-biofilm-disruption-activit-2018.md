@@ -1,6 +1,6 @@
 ---
 title: "Guanidine functionalized anthranilamides as effective antibacterials with biofilm disruption activity"
-authors: "Naresh Kumar et al."
+authors: "Rajesh Kuppusamy, Muhammad Yasir, Eugene Yee, Mark Willcox, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2018
 journal: "Organic and Biomolecular Chemistry"

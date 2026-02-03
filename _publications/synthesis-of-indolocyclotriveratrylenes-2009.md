@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of indolocyclotriveratrylenes"
-authors: "Naresh Kumar et al."
+authors: "Mardi Santoso, Kittiya Somphol, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2009
 journal: "Tetrahedron"

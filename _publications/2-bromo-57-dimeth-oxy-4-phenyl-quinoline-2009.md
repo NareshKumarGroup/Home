@@ -1,6 +1,6 @@
 ---
 title: "2-Bromo-5,7-dimeth-oxy-4-phenyl-quinoline"
-authors: "Naresh Kumar et al."
+authors: "Veshal Gopal, Mohan Bhadbhade, Daniel Shiu Hin Chan, Chao-wei Leu, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2009
 journal: "Acta Crystallographica Section E: Structure Reports Online"

@@ -1,6 +1,6 @@
 ---
 title: "Electrostatic and Covalent Binding of an Antibacterial Polymer to Hydroxyapatite for Protection against <i>Escherichia coli</i> Colonization"
-authors: "Naresh Kumar et al."
+authors: "Sudip Chakraborty, Georgio Katsifis, Iman Roohani, Cyrille Boyer, David McKenzie, Mark D. P. Willcox, Renxun Chen, Naresh Kumar"
 type: "journal"
 year: 2023
 journal: "Materials"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis, characterization and anti-cancer activity of hydrazide derivatives incorporating a quinoline moiety"
-authors: "Naresh Kumar et al."
+authors: "Murat Bingul, Owen Tan, Christopher Gardner, Selina Sutton, Greg Arndt, Glenn Marshall, Belamy Cheung, Naresh Kumar, David Black"
 type: "journal"
 year: 2016
 journal: "Molecules"

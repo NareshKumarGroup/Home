@@ -1,6 +1,6 @@
 ---
 title: "Chirality of the molecular assembly determined by intra-/inter-N- Hâ̄O hydrogen bonding in doubly substituted N-octanoylglyoxylic amides"
-authors: "Naresh Kumar et al."
+authors: "Venty Suryanti, Mohan Bhadbhade, Roger Bishop, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2013
 journal: "Tetrahedron"

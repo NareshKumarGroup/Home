@@ -1,6 +1,6 @@
 ---
 title: "Ritter reactions of isoflavanols: A facile route to 4-amidoisoflavans"
-authors: "Naresh Kumar et al."
+authors: "George Iskander, Kasey Wood, Eleanor Eiffe, Eugene M.H. Yee, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2015
 journal: "Tetrahedron Letters"

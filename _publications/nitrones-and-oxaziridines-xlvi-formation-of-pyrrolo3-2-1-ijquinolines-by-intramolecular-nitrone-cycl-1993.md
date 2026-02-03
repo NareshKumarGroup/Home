@@ -1,6 +1,6 @@
 ---
 title: "Nitrones and oxaziridines. XLVI. Formation of pyrrolo[3, 2, 1-ij]quinolines by intramolecular nitrone cycloaddition"
-authors: "Naresh Kumar et al."
+authors: "DS Black, PA Keller, N Kumar"
 type: "journal"
 year: 1993
 journal: "Australian Journal of Chemistry"

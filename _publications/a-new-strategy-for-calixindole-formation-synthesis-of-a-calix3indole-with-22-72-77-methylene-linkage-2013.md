@@ -1,6 +1,6 @@
 ---
 title: "A new strategy for calixindole formation: Synthesis of a calix[3]indole with 2,2; 7,2; 7,7-methylene linkages and a new calix[4]indole with 2,2; 7,2; 7,7; 2,7-methylene linkages"
-authors: "Naresh Kumar et al."
+authors: "David Black, Kittiya Somphol, Rui Chen, Mohan Bhadbhade, Naresh Kumar"
 type: "journal"
 year: 2013
 journal: "Synlett"

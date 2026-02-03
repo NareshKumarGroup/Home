@@ -1,6 +1,6 @@
 ---
 title: "Biological performance of a novel synthetic furanone-based antimicrobial"
-authors: "Naresh Kumar et al."
+authors: "J.K. Baveja, G. Li, R.E. Nordon, E.B.H. Hume, N. Kumar, M.D.P. Willcox, L.A. Poole-Warren"
 type: "journal"
 year: 2004
 journal: "Biomaterials"

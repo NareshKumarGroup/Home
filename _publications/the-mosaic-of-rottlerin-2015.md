@@ -1,6 +1,6 @@
 ---
 title: "The Mosaic of Rottlerin"
-authors: "Naresh Kumar et al."
+authors: "Kenneth K. C. Hong, Graham E. Ball, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2015
 journal: "Journal of Organic Chemistry"

@@ -1,6 +1,6 @@
 ---
 title: "Design, Synthesis and Biological Evaluation of N-Sulfonylphenyl glyoxamide-Based Antimicrobial Peptide Mimics as Novel Antimicrobial Agents"
-authors: "Naresh Kumar et al."
+authors: "Tsz Tin Yu, Shashidhar Nizalapur, Kitty K. K. Ho, Eugene Yee, Thomas Berry, Charles G. Cranfield, Mark Willcox, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "ChemistrySelect"

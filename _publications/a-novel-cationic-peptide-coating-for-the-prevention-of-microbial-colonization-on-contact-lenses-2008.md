@@ -1,6 +1,6 @@
 ---
 title: "A novel cationic-peptide coating for the prevention of microbial colonization on contact lenses"
-authors: "Naresh Kumar et al."
+authors: "M.D.P. Willcox, E.B.H. Hume, Y. Aliwarga, N. Kumar, N. Cole"
 type: "journal"
 year: 2008
 journal: "Journal of Applied Microbiology"

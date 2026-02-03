@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and biological evaluation of novel acyclic and cyclic glyoxamide based derivatives as bacterial quorum sensing and biofilm inhibitors"
-authors: "Naresh Kumar et al."
+authors: "Shashidhar Nizalapur, Onder Kimyon, Eugene Yee, Mohan M. Bhadbhade, Mike Manefield, Mark Willcox, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Organic and Biomolecular Chemistry"

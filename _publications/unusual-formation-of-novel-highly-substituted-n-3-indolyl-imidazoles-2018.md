@@ -1,6 +1,6 @@
 ---
 title: "Unusual formation of novel highly substituted N-(3-indolyl)-imidazoles"
-authors: "Naresh Kumar et al."
+authors: "Ji Qu, Mohan Bhadbhade, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2018
 journal: "Tetrahedron"

@@ -1,6 +1,6 @@
 ---
 title: "Co-delivery of nitric oxide and antibiotic using polymeric nanoparticles"
-authors: "Naresh Kumar et al."
+authors: "Thuy-Khanh Nguyen, Ramona Selvanayagam, Kitty K. K. Ho, Renxun Chen, Samuel K. Kutty, Scott A. Rice, Naresh Kumar, Nicolas Barraud, Hien T. T. Duong, Cyrille Boyer"
 type: "journal"
 year: 2016
 journal: "Chemical Science"

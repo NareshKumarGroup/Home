@@ -1,6 +1,6 @@
 ---
 title: "Calix[3]indoles, new macrocyclic tris(indolylmethylene) compounds with 2,7-linkages"
-authors: "Naresh Kumar et al."
+authors: "David St. C. Black, Michael C. Bowyer, Naresh Kumar, Peter S. R. Mitchell"
 type: "journal"
 year: 1993
 journal: "Journal of the Chemical Society, Chemical Communications"

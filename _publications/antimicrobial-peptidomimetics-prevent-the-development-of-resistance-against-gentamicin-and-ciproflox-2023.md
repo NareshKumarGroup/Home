@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial Peptidomimetics Prevent the Development of Resistance against Gentamicin and Ciprofloxacin in Staphylococcus and Pseudomonas Bacteria"
-authors: "Naresh Kumar et al."
+authors: "Katrina Browne, Rajesh Kuppusamy, William R. Walsh, David StC Black, Mark D. P. Willcox, Naresh Kumar, Renxun Chen"
 type: "journal"
 year: 2023
 journal: "International Journal of Molecular Sciences"

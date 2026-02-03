@@ -1,6 +1,6 @@
 ---
 title: "Nickel(Ii) complexes of lmine ligands derived from 7-formylindoles"
-authors: "Naresh Kumar et al."
+authors: "David St C. Black, Donald C. Craig, Naresh Kumar, Laurence C. H. Wong"
 type: "journal"
 year: 1985
 journal: "Journal of the Chemical Society - Series Chemical Communications"

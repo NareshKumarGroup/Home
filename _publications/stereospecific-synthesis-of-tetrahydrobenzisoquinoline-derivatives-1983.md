@@ -1,6 +1,6 @@
 ---
 title: "Stereospecific Synthesis of Tetrahydrobenzisoquinoline Derivatives"
-authors: "Naresh Kumar et al."
+authors: "E Gellert, N Kumar, D Tober"
 type: "journal"
 year: 1983
 journal: "Australian Journal of Chemistry"

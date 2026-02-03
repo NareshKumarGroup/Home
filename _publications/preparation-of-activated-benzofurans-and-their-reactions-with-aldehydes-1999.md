@@ -1,6 +1,6 @@
 ---
 title: "Preparation of activated benzofurans and their reactions with aldehydes"
-authors: "Naresh Kumar et al."
+authors: "David St.C. Black, Donald C. Craig, Naresh Kumar, Robert Rezie"
 type: "journal"
 year: 1999
 journal: "Tetrahedron"

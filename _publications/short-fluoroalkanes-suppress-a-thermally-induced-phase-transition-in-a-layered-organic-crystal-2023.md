@@ -1,6 +1,6 @@
 ---
 title: "Short Fluoroalkanes Suppress a Thermally-Induced Phase Transition in a Layered Organic Crystal"
-authors: "Naresh Kumar et al."
+authors: "Christopher E. Marjo, Anne M. Rich, Mohan M. Bhadbhade, Saroj Bhattacharyya, Songyan Yin, David M. Miskovic, Vina R. Aldilla, Naresh Kumar"
 type: "journal"
 year: 2023
 journal: "Crystals"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis, biological evaluation and structure-activity relationship studies of isoflavene based Mannich bases with potent anti-cancer activity"
-authors: "Naresh Kumar et al."
+authors: "Yilin Chen, Shelley L. Cass, Samuel K. Kutty, Eugene M.H. Yee, Daniel S.H. Chan, Christopher R. Gardner, Orazio Vittorio, Eddy Pasquier, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2015
 journal: "Bioorganic and Medicinal Chemistry Letters"

@@ -1,6 +1,6 @@
 ---
 title: "Structure-activity studies of 4-phenyl-substituted 2′-benzoylpyridine thiosemicarbazones with potent and selective anti-tumour activity"
-authors: "Naresh Kumar et al."
+authors: "Adeline Y. Lukmantara, Danuta S. Kalinowski, Naresh Kumar, Des R. Richardson"
 type: "journal"
 year: 2013
 journal: "Organic and Biomolecular Chemistry"

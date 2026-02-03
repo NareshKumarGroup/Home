@@ -1,6 +1,6 @@
 ---
 title: "Alkyne-Substituted Fimbrolide Analogues as Novel Bacterial Quorum-Sensing Inhibitors"
-authors: "Naresh Kumar et al."
+authors: "Nripendra Nath Biswas, George M. Iskander, Marcin Mielczarek, Tsz Tin Yu, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2018
 journal: "Australian Journal of Chemistry"

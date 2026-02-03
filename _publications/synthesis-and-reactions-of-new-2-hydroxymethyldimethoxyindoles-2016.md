@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and reactions of new 2-hydroxymethyldimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "Murat Bingul, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2016
 journal: "Tetrahedron"

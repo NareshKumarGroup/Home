@@ -1,6 +1,6 @@
 ---
 title: "Plasma activated coatings with dual action against fungi and bacteria"
-authors: "Naresh Kumar et al."
+authors: "Behnam Akhavan, Thomas D. Michl, Carla Giles, Kitty Ho, Lewis Martin, Omid Sharifahmadian, Steven G. Wise, Bryan R. Coad, Naresh Kumar, Hans J. Griesser, Marcela M. Bilek"
 type: "journal"
 year: 2018
 journal: "Applied Materials Today"

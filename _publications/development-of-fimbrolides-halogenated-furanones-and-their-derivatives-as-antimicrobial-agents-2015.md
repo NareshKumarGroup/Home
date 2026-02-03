@@ -1,6 +1,6 @@
 ---
 title: "Development of fimbrolides, halogenated furanones and their derivatives as antimicrobial agents"
-authors: "Naresh Kumar et al."
+authors: "Kitty K. K. Ho, Samuel K. Kutty, Daniel Chan, Renxun Chen, Mark D. P. Willcox, Naresh Kumar"
 type: "book"
 year: 2015
 journal: "Antibacterial Surfaces"

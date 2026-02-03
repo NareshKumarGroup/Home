@@ -1,6 +1,6 @@
 ---
 title: "Polyphenylglyoxamide-Based Amphiphilic Small Molecular Peptidomimetics as Antibacterial Agents with Anti-Biofilm Activity"
-authors: "Naresh Kumar et al."
+authors: "Tsz Tin Yu, Rajesh Kuppusamy, Muhammad Yasir, Md. Musfizur Hassan, Manjulatha Sara, Junming Ho, Mark D. P. Willcox, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2021
 journal: "International Journal of Molecular Sciences"

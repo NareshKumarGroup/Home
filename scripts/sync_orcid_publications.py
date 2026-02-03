@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-Sync publications from ORCID to Jekyll _publications.
-Fetches works from ORCID Public API and adds new entries as markdown files.
-Only adds works that don't already exist (matched by DOI or slug).
-Uses only Python stdlib (urllib, xml.etree, re, os).
+Sync publications from Naresh Kumar's ORCID to publications.md.
+Fetches works from ORCID Public API and appends new entries to the publications page.
+Only adds works that don't already exist (matched by DOI or normalized title).
+Uses only Python stdlib (urllib, xml.etree, re, os, html).
 """
 
+import html
 import os
 import re
 import sys
@@ -13,8 +14,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 ORCID_API = "https://pub.orcid.org/v3.0"
-DEFAULT_ORCID = "0000-0002-0951-9621"
-DEFAULT_AUTHORS = "Naresh Kumar et al."
+NARESH_ORCID = "0000-0002-0951-9621"
 
 
 def local_tag(elem):
@@ -22,15 +22,6 @@ def local_tag(elem):
     if elem.tag is None:
         return ""
     return elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
-
-
-def slugify(title, year, max_len=100):
-    """Generate a URL-safe filename slug from title and year."""
-    s = re.sub(r"[^a-z0-9\s-]", "", title.lower())
-    s = re.sub(r"[-\s]+", "-", s).strip("-")
-    if len(s) > max_len:
-        s = s[:max_len].rstrip("-")
-    return f"{s}-{year}" if s else str(year)
 
 
 def get_child_text(parent, tag_name):
@@ -47,7 +38,7 @@ def get_child_text(parent, tag_name):
 
 
 def get_year_from_publication_date(parent):
-    """Extract year from publication-date element (may have year as child)."""
+    """Extract year from publication-date element."""
     if parent is None:
         return None
     for c in parent:
@@ -64,7 +55,7 @@ def get_year_from_publication_date(parent):
 
 
 def get_doi_from_external_ids(parent):
-    """Extract DOI from external-ids (external-id with external-id-type=doi)."""
+    """Extract DOI from external-ids."""
     if parent is None:
         return None
     for c in parent.iter():
@@ -93,6 +84,19 @@ def get_doi_from_external_ids(parent):
     return None
 
 
+def get_contributors_from_work(elem):
+    """Extract list of author names from contributors (credit-name)."""
+    authors = []
+    for c in elem.iter():
+        if local_tag(c) == "contributors":
+            for contrib in c:
+                if local_tag(contrib) == "contributor":
+                    name = get_child_text(contrib, "credit-name")
+                    if name and name.strip():
+                        authors.append(name.strip())
+    return authors
+
+
 def parse_work_summary(elem):
     """Parse one work-summary element into a dict. Returns None if no title."""
     title = get_child_text(elem, "title")
@@ -102,13 +106,15 @@ def parse_work_summary(elem):
     if not year or not str(year).isdigit():
         year = "0000"
     work_type = get_child_text(elem, "type") or "journal-article"
-    type_map = {"journal-article": "journal", "book": "book", "book-chapter": "book", "conference-paper": "conference"}
+    type_map = {"journal-article": "journal", "book": "book", "book-chapter": "book", "conference-paper": "journal"}
     pub_type = type_map.get(work_type, "journal") if work_type else "journal"
     journal = get_child_text(elem, "journal-title") or ""
     doi = get_doi_from_external_ids(elem)
     url = get_child_text(elem, "url") or ""
     if doi and not url:
         url = f"https://doi.org/{doi}"
+    authors_list = get_contributors_from_work(elem)
+    authors_str = ", ".join(authors_list) if authors_list else "Naresh Kumar et al."
     return {
         "title": title,
         "year": str(year),
@@ -116,6 +122,7 @@ def parse_work_summary(elem):
         "journal": journal,
         "doi": doi or "",
         "url": url,
+        "authors": authors_str,
     }
 
 
@@ -132,7 +139,6 @@ def fetch_orcid_works(orcid_id):
             w = parse_work_summary(elem)
             if w and w.get("title"):
                 works.append(w)
-    # Dedupe by DOI or title+year
     seen = set()
     out = []
     for w in works:
@@ -143,87 +149,153 @@ def fetch_orcid_works(orcid_id):
     return out
 
 
-def load_existing_dois_and_slugs(publications_dir):
-    """Load set of DOIs and slugs from existing _publications markdown files."""
-    dois = set()
-    slugs = set()
-    if not os.path.isdir(publications_dir):
-        return dois, slugs
-    for name in os.listdir(publications_dir):
-        if not name.endswith(".md"):
-            continue
-        slugs.add(name[:-3])
-        path = os.path.join(publications_dir, name)
-        try:
-            with open(path, "r", encoding="utf-8", errors="ignore") as f:
-                content = f.read(4096)
-            m = re.search(r'doi:\s*["\']?([^"\'\s\n]+)', content)
-            if m:
-                dois.add(m.group(1).strip().lower())
-        except Exception:
-            pass
-    return dois, slugs
+def normalize_title(title):
+    """Normalize title for comparison (lowercase, collapse spaces)."""
+    if not title:
+        return ""
+    s = re.sub(r"\s+", " ", title.lower().strip())
+    return s[:200]
 
 
-def write_publication_md(filepath, work, authors=DEFAULT_AUTHORS):
-    """Write one publication markdown file."""
+def load_existing_from_publications_md(filepath):
+    """Load set of DOIs and normalized titles from publications.md."""
+    existing_dois = set()
+    existing_titles = set()
+    if not os.path.isfile(filepath):
+        return existing_dois, existing_titles
+    try:
+        with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+            content = f.read()
+        for m in re.finditer(r'href="https://doi\.org/([^"]+)"', content):
+            doi = m.group(1).strip()
+            if doi:
+                existing_dois.add(doi.lower())
+        for m in re.finditer(r"<h4>([^<]+)</h4>", content):
+            t = normalize_title(m.group(1))
+            if t:
+                existing_titles.add(t)
+    except Exception as e:
+        print(f"Warning: could not read existing publications: {e}", file=sys.stderr)
+    return existing_dois, existing_titles
+
+
+def publication_html_block(work):
+    """Generate one publication HTML block for publications.md."""
     title = work["title"]
-    year = work["year"]
-    pub_type = work["type"]
+    authors = work.get("authors") or "Naresh Kumar et al."
     journal = work.get("journal") or ""
     doi = work.get("doi") or ""
     url = work.get("url") or (f"https://doi.org/{doi}" if doi else "")
-
-    title_escaped = title.replace("\\", "\\\\").replace('"', '\\"')
+    title_esc = html.escape(title)
+    authors_esc = html.escape(authors)
+    journal_esc = html.escape(journal)
+    pub_type = work.get("type") or "journal"
     lines = [
-        "---",
-        f'title: "{title_escaped}"',
-        f'authors: "{authors}"',
-        f'type: "{pub_type}"',
-        f"year: {year}",
+        "",
+        "                    <div class=\"publication-item\" data-type=\"" + pub_type + "\">",
+        "                        <div class=\"publication-content\">",
+        "                            <h4>" + title_esc + "</h4>",
+        "                            <p class=\"authors\">" + authors_esc + "</p>",
+        "                            <p class=\"journal\">" + journal_esc + "</p>",
     ]
-    if journal:
-        j = journal[:200] if len(journal) > 200 else journal
-        lines.append(f'journal: "{j.replace(chr(34), "")}"')
-    if doi:
-        lines.append(f'doi: "{doi}"')
-    if url:
-        lines.append(f'url: "{url.replace(chr(34), "")}"')
-    lines.append("---")
-    lines.append("")
+    if doi or url:
+        lines.append("                            <div class=\"publication-links\">")
+        link = f"https://doi.org/{doi}" if doi else url
+        lines.append('                                <a href="' + html.escape(link) + '" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>')
+        lines.append("                            </div>")
+    lines.append("                        </div>")
+    lines.append("                    </div>")
+    return "\n".join(lines)
 
-    os.makedirs(os.path.dirname(filepath) or ".", exist_ok=True)
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+
+def insert_new_publications_into_md(filepath, new_works):
+    """Insert new publication HTML blocks into publications.md by year."""
+    if not new_works:
+        return 0
+    by_year = {}
+    for w in new_works:
+        y = w.get("year") or "0000"
+        by_year.setdefault(y, []).append(w)
+    try:
+        with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+            content = f.read()
+    except Exception as e:
+        print(f"Error reading {filepath}: {e}", file=sys.stderr)
+        return 0
+
+    # 1) Insert into existing year sections (after <h3>YEAR</h3>)
+    years_without_section = []
+    for year in sorted(by_year.keys(), reverse=True):
+        pattern = re.compile(
+            r"(<!-- " + re.escape(year) + r" -->\s*\n\s*<div class=\"year-section\">\s*\n\s*<h3>" + re.escape(year) + r"</h3>)\s*\n",
+            re.IGNORECASE,
+        )
+        block = "\n".join(publication_html_block(w) for w in by_year[year])
+        replacement = r"\1\n\n" + block + "\n"
+        if pattern.search(content):
+            content = pattern.sub(replacement, content, count=1)
+        else:
+            years_without_section.append(year)
+
+    # 2) For years that had no section, add new sections at top (newest first)
+    new_years = sorted(years_without_section, reverse=True)
+    if new_years:
+        new_sections = []
+        for year in new_years:
+            block = "\n".join(publication_html_block(w) for w in by_year[year])
+            new_sections.append(
+                "\n                <!-- "
+                + year
+                + " -->\n                <div class=\"year-section\">\n                    <h3>"
+                + year
+                + "</h3>\n"
+                + block
+                + "\n                </div>"
+            )
+        insert_marker = '<div class="publications-list">'
+        idx = content.find(insert_marker)
+        if idx != -1:
+            end = idx + len(insert_marker)
+            content = content[:end] + "\n" + "\n".join(new_sections) + content[end:]
+        else:
+            content += "\n" + "\n".join(new_sections)
+
+    try:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(content)
+    except Exception as e:
+        print(f"Error writing {filepath}: {e}", file=sys.stderr)
+        return 0
+    return sum(len(ws) for ws in by_year.values())
 
 
 def main():
-    repo_root = os.environ.get("GITHUB_WORKSPACE") or os.environ.get("REPO_ROOT") or "."
-    orcid_id = os.environ.get("ORCID_ID") or DEFAULT_ORCID
-    publications_dir = os.path.join(repo_root, "_publications")
+    repo_root = os.environ.get("GITHUB_WORKSPACE") or os.environ.get("REPO_ROOT") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    orcid_id = os.environ.get("ORCID_ID") or NARESH_ORCID
+    publications_md = os.path.join(repo_root, "publications.md")
 
-    existing_dois, existing_slugs = load_existing_dois_and_slugs(publications_dir)
+    existing_dois, existing_titles = load_existing_from_publications_md(publications_md)
     try:
         works = fetch_orcid_works(orcid_id)
     except Exception as e:
         print(f"Failed to fetch ORCID works: {e}", file=sys.stderr)
         return 1
 
-    added = 0
+    new_works = []
     for w in works:
         doi = (w.get("doi") or "").strip()
-        slug = slugify(w["title"], w["year"])
+        title_norm = normalize_title(w.get("title") or "")
         if doi and doi.lower() in existing_dois:
             continue
-        if slug in existing_slugs:
+        if title_norm and title_norm in existing_titles:
             continue
-        filepath = os.path.join(publications_dir, f"{slug}.md")
-        write_publication_md(filepath, w)
-        added += 1
-        existing_slugs.add(slug)
+        new_works.append(w)
         if doi:
             existing_dois.add(doi.lower())
+        if title_norm:
+            existing_titles.add(title_norm)
 
+    added = insert_new_publications_into_md(publications_md, new_works)
     print(f"ORCID works fetched: {len(works)}")
     print(f"New publications added: {added}")
     return 0

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of symmetrical and unsymmetrical diindolylmethanes via acid-catalysed electrophilic substitution reactions"
-authors: "Naresh Kumar et al."
+authors: "Murat Bingul, Belamy B. Cheung, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2014
 journal: "Tetrahedron"

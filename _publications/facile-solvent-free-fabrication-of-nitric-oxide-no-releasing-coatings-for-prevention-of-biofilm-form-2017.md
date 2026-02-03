@@ -1,6 +1,6 @@
 ---
 title: "Facile solvent-free fabrication of nitric oxide (NO)-releasing coatings for prevention of biofilm formation"
-authors: "Naresh Kumar et al."
+authors: "Kitty K. K. Ho, Berkay Ozcelik, Mark D. P. Willcox, Helmut Thissen, Naresh Kumar"
 type: "journal"
 year: 2017
 journal: "Chemical Communications"

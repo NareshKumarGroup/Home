@@ -1,6 +1,6 @@
 ---
 title: "An efficient synthesis of brominated 4-alkyl-2(5H)-furanones"
-authors: "Naresh Kumar et al."
+authors: "George Iskander, Ruonan Zhang, Daniel Shiu-Hin Chan, David StC Black, Mahiuddin Alamgir, Naresh Kumar"
 type: "journal"
 year: 2009
 journal: "Tetrahedron Letters"

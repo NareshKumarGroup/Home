@@ -1,6 +1,6 @@
 ---
 title: "Some electrophilic reactivity studies of di-(2-indolyl)dibenzofurans and di-(2-indolyl)carbazoles"
-authors: "Naresh Kumar et al."
+authors: "Ibrahim F. Sengul, Kittiya Somphol, Hakan Kandemir, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2014
 journal: "Tetrahedron"

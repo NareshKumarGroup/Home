@@ -1,6 +1,6 @@
 ---
 title: "Some acid-catalysed reactions of indol-3-yl and indol-2-yl disubstituted methanols"
-authors: "Naresh Kumar et al."
+authors: "Mardi Santoso, Naresh Kumar, David StClair Black"
 type: "journal"
 year: 2009
 journal: "Collection of Czechoslovak Chemical Communications"

@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and anticancer evaluation of 3-substituted quinolin-4-ones and 2,3-dihydroquinolin-4-ones"
-authors: "Naresh Kumar et al."
+authors: "Santosh Rajput, Christopher R. Gardner, Timothy W. Failes, Greg M. Arndt, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Bioorganic and Medicinal Chemistry"

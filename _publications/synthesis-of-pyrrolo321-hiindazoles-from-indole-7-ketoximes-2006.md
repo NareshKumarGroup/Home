@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of pyrrolo[3,2,1-hi]indazoles from indole-7-ketoximes"
-authors: "Naresh Kumar et al."
+authors: "Tutik Dwi Wahyuningsih, Karin Pchalek, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2006
 journal: "Tetrahedron"

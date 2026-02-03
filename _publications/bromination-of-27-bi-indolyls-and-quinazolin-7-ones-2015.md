@@ -1,6 +1,6 @@
 ---
 title: "Bromination of 2,7′-bi-indolyls and quinazolin-7-ones"
-authors: "Naresh Kumar et al."
+authors: "Marcin Mielczarek, Mohan Bhadbhade, Rui Chen, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2015
 journal: "Tetrahedron"

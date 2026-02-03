@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of 5-(7′-indolyl)oxazoles and 2,5-di-(7′-indolyl) oxazoles"
-authors: "Naresh Kumar et al."
+authors: "Hakan Kandemir, Kasey Wood, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2013
 journal: "Tetrahedron"

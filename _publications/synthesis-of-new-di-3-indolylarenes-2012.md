@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of new di-(3-indolyl)arenes"
-authors: "Naresh Kumar et al."
+authors: "Ibrahim F. Sengul, Kasey Wood, Paul K. Bowyer, Mohan Bhadbhade, Rui Chen, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2012
 journal: "Tetrahedron"

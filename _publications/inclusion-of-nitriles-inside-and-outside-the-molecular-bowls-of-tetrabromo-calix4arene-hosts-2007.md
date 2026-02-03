@@ -1,6 +1,6 @@
 ---
 title: "Inclusion of nitriles inside and outside the molecular bowls of tetrabromo calix[4]arene hosts"
-authors: "Naresh Kumar et al."
+authors: "Felicia Maharaj, Donald C. Craig, Marcia L. Scudder, Roger Bishop, Naresh Kumar"
 type: "journal"
 year: 2007
 journal: "Journal of Inclusion Phenomena and Macrocyclic Chemistry"

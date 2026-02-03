@@ -1,6 +1,6 @@
 ---
 title: "A metallocyclic calixarene wheel and axle inclusion compound"
-authors: "Naresh Kumar et al."
+authors: "Felicia Maharaj, Roger Bishop, Donald C. Craig, Paul Jensen, Marcia L. Scudder, Naresh Kumar"
 type: "journal"
 year: 2009
 journal: "Crystal Growth and Design"

@@ -1,6 +1,6 @@
 ---
 title: "The nitration of some 4,6-dimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "Ashley W. Jones, Bambang Purwono, Paul K. Bowyer, Peter S.R. Mitchell, Naresh Kumar, Stephen J. Nugent, Katrina A. Jolliffe, David StC. Black"
 type: "journal"
 year: 2004
 journal: "Tetrahedron"

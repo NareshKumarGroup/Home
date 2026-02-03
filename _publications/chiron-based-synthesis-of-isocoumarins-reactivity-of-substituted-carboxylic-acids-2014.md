@@ -1,6 +1,6 @@
 ---
 title: "Chiron based synthesis of isocoumarins: Reactivity of α-substituted carboxylic acids"
-authors: "Naresh Kumar et al."
+authors: "Aisha Saddiqa, Abdul R. Raza, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Tetrahedron Asymmetry"

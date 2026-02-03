@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and biological activity of novel mono-indole and mono-benzofuran inhibitors of bacterial transcription initiation complex formation"
-authors: "Naresh Kumar et al."
+authors: "Marcin Mielczarek, Ruth V. Thomas, Cong Ma, Hakan Kandemir, Xiao Yang, Mohan Bhadbhade, David StC. Black, Renate Griffith, Peter J. Lewis, Naresh Kumar"
 type: "journal"
 year: 2015
 journal: "Bioorganic and Medicinal Chemistry"

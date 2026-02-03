@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of biindolyls by the reaction of indoles with indolin-2-ones and phosphoryl chloride or trifluoromethanesulfonic anhydride"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Andrew J. Ivory, Naresh Kumar"
 type: "journal"
 year: 1996
 journal: "Tetrahedron"

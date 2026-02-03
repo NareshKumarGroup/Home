@@ -1,6 +1,6 @@
 ---
 title: "High-resolution sonography detects extraforaminal nerve pathology in patients initially diagnosed with cervical disc disease: A case series"
-authors: "Naresh Kumar et al."
+authors: "Yongsheng Chen, Naresh Kumar, Julian Wen Wei Lim, Einar Wilder Smith"
 type: "journal"
 year: 2013
 journal: "Journal of Clinical Ultrasound"

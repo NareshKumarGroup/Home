@@ -1,6 +1,6 @@
 ---
 title: "Bioinspired Polydopamine Coatings Facilitate Attachment of Antimicrobial Peptidomimetics with Broad-Spectrum Antibacterial Activity"
-authors: "Naresh Kumar et al."
+authors: "Katrina Browne; Rajesh Kuppusamy; Renxun Chen; Mark D. P. Willcox; William R. Walsh; David StC. Black; Naresh Kumar"
 type: "journal"
 year: 2022
 journal: "International Journal of Molecular Sciences"

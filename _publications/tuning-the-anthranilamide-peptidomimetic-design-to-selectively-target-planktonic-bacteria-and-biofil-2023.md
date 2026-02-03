@@ -1,6 +1,6 @@
 ---
 title: "Tuning the Anthranilamide Peptidomimetic Design to Selectively Target Planktonic Bacteria and Biofilm"
-authors: "Naresh Kumar et al."
+authors: "Rajesh Kuppusamy, Muhammad Yasir, Tsz Tin Yu, Florida Voli, Orazio Vittorio, Michael J. Miller, Peter Lewis, David StC Black, Mark Willcox, Naresh Kumar"
 type: "journal"
 year: 2023
 journal: "Antibiotics"

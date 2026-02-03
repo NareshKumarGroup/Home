@@ -1,6 +1,6 @@
 ---
 title: "Nitric Oxide-Loaded Antimicrobial Polymer for the Synergistic Eradication of Bacterial Biofilm"
-authors: "Naresh Kumar et al."
+authors: "Rashin Namivandi-Zangeneh, Zahra Sadrearhami, Ali Bagheri, Maeva Sauvage-Nguyen, Kitty Ka Kit Ho, Naresh Kumar, Edgar H. H. Wong, Cyrille Boyer"
 type: "journal"
 year: 2018
 journal: "ACS Macro Letters"

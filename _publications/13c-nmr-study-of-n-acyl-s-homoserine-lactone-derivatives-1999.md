@@ -1,6 +1,6 @@
 ---
 title: "13C NMR study of N-acyl-S-homoserine lactone derivatives"
-authors: "Naresh Kumar et al."
+authors: "William Lao, Staffan Kjelleberg, Naresh Kumar, Rocky deNys, Roger W. Read, Peter Steinberg"
 type: "journal"
 year: 1999
 journal: "Magnetic Resonance in Chemistry"

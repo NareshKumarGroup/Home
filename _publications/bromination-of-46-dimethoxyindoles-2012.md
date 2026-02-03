@@ -1,6 +1,6 @@
 ---
 title: "Bromination of 4,6-dimethoxyindoles"
-authors: "Naresh Kumar et al."
+authors: "Peter S.R. Mitchell, Ibrahim F. Sengul, Hakan Kandemir, Stephen J. Nugent, Rui Chen, Paul K. Bowyer, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2012
 journal: "Tetrahedron"

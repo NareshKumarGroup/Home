@@ -1,6 +1,6 @@
 ---
 title: "A novel and sensitive method for the quantification of N-3-oxoacyl homoserine lactones using gas chromatography-mass spectrometry: Application to a model bacterial biofilm"
-authors: "Naresh Kumar et al."
+authors: "Timothy S. Charlton, Rocky De Nys, Andrew Netting, Naresh Kumar, Morten Hentzer, Michael Givskov, Staffan Kjelleberg"
 type: "journal"
 year: 2000
 journal: "Environmental Microbiology"

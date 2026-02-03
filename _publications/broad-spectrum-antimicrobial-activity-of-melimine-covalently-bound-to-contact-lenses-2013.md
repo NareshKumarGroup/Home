@@ -1,6 +1,6 @@
 ---
 title: "Broad spectrum antimicrobial activity of melimine covalently bound to contact lenses"
-authors: "Naresh Kumar et al."
+authors: "Debarun Dutta, Nerida Cole, Naresh Kumar, Mark D. P. Willcox"
 type: "journal"
 year: 2013
 journal: "Investigative Ophthalmology and Visual Science"

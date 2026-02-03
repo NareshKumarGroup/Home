@@ -1,6 +1,6 @@
 ---
 title: "Novel colorimetric anion sensors based on N-acetylglyoxylic amides containing nitrophenyl signalling units"
-authors: "Naresh Kumar et al."
+authors: "Venty Suryanti, Mohan Bhadbhade, Har Mohindra Chawla, Ethan Howe, Pall Thordarson, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Spectrochimica Acta - Part A: Molecular and Biomolecular Spectroscopy"

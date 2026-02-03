@@ -1,6 +1,6 @@
 ---
 title: "Facile syntheses of 7,9-dimethoxypyrrolo[3,2,1-ij]quinolin-6-ones"
-authors: "Naresh Kumar et al."
+authors: "Santosh Rajput, Chao-wei Leu, Kasey Wood, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2011
 journal: "Tetrahedron Letters"

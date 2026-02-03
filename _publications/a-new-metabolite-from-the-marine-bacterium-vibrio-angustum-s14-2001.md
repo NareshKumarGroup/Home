@@ -1,6 +1,6 @@
 ---
 title: "A new metabolite from the marine bacterium Vibrio angustum S14"
-authors: "Naresh Kumar et al."
+authors: "Rocky de Nys, Naresh Kumar, Khalil A. Sharara, Sujatha Srinivasan, Graham Ball, Staffan Kjelleberg"
 type: "journal"
 year: 2001
 journal: "Journal of Natural Products"

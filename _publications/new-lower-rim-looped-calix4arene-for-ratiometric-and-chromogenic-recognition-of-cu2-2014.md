@@ -1,6 +1,6 @@
 ---
 title: "New lower rim looped calix[4]arene for ratiometric and chromogenic recognition of Cu2+"
-authors: "Naresh Kumar et al."
+authors: "Har Mohindra Chawla, Preeti Goel, Richa Shukla, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Journal of Inclusion Phenomena and Macrocyclic Chemistry"

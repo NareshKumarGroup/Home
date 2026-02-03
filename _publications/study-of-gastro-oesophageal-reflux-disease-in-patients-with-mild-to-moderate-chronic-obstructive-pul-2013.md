@@ -1,6 +1,6 @@
 ---
 title: "Study of gastro-oesophageal reflux disease in patients with mild-to-moderate chronic obstructive pulmonary disease in India"
-authors: "Naresh Kumar et al."
+authors: "NITISH L. KAMBLE, NAUSHAD A. KHAN, NARESH KUMAR, HEMANTA K. NAYAK, MRADUL K. DAGA"
 type: "journal"
 year: 2013
 journal: "Respirology"

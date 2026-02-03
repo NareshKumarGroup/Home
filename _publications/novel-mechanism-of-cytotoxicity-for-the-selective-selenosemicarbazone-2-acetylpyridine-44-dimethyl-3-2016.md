@@ -1,6 +1,6 @@
 ---
 title: "Novel Mechanism of Cytotoxicity for the Selective Selenosemicarbazone, 2-Acetylpyridine 4,4-Dimethyl-3-selenosemicarbazone (Ap44mSe): Lysosomal Membrane Permeabilization"
-authors: "Naresh Kumar et al."
+authors: "Zaynab Al-Eisawi, Christian Stefani, Patric J. Jansson, Akanksha Arvind, Philip C. Sharpe, Maram T. Basha, George M. Iskander, Naresh Kumar, Zaklina Kovacevic, Darius J. R. Lane, Sumit Sahni, Paul V. Bernhardt, Des R. Richardson, Danuta S. Kalinowski"
 type: "journal"
 year: 2016
 journal: "Journal of Medicinal Chemistry"

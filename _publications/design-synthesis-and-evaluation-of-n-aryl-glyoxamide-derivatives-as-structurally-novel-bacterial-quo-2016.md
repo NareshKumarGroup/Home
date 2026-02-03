@@ -1,6 +1,6 @@
 ---
 title: "Design, synthesis and evaluation of N-aryl-glyoxamide derivatives as structurally novel bacterial quorum sensing inhibitors"
-authors: "Naresh Kumar et al."
+authors: "Shashidhar Nizalapur, Önder Kimyon, Nripendra Nath Biswas, Christopher R. Gardner, Renate Griffith, Scott A. Rice, Mike Manefield, Mark Willcox, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2016
 journal: "Organic and Biomolecular Chemistry"

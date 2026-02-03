@@ -1,6 +1,6 @@
 ---
 title: "Efficient Access to Chromeno[4,3- b ]quinolines Related to Dependensin"
-authors: "Naresh Kumar et al."
+authors: "Naresh Kumar, Jeremy Dobrowolski, Benjamin Fraser, Mohan Bhadbhade, David Black"
 type: "journal"
 year: 2017
 journal: "Synlett"

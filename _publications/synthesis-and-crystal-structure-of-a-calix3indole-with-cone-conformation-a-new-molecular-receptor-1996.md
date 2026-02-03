@@ -1,6 +1,6 @@
 ---
 title: "Synthesis and crystal structure of a calix[3]indole with cone conformation: A new molecular receptor"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Donald C. Craig, Naresh Kumar, Darryl B. McConnell"
 type: "journal"
 year: 1996
 journal: "Tetrahedron Letters"

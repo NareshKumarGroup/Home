@@ -1,6 +1,6 @@
 ---
 title: "Lead-Selective Membrane Electrodes Based on Dithiophenediazacrown Ether Derivatives"
-authors: "Naresh Kumar et al."
+authors: "Xinhao Yang, Naresh Kumar, Hua Chi, D. Brynn Hibbert, Peter W. Alexander"
 type: "journal"
 year: 1997
 journal: "Electroanalysis"

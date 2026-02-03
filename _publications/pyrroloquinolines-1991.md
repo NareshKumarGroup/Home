@@ -1,6 +1,6 @@
 ---
 title: "Pyrroloquinolines"
-authors: "Naresh Kumar et al."
+authors: "David St. Clair Black, Naresh Kumar"
 type: "journal"
 year: 1991
 journal: "Organic Preparations and Procedures International"

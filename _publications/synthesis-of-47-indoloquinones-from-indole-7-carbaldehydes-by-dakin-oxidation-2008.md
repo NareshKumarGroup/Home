@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of 4,7-indoloquinones from indole-7-carbaldehydes by Dakin oxidation"
-authors: "Naresh Kumar et al."
+authors: "Mahiuddin Alamgir, Peter S.R. Mitchell, Paul K. Bowyer, Naresh Kumar, David StC. Black"
 type: "journal"
 year: 2008
 journal: "Tetrahedron"

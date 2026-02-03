@@ -1,6 +1,6 @@
 ---
 title: "Synthesis, anti-cancer and anti-inflammatory activity of novel 2-substituted isoflavenes"
-authors: "Naresh Kumar et al."
+authors: "Eleanor Eiffe, Eddy Pasquier, Maria Kavallaris, Cristan Herbert, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Bioorganic and Medicinal Chemistry"

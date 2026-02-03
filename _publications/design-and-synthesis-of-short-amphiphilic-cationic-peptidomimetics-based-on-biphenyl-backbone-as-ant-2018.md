@@ -1,6 +1,6 @@
 ---
 title: "Design and synthesis of short amphiphilic cationic peptidomimetics based on biphenyl backbone as antibacterial agents"
-authors: "Naresh Kumar et al."
+authors: "Rajesh Kuppusamy, Muhammad Yasir, Thomas Berry, Charles G. Cranfield, Shashidhar Nizalapur, Eugene Yee, Onder Kimyon, Aditi Taunk, Kitty K.K. Ho, Bruce Cornell, Mike Manefield, Mark Willcox, David StC Black, Naresh Kumar"
 type: "journal"
 year: 2018
 journal: "European Journal of Medicinal Chemistry"

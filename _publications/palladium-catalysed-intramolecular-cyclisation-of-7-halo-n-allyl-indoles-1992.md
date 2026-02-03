@@ -1,6 +1,6 @@
 ---
 title: "Palladium-catalysed intramolecular cyclisation of 7-halo-N-allyl-indoles"
-authors: "Naresh Kumar et al."
+authors: "David St.C. Black, Paul A. Keller, Naresh Kumar"
 type: "journal"
 year: 1992
 journal: "Tetrahedron"

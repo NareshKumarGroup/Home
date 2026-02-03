@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of macrocyclic nickel(II) complexes containing the 2,2′-bi-indolyl moiety"
-authors: "Naresh Kumar et al."
+authors: "David St C. Black, Naresh Kumar, Laurence C. H. Wong"
 type: "journal"
 year: 1985
 journal: "Journal of the Chemical Society, Chemical Communications"

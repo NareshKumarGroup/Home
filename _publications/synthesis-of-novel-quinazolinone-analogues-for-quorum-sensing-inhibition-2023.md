@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of Novel Quinazolinone Analogues for Quorum Sensing Inhibition"
-authors: "Naresh Kumar et al."
+authors: "Sahil Shandil, Tsz Tin Yu, Shekh Sabir, David StC. Black, Naresh Kumar"
 type: "journal"
 year: 2023
 journal: "Antibiotics"

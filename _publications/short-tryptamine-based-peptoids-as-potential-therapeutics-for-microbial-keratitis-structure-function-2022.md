@@ -1,6 +1,6 @@
 ---
 title: "Short Tryptamine-Based Peptoids as Potential Therapeutics for Microbial Keratitis: Structure-Function Correlation Studies"
-authors: "Naresh Kumar et al."
+authors: "Ghayah Bahatheg; Rajesh Kuppusamy; Muhammad Yasir; David StC. Black; Mark Willcox; Naresh Kumar"
 type: "journal"
 year: 2022
 journal: "Antibiotics"

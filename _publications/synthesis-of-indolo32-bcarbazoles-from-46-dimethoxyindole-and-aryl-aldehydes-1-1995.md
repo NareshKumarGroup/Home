@@ -1,6 +1,6 @@
 ---
 title: "Synthesis of indolo[3,2-b]carbazoles from 4,6-dimethoxyindole and aryl aldehydes 1"
-authors: "Naresh Kumar et al."
+authors: "David StC. Black, Andrew J. Ivory, Naresh Kumar"
 type: "journal"
 year: 1995
 journal: "Tetrahedron"

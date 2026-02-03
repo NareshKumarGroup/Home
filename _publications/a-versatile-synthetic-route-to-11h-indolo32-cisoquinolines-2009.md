@@ -1,6 +1,6 @@
 ---
 title: "A versatile synthetic route to 11H-indolo[3,2-c]isoquinolines"
-authors: "Naresh Kumar et al."
+authors: "Ji Qu, Naresh Kumar, Mahiuddin Alamgir, David StC. Black"
 type: "journal"
 year: 2009
 journal: "Tetrahedron Letters"

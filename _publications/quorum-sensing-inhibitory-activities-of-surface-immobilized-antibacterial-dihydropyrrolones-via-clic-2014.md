@@ -1,6 +1,6 @@
 ---
 title: "Quorum sensing inhibitory activities of surface immobilized antibacterial dihydropyrrolones via click chemistry"
-authors: "Naresh Kumar et al."
+authors: "Kitty K.K. Ho, Renxun Chen, Mark D.P. Willcox, Scott A. Rice, Nerida Cole, George Iskander, Naresh Kumar"
 type: "journal"
 year: 2014
 journal: "Biomaterials"

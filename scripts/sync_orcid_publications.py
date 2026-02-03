@@ -80,10 +80,30 @@ def fetch_full_work(orcid_id, put_code):
 
 # -------------------- FULL METADATA PARSING --------------------
 
+def get_publication_date(root):
+    """Extract (year, month, day) from publication-date in ORCID work. Returns (year, month, day) as strings; month/day are "00" if missing."""
+    year, month, day = "0000", "00", "00"
+    for e in root.iter():
+        if local(e.tag) == "publication-date":
+            year = find_text(e, "year") or year
+            m = find_text(e, "month")
+            if m and m.isdigit():
+                month = m.zfill(2) if len(m) < 2 else m[:2]
+            d = find_text(e, "day")
+            if d and d.isdigit():
+                day = d.zfill(2) if len(d) < 2 else d[:2]
+            break
+    if not year or not year.isdigit():
+        year = find_text(root, "year") or "0000"
+    return (year if year.isdigit() else "0000", month, day)
+
+
 def parse_full_work(root):
     title = find_text(root, "title")
     journal = find_text(root, "journal-title") or ""
-    year = find_text(root, "year") or "0000"
+    year, month, day = get_publication_date(root)
+    if not year or not year.isdigit():
+        year = "0000"
     doi = ""
     url = ""
 
@@ -104,14 +124,19 @@ def parse_full_work(root):
     else:
         url = find_text(root, "url") or ""
 
+    # Sort key YYYYMMDD for latest-first ordering (missing month/day treated as 01)
+    m, d = month if month != "00" else "01", day if day != "00" else "01"
+    date_sort = f"{year}{m}{d}"
+
     return {
         "title": title,
         "authors": ", ".join(authors) if authors else "Naresh Kumar et al.",
         "journal": journal,
-        "year": year if year.isdigit() else "0000",
+        "year": year,
         "doi": doi or "",
         "url": url,
-        "type": "journal"
+        "type": "journal",
+        "date_sort": date_sort,
     }
 
 
@@ -275,7 +300,9 @@ def insert_publications(filepath, works):
     content = open(filepath, encoding="utf-8").read()
 
     for year in sorted(by_year.keys(), reverse=True):
-        block = "\n".join(publication_block(w) for w in by_year[year])
+        # Sort by publication date (latest first); date_sort is YYYYMMDD
+        items = sorted(by_year[year], key=lambda w: w.get("date_sort", w["year"] + "0101"), reverse=True)
+        block = "\n".join(publication_block(w) for w in items)
 
         pattern = re.compile(
             rf"(<!-- {year} -->\s*<div class=\"year-section\">\s*<h3>{year}</h3>)",

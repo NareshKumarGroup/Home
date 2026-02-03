@@ -97,7 +97,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Harnessing Machine Learning Approaches for the Identification, Characterization, and Optimization of Novel Antimicrobial Peptides</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Naveed Saleem, Naresh Kumar, Emad El-Omar, Mark Willcox, Xiao-Tao Jiang</p>
                             <p class="journal">Antibiotics</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/2079-6382/14/12/1263" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -108,7 +108,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Design, Synthesis, and Biological Evaluation of Naphthoquinone Salts as Anticancer Agents</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Yao Cheng, Tsz Tin Yu, Ellen M. Olzomer, Kyle L. Hoehn, Frances L. Byrne, Naresh Kumar, David StC Black</p>
                             <p class="journal">Molecules</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/1420-3049/30/9/1938" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -119,7 +119,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Evaluation of the Synergistic Activity of Antimicrobial Peptidomimetics or Colistin Sulphate with Conventional Antifungals Against Yeasts of Medical Importance</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Shyam Kumar Mishra, Rajesh Kuppusamy, Christina Nguyen, Jennifer Doeur, Harleen Atwal, Samuel Attard, Kristian Sørensen, Jennifer S. Lin, Edgar H. H. Wong, Alex Hui, Annelise E. Barron, Naresh Kumar, Mark Willcox</p>
                             <p class="journal">Journal of Fungi</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/2309-608X/11/5/370" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -315,7 +315,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Synthesis and Anticancer Activity of 3,4-Diaryl-1,2-dihydro- and 1,2,3,4-Tetrahydroquinolines</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Santosh Rajput, Valerio Falasca, Mohan Bhadbhade, David StC Black, Naresh Kumar</p>
                             <p class="journal">Molecules</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/1420-3049/29/17/4273" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -326,7 +326,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Protecting Orthopaedic Implants from Infection: Antimicrobial Peptide Mel4 Is Non-Toxic to Bone Cells and Reduces Bacterial Colonisation When Bound to Plasma Ion-Implanted 3D-Printed PAEK Polymers</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Hedi Verena Kruse, Sudip Chakraborty, Renxun Chen, Naresh Kumar, Muhammad Yasir, William T. Lewin, Natalka Suchowerska, Mark D. P. Willcox, David R. McKenzie</p>
                             <p class="journal">Cells</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/2073-4409/13/8/656" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -337,7 +337,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Exploring the Efficacy of Peptides and Mimics against Influenza A Virus, Adenovirus, and Murine Norovirus</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Umme Laila Urmi, Ajay Kumar Vijay, Mark D. P. Willcox, Samuel Attard, George Enninful, Naresh Kumar, Salequl Islam, Rajesh Kuppusamy</p>
                             <p class="journal">International Journal of Molecular Sciences</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/1422-0067/25/13/7030" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -350,6 +350,19 @@ title: Publications
                 <!-- 2023 -->
                 <div class="year-section">
                     <h3>2023</h3>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Rational Design, Synthesis, and Anti-Proliferative Evaluation of Novel 4-Aryl-3,4-Dihydro-2&lt;i&gt;H&lt;/i&gt;-1,4-Benzoxazines</h4>
+                            <p class="authors">Xiaoming Fu, Daniel Wenholz, Daniel S. H. Chan, David StC. Black, Naresh Kumar</p>
+                            <p class="journal">Molecules</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3390/molecules29010166" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> DOI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
@@ -464,7 +477,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Antimicrobial Peptidomimetics Prevent the Development of Resistance against Gentamicin and Ciprofloxacin in Staphylococcus and Pseudomonas Bacteria</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Katrina Browne, Rajesh Kuppusamy, William R. Walsh, David StC Black, Mark D. P. Willcox, Naresh Kumar, Renxun Chen</p>
                             <p class="journal">International Journal of Molecular Sciences</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/1422-0067/24/19/14966" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -475,7 +488,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Short Fluoroalkanes Suppress a Thermally-Induced Phase Transition in a Layered Organic Crystal</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Christopher E. Marjo, Anne M. Rich, Mohan M. Bhadbhade, Saroj Bhattacharyya, Songyan Yin, David M. Miskovic, Vina R. Aldilla, Naresh Kumar</p>
                             <p class="journal">Crystals</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/2073-4352/13/10/1425" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -498,7 +511,7 @@ title: Publications
                         <div class="publication-content">
                             <h4>Antiviral Activity of Anthranilamide Peptidomimetics against Herpes Simplex Virus 1 and a Coronavirus</h4>
                             <p class="authors">Naresh Kumar et al.</p>
-                            <p class="journal">Antibiotics</p>
+                            <p class="journal"></p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/2079-6382/12/9/1436" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
                             </div>
@@ -510,6 +523,32 @@ title: Publications
                 <!-- 2022 -->
                 <div class="year-section">
                     <h3>2022</h3>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Halogenated Dihydropyrrol-2-One Molecules Inhibit Pyocyanin Biosynthesis by Blocking the &lt;i&gt;Pseudomonas&lt;/i&gt; Quinolone Signaling System</h4>
+                            <p class="authors">Theerthankar Das, Shekh Sabir, Ren Chen, Jessica Farrell, Frederik H. Kriel, Gregory S. Whiteley, Trevor O. Glasbey, Jim Manos, Mark D. P. Willcox, Naresh Kumar</p>
+                            <p class="journal">Molecules</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3390/molecules27041169" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> DOI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Synthesis of Alkyne-Substituted Dihydropyrrolones as Bacterial Quorum-Sensing Inhibitors of &lt;i&gt;Pseudomonas aeruginosa&lt;/i&gt;</h4>
+                            <p class="authors">Basmah Almohaywi, Tsz Tin Yu, George Iskander, Shekh Sabir, Mohan Bhadbhade, David StC. Black, Naresh Kumar</p>
+                            <p class="journal">Antibiotics</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3390/antibiotics11020151" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> DOI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
@@ -562,7 +601,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Bioinspired Polydopamine Coatings Facilitate Attachment of Antimicrobial Peptidomimetics with Broad-Spectrum Antibacterial Activity</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Katrina Browne, Rajesh Kuppusamy, Renxun Chen, Mark D. P. Willcox, William R. Walsh, David StC. Black, Naresh Kumar</p>
                             <p class="journal">International Journal of Molecular Sciences</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/1422-0067/23/6/2952" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -627,7 +666,7 @@ title: Publications
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Polyphenylglyoxamide-Based Amphiphilic Small Molecular Peptidomimetics as Antibacterial Agents with Anti-Biofilm Activity</h4>
-                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="authors">Tsz Tin Yu, Rajesh Kuppusamy, Muhammad Yasir, Md. Musfizur Hassan, Manjulatha Sara, Junming Ho, Mark D. P. Willcox, David StC. Black, Naresh Kumar</p>
                             <p class="journal">International Journal of Molecular Sciences</p>
                             <div class="publication-links">
                                 <a href="https://www.mdpi.com/1422-0067/22/14/7344" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
@@ -1377,6 +1416,30 @@ title: Publications
                 <div class="year-section">
                     <h3>2015</h3>
 
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Photocatalytic TiO&amp;lt;inf&amp;gt;2&amp;lt;/inf&amp;gt; thin films on fluorinated ethylene propylene copolymer (FEP) substrates</h4>
+                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="journal">Journal of the Australian Ceramic Society</p>
+                            <div class="publication-links">
+                                <a href="https://www.scopus.com/inward/record.uri?eid=2-s2.0-84938879781&amp;partnerID=40&amp;md5=41dd6b86f9a0f3b0b094b610a52c02b1" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> DOI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Photocatalytic TiO&amp;lt;inf&amp;gt;2&amp;lt;/inf&amp;gt; thin films on fluorinated ethylene propylene copolymer (FEP) substrates</h4>
+                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="journal">Journal of the Australian Ceramic Society</p>
+                            <div class="publication-links">
+                                <a href="https://www.scopus.com/inward/record.uri?eid=2-s2.0-84938879781&amp;partnerID=40&amp;md5=41dd6b86f9a0f3b0b094b610a52c02b1" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Ritter reactions of isoflavanols: a facile route to 4-amidoisoflavans</h4>

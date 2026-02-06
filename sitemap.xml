@@ -6,7 +6,7 @@ layout: null
   {% for page in site.pages %}
     {% unless page.layout == null or page.layout == 'feed' or page.url contains '/assets/' or page.url contains '/_posts/' %}
     <url>
-      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+      <loc>{{ site.url }}{{ site.baseurl }}{{ page.url | remove: "index.html" }}</loc>
       <lastmod>{{ page.date | default: site.time | date_to_xmlschema }}</lastmod>
       <changefreq>{% if page.url == '/' %}weekly{% else %}monthly{% endif %}</changefreq>
       <priority>{% if page.url == '/' %}1.0{% else %}0.8{% endif %}</priority>
@@ -16,7 +16,7 @@ layout: null
   
   {% for post in site.posts %}
     <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
+      <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
       <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>

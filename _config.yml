@@ -23,8 +23,10 @@ email: n.kumar@unsw.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
   Naresh Kumar Medicinal Chemistry Research Group at UNSW Sydney. 
   We focus on drug discovery, medicinal chemistry, and computational drug design.
-baseurl: "/Home" # the subpath of your site, e.g. /blog
-url: "https://nareshkumargroup.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# Empty baseurl: site at root (works for custom domain and GitHub Pages user site)
+baseurl: ""
+# Custom domain; GitHub Pages will also serve at nareshkumar.com.au when CNAME is set
+url: "https://nareshkumar.com.au"
 twitter_username: jekyllrb
 github_username:  jekyll
 

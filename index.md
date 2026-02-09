@@ -202,7 +202,7 @@ title: Home
             <h2>Gallery</h2>
         </div>
         <div class="slideshow-container">
-        <div class="slideshow-wrapper">
+            <div class="slideshow-wrapper">
 
                 <div class="slide fade">
                     <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/921f4a39-ad25-4da7-8007-037b3a7a4be8.JPG" alt="Yao Farewell Dinner">
@@ -294,14 +294,6 @@ title: Home
                         Your browser does not support the video tag.
                     </video>
                 </div>
-
-                <!-- Rasel second-year presentation and poster -->
-                <div class="slide fade">
-                    <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/oralrasel.jpg" alt="Rasel Khan Second-Year Presentation">
-                </div>
-                <div class="slide fade">
-                    <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/poster.jpg" alt="Rasel Khan Research Poster">
-                </div>
                
             </div>
             
@@ -333,8 +325,6 @@ title: Home
                 <span class="dot" onclick="currentSlide(22)"></span>
                 <span class="dot" onclick="currentSlide(23)"></span>
                 <span class="dot" onclick="currentSlide(24)"></span>
-                <span class="dot" onclick="currentSlide(25)"></span>
-                <span class="dot" onclick="currentSlide(26)"></span>
             </div>
         </div>
     </div>

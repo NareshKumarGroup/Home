@@ -51,7 +51,9 @@ title: Home
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if latest_post.title contains "New Year" %}
+                        {% if latest_post.title contains "Rasel" %}
+                          <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/oralrasel.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% elsif latest_post.title contains "New Year" %}
                           <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Sam" %}
                           <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">

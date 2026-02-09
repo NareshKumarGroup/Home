@@ -10,13 +10,13 @@ categories: news achievements presentations
         <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/oralrasel.jpg" alt="Rasel Khan Second-Year Presentation" class="featured-image">
     </div>
 
-    <p><strong>Congratulations to <span style="white-space: nowrap;">Rasel Khan</span> on successfully delivering his second-year research presentation and talk!</strong></p>
+    <p><Congratulations to <span style="white-space: nowrap;">Rasel Khan</span> on successfully delivering his second-year research presentation and talk</p>
 
-    <p>The seminar, titled <strong>“Quorum Sensing: A New Front in the Fight Against Antimicrobial Resistance”</strong>, showcased Rasel’s exciting progress in developing <strong>quorum sensing inhibitors</strong> as a new strategy to combat antimicrobial resistance.</p>
+    <p>The seminar, titled “Quorum Sensing: A New Front in the Fight Against Antimicrobial Resistance”, showcased Rasel’s exciting progress in developing quorum sensing inhibitors as a new strategy to combat antimicrobial resistance.</p>
 
     <p>Rasel’s work highlights how targeting bacterial communication pathways can open up powerful alternatives to traditional antibiotics, and reflects the strong medicinal chemistry and chemical biology focus of the Kumar Group.</p>
 
-    <p>Rasel would like to express his sincere thanks to his supervisor, <strong>Professor Naresh Kumar</strong>, for his guidance and continuous support throughout this project.</p>
+    <p>Rasel would like to express his sincere thanks to his supervisor, Professor Naresh Kumar, for his guidance and continuous support throughout this project.</p>
 </div>
 
 <style>

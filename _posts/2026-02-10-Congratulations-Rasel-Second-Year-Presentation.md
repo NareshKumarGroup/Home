@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Congratulations to Rasel Khan on His Second-Year Presentation"
-date: 2026-02-10 10:00:00 +1100
+date: 2026-02-06 10:00:00 +1100
 categories: news achievements presentations
 ---
 

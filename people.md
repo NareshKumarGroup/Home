@@ -152,6 +152,17 @@ title: People
                             <p>Hobbies:   </p>
                         </div>
                     </div>
+
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="{{ site.baseurl }}/assets/images/newlabmates/vidia.jpeg" alt="Vidia Afina Nuraini">
+                        </div>
+                        <div class="member-info">
+                            <h4>Vidia Afina Nuraini</h4>
+                            <p>Research focus: My research focuses on the synthesis of fused tetracyclic indoles and cyclic peptide mimics.</p>
+                            <p>Hobbies: Watching podcasts on YouTube</p>
+                        </div>
+                    </div>
                     
                     
                     <div class="member-card">
@@ -168,7 +179,7 @@ title: People
 
                     <div class="member-card">
                         <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/tope.jpg" alt="Tope">
+                            <img src="{{ site.baseurl }}/assets/images/Topeimage.jpg" alt="Tope">
                         </div>
                         <div class="member-info">
                             <h4>Tope A. Ibisanmi </h4>
@@ -229,8 +240,41 @@ title: People
                         </div>
                     </div>
 
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="{{ site.baseurl }}/assets/images/newlabmates/IMG_6086_Jasper Band.jpg" alt="Jasper Band">
+                        </div>
+                        <div class="member-info">
+                            <h4>Jasper Band</h4>
+                            <p>MSc student</p>
+                            <p>Research focus: Organic Chemistry</p>
+                            <p>Hobbies: Swimming, Hiking</p>
+                        </div>
+                    </div>
 
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="{{ site.baseurl }}/assets/images/newlabmates/daniel.jpg" alt="Daniel Guo">
+                        </div>
+                        <div class="member-info">
+                            <h4>Daniel Guo</h4>
+                            <p>Honours Student</p>
+                            <p>Research focus: Antimicrobial peptide mimics</p>
+                            <p>Hobbies: Skiing</p>
+                        </div>
+                    </div>
 
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="{{ site.baseurl }}/assets/images/newlabmates/unnamed_Zainab Yassine.jpg" alt="Zainab Yassine">
+                        </div>
+                        <div class="member-info">
+                            <h4>Zainab Yassine</h4>
+                            <p>Honours student</p>
+                            <p>Research focus: Developing dual-acting quorum sensing inhibitors</p>
+                            <p>Hobbies: Creative writing, gym and running</p>
+                        </div>
+                    </div>
 
                 </div>
             </div>

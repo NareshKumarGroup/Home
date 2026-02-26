@@ -17,7 +17,11 @@ permalink: /news/
       <div class="featured-card">
         <div class="featured-content">
           <div class="featured-image">
-            {% if latest_post.title contains "Rasel" %}
+            {% if latest_post.title contains "Welcome" and latest_post.title contains "Lab Members" %}
+              <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Poster Award" or latest_post.title contains "PhD Review" %}
+              <img src="{{ site.baseurl }}/assets/images/new/1771942652593.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Rasel" %}
               <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/oralrasel.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "New Year" %}
               <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ latest_post.title }}" class="featured-img">

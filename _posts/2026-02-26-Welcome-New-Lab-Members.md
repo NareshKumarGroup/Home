@@ -12,7 +12,7 @@ categories: news team
 
     <p><strong>Welcome to the Kumar Group!</strong></p>
 
-    <p>We are delighted to welcome four new members to our research team.</p>
+    <p>We are delighted to welcome new members to our research team.</p>
 
     <div class="team-grid welcome-members">
         <div class="member-card">

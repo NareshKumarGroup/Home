@@ -10,11 +10,11 @@ categories: news achievements awards
         <img src="{{ site.baseurl }}/assets/images/new/1771942652593.jpg" alt="Rasel Khan - Second Year PhD Review and Best Poster Award" class="featured-image">
     </div>
 
-    <p><strong>Congratulations to Rasel Khan</strong> on two excellent achievements</p>
+    <p>Congratulations to Rasel Khanon two excellent achievements</p>
 
-    <p>Rasel has <strong>passed his second year PhD review</strong>, marking an important milestone in his doctoral studies on quorum sensing inhibitors and antimicrobial resistance.</p>
+    <p>Rasel has passed his second year PhD review, marking an important milestone in his doctoral studies on quorum sensing inhibitors and antimicrobial resistance.</p>
 
-    <p>He has also been awarded the <strong>Best Poster Award</strong>, recognising the quality and impact of his research presentation.</p>
+    <p>He has also been awarded the Best Poster Award, recognising the quality and impact of his research presentation.</p>
 
     <p>Well done, Rasel The group is proud of your progress and we look forward to your continued success.</p>
 </div>

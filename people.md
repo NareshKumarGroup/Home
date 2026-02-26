@@ -198,13 +198,6 @@ title: People
 
                    
 
-                    <div class="member-card">
-                        <div class="member-info">
-                            <h4>Ghayah Bahatheg</h4>
-                        </div>
-                    </div>
-
-                   
 
 
 
@@ -297,6 +290,10 @@ title: People
                     </div>
                     <div class="alumni-item">
                         <h4>Maryam Mirabediny</h4>
+                        <p>PhD, 2025</p>
+                    </div>
+                    <div class="alumni-item">
+                        <h4>Ghayah Bahatheg</h4>
                         <p>PhD, 2025</p>
                     </div>
 

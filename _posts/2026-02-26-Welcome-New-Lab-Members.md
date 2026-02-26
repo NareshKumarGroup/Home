@@ -17,6 +17,17 @@ categories: news team
     <div class="team-grid welcome-members">
         <div class="member-card">
             <div class="member-image">
+                <img src="{{ site.baseurl }}/assets/images/newlabmates/vidia.jpeg" alt="Vidia Afina Nuraini">
+            </div>
+            <div class="member-info">
+                <h4>Vidia Afina Nuraini</h4>
+                <p>Research focus: My research focuses on the synthesis of fused tetracyclic indoles and cyclic peptide mimics.</p>
+                <p>Hobbies: Watching podcasts on YouTube</p>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div class="member-image">
                 <img src="{{ site.baseurl }}/assets/images/newlabmates/IMG_6086_Jasper Band.jpg" alt="Jasper Band">
             </div>
             <div class="member-info">
@@ -24,18 +35,6 @@ categories: news team
                 <p>MSc student</p>
                 <p>Research focus: Organic Chemistry</p>
                 <p>Hobbies: Swimming, Hiking</p>
-            </div>
-        </div>
-
-        <div class="member-card">
-            <div class="member-image">
-                <img src="{{ site.baseurl }}/assets/images/newlabmates/daniel.jpg" alt="Daniel Guo">
-            </div>
-            <div class="member-info">
-                <h4>Daniel Guo</h4>
-                <p>Honours Student</p>
-                <p>Research focus: Antimicrobial peptide mimics</p>
-                <p>Hobbies: Skiing</p>
             </div>
         </div>
 
@@ -53,12 +52,13 @@ categories: news team
 
         <div class="member-card">
             <div class="member-image">
-                <img src="{{ site.baseurl }}/assets/images/newlabmates/vidia.jpeg" alt="Vidia Afina Nuraini">
+                <img src="{{ site.baseurl }}/assets/images/newlabmates/daniel.jpg" alt="Daniel Guo">
             </div>
             <div class="member-info">
-                <h4>Vidia Afina Nuraini</h4>
-                <p>Research focus: My research focuses on the synthesis of fused tetracyclic indoles and cyclic peptide mimics.</p>
-                <p>Hobbies: Watching podcasts on YouTube</p>
+                <h4>Daniel Guo</h4>
+                <p>Honours Student</p>
+                <p>Research focus: Antimicrobial peptide mimics</p>
+                <p>Hobbies: Skiing</p>
             </div>
         </div>
     </div>

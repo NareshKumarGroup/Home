@@ -231,17 +231,6 @@ title: People
                     
                     <div class="member-card">
                         <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newjosh.jpg" alt="Josh Fleming">
-                        </div>
-                        <div class="member-info">
-                            <h4>Josh Fleming</h4>
-                            <p>Research focus: I'm interested in medicinal chemistry projects, with a combination of organic synthesis and biotesting</p>
-                            <p>Hobbies: Reading, hiking, crocheting</p>
-                        </div>
-                    </div>
-
-                    <div class="member-card">
-                        <div class="member-image">
                             <img src="{{ site.baseurl }}/assets/images/newlabmates/IMG_6086_Jasper Band.jpg" alt="Jasper Band">
                         </div>
                         <div class="member-info">
@@ -249,6 +238,25 @@ title: People
                             <p>MSc student</p>
                             <p>Research focus: Organic Chemistry</p>
                             <p>Hobbies: Swimming, Hiking</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Honours Students -->
+            <div class="team-section">
+                <h3>Honours Students</h3>
+                <div class="team-grid">
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="{{ site.baseurl }}/assets/images/newjosh.jpg" alt="Josh Fleming">
+                        </div>
+                        <div class="member-info">
+                            <h4>Josh Fleming</h4>
+                            <p>Honours Student</p>
+                            <p>Research focus: I'm interested in medicinal chemistry projects, with a combination of organic synthesis and biotesting</p>
+                            <p>Hobbies: Reading, hiking, crocheting</p>
                         </div>
                     </div>
 
@@ -275,7 +283,6 @@ title: People
                             <p>Hobbies: Creative writing, gym and running</p>
                         </div>
                     </div>
-
                 </div>
             </div>
 

@@ -237,9 +237,9 @@ title: People
                 </div>
             </div>
 
-            <!-- Honours Students -->
+            <!-- Research Assistant -->
             <div class="team-section">
-                <h3>Honours Students</h3>
+                <h3>Research Assistant</h3>
                 <div class="team-grid">
                     <div class="member-card">
                         <div class="member-image">
@@ -247,15 +247,21 @@ title: People
                         </div>
                         <div class="member-info">
                             <h4>Josh Fleming</h4>
-                            <p>Honours Student</p>
+                            <p>Research Assistant</p>
                             <p>Research focus: I'm interested in medicinal chemistry projects, with a combination of organic synthesis and biotesting</p>
                             <p>Hobbies: Reading, hiking, crocheting</p>
                         </div>
                     </div>
+                </div>
+            </div>
 
+            <!-- Honours Students -->
+            <div class="team-section">
+                <h3>Honours Students</h3>
+                <div class="team-grid">
                     <div class="member-card">
                         <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newlabmates/daniel.jpg" alt="Daniel Guo">
+                            <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="Daniel Guo">
                         </div>
                         <div class="member-info">
                             <h4>Daniel Guo</h4>

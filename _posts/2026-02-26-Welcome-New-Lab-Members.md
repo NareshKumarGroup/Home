@@ -52,7 +52,7 @@ categories: news team
 
         <div class="member-card">
             <div class="member-image">
-                <img src="{{ site.baseurl }}/assets/images/newlabmates/daniel.jpg" alt="Daniel Guo">
+                <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="Daniel Guo">
             </div>
             <div class="member-info">
                 <h4>Daniel Guo</h4>

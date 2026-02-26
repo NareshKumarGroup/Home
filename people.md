@@ -183,6 +183,7 @@ title: People
                         </div>
                         <div class="member-info">
                             <h4>Tope A. Ibisanmi </h4>
+                             <p><strong>Site developer</strong></p>
                             <p>Research focus: Research interest: Antimicrobial resistance, computational and experimental drug design </p>
                             <p>Hobbies: Adventures, web surfing, football.</p>
                         </div>

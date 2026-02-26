@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to Our New Lab Members"
-date: 2026-02-11 12:00:00 +1100
+date: 2026-02-26 12:00:00 +1100
 categories: news team
 ---
 

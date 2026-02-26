@@ -25,28 +25,17 @@ title: Publications
 
             <!-- Publications List -->
             <div class="publications-list">
-                <!-- 2026 -->
+                <!-- 2026 (newest to oldest) -->
                 <div class="year-section">
                     <h3>2026</h3>
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
-                            <h4>Antimicrobial activity of a short guanidine mimic immobilised on contact lenses</h4>
-                            <p class="authors">Sara, M., Kuppusamy, R., Enninful, G. et al.</p>
-                            <p class="journal">J Mater Sci: Mater Med 37, 20 (2026)</p>
+                            <h4>Design, Synthesis and Evaluation of Indole-Based 1,2,3-Triazoles as Potential Quorum Sensing and Biofilm Inhibitors Against Pseudomonas aeruginosa</h4>
+                            <p class="authors">Kosana Sai Chaitanya, Tsz Tin Yu, Hrushikesh Chaudhari, Nidhi Orekonday, Naresh Kumar, Ruchi Jain Dey, Sankaranarayanan Murugesan, Kondapalli Venkata Gowri Chandra Sekhar</p>
+                            <p class="journal">Archiv der Pharmazie 359 (2026): e70209</p>
                             <div class="publication-links">
-                                <a href="https://doi.org/10.1007/s10856-025-06998-w" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="publication-item" data-type="journal">
-                        <div class="publication-content">
-                            <h4>Assessing the Effect of Substitution of Arginine with Homoarginine in Two Antimicrobial Peptides</h4>
-                            <p class="authors">Enninful, G.N., Kuppusamy, R., Tiburu, E. et al.</p>
-                            <p class="journal">Int J Pept Res Ther 32, 24 (2026)</p>
-                            <div class="publication-links">
-                                <a href="https://doi.org/10.1007/s10989-026-10804-8" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                                <a href="https://doi.org/10.1002/ardp.70209" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
                             </div>
                         </div>
                     </div>
@@ -64,11 +53,22 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
-                            <h4>Design, Synthesis and Evaluation of Indole-Based 1,2,3-Triazoles as Potential Quorum Sensing and Biofilm Inhibitors Against Pseudomonas aeruginosa</h4>
-                            <p class="authors">Kosana Sai Chaitanya, Tsz Tin Yu, Hrushikesh Chaudhari, Nidhi Orekonday, Naresh Kumar, Ruchi Jain Dey, Sankaranarayanan Murugesan, Kondapalli Venkata Gowri Chandra Sekhar</p>
-                            <p class="journal">Archiv der Pharmazie 359 (2026): e70209</p>
+                            <h4>Assessing the Effect of Substitution of Arginine with Homoarginine in Two Antimicrobial Peptides</h4>
+                            <p class="authors">Enninful, G.N., Kuppusamy, R., Tiburu, E. et al.</p>
+                            <p class="journal">Int J Pept Res Ther 32, 24 (2026)</p>
                             <div class="publication-links">
-                                <a href="https://doi.org/10.1002/ardp.70209" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                                <a href="https://doi.org/10.1007/s10989-026-10804-8" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Antimicrobial activity of a short guanidine mimic immobilised on contact lenses</h4>
+                            <p class="authors">Sara, M., Kuppusamy, R., Enninful, G. et al.</p>
+                            <p class="journal">J Mater Sci: Mater Med 37, 20 (2026)</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1007/s10856-025-06998-w" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
                             </div>
                         </div>
                     </div>

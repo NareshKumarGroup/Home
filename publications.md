@@ -1478,6 +1478,19 @@ title: Publications
                         </div>
                     </div>
 
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Photocatalytic TiO&amp;lt;inf&amp;gt;2&amp;lt;/inf&amp;gt; thin films on fluorinated ethylene propylene copolymer (FEP) substrates</h4>
+                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="journal">Journal of the Australian Ceramic Society</p>
+                            <div class="publication-links">
+                                <a href="https://www.scopus.com/inward/record.uri?eid=2-s2.0-84938879781&amp;partnerID=40&amp;md5=41dd6b86f9a0f3b0b094b610a52c02b1" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> DOI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">

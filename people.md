@@ -61,16 +61,6 @@ title: People
                     </div>
                     <div class="member-card">
                         <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/junsun.jpg" alt="Dr. Jun Sun">
-                        </div>
-                        <div class="member-info">
-                            <h4>Jun Sun, PhD</h4>
-                            <p>Research focus: PFAS remediation, environmental science and analytical chemistry</p>
-                            <p>Hobbies: Painting, Gym </p>
-                        </div>
-                    </div>
-                    <div class="member-card">
-                        <div class="member-image">
                             <img src="{{ site.baseurl }}/assets/images/new/TuongTo.jpg" alt="Tuong To, PhD">
                         </div>
                         <div class="member-info">

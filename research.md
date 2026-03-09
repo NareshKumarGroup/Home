@@ -61,13 +61,7 @@ title: Research
                                 <h4>3. Quorum Sensing Inhibitors</h4>
                                 <div class="project-content-inner">
                                     <div class="project-text">
-                                        <p>Our research on quorum sensing inhibitors aims to disrupt bacterial communication, including:</p>
-                                        <ul>
-                                            <li>Design of novel quorum sensing inhibitors</li>
-                                            <li>Target identification and validation</li>
-                                            <li>Biofilm disruption studies</li>
-                                            <li>In vitro and in vivo evaluation</li>
-                                        </ul>
+                                        <p>The emergence of multi-drug resistance in common human pathogens has highlighted the need to develop novel classes of antimicrobials for the treatment of human disease. A number of projects are available in this area focussing on a combination of organic synthesis, molecular modelling, and in vitro and in vivo antimicrobial screening. This project will develop novel antagonists of bacterial signalling pathways, which inhibit the regulatory quorum sensing communication pathways of bacteria, and will model the receptor-ligand interaction using the X-ray crystal structures of bacterial signal receptors e.g. Pseudomonas quinolone system (PQS).</p>
                                     </div>
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/quorum-sensing.jpg" alt="Quorum Sensing Research" >
@@ -126,6 +120,40 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/flpt3.jpg" alt="FLT3 Inhibitor Research" style="width: 50%; height: auto;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cancer-project">
+                                <h4>3. Novel Heterocyclic Analogues of Isoflavones as Anticancer Drug</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>The isoflavones are the largest and most widely studied class of phytoestrogens displaying potent and selective cytotoxicity against cancer cells, with low toxicity to healthy cells. During the past five years we have developed several new phenoxodiol conjugates with potent biological activities, and have also incorporated phenoxodiol in a cyclodextrin formulation, which shows increased aqueous solubility. Furthermore we have covalently conjugated phenoxodiol to dextran to generate a new product with enhanced stability and efficacy. In addition, we have developed methodologies for the synthesis of novel analogues of fused flavonoid natural products, including dependensin, rottlerin and kamalachalcone A. The overall aim of the project is to synthesize novel heterocyclic analogues of isoflavones. The specific objectives of the proposal are to synthesize aza-isoflavone structural analogues and to evaluate their biological activity using in vitro assays to identify structure-activity relationships as a means of refining synthetic targets to ultimately develop lead candidates.</p>
+                                    </div>
+                                    <div class="project-image">
+                                        <img src="{{ site.baseurl }}/assets/images/Isoflavonesh.jpg" alt="Novel Heterocyclic Analogues of Isoflavones" >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header" onclick="toggleSection(this)">
+                        <h3>Environmental Chemistry & PFAS Remediation</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="cancer-projects">
+                            <div class="cancer-project">
+                                
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>Per- and poly-fluoroalkyl substances (PFAS), a class of organofluorine compounds, are attracting intense regulatory scrutiny and public awareness due to their xenobiotic nature and adverse impact to health. PFAS contain extremely stable C-F bonds, have excellent stability, surface activity, oleophobic and hydrophobic properties, and are widely used as water and oil repellents (e.g. in carpets, leather, fire extinguishing agents, non-stick pans, food packaging and other fields). Perfluorooctane sulfonate (PFOS) and perfluorooctanoic acid (PFOA) are the two most common PFAS with half-lives of 5.4 years and 3.8 years, respectively. PFASs are widely used and discharged worldwide, and a variety of PFAS can be detected in the environment, wildlife and in humans. It is now known that PFAS bioaccumulate, biomagnify and are linked to immune suppression and cancer. In this project, we aim to create a platform that combines a sorbent and redox active catalysts (RACs) to remediate PFAS.</p>
+                                    </div>
+                                    <div class="project-image">
+                                        <img src="{{ site.baseurl }}/assets/images/pfas.jpg" alt="PFAS Remediation Research" >
                                     </div>
                                 </div>
                             </div>

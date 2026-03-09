@@ -34,6 +34,31 @@ title: People
                 </div>
             </div>
 
+            <!-- Special Recognition -->
+            <div class="team-section">
+                <h3>Special Recognition</h3>
+                <div class="special-recognition">
+                    <div class="recognition-card">
+                        <div class="recognition-content">
+                            <div class="recognition-image">
+                                <img src="{{ site.baseurl }}/assets/images/david-black.jpg" alt="Emeritus Professor David Black">
+                            </div>
+                            <div class="recognition-info">
+                                <h4>Emeritus Professor David Black</h4>
+                                <div class="expertise">
+                                    <h5>My Expertise</h5>
+                                    <p>Agricultural chemicals; chemical nomenclature; chemicals - organic, reagent; drugs; pharmaceutical products & technology;</p>
+                                </div>
+                                <div class="biography">
+                                    <h5>Biography</h5>
+                                    <p>Born 1938. Research Associate at Columbia University 1963 - 1964. Appointed Lecturer at Monash University 1965, promoted to Senior Lecturer 1971, Reader 1975. Appointed to Chair of Organic Chemistry <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> in 1983. Secretary General of IUPAC 2004-2011.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Lecturer/Associate Lectuerer                                                            Postdoctoral Researchers -->
             <div class="team-section">
                 <div class="team-grid">
@@ -500,31 +525,6 @@ title: People
                     </div>
                   </div>
                 </details>
-            </div>
-        </div>
-
-        <!-- Special Recognition -->
-        <div class="team-section">
-            <h3>Special Recognition</h3>
-            <div class="special-recognition">
-                <div class="recognition-card">
-                    <div class="recognition-content">
-                        <div class="recognition-image">
-                            <img src="{{ site.baseurl }}/assets/images/david-black.jpg" alt="Emeritus Professor David Black">
-                        </div>
-                        <div class="recognition-info">
-                            <h4>Emeritus Professor David Black</h4>
-                            <div class="expertise">
-                                <h5>My Expertise</h5>
-                                <p>Agricultural chemicals; chemical nomenclature; chemicals - organic, reagent; drugs; pharmaceutical products & technology;</p>
-                            </div>
-                            <div class="biography">
-                                <h5>Biography</h5>
-                                <p>Born 1938. Research Associate at Columbia University 1963 - 1964. Appointed Lecturer at Monash University 1965, promoted to Senior Lecturer 1971, Reader 1975. Appointed to Chair of Organic Chemistry <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> in 1983. Secretary General of IUPAC 2004-2011.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

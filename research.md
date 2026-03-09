@@ -44,16 +44,15 @@ title: Research
                                 <h4>2. Antimicrobial Hydrogel</h4>
                                 <div class="project-content-inner">
                                     <div class="project-text">
-                                        <p>We are investigating the antimicrobial properties of hydrogel-based compounds, focusing on:</p>
+                                        <p>We are investigating antimicrobial peptide-mimics that can also form hydrogels. This work predominantly focuses on:</p>
                                         <ul>
-                                            <li>Development of novel hydrogel-based antimicrobial agents</li>
-                                            <li>Mechanism of antimicrobial action</li>
-                                            <li>Synergistic effects with existing antibiotics</li>
-                                            <li>Safety and efficacy studies</li>
+                                            <li>Determining the structure-functional properties of novel low molecular weight (LMW) hydrogelating antimicrobial agents</li>
+                                            <li>Incorporating nitric-oxide releasing functional groups to form dual-action antimicrobial hydrogels</li>
+                                            <li>Development of "smart" controllable photoswitchable hydrogels with antimicrobial properties</li>
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogen Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogel Research" >
                                     </div>
                                 </div>
                             </div>

@@ -10,7 +10,7 @@ title: About
         </div>
         <div class="about-content">
             <div class="about-text">
-                <p>The Naresh Kumar Research Group at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney is dedicated to advancing the field of medicinal chemistry through innovative research and collaboration. Our work focuses on developing novel therapeutic agents for various diseases, with a particular emphasis on infectious disease and cancer.</p>
+                <p>The Naresh Kumar Research Group at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney is dedicated to advancing the field of Organic/Medicinal Chemistry through innovative research and collaboration. Our work focuses on developing novel therapeutic agents for various diseases, with a particular emphasis on infectious disease and cancer.</p>
 
                 <div class="about-image">
                     <img src="{{ site.baseurl }}/assets/images/dec2024part.jpg" alt="December 2024 Party" class="about-hero-image">
@@ -23,14 +23,14 @@ title: About
                     <li>Understand the molecular mechanisms of disease and drug action</li>
                     <li>Develop new methodologies for drug discovery and development</li>
                     <li>Machine learning, deep learning, and artificial intelligence in drug discovery</li>
-                    <li>Train the next generation of medicinal chemists and drug discovery scientists</li>
+                    <li>Train the next generation of Organic/Medicinal chemists and drug discovery scientists</li>
                     
                 </ul>
 
                 <h3>Research Areas</h3>
                 <div class="research-areas">
                     <div class="research-area">
-                        <h4>Medicinal Chemistry</h4>
+                        <h4>Organic/Medicinal Chemistry</h4>
                         <p>Design and synthesis of small molecule therapeutics</p>
                     </div>
                     <div class="research-area">

@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
     <div class="container">
         <h1>Welcome to the Naresh Kumar Research Group</h1>
-        <p class="subtitle">Medicinal Chemistry Research at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney</p>
+        <p class="subtitle">Organic/Medicinal Chemistry Research at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney</p>
     </div>
 </div>
 
@@ -17,12 +17,12 @@ title: Home
         </div>
         <div class="grid">
             <div class="card">
-                <h3 class="card-title">Medicinal Chemistry</h3>
+                <h3 class="card-title">Organic/Medicinal Chemistry</h3>
                 <p>Our group focuses on the design and synthesis of novel drug candidates for various therapeutic targets, with a particular emphasis on cancer and infectious diseases.</p>
             </div>
             <div class="card">
                 <h3 class="card-title">Drug Discovery</h3>
-                <p>We employ state-of-the-art techniques in medicinal chemistry, including structure-based drug design, fragment-based drug discovery, and high-throughput screening.</p>
+                <p>We employ state-of-the-art techniques in Organic/Medicinal Chemistry, including structure-based drug design, fragment-based drug discovery, and high-throughput screening.</p>
             </div>
             <div class="card">
                 <h3 class="card-title">Chemical Biology</h3>
@@ -344,7 +344,7 @@ title: Home
         <div class="grid">
             <div class="card">
                 <h3 class="card-title">PhD Opportunities</h3>
-                <p>We are always looking for motivated PhD students with a background in chemistry, medicinal chemistry, or related fields.</p>
+                <p>We are always looking for motivated PhD students with a background in chemistry, Organic/Medicinal Chemistry, or related fields.</p>
                 <a href="{{ '/opportunities' | relative_url }}" class="btn">Learn More</a>
             </div>
             <div class="card">

@@ -26,10 +26,10 @@ body {
     padding: 0 20px;
 }
 
-// Header styles
+// Header styles - matches footer color (#003366)
 .site-header {
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #003366;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     position: fixed;
     width: 100%;
     top: 0;
@@ -43,7 +43,7 @@ body {
 
         .logo {
             text-decoration: none;
-            color: $primary-color;
+            color: white;
 
             h1 {
                 font-size: 1.5rem;
@@ -60,12 +60,12 @@ body {
 
                 a {
                     text-decoration: none;
-                    color: $text-color;
+                    color: rgba(255, 255, 255, 0.9);
                     font-weight: 500;
                     transition: color 0.3s;
 
                     &:hover {
-                        color: $secondary-color;
+                        color: white;
                     }
                 }
             }
@@ -136,9 +136,9 @@ body {
                 top: 100%;
                 left: 0;
                 width: 100%;
-                background: white;
+                background: #003366;
                 padding: 1rem;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 
                 &.active {
                     display: block;
@@ -159,7 +159,7 @@ body {
                     display: block;
                     width: 25px;
                     height: 3px;
-                    background-color: $text-color;
+                    background-color: white;
                     margin: 5px 0;
                     transition: 0.3s;
                 }
@@ -206,15 +206,15 @@ a {
     }
 }
 
-// Navigation links (keep existing styling)
-.nav-links a {
-    color: $text-color;
+// Navigation links (header has dark background, so links are white)
+.site-header .nav-links a {
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
 
     &:hover {
-        color: $secondary-color;
+        color: white;
         text-decoration: none;
     }
 }

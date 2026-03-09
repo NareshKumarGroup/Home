@@ -37,7 +37,7 @@ title: Home
                 </div>
                 <div class="research-card-content">
                     <h3>Organic/Medicinal Chemistry</h3>
-                    <p>Design and synthesis of novel drug candidates for cancer and infectious diseases.</p>
+                    <p>Our group focuses on the design and synthesis of novel drug candidates for various therapeutic targets, with a particular emphasis on cancer and infectious diseases.</p>
                 </div>
             </a>
             <a href="{{ '/research' | relative_url }}" class="research-card">
@@ -47,7 +47,7 @@ title: Home
                 </div>
                 <div class="research-card-content">
                     <h3>Drug Discovery</h3>
-                    <p>Structure-based design, fragment-based discovery, and high-throughput screening.</p>
+                    <p>We employ state-of-the-art techniques in Organic/Medicinal Chemistry, including structure-based drug design, fragment-based drug discovery, and high-throughput screening.</p>
                 </div>
             </a>
             <a href="{{ '/research' | relative_url }}" class="research-card">
@@ -57,7 +57,7 @@ title: Home
                 </div>
                 <div class="research-card-content">
                     <h3>Chemical Biology</h3>
-                    <p>Integrating synthesis with biological studies to develop new therapeutic strategies.</p>
+                    <p>Our research integrates chemical synthesis with biological studies to understand disease mechanisms and develop new therapeutic strategies.</p>
                 </div>
             </a>
             <a href="{{ '/research' | relative_url }}" class="research-card research-card-wide">
@@ -67,7 +67,7 @@ title: Home
                 </div>
                 <div class="research-card-content">
                     <h3>Computational Drug Discovery</h3>
-                    <p>AI, machine learning, molecular docking, and simulation to accelerate drug design.</p>
+                    <p>We use AI, machine learning, deep learning, molecular docking, and simulation to accelerate drug discovery and design.</p>
                 </div>
             </a>
         </div>

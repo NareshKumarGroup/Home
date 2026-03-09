@@ -26,7 +26,7 @@ title: Home
     <div class="container">
         <div class="research-showcase-header">
             <h2 class="research-showcase-title">Our Research</h2>
-            <p class="research-showcase-subtitle">Discover our research areas in medicinal chemistry and drug discovery</p>
+            <p class="research-showcase-subtitle">Discover our research areas in Organic chemistry and drug discovery</p>
             <a href="{{ '/research' | relative_url }}" class="btn research-showcase-btn">Explore All Research</a>
         </div>
         <div class="research-cards-grid">
@@ -259,14 +259,16 @@ title: Home
 
 .research-card-image {
   position: relative;
-  height: 160px;
+  height: 200px;
   overflow: hidden;
+  background: #f0f4ff;
 }
 
 .research-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   transition: transform 0.4s ease;
 }
 
@@ -309,7 +311,7 @@ title: Home
 }
 
 .research-card-wide .research-card-image {
-  height: 200px;
+  height: 240px;
 }
 
 .research-card-wide .research-card-content {
@@ -355,11 +357,11 @@ title: Home
   }
   
   .research-card-image {
-    height: 140px;
+    height: 180px;
   }
   
   .research-card-wide .research-card-image {
-    height: 160px;
+    height: 200px;
   }
 }
 

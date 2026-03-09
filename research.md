@@ -173,7 +173,7 @@ title: Research
 
                 <div class="project">
                     <div class="project-header" onclick="toggleSection(this)">
-                        <h3>Development of Scalable Synthetic Methodologies</h3>
+                        <h3>Development of Synthetic Methodologies</h3>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="project-content">

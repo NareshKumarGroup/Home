@@ -29,8 +29,8 @@ body {
 
 // Header styles
 .site-header {
-    background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, #6d5fd9 0%, #818cf9 25%, #a78bfa 50%, #8b5cf6 75%, #7c3aed 100%);
+    box-shadow: 0 4px 20px rgba(129, 140, 249, 0.4), 0 2px 5px rgba(0,0,0,0.1);
     position: fixed;
     width: 100%;
     top: 0;
@@ -87,7 +87,7 @@ body {
 
 // Footer styles
 .site-footer {
-    background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
+    background: linear-gradient(135deg, #6d5fd9 0%, #818cf9 25%, #a78bfa 50%, #8b5cf6 75%, #7c3aed 100%);
     color: white;
     padding: 3rem 0 1rem;
 
@@ -137,9 +137,9 @@ body {
                 top: 100%;
                 left: 0;
                 width: 100%;
-                background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
+                background: linear-gradient(135deg, #6d5fd9 0%, #818cf9 25%, #a78bfa 50%, #8b5cf6 75%, #7c3aed 100%);
                 padding: 1rem;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                box-shadow: 0 4px 20px rgba(129, 140, 249, 0.4);
 
                 &.active {
                     display: block;
@@ -180,19 +180,21 @@ a {
     }
 }
 
-// Button links - match site gradient
+// Button links - match site gradient with shine
 .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
-    background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
+    background: linear-gradient(135deg, #6d5fd9 0%, #818cf9 25%, #a78bfa 50%, #8b5cf6 75%, #7c3aed 100%);
     color: white;
     text-decoration: none;
     border-radius: 4px;
     transition: all 0.3s;
+    box-shadow: 0 2px 12px rgba(129, 140, 249, 0.4);
 
     &:hover {
-        background: linear-gradient(135deg, #5a6fd6 0%, #6a4190 100%);
+        background: linear-gradient(135deg, #818cf9 0%, #7c3aed 100%);
         text-decoration: none;
+        box-shadow: 0 4px 16px rgba(129, 140, 249, 0.5);
     }
 }
 
@@ -202,7 +204,7 @@ a {
     text-decoration: none;
     
     &:hover {
-        color: #667eea;
+        color: #818cf9;
         text-decoration: none;
     }
 }
@@ -278,7 +280,7 @@ a {
   background-position: center;
   color: white;
   text-align: center;
-  padding: 9.6rem 0;
+  padding: 11.52rem 0;
   margin-top: -120px;
   
   a {
@@ -294,8 +296,8 @@ a {
 
 @media (max-width: 768px) {
   .hero {
-    padding: 4.8rem 0;
-    min-height: 300px;
+    padding: 5.76rem 0;
+    min-height: 360px;
   }
 }
 
@@ -401,7 +403,7 @@ a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(102, 126, 234, 0.8);
+    background: rgba(129, 140, 249, 0.85);
     color: white;
     border: none;
     padding: 16px 12px;
@@ -413,7 +415,7 @@ a {
     z-index: 10;
     
     &:hover {
-        background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
+        background: linear-gradient(135deg, #6d5fd9 0%, #818cf9 25%, #a78bfa 50%, #8b5cf6 75%, #7c3aed 100%);
     }
     
     &.prev {
@@ -441,11 +443,11 @@ a {
         transition: background-color 0.3s;
         
         &:hover {
-            background-color: #667eea;
+            background-color: #818cf9;
         }
         
         &.active {
-            background-color: #667eea;
+            background-color: #818cf9;
         }
     }
 }

@@ -68,7 +68,7 @@ permalink: /news/
 }
 
 .featured-card {
-  background: linear-gradient(135deg, #497d00 0%, #3d6600 100%);
+  background: linear-gradient(135deg, #00bcff 0%, #0099cc 100%);
   border-radius: 12px;
   padding: 2rem;
   color: white;

@@ -73,26 +73,24 @@ title: People
                         </div>
                     </div>
                 </div>
-                <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
+                <div class="team-grid face-card-grid">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/new/tsztinyu.jpg" alt="Tsz Tin Yu">
                         </div>
-                        <div class="member-info">
-                            <h4>Tsz Tin Yu</h4>
-                            <p>Research focus: His research interests mainly focus on synthetic organic and medicinal chemistry, especially on the synthesis of bioactive compounds and the development of novel antimicrobial agents in response to antimicrobial resistance.</p>
-                            <p>Hobbies: </p>
-                        </div>
+                        <h4 class="face-card-name">Tsz Tin Yu</h4>
+                        <p class="face-card-title">Lecturer/Associate Lecturer</p>
+                        <p class="face-card-desc">His research interests mainly focus on synthetic organic and medicinal chemistry, especially on the synthesis of bioactive compounds and the development of novel antimicrobial agents in response to antimicrobial resistance.</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/new/TuongTo.jpg" alt="Tuong To, PhD">
                         </div>
-                        <div class="member-info">
-                            <h4>Tuong To, PhD</h4>
-                            <p>Research focus: synthetic chemistry </p>
-                            <p>Hobbies: Board games </p>
-                        </div>
+                        <h4 class="face-card-name">Tuong To</h4>
+                        <p class="face-card-title">Postdoctoral Researcher</p>
+                        <p class="face-card-desc">Synthetic chemistry</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -100,116 +98,96 @@ title: People
             <!-- PhD Students -->
             <div class="team-section">
                 <h3>PhD Students</h3>
-                <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
+                <div class="team-grid face-card-grid">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/new/1745724255848_Yao Cheng.jpeg" alt="Yao Cheng">
                         </div>
-                        <div class="member-info">
-                            <h4>Yao Cheng</h4>
-                            <p>Research focus: 1. Medicinal Chemistry: Design and synthesis of biologically active molecules. 2. Organic Methodology: Development of simple strategies for constructing pharmaceutical scaffolds</p>
-                            <p>Hobbies: Hiking, Squash, Swimming, Board games</p>
-                        </div>
+                        <h4 class="face-card-name">Yao Cheng</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Medicinal Chemistry: Design and synthesis of biologically active molecules. Organic Methodology: Development of simple strategies for constructing pharmaceutical scaffolds</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/new/Screenshot_2025-06-13-11-55-04-00_965bbf4d18d_Dittu Suresh.jpg" alt="Dittu Suresh">
                         </div>
-                        <div class="member-info">
-                            <h4>Dittu Suresh</h4>
-                            <p>Research focus: Dual-action antimicrobials focused towards quorum sensing inhibitors and small molecule antimicrobial peptide mimics</p>
-                            <p>Hobbies: Badminton, games</p>
-                        </div>
+                        <h4 class="face-card-name">Dittu Suresh</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Dual-action antimicrobials focused towards quorum sensing inhibitors and small molecule antimicrobial peptide mimics</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/Nathan.jpg" alt="Nathan Carey">
                         </div>
-                        <div class="member-info">
-                            <h4>Nathan Carey</h4>
-                            <p>Research focus: My research aims are broadly to synthesise new antimicrobial compounds. Recently my attention has been on using bacterial iron transport mechanisms to target resistant, virulent bacterial strains.</p>
-                            <p>Hobbies: When I'm not in the lab you might find me on some outdoor adventure with some favourites being skiing, hiking, abseiling/canyoning or a good roadtrip.</p>
-                        </div>
+                        <h4 class="face-card-name">Nathan Carey</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Synthesising new antimicrobial compounds. Using bacterial iron transport mechanisms to target resistant, virulent bacterial strains.</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/new/valerio.jpg" alt="Valerio Falasca">
                         </div>
-                        <div class="member-info">
-                            <h4>Valerio Falasca</h4>
-                            <p>Research focus: Anticancer and antiinflammatory drug discovery</p>
-                            <p>Hobbies: Brazilian Jiu Jitzu, Hiking, Bouldering</p>
-                        </div>
+                        <h4 class="face-card-name">Valerio Falasca</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Anticancer and antiinflammatory drug discovery</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-                    
-
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/raselk.jpeg" alt="Rasel Ahmed Khan">
                         </div>
-                        <div class="member-info">
-                            <h4>Rasel Ahmed Khan</h4>
-                            <p>Research focus: My research interests lie in the field of medicinal chemistry, with a particular focus on the design and development of novel therapeutic agents. Currently, I am working on the development of next generation quorum sensory inhibitors</p>
-                            <p>Hobbies: Adventures, reading, photography, hiking, traveling, and playing board games</p>
-                        </div>
+                        <h4 class="face-card-name">Rasel Ahmed Khan</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Medicinal chemistry: design and development of novel therapeutic agents and next generation quorum sensing inhibitors</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/new/Samuel.jpeg" alt="Samuel Attard">
                         </div>
-                        <div class="member-info">
-                            <h4>Samuel Attard</h4>
-                            <p>Research focus: development of antimicrobial hydrogel-based compounds</p>
-                            <p>Hobbies:   </p>
-                        </div>
+                        <h4 class="face-card-name">Samuel Attard</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Development of antimicrobial hydrogel-based compounds</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/newlabmates/vidia.jpeg" alt="Vidia Afina Nuraini">
                         </div>
-                        <div class="member-info">
-                            <h4>Vidia Afina Nuraini</h4>
-                            <p>Research focus: My research focuses on the synthesis of fused tetracyclic indoles and cyclic peptide mimics.</p>
-                            <p>Hobbies: Watching podcasts on YouTube</p>
-                        </div>
+                        <h4 class="face-card-name">Vidia Afina Nuraini</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Synthesis of fused tetracyclic indoles and cyclic peptide mimics</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-                    
-                    
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/...newmatt.jpg" alt="Matthew Erlik">
                         </div>
-                        <div class="member-info">
-                            <h4>Matthew Erlik</h4>
-                            <p>Research focus: My research interests include the discovery of anticancer drugs </p>
-                            <p>Hobbies: Video games, music  </p>
-                        </div>  
+                        <h4 class="face-card-name">Matthew Erlik</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">Discovery of anticancer drugs</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-
-
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/Topeimage.jpg" alt="Tope">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
+                            <img src="{{ site.baseurl }}/assets/images/Topeimage.jpg" alt="Tope A. Ibisanmi">
                         </div>
-                        <div class="member-info">
-                            <h4>Tope A. Ibisanmi </h4>
-                             <p><strong>Site developer</strong></p>
-                            <p>Research focus: Research interest: Antimicrobial resistance, computational and experimental drug design </p>
-                            <p>Hobbies: Adventures, web surfing, football.</p>
-                        </div>
+                        <h4 class="face-card-name">Tope A. Ibisanmi</h4>
+                        <p class="face-card-title">PhD Student · Site developer</p>
+                        <p class="face-card-desc">Antimicrobial resistance, computational and experimental drug design</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-
-                    
-
-                    <div class="member-card">
-                        <div class="member-info">
-                            <h4>Robert Rourke</h4>
+                    <div class="member-card face-card">
+                        <div class="face-card-image face-card-placeholder">
+                            <span>RR</span>
                         </div>
+                        <h4 class="face-card-name">Robert Rourke</h4>
+                        <p class="face-card-title">PhD Student</p>
+                        <p class="face-card-desc">—</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
 
                    
@@ -226,47 +204,40 @@ title: People
             <!-- Master's Students -->
             <div class="team-section">
                 <h3>Master's Students</h3>
-                <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
+                <div class="team-grid face-card-grid">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/new/Lilla.jpeg" alt="Lilla Nur Firli">
                         </div>
-                        <div class="member-info">
-                            <h4>Lilla Nur Firli</h4>
-                            <p>Research focus: I am currently working on discovering antibacterial compounds from marine sponges. My project combines natural product isolation, structural analysis, and target identification using biotin-tagging and phage display.</p>
-                            <p>Hobbies: I find joy in creative writing, reading, video editing, and capturing moments through photos. I also like baking (only when I feel like it).</p>
-                        </div>
+                        <h4 class="face-card-name">Lilla Nur Firli</h4>
+                        <p class="face-card-title">MSc Student</p>
+                        <p class="face-card-desc">Discovering antibacterial compounds from marine sponges. Natural product isolation, structural analysis, and target identification using biotin-tagging and phage display.</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/newlabmates/IMG_6086_Jasper Band.jpg" alt="Jasper Band">
                         </div>
-                        <div class="member-info">
-                            <h4>Jasper Band</h4>
-                            <p>MSc student</p>
-                            <p>Research focus: Organic Chemistry</p>
-                            <p>Hobbies: Swimming, Hiking</p>
-                        </div>
+                        <h4 class="face-card-name">Jasper Band</h4>
+                        <p class="face-card-title">MSc Student</p>
+                        <p class="face-card-desc">Organic Chemistry</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-
                 </div>
             </div>
 
             <!-- Research Assistant -->
             <div class="team-section">
                 <h3>Research Assistant</h3>
-                <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
+                <div class="team-grid face-card-grid">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/newjosh.jpg" alt="Josh Fleming">
                         </div>
-                        <div class="member-info">
-                            <h4>Josh Fleming</h4>
-                            <p>Research Assistant</p>
-                            <p>Research focus: I'm interested in medicinal chemistry projects, with a combination of organic synthesis and biotesting</p>
-                            <p>Hobbies: Reading, hiking, crocheting</p>
-                        </div>
+                        <h4 class="face-card-name">Josh Fleming</h4>
+                        <p class="face-card-title">Research Assistant</p>
+                        <p class="face-card-desc">Medicinal chemistry projects combining organic synthesis and biotesting</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -274,29 +245,24 @@ title: People
             <!-- Honours Students -->
             <div class="team-section">
                 <h3>Honours Students</h3>
-                <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
+                <div class="team-grid face-card-grid">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="Daniel Guo">
                         </div>
-                        <div class="member-info">
-                            <h4>Daniel Guo</h4>
-                            <p>Honours Student</p>
-                            <p>Research focus: Antimicrobial peptide mimics</p>
-                            <p>Hobbies: Skiing</p>
-                        </div>
+                        <h4 class="face-card-name">Daniel Guo</h4>
+                        <p class="face-card-title">Honours Student</p>
+                        <p class="face-card-desc">Antimicrobial peptide mimics</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
-
-                    <div class="member-card">
-                        <div class="member-image">
+                    <div class="member-card face-card">
+                        <div class="face-card-image">
                             <img src="{{ site.baseurl }}/assets/images/newlabmates/unnamed_Zainab Yassine.jpg" alt="Zainab Yassine">
                         </div>
-                        <div class="member-info">
-                            <h4>Zainab Yassine</h4>
-                            <p>Honours student</p>
-                            <p>Research focus: Developing dual-acting quorum sensing inhibitors</p>
-                            <p>Hobbies: Creative writing, gym and running</p>
-                        </div>
+                        <h4 class="face-card-name">Zainab Yassine</h4>
+                        <p class="face-card-title">Honours Student</p>
+                        <p class="face-card-desc">Developing dual-acting quorum sensing inhibitors</p>
+                        <a href="{{ '/contact' | relative_url }}" class="face-card-email"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -624,6 +590,77 @@ title: People
     overflow: hidden;
 }
 
+/* Face card layout - circular image, centered content, footer color accents */
+.face-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+.face-card-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #003366;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+}
+
+.face-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.face-card-placeholder {
+    background: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #003366;
+}
+
+.face-card-name {
+    color: #003366 !important;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem !important;
+}
+
+.face-card-title {
+    font-style: italic;
+    color: #666 !important;
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem !important;
+}
+
+.face-card-desc {
+    color: #333 !important;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem !important;
+}
+
+.face-card-email {
+    color: #333 !important;
+    font-size: 1.1rem;
+    text-decoration: none !important;
+    transition: color 0.3s;
+}
+
+.face-card-email:hover {
+    color: #003366 !important;
+}
+
+.face-card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 .member-image img {
     width: 100%;
     height: auto;
@@ -739,29 +776,8 @@ title: People
     }
 }
 
-/* Postdoc section specific styling - reduce size to 80% */
-.team-section:nth-of-type(2) .team-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.team-section:nth-of-type(2) .member-card {
-    transform: none;
-    transform-origin: center;
-}
-
-.team-section:nth-of-type(2) .member-image img {
-    max-height: 400px;
-}
-
-.team-section:nth-of-type(2) .member-info {
-    padding: 1.5rem;
-}
-
-.team-section:nth-of-type(2) .member-info h4 {
+/* Section header cards (Lecturer, Postdoc labels) - keep compact */
+.team-section .member-card:not(.face-card) .member-info h3 {
     font-size: 1.2rem;
-}
-
-.team-section:nth-of-type(2) .member-info p {
-    font-size: 1rem;
 }
 </style> 

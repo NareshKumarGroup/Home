@@ -170,6 +170,7 @@ title: Home
   line-height: 1.75;
   color: #444;
   margin: 0;
+  text-align: justify;
 }
 
 .welcome-note-summary strong {

@@ -300,10 +300,14 @@ a {
 
 // Improved mobile styles for people page and alumni section
 @media (max-width: 768px) {
-  .team-grid {
+  .team-grid:not(.face-card-grid) {
     display: block !important;
   }
-  .member-card {
+  .face-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .member-card:not(.face-card) {
     width: 100% !important;
     margin-bottom: 2rem;
   }

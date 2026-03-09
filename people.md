@@ -600,11 +600,11 @@ title: People
 }
 
 .face-card-image {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid #003366;
+    border: 5px solid #003366;
     margin-bottom: 1rem;
     flex-shrink: 0;
 }
@@ -620,7 +620,7 @@ title: People
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #003366;
 }
@@ -658,7 +658,7 @@ title: People
 }
 
 .face-card-grid {
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .member-image img {
@@ -779,5 +779,21 @@ title: People
 /* Section header cards (Lecturer, Postdoc labels) - keep compact */
 .team-section .member-card:not(.face-card) .member-info h3 {
     font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .face-card {
+        padding: 1.5rem 1rem;
+    }
+    .face-card-image {
+        width: 150px;
+        height: 150px;
+    }
+    .face-card-name {
+        font-size: 1.1rem;
+    }
+    .face-card-desc {
+        font-size: 0.85rem;
+    }
 }
 </style> 

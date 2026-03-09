@@ -60,7 +60,7 @@ title: Home
                     <p>Our research integrates chemical synthesis with biological studies to understand disease mechanisms and develop new therapeutic strategies.</p>
                 </div>
             </a>
-            <a href="{{ '/research' | relative_url }}" class="research-card research-card-wide">
+            <a href="{{ '/research' | relative_url }}" class="research-card">
                 <div class="research-card-image">
                     <img src="{{ site.baseurl }}/assets/images/ai.jpg" alt="Computational Drug Discovery">
                     <div class="research-card-overlay"></div>
@@ -261,7 +261,7 @@ title: Home
   position: relative;
   height: 200px;
   overflow: hidden;
-  background: #f0f4ff;
+  background: white;
 }
 
 .research-card-image img {
@@ -306,38 +306,9 @@ title: Home
   margin: 0;
 }
 
-.research-card-wide {
-  grid-column: span 3;
-}
-
-.research-card-wide .research-card-image {
-  height: 240px;
-}
-
-.research-card-wide .research-card-content {
-  padding: 1.5rem 2rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.research-card-wide .research-card-content h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.25rem;
-  flex-shrink: 0;
-}
-
-.research-card-wide .research-card-content p {
-  font-size: 1rem;
-}
-
 @media (max-width: 992px) {
   .research-cards-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .research-card-wide {
-    grid-column: span 2;
   }
 }
 
@@ -346,22 +317,8 @@ title: Home
     grid-template-columns: 1fr;
   }
   
-  .research-card-wide {
-    grid-column: span 1;
-  }
-  
-  .research-card-wide .research-card-content {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-  
   .research-card-image {
     height: 180px;
-  }
-  
-  .research-card-wide .research-card-image {
-    height: 200px;
   }
 }
 

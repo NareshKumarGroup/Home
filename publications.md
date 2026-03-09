@@ -3773,16 +3773,16 @@ title: Publications
 
 .filter-btn {
     padding: 0.5rem 1rem;
-    border: 1px solid #667eea;
+    border: 1px solid #00d492;
     border-radius: 4px;
     background: white;
-    color: #667eea;
+    color: #00d492;
     cursor: pointer;
     transition: all 0.3s;
 }
 
 .filter-btn.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00d492 0%, #00b87a 100%);
     color: white;
     border-color: transparent;
 }
@@ -3841,7 +3841,7 @@ title: Publications
 }
 
 .publication-links a {
-    color: #667eea;
+    color: #00d492;
     text-decoration: none;
     font-size: 0.9rem;
     display: flex;

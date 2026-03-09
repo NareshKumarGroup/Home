@@ -107,7 +107,7 @@ title: Home
 }
 
 .featured-card-home {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00d492 0%, #00b87a 100%);
   border-radius: 12px;
   padding: 1.5rem;
   color: white;
@@ -173,13 +173,13 @@ title: Home
 
 .btn-outline {
   background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #00d492;
+  border: 2px solid #00d492;
   transition: all 0.3s ease;
 }
 
 .btn-outline:hover {
-  background: #667eea;
+  background: #00d492;
   color: white;
   transform: translateY(-2px);
 }

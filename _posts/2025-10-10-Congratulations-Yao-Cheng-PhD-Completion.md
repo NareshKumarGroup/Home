@@ -100,7 +100,7 @@ categories: news achievements
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(102, 126, 234, 0.8);
+    background: rgba(0, 212, 146, 0.8);
     color: white;
     border: none;
     padding: 1rem 1.2rem;
@@ -112,7 +112,7 @@ categories: news achievements
 }
 
 .slideshow-btn:hover {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00d492 0%, #00b87a 100%);
 }
 
 .slideshow-btn.prev {
@@ -141,7 +141,7 @@ categories: news achievements
 
 .dot.active,
 .dot:hover {
-    background-color: #667eea;
+    background-color: #00d492;
 }
 
 @media (max-width: 768px) {

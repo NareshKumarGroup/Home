@@ -3,12 +3,17 @@ layout: default
 title: People
 ---
 
-<section class="section">
+<section class="page-header">
     <div class="container">
-        <div class="section-title">
-            <h2>Our Team</h2>
+        <div class="page-header-inner">
+            <h1>Our Team</h1>
+            <p class="lead">Meet the researchers and students of the Kumar Research Group</p>
         </div>
+    </div>
+</section>
 
+<section class="section people-page">
+    <div class="container">
         <div class="people-content">
             <!-- Principal Investigator -->
             <div class="pi-section">
@@ -59,39 +64,29 @@ title: People
                 </div>
             </div>
 
-            <!-- Lecturer/Associate Lectuerer                                                            Postdoctoral Researchers -->
-            <div class="team-section">
-                <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-info">
-                            <h3>Lecturer/Associate Lecturer</h3>
-                        </div>
-                    </div>
-                    <div class="member-card" style="grid-column: span 2;">
-                        <div class="member-info">
-                            <h3>Postdoctoral Researchers</h3>
-                        </div>
-                    </div>
+            <!-- Lecturer/Associate Lecturer & Postdoctoral Researchers -->
+            <div class="team-section team-section-alt">
+                <div class="section-header">
+                    <h2>Lecturer & Postdoctoral Researchers</h2>
+                    <p class="lead">Our experienced research team</p>
                 </div>
                 <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/tsztinyu.jpg" alt="Tsz Tin Yu">
-                        </div>
-                        <div class="member-info">
-                            <h4>Tsz Tin Yu</h4>
-                            <p>Research focus: His research interests mainly focus on synthetic organic and medicinal chemistry, especially on the synthesis of bioactive compounds and the development of novel antimicrobial agents in response to antimicrobial resistance.</p>
-                            <p>Hobbies: </p>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/tsztinyu.jpg" alt="Tsz Tin Yu">
+                        <h4>Tsz Tin Yu</h4>
+                        <p class="position">Lecturer/Associate Lecturer</p>
+                        <p class="text-muted">Synthetic organic and medicinal chemistry, synthesis of bioactive compounds and novel antimicrobial agents.</p>
+                        <div class="social-links">
+                            <a href="mailto:tsztin.yu@unsw.edu.au"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/TuongTo.jpg" alt="Tuong To, PhD">
-                        </div>
-                        <div class="member-info">
-                            <h4>Tuong To, PhD</h4>
-                            <p>Research focus: synthetic chemistry </p>
-                            <p>Hobbies: Board games </p>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/TuongTo.jpg" alt="Tuong To">
+                        <h4>Tuong To</h4>
+                        <p class="position">Postdoctoral Researcher</p>
+                        <p class="text-muted">Synthetic chemistry</p>
+                        <div class="social-links">
+                            <a href="mailto:tuong_anh.to@unsw.edu.au"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
@@ -99,117 +94,66 @@ title: People
 
             <!-- PhD Students -->
             <div class="team-section">
-                <h3>PhD Students</h3>
+                <div class="section-header">
+                    <h2>PhD Students</h2>
+                    <p class="lead">Current doctoral research projects</p>
+                </div>
                 <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/1745724255848_Yao Cheng.jpeg" alt="Yao Cheng">
-                        </div>
-                        <div class="member-info">
-                            <h4>Yao Cheng</h4>
-                            <p>Research focus: 1. Medicinal Chemistry: Design and synthesis of biologically active molecules. 2. Organic Methodology: Development of simple strategies for constructing pharmaceutical scaffolds</p>
-                            <p>Hobbies: Hiking, Squash, Swimming, Board games</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/Screenshot_2025-06-13-11-55-04-00_965bbf4d18d_Dittu Suresh.jpg" alt="Dittu Suresh">
+                        <h4>Dittu Suresh</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Dual-action antimicrobials focused towards quorum sensing inhibitors and small molecule antimicrobial peptide mimics</p>
+                        <div class="social-links"><a href="mailto:d.suresh@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/Screenshot_2025-06-13-11-55-04-00_965bbf4d18d_Dittu Suresh.jpg" alt="Dittu Suresh">
-                        </div>
-                        <div class="member-info">
-                            <h4>Dittu Suresh</h4>
-                            <p>Research focus: Dual-action antimicrobials focused towards quorum sensing inhibitors and small molecule antimicrobial peptide mimics</p>
-                            <p>Hobbies: Badminton, games</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/Nathan.jpg" alt="Nathan Carey">
+                        <h4>Nathan Carey</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Synthesising new antimicrobial compounds. Using bacterial iron transport mechanisms to target resistant, virulent bacterial strains.</p>
+                        <div class="social-links"><a href="mailto:nathan.carey@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/Nathan.jpg" alt="Nathan Carey">
-                        </div>
-                        <div class="member-info">
-                            <h4>Nathan Carey</h4>
-                            <p>Research focus: My research aims are broadly to synthesise new antimicrobial compounds. Recently my attention has been on using bacterial iron transport mechanisms to target resistant, virulent bacterial strains.</p>
-                            <p>Hobbies: When I'm not in the lab you might find me on some outdoor adventure with some favourites being skiing, hiking, abseiling/canyoning or a good roadtrip.</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/raselk.jpeg" alt="Rasel Ahmed Khan">
+                        <h4>Rasel Ahmed Khan</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Medicinal chemistry: design and development of novel therapeutic agents and next generation quorum sensing inhibitors</p>
+                        <div class="social-links"><a href="mailto:rasel.khan@ad.unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/valerio.jpg" alt="Valerio Falasca">
-                        </div>
-                        <div class="member-info">
-                            <h4>Valerio Falasca</h4>
-                            <p>Research focus: Anticancer and antiinflammatory drug discovery</p>
-                            <p>Hobbies: Brazilian Jiu Jitzu, Hiking, Bouldering</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/Samuel.jpeg" alt="Samuel Attard">
+                        <h4>Samuel Attard</h4>
+                        <p class="position">PhD Student · Site Support Eng</p>
+                        <p class="text-muted">Development of antimicrobial hydrogel-based compounds</p>
+                        <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
-                    
-
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/raselk.jpeg" alt="Rasel Ahmed Khan">
-                        </div>
-                        <div class="member-info">
-                            <h4>Rasel Ahmed Khan</h4>
-                            <p>Research focus: My research interests lie in the field of medicinal chemistry, with a particular focus on the design and development of novel therapeutic agents. Currently, I am working on the development of next generation quorum sensory inhibitors</p>
-                            <p>Hobbies: Adventures, reading, photography, hiking, traveling, and playing board games</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/newlabmates/vidia.jpeg" alt="Vidia Afina Nuraini">
+                        <h4>Vidia Afina Nuraini</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Synthesis of fused tetracyclic indoles and cyclic peptide mimics</p>
+                        <div class="social-links"><a href="mailto:v.nuraini@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
                     </div>
-
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/Samuel.jpeg" alt="Samuel Attard">
-                        </div>
-                        <div class="member-info">
-                            <h4>Samuel Attard</h4>
-                            <p>Research focus: development of antimicrobial hydrogel-based compounds</p>
-                            <p>Hobbies:   </p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/matt.jpg" alt="Matthew Erlik">
+                        <h4>Matthew Erlik</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Discovery of anticancer drugs</p>
+                        <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
-
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newlabmates/vidia.jpeg" alt="Vidia Afina Nuraini">
-                        </div>
-                        <div class="member-info">
-                            <h4>Vidia Afina Nuraini</h4>
-                            <p>Research focus: My research focuses on the synthesis of fused tetracyclic indoles and cyclic peptide mimics.</p>
-                            <p>Hobbies: Watching podcasts on YouTube</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/Topeimage.jpg" alt="Tope A. Ibisanmi">
+                        <h4>Tope A. Ibisanmi</h4>
+                        <p class="position">PhD Student · Site developer</p>
+                        <p class="text-muted">Antimicrobial resistance, computational and experimental drug design</p>
+                        <div class="social-links"><a href="mailto:t.ibisanmi@unsw.edu.au"><i class="fas fa-envelope"></i></a><a href="https://www.linkedin.com/in/tope-a-ibisanmi-174863105/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
                     </div>
-                    
-                    
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/...newmatt.jpg" alt="Matthew Erlik">
-                        </div>
-                        <div class="member-info">
-                            <h4>Matthew Erlik</h4>
-                            <p>Research focus: My research interests include the discovery of anticancer drugs </p>
-                            <p>Hobbies: Video games, music  </p>
-                        </div>  
-                    </div>
-
-
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/Topeimage.jpg" alt="Tope">
-                        </div>
-                        <div class="member-info">
-                            <h4>Tope A. Ibisanmi </h4>
-                             <p><strong>Site developer</strong></p>
-                            <p>Research focus: Research interest: Antimicrobial resistance, computational and experimental drug design </p>
-                            <p>Hobbies: Adventures, web surfing, football.</p>
-                        </div>
-                    </div>
-
-                    
-
-                    <div class="member-card">
-                        <div class="member-info">
-                            <h4>Robert Rourke</h4>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/rob.jpg" alt="Robert Rourke">
+                        <h4>Robert Rourke</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">—</p>
+                        <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
 
                    
@@ -224,79 +168,78 @@ title: People
             </div>
 
             <!-- Master's Students -->
-            <div class="team-section">
-                <h3>Master's Students</h3>
+            <div class="team-section team-section-alt">
+                <div class="section-header">
+                    <h2>Master's Students</h2>
+                    <p class="lead">Graduate research projects</p>
+                </div>
                 <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/new/Lilla.jpeg" alt="Lilla Nur Firli">
-                        </div>
-                        <div class="member-info">
-                            <h4>Lilla Nur Firli</h4>
-                            <p>Research focus: I am currently working on discovering antibacterial compounds from marine sponges. My project combines natural product isolation, structural analysis, and target identification using biotin-tagging and phage display.</p>
-                            <p>Hobbies: I find joy in creative writing, reading, video editing, and capturing moments through photos. I also like baking (only when I feel like it).</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/Lilla.jpeg" alt="Lilla Nur Firli">
+                        <h4>Lilla Nur Firli</h4>
+                        <p class="position">MSc Student</p>
+                        <p class="text-muted">Discovering antibacterial compounds from marine sponges. Natural product isolation, structural analysis, and target identification using biotin-tagging and phage display.</p>
+                        <div class="social-links"><a href="mailto:l.firli@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
                     </div>
-                    
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newlabmates/IMG_6086_Jasper Band.jpg" alt="Jasper Band">
-                        </div>
-                        <div class="member-info">
-                            <h4>Jasper Band</h4>
-                            <p>MSc student</p>
-                            <p>Research focus: Organic Chemistry</p>
-                            <p>Hobbies: Swimming, Hiking</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/newlabmates/IMG_6086_Jasper Band.jpg" alt="Jasper Band">
+                        <h4>Jasper Band</h4>
+                        <p class="position">MSc Student</p>
+                        <p class="text-muted">Organic Chemistry</p>
+                        <div class="social-links"><a href="mailto:jasperband6@gmail.com"><i class="fas fa-envelope"></i></a></div>
                     </div>
-
                 </div>
             </div>
 
             <!-- Research Assistant -->
             <div class="team-section">
-                <h3>Research Assistant</h3>
+                <div class="section-header">
+                    <h2>Research Assistant</h2>
+                </div>
                 <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newjosh.jpg" alt="Josh Fleming">
-                        </div>
-                        <div class="member-info">
-                            <h4>Josh Fleming</h4>
-                            <p>Research Assistant</p>
-                            <p>Research focus: I'm interested in medicinal chemistry projects, with a combination of organic synthesis and biotesting</p>
-                            <p>Hobbies: Reading, hiking, crocheting</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/1745724255848_Yao Cheng.jpeg" alt="Yao Cheng">
+                        <h4>Yao Cheng, PhD</h4>
+                        <p class="position">Research Assistant</p>
+                        <p class="text-muted">Medicinal Chemistry: Design and synthesis of biologically active molecules. Organic Methodology: Development of simple strategies for constructing pharmaceutical scaffolds</p>
+                        <div class="social-links"><a href="mailto:yao.cheng@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
+                    </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/valerio.jpg" alt="Valerio Falasca">
+                        <h4>Valerio Falasca, PhD</h4>
+                        <p class="position">Research Assistant</p>
+                        <p class="text-muted">Anticancer and antiinflammatory drug discovery</p>
+                        <div class="social-links"><a href="mailto:valeriofalasca99@gmail.com"><i class="fas fa-envelope"></i></a></div>
+                    </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/newjosh.jpg" alt="Josh Fleming">
+                        <h4>Josh Fleming</h4>
+                        <p class="position">Research Assistant</p>
+                        <p class="text-muted">Medicinal chemistry projects combining organic synthesis and biotesting</p>
+                        <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
                 </div>
             </div>
 
             <!-- Honours Students -->
-            <div class="team-section">
-                <h3>Honours Students</h3>
+            <div class="team-section team-section-alt">
+                <div class="section-header">
+                    <h2>Honours Students</h2>
+                </div>
                 <div class="team-grid">
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="Daniel Guo">
-                        </div>
-                        <div class="member-info">
-                            <h4>Daniel Guo</h4>
-                            <p>Honours Student</p>
-                            <p>Research focus: Antimicrobial peptide mimics</p>
-                            <p>Hobbies: Skiing</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="Daniel Guo">
+                        <h4>Daniel Guo</h4>
+                        <p class="position">Honours Student</p>
+                        <p class="text-muted">Antimicrobial peptide mimics</p>
+                        <div class="social-links"><a href="mailto:z5417123@ad.unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
                     </div>
-
-                    <div class="member-card">
-                        <div class="member-image">
-                            <img src="{{ site.baseurl }}/assets/images/newlabmates/unnamed_Zainab Yassine.jpg" alt="Zainab Yassine">
-                        </div>
-                        <div class="member-info">
-                            <h4>Zainab Yassine</h4>
-                            <p>Honours student</p>
-                            <p>Research focus: Developing dual-acting quorum sensing inhibitors</p>
-                            <p>Hobbies: Creative writing, gym and running</p>
-                        </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/newlabmates/unnamed_Zainab Yassine.jpg" alt="Zainab Yassine">
+                        <h4>Zainab Yassine</h4>
+                        <p class="position">Honours Student</p>
+                        <p class="text-muted">Developing dual-acting quorum sensing inhibitors</p>
+                        <div class="social-links"><a href="mailto:z.yassine@student.unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -304,236 +247,149 @@ title: People
             
             <!-- Alumni -->
             <div class="team-section">
-                <h3>Alumni</h3>
-                <div class="alumni-list">
-                    <div class="alumni-item">
-                        <h4>Phuoc Linh Dan Nguye</h4>
-                        <p>PhD, 2025</p>
+                <div class="section-header">
+                    <h2>Alumni</h2>
+                    <p class="lead">Former lab members</p>
+                </div>
+                <div class="alumni-container">
+                    <div class="alumni-grid-visible">
+                        <div class="alumni-name-item"><p class="mb-0">Phuoc Linh Dan Nguye <span class="text-muted">PhD, 2025</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Maryam Mirabediny <span class="text-muted">PhD, 2025</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Ghayah Bahatheg <span class="text-muted">PhD, 2025</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Alyssa Morellini <span class="text-muted">Honours, 2025</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0"><a href="mailto:jun.sun@unsw.edu.au">Jun Sun</a> <span class="text-muted">PhD, 2025</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Xiaoming Fu <span class="text-muted">PhD, 2024</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Katrina Browne <span class="text-muted">PhD, 2023</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Sudip Chakraborty <span class="text-muted">PhD, 2023</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Zijian Hong <span class="text-muted">MPhil, 2023</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Sabir Shekh <span class="text-muted">PhD, 2022</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">John Jones <span class="text-muted">MPhil, 2022</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Satyanarayana Gadde <span class="text-muted">PhD, 2022</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Tsz Tin Yu <span class="text-muted">PhD, 2022</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Eloise O'Brien <span class="text-muted">MIR, 2021</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Daniel Wenholz <span class="text-muted">PhD, 2020</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Rajesh Kuppusamy <span class="text-muted">PhD, 2019</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Jeremy Dobrowolski <span class="text-muted">PhD, 2019</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Basmah Almohaywi <span class="text-muted">PhD, 2020</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Vina Aldilla <span class="text-muted">PhD, 2020</span></p></div>
+                        <div class="alumni-name-item"><p class="mb-0">Vidia Nuraini <span class="text-muted">MSc, 2018</span></p></div>
                     </div>
-                    <div class="alumni-item">
-                        <h4>Maryam Mirabediny</h4>
-                        <p>PhD, 2025</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Ghayah Bahatheg</h4>
-                        <p>PhD, 2025</p>
-                    </div>
-
-                    <div class="alumni-item">
-                        <h4>Alyssa Morellini</h4>
-                        <p>Honours, 2025</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Jun Sun</h4>
-                        <p>PhD, 2025</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Xiaoming Fu</h4>
-                        <p>PhD, 2024</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Katrina Browne</h4>
-                        <p>PhD, 2023</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Sudip Chakraborty</h4>
-                        <p>PhD, 2023</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Zijian Hong</h4>
-                        <p>MPhil, 2023</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Sabir Shekh</h4>
-                        <p>PhD, 2022</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>John Jones</h4>
-                        <p>MPhil, 2022</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Satyanarayana Gadde</h4>
-                        <p>PhD, 2022</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Tsz Tin Yu</h4>
-                        <p>PhD, 2022</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Eloise O'Brien</h4>
-                        <p>MIR, 2021</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Daniel Wenholz</h4>
-                        <p>PhD, 2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Rajesh Kuppusamy</h4>
-                        <p>PhD, 2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Jeremy Dobrowolski</h4>
-                        <p>PhD, 2019</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Basmah Almohaywi</h4>
-                        <p>PhD, 2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Vina Aldilla</h4>
-                        <p>PhD, 2020</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Vidia Nuraini</h4>
-                        <p>MSc, 2018</p>
+                    <div class="mt-4">
+                        <button class="btn-alumni-toggle" type="button" onclick="var c=document.getElementById('alumniCollapse'); var b=this; c.classList.toggle('show'); b.innerHTML = c.classList.contains('show') ? '<i class=\'fas fa-chevron-up me-2\'></i>Show Less' : '<i class=\'fas fa-chevron-down me-2\'></i>Show Alumni 2017 and Earlier';">
+                            <i class="fas fa-chevron-down me-2"></i>Show Alumni 2017 and Earlier
+                        </button>
+                        <div class="alumni-collapse" id="alumniCollapse">
+                            <div class="alumni-grid-collapsed">
+                                <div class="alumni-name-item"><p class="mb-0">Shashidhar Nizalapur <span class="text-muted">PhD, 2017</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Eugene Ming Han Yee <span class="text-muted">PhD, 2017</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Hao Jiang <span class="text-muted">PhD, 2017</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Kenneth Hong <span class="text-muted">PhD, 2016</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Aditi Taunk <span class="text-muted">PhD, 2017</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Nripendra Biswas <span class="text-muted">PhD, 2015</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Christopher Gardner <span class="text-muted">PhD, 2014</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Marcin Mielczarek <span class="text-muted">PhD, 2014</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Thanh Le <span class="text-muted">PhD, 2014</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Murat Bingul <span class="text-muted">PhD, 2014</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Kitty Ho <span class="text-muted">PhD, 2013</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Venty Suryanti <span class="text-muted">PhD, 2013</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Adeline Lukmantara <span class="text-muted">PhD, 2013</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Rui Chen <span class="text-muted">PhD, 2013</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Nidup Phushanto <span class="text-muted">MSc, 2013</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Samuel Kutty <span class="text-muted">PhD, 2012</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Ruth Devakaram <span class="text-muted">PhD, 2012</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Hakan Kandemir <span class="text-muted">PhD, 2012</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Renxun Chen <span class="text-muted">PhD, 2012</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Ibrahim Sengul <span class="text-muted">PhD, 2012</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Santosh Rajput <span class="text-muted">PhD, 2012</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Ruonan Zhang <span class="text-muted">PhD, 2011</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Taj Khan <span class="text-muted">PhD, 2010</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Kasey Wood <span class="text-muted">PhD, 2010</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Eleanor Eiffe <span class="text-muted">PhD Part-time, 2012</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Ji Qu <span class="text-muted">PhD, 2010</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Mandar Deodhar <span class="text-muted">PhD, 2007</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Kittiya Somphol <span class="text-muted">PhD, 2007</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Wai Ching Cheah <span class="text-muted">PhD, 2008</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Chao-Wei Leu <span class="text-muted">PhD, 2008</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Wai-Kean (Alex) Goh <span class="text-muted">PhD, 2008</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Paulo da Silva <span class="text-muted">PhD, 2005</span></p></div>
+                                <div class="alumni-name-item"><p class="mb-0">Felicia Maharaj <span class="text-muted">PhD, 2007</span></p></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <details style="margin-top:2rem;">
-                  <summary style="font-size:1.1rem;cursor:pointer;padding:1rem 0;outline:none;">Show Alumni 2017 and Earlier</summary>
-                  <div class="alumni-list" style="margin-top:1rem;">
-                    <div class="alumni-item">
-                        <h4>Shashidhar Nizalapur</h4>
-                        <p>PhD, 2017</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Eugene Ming Han Yee</h4>
-                        <p>PhD, 2017</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Hao Jiang</h4>
-                        <p>PhD, 2017</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Kenneth Hong</h4>
-                        <p>PhD, 2016</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Aditi Taunk</h4>
-                        <p>PhD, 2017</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Nripendra Biswas</h4>
-                        <p>PhD, 2015</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Christopher Gardner</h4>
-                        <p>PhD, 2014</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Marcin Mielczarek</h4>
-                        <p>PhD, 2014</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Thanh Le</h4>
-                        <p>PhD, 2014</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Murat Bingul</h4>
-                        <p>PhD, 2014</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Kitty Ho</h4>
-                        <p>PhD, 2013</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Venty Suryanti</h4>
-                        <p>PhD, 2013</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Adeline Lukmantara</h4>
-                        <p>PhD, 2013</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Rui Chen</h4>
-                        <p>PhD, 2013</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Nidup Phushanto</h4>
-                        <p>MSc, 2013</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Samuel Kutty</h4>
-                        <p>PhD, 2012</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Ruth Devakaram</h4>
-                        <p>PhD, 2012</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Hakan Kandemir</h4>
-                        <p>PhD, 2012</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Renxun Chen</h4>
-                        <p>PhD, 2012</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Ibrahim Sengul</h4>
-                        <p>PhD, 2012</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Santosh Rajput</h4>
-                        <p>PhD, 2012</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Ruonan Zhang</h4>
-                        <p>PhD, 2011</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Taj Khan</h4>
-                        <p>PhD, 2010</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Kasey Wood</h4>
-                        <p>PhD, 2010</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Eleanor Eiffe</h4>
-                        <p>PhD Part-time, 2012</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Ji Qu</h4>
-                        <p>PhD, 2010</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Mandar Deodhar</h4>
-                        <p>PhD, 2007</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Kittiya Somphol</h4>
-                        <p>PhD, 2007</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Wai Ching Cheah</h4>
-                        <p>PhD, 2008</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Chao-Wei Leu</h4>
-                        <p>PhD, 2008</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Wai-Kean (Alex) Goh</h4>
-                        <p>PhD, 2008</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Paulo da Silva</h4>
-                        <p>PhD, 2005</p>
-                    </div>
-                    <div class="alumni-item">
-                        <h4>Felicia Maharaj</h4>
-                        <p>PhD, 2007</p>
-                    </div>
-                  </div>
-                </details>
             </div>
         </div>
     </div>
 </section>
 
 <style>
+/* Page Header - matches featured news gradient */
+.page-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 0;
+    margin-bottom: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.page-header-inner {
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.page-header .lead {
+    font-size: 1.05rem;
+    opacity: 0.95;
+}
+
+/* Section headers */
+.section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.section-header h2 {
+    color: #2c3e50;
+    font-size: 1.65rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-header .lead {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* People page - white background throughout */
+.people-page {
+    background: white !important;
+}
+
+.people-page .team-section-alt,
+.people-page .team-section {
+    background: white !important;
+}
+
+.team-section-alt {
+    background: white;
+    padding: 4rem 1rem;
+    margin: 0 -20px;
+    border-radius: 8px;
+}
+
+.team-section {
+    padding: 4rem 0;
+    background: white;
+}
+
 .people-content {
     max-width: 1200px;
     margin: 0 auto;
+    background: white;
 }
 
 .pi-section {
@@ -544,7 +400,7 @@ title: People
     display: grid;
     grid-template-columns: 300px 1fr;
     gap: 2rem;
-    background: #f8f9fa;
+    background: white;
     padding: 2rem;
     border-radius: 8px;
 }
@@ -586,94 +442,194 @@ title: People
     color: #2c3e50;
 }
 
-.social-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.social-links a {
-    color: #2c3e50;
-    font-size: 1.5rem;
-    transition: color 0.3s;
-}
-
-.social-links a:hover {
-    color: #3498db;
-}
-
-.team-section {
-    margin-bottom: 4rem;
-}
-
-.team-section h3 {
-    color: #2c3e50;
-    margin-bottom: 2rem;
-    font-size: 1.8rem;
-}
-
+/* Team Member cards - Marklab style */
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 2rem;
 }
 
-.member-card {
+.team-member {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 16px;
+    transition: all 0.3s ease;
     background: white;
-    border-radius: 8px;
+}
+
+.team-member:hover {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transform: translateY(-4px);
+}
+
+.team-member img {
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 8px solid #667eea;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
-.member-image img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    max-height: 400px;
+.team-member:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.member-info {
-    padding: 1.5rem;
-}
-
-.member-info h4 {
+.team-member h4 {
     color: #2c3e50;
     margin-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
-.member-info p {
+.team-member .position {
     color: #666;
-    margin-bottom: 0.5rem;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
 }
 
-.alumni-list {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-    gap: 1.5rem;
+.team-member .text-muted {
+    color: #666 !important;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
-.alumni-item {
-    background: #f8f9fa;
-    padding: 1.5rem;
+.team-member .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.team-member .social-links a {
+    color: #666;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.team-member .social-links a:hover {
+    color: #667eea;
+}
+
+/* Alumni grid - Marklab style */
+.alumni-container {
+    margin-top: 1rem;
+}
+
+.alumni-grid-visible,
+.alumni-grid-collapsed {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.alumni-name-item {
+    background-color: white;
+    border: 1px solid #e9ecef;
     border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.alumni-item h4 {
-    color: #2c3e50;
-    margin-bottom: 0.5rem;
+.alumni-name-item:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
 }
 
-.alumni-item p {
-    color: #666;
+.alumni-name-item p {
+    margin: 0;
+    color: #212529;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.alumni-name-item .text-muted {
+    font-weight: 400;
+    color: #6c757d !important;
+}
+
+.btn-alumni-toggle {
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid #667eea;
+    color: #667eea;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-alumni-toggle:hover {
+    background: #667eea;
+    color: white;
+}
+
+.alumni-collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.alumni-collapse.show {
+    max-height: 2000px;
+}
+
+.mt-4 { margin-top: 1.5rem; }
+.mb-0 { margin-bottom: 0 !important; }
+.me-2 { margin-right: 0.5rem; }
+
+@media (max-width: 1200px) {
+    .alumni-grid-visible,
+    .alumni-grid-collapsed {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .alumni-grid-visible,
+    .alumni-grid-collapsed {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
 }
 
 @media (max-width: 768px) {
     .pi-card {
         grid-template-columns: 1fr;
     }
-    
     .pi-image {
         max-width: 300px;
         margin: 0 auto;
+    }
+    .team-member img {
+        width: 182px;
+        height: 182px;
+    }
+    .alumni-grid-visible,
+    .alumni-grid-collapsed {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .page-header h1 {
+        font-size: 1.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .alumni-grid-visible,
+    .alumni-grid-collapsed {
+        grid-template-columns: 1fr !important;
     }
 }
 
@@ -683,7 +639,7 @@ title: People
 }
 
 .recognition-card {
-    background: #f8f9fa;
+    background: white;
     padding: 2rem;
     border-radius: 8px;
     margin-bottom: 2rem;
@@ -692,13 +648,13 @@ title: People
 .recognition-card h4 {
     color: #2c3e50;
     margin-bottom: 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .recognition-card h5 {
     color: #2c3e50;
     margin-bottom: 0.8rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .recognition-content {
@@ -732,36 +688,9 @@ title: People
     .recognition-content {
         grid-template-columns: 1fr;
     }
-    
     .recognition-image {
         max-width: 250px;
         margin: 0 auto;
     }
-}
-
-/* Postdoc section specific styling - reduce size to 80% */
-.team-section:nth-of-type(2) .team-grid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-
-.team-section:nth-of-type(2) .member-card {
-    transform: none;
-    transform-origin: center;
-}
-
-.team-section:nth-of-type(2) .member-image img {
-    max-height: 400px;
-}
-
-.team-section:nth-of-type(2) .member-info {
-    padding: 1.5rem;
-}
-
-.team-section:nth-of-type(2) .member-info h4 {
-    font-size: 1.2rem;
-}
-
-.team-section:nth-of-type(2) .member-info p {
-    font-size: 1rem;
 }
 </style> 

@@ -16,6 +16,7 @@ $border-color: #ddd;
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     line-height: 1.6;
     color: $text-color;
 }
@@ -26,27 +27,27 @@ body {
     padding: 0 20px;
 }
 
-// Header styles - matches footer color (#003366)
+// Header styles
 .site-header {
-    background-color: #003366;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
 
-    .main-nav {
+        .main-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 0;
+        padding: 2rem 0;
 
         .logo {
             text-decoration: none;
             color: white;
 
             h1 {
-                font-size: 1.5rem;
+                font-size: 1.4rem;
                 font-weight: 700;
             }
         }
@@ -60,7 +61,7 @@ body {
 
                 a {
                     text-decoration: none;
-                    color: rgba(255, 255, 255, 0.9);
+                    color: rgba(255, 255, 255, 0.95);
                     font-weight: 500;
                     transition: color 0.3s;
 
@@ -79,14 +80,14 @@ body {
 
 // Main content
 .site-content {
-    margin-top: 80px;
-    min-height: calc(100vh - 80px - 300px);
+    margin-top: 120px;
+    min-height: calc(100vh - 120px - 300px);
     padding: 2rem 0;
 }
 
 // Footer styles
 .site-footer {
-    background-color: $primary-color;
+    background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
     color: white;
     padding: 3rem 0 1rem;
 
@@ -136,9 +137,9 @@ body {
                 top: 100%;
                 left: 0;
                 width: 100%;
-                background: #003366;
+                background: linear-gradient(135deg, #5b4fc9 0%, #667eea 35%, #7c6ee8 65%, #764ba2 100%);
                 padding: 1rem;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
                 &.active {
                     display: block;
@@ -179,18 +180,18 @@ a {
     }
 }
 
-// Button links (keep existing styling)
+// Button links - match site gradient
 .btn {
     display: inline-block;
     padding: 0.8rem 1.5rem;
-    background-color: $secondary-color;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
 
     &:hover {
-        background-color: darken($secondary-color, 10%);
+        background: linear-gradient(135deg, #5a6fd6 0%, #6a4190 100%);
         text-decoration: none;
     }
 }
@@ -201,14 +202,14 @@ a {
     text-decoration: none;
     
     &:hover {
-        color: $secondary-color;
+        color: #667eea;
         text-decoration: none;
     }
 }
 
-// Navigation links (header has dark background, so links are white)
+// Navigation links - header has gradient background
 .site-header .nav-links a {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
@@ -225,7 +226,7 @@ a {
     text-decoration: none;
     
     &:hover {
-        color: $secondary-color;
+        color: rgba(255, 255, 255, 0.9);
         text-decoration: none;
     }
 }
@@ -238,7 +239,7 @@ a {
         margin-bottom: 3rem;
 
         h2 {
-            font-size: 2rem;
+            font-size: 1.85rem;
             color: $primary-color;
         }
     }
@@ -253,7 +254,7 @@ a {
     margin-bottom: 1.5rem;
 
     &-title {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         margin-bottom: 1rem;
         color: $primary-color;
     }
@@ -277,8 +278,8 @@ a {
   background-position: center;
   color: white;
   text-align: center;
-  padding: 8rem 0;
-  margin-top: -80px;
+  padding: 9.6rem 0;
+  margin-top: -120px;
   
   a {
     color: white;
@@ -293,8 +294,8 @@ a {
 
 @media (max-width: 768px) {
   .hero {
-    padding: 4rem 0;
-    min-height: 250px;
+    padding: 4.8rem 0;
+    min-height: 300px;
   }
 }
 
@@ -400,19 +401,19 @@ a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0,0,0,0.5);
+    background: rgba(102, 126, 234, 0.8);
     color: white;
     border: none;
     padding: 16px 12px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: background 0.3s;
     border-radius: 3px;
     z-index: 10;
     
     &:hover {
-        background: rgba(0,0,0,0.8);
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     }
     
     &.prev {
@@ -440,11 +441,11 @@ a {
         transition: background-color 0.3s;
         
         &:hover {
-            background-color: #717171;
+            background-color: #667eea;
         }
         
         &.active {
-            background-color: $secondary-color;
+            background-color: #667eea;
         }
     }
 }

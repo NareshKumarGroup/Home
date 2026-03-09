@@ -22,30 +22,54 @@ title: Home
     </div>
 </section>
 
-<section class="section">
+<section class="section research-showcase-section">
     <div class="container">
-        <div class="section-title">
-            <a href="{{ '/research' | relative_url }}" class="btn">Our Research</a>
+        <div class="research-showcase-header">
+            <h2 class="research-showcase-title">Our Research</h2>
+            <p class="research-showcase-subtitle">Discover our research areas in medicinal chemistry and drug discovery</p>
+            <a href="{{ '/research' | relative_url }}" class="btn research-showcase-btn">Explore All Research</a>
         </div>
-        <div class="grid">
-            <div class="card">
-                <h3 class="card-title">Organic/Medicinal Chemistry</h3>
-                <p>Our group focuses on the design and synthesis of novel drug candidates for various therapeutic targets, with a particular emphasis on cancer and infectious diseases.</p>
-            </div>
-            <div class="card">
-                <h3 class="card-title">Drug Discovery</h3>
-                <p>We employ state-of-the-art techniques in Organic/Medicinal Chemistry, including structure-based drug design, fragment-based drug discovery, and high-throughput screening.</p>
-            </div>
-            <div class="card">
-                <h3 class="card-title">Chemical Biology</h3>
-                <p>Our research integrates chemical synthesis with biological studies to understand disease mechanisms and develop new therapeutic strategies.</p>
-            </div>
-        </div>
-        <div class="grid center-single-card">
-            <div class="card">
-                <h3 class="card-title">Computational Drug Discovery</h3>
-                <p>We use AI, machine learning, deep learning, molecular docking, and simulation to accelerate drug discovery and design.</p>
-            </div>
+        <div class="research-cards-grid">
+            <a href="{{ '/research' | relative_url }}" class="research-card">
+                <div class="research-card-image">
+                    <img src="{{ site.baseurl }}/assets/images/ppetidemimics.jpg" alt="Organic/Medicinal Chemistry">
+                    <div class="research-card-overlay"></div>
+                </div>
+                <div class="research-card-content">
+                    <h3>Organic/Medicinal Chemistry</h3>
+                    <p>Design and synthesis of novel drug candidates for cancer and infectious diseases.</p>
+                </div>
+            </a>
+            <a href="{{ '/research' | relative_url }}" class="research-card">
+                <div class="research-card-image">
+                    <img src="{{ site.baseurl }}/assets/images/flpt3.jpg" alt="Drug Discovery">
+                    <div class="research-card-overlay"></div>
+                </div>
+                <div class="research-card-content">
+                    <h3>Drug Discovery</h3>
+                    <p>Structure-based design, fragment-based discovery, and high-throughput screening.</p>
+                </div>
+            </a>
+            <a href="{{ '/research' | relative_url }}" class="research-card">
+                <div class="research-card-image">
+                    <img src="{{ site.baseurl }}/assets/images/quorum-sensing.jpg" alt="Chemical Biology">
+                    <div class="research-card-overlay"></div>
+                </div>
+                <div class="research-card-content">
+                    <h3>Chemical Biology</h3>
+                    <p>Integrating synthesis with biological studies to develop new therapeutic strategies.</p>
+                </div>
+            </a>
+            <a href="{{ '/research' | relative_url }}" class="research-card research-card-wide">
+                <div class="research-card-image">
+                    <img src="{{ site.baseurl }}/assets/images/ai.jpg" alt="Computational Drug Discovery">
+                    <div class="research-card-overlay"></div>
+                </div>
+                <div class="research-card-content">
+                    <h3>Computational Drug Discovery</h3>
+                    <p>AI, machine learning, molecular docking, and simulation to accelerate drug design.</p>
+                </div>
+            </a>
         </div>
     </div>
 </section>
@@ -181,6 +205,162 @@ title: Home
   color: #818cf9;
   font-style: normal;
   font-weight: 500;
+}
+
+/* Research Showcase - stylish cards with images */
+.research-showcase-section {
+  padding: 4rem 0;
+  background: linear-gradient(180deg, #ffffff 0%, #f8faff 50%, #ffffff 100%);
+}
+
+.research-showcase-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.research-showcase-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.research-showcase-subtitle {
+  color: #666;
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+.research-showcase-btn {
+  display: inline-block;
+}
+
+.research-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.research-card {
+  display: block;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: all 0.35s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.research-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(109, 95, 217, 0.2);
+}
+
+.research-card-image {
+  position: relative;
+  height: 160px;
+  overflow: hidden;
+}
+
+.research-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.research-card:hover .research-card-image img {
+  transform: scale(1.08);
+}
+
+.research-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.4) 100%);
+  opacity: 0.6;
+}
+
+.research-card-content {
+  padding: 1.25rem 1.25rem 1.5rem;
+}
+
+.research-card-content h3 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.research-card:hover .research-card-content h3 {
+  color: #818cf9;
+}
+
+.research-card-content p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.research-card-wide {
+  grid-column: span 3;
+}
+
+.research-card-wide .research-card-image {
+  height: 200px;
+}
+
+.research-card-wide .research-card-content {
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.research-card-wide .research-card-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+  flex-shrink: 0;
+}
+
+.research-card-wide .research-card-content p {
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .research-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .research-card-wide {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .research-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .research-card-wide {
+    grid-column: span 1;
+  }
+  
+  .research-card-wide .research-card-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .research-card-image {
+    height: 140px;
+  }
+  
+  .research-card-wide .research-card-image {
+    height: 160px;
+  }
 }
 
 .featured-news-home {

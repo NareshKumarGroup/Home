@@ -86,6 +86,53 @@ title: Research
 
                 <div class="project">
                     <div class="project-header" onclick="toggleSection(this)">
+                        <h3>Antimicrobial Strategies for Industrial and Biomedical Applications</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="project-content">
+                        <div class="cancer-projects">
+                            <div class="cancer-project">
+                                <h4>1. Tackling Hospital Acquired Infections with Peptide Mimics (in collaboration with Prof Mark Willcox, OPTOM, UNSW)</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>The use of medical devices has increased immensely over the last decade. Although, this increase in device use has resulted in a better quality of life and longer patient survival, device-related bacterial infections have emerged as a serious problem with the increased use of medical implants. Once in an established biofilm, bacteria are more resistant to antibiotic treatment and the host immune system. The aim of this project is to develop methodologies for the covalent attachment of novel anti-microbial compounds including specially designed peptide mimics or small heterocyclic compounds onto biomaterial surfaces. Initially the attachment chemistry will be optimised using glass as a model surface, and subsequently the methodology will be adapted for biomaterial surfaces. The resulting biomaterials will be characterised by various surface analysis techniques including XPS and ATR spectroscopy, and assessed for anti-microbial efficacy in collaboration with the microbiology partners.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cancer-project">
+                                <h4>2. Prevention of Microbial Induced Stress Corrosion Cracking (in collaboration with Prof Serkan Saydam and Prof Michael Manefield, UNSW)</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>Microorganisms are known to threaten the longevity of many engineered structures. Previous studies have shown that acidic solutions containing hydrogen sulphide (H<sub>2</sub>S) can cause hydrogen-induced SCC (HISCC) also known as hydrogen embrittlement (HE). Microorganisms, particularly Sulphate Reducing Bacteria (SRB) present in the mines, produce H<sub>2</sub>S that results in Microbiologically Induced Stress Corrosion Cracking (MISCC). In this project we aim to develop prevention measures, such as antimicrobial coatings against SRB, as a long-lasting controlling technique to mitigate against MISCC in underground mines.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cancer-project">
+                                <h4>3. Disinfection Strategies against Microbes and Viruses (in collaboration with Prof Mark Willcox, Prof Bill Walsh, Dr Renxun Chen, UNSW)</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>The COVID-19 pandemic has occurred through the transmission of the SARS-CoV-2 virus worldwide. All infection control strategies are focussed on reducing the transmission of the virus. Transmission routes for SARS-CoV-2 are through aerosols of respiratory secretions and via contamination of surfaces. Whilst there are currently several vaccines that prevent a person becoming seriously ill with the virus and reduce the load of virus within individuals, there is still uncertainty on how quickly they can be deployed to control the spread of the disease around the world. This means strategies for reducing transmission of the virus may well be in place for many years to come. The main aim of this project is to develop disinfection strategies to decontaminate surfaces and equipment for reuse or recycling.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cancer-project">
+                                <h4>4. Development of Novel Environmentally Benign Technologies for the Control of Biofilms (in collaboration with Prof Mark Willcox, Dr Renxun Chen, UNSW)</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>There is an imperative to develop environmentally compatible strategies to control bacterial biofilms on industrial surfaces. For example, biofilm mediated corrosion affects a range of industries, from oil distribution to food processing surfaces and has been estimated to result in added costs of between US$20–300 billion per year in the USA alone. Biofilms also form on membrane surfaces, such as in reverse osmosis plants, where the associated biomass block the membrane pores. Fouling increases the water pressure required to continue filtration, significantly increasing the cost of water purification. When fouling occurs, water purification systems must be shut-down for chemical disinfection and back flushing to alleviate fouling. The current state of the art for the removal of biofilms from pipelines, membranes and food handling surfaces typically include either alone or in combination, mechanical scrubbing, such as 'pigs' or brushes as well as harsh chemicals, many of which are highly toxic, such as glutaraldehyde. These low-tech approaches are typically not effective at removing biofilms which are significantly more resistant than free living bacteria.</p>
+                                        <p>Recently, it has been shown that by exogenously adding small molecules that generate nitric oxide (NO), generically called NO donors, it is possible to induce the dispersal of surface associated bacteria and biofilms in a number of bacteria. The aim of this project is to deliver nitric oxide (NO) donating molecules directly on surfaces using coatings or co-polymers for the control of biofilms on surfaces.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-header" onclick="toggleSection(this)">
                         <h3>Cancer Drug Discovery</h3>
                         <i class="fas fa-chevron-down"></i>
                     </div>

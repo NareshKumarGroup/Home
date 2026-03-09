@@ -10,6 +10,18 @@ title: Home
     </div>
 </div>
 
+<section class="section welcome-note-section">
+    <div class="container">
+        <div class="welcome-note">
+            <h2 class="welcome-note-title">Welcome to Our Group</h2>
+            <p class="welcome-note-intro">We are delighted to have you explore our research. Our group is dedicated to advancing the frontiers of medicinal chemistry and drug discovery.</p>
+            <div class="welcome-note-summary">
+                <p>Our research centres on the <strong>discovery and development of novel bioactive molecules</strong> for industrial and medical applications. Naturally produced chemicals play fundamental roles in biological systems, yet many are available only in trace amounts. Through innovative organic synthesis, we access these molecules and their analogues—enabling full assessment of biological activity, mode of action, and the development of new therapeutic leads. Our work is multi-disciplinary, combining <em>synthetic organic chemistry</em>, <em>molecular modelling</em>, and <em>biological screening</em>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section">
     <div class="container">
         <div class="section-title">
@@ -102,6 +114,74 @@ title: Home
 </section>
 
 <style>
+/* Welcome Note - stylish intro */
+.welcome-note-section {
+  padding: 3rem 0;
+  background: linear-gradient(180deg, #fafbff 0%, #ffffff 100%);
+}
+
+.welcome-note {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(109, 95, 217, 0.08);
+  border-left: 4px solid #818cf9;
+  position: relative;
+}
+
+.welcome-note::before {
+  content: '"';
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-size: 4rem;
+  font-family: Georgia, serif;
+  color: #818cf9;
+  opacity: 0.2;
+  line-height: 1;
+}
+
+.welcome-note-title {
+  font-size: 1.75rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.welcome-note-intro {
+  font-size: 1.05rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.welcome-note-summary {
+  text-align: left;
+  padding: 1.25rem 0;
+  border-top: 1px solid #eef2ff;
+}
+
+.welcome-note-summary p {
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: #444;
+  margin: 0;
+}
+
+.welcome-note-summary strong {
+  color: #2c3e50;
+}
+
+.welcome-note-summary em {
+  color: #818cf9;
+  font-style: normal;
+  font-weight: 500;
+}
+
 .featured-news-home {
   margin-bottom: 2rem;
 }
@@ -185,6 +265,14 @@ title: Home
 }
 
 @media (max-width: 768px) {
+  .welcome-note {
+    padding: 1.5rem 1.25rem;
+  }
+  
+  .welcome-note-title {
+    font-size: 1.4rem;
+  }
+  
   .featured-content-home {
     flex-direction: column;
     text-align: center;

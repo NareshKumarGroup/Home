@@ -325,7 +325,7 @@ title: People
 <style>
 /* Page Header - matches featured news gradient */
 .page-header {
-    background: linear-gradient(135deg, #00d492 0%, #00b87a 100%);
+    background: linear-gradient(135deg, #497d00 0%, #3d6600 100%);
     color: white;
     padding: 4rem 0;
     margin-bottom: 0;
@@ -469,7 +469,7 @@ title: People
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: 8px solid #00d492;
+    border: 8px solid #497d00;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
 }
@@ -512,7 +512,7 @@ title: People
 }
 
 .team-member .social-links a:hover {
-    color: #00d492;
+    color: #497d00;
 }
 
 /* Alumni grid - Marklab style */
@@ -564,8 +564,8 @@ title: People
     width: 100%;
     padding: 1rem;
     background: transparent;
-    border: 2px solid #00d492;
-    color: #00d492;
+    border: 2px solid #497d00;
+    color: #497d00;
     border-radius: 8px;
     font-size: 0.95rem;
     cursor: pointer;
@@ -573,7 +573,7 @@ title: People
 }
 
 .btn-alumni-toggle:hover {
-    background: #00d492;
+    background: #497d00;
     color: white;
 }
 

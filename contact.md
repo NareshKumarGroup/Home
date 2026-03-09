@@ -139,7 +139,7 @@ title: Contact
 }
 
 .info-item a {
-    color: #00d492;
+    color: #497d00;
     text-decoration: none;
 }
 
@@ -168,7 +168,7 @@ title: Contact
 }
 
 .social-links a:hover {
-    color: #00d492;
+    color: #497d00;
 }
 
 .contact-form {

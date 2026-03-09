@@ -35,7 +35,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/antimicrobialpeptide.jpg" alt="Antimicrobial Peptide Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/ppetidemimics.jpg" alt="Antimicrobial Peptide Research" >
                                     </div>
                                 </div>
                             </div>
@@ -71,6 +71,18 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/quorum-sensing.jpg" alt="Quorum Sensing Research" >
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="antimicrobial-project">
+                                <h4>4. Inhibitors of Bacterial Transcription Initiation</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>The enzyme RNA polymerase (RNAP) that transcribes DNA into RNA is highly conserved across species. However, the factors that regulate the activity of RNAP are target-specific. Therefore, the unique interaction of sigma factors with RNAP in bacteria represents an ideal target for the development of small molecules that can specifically inhibit this interaction<sup>3</sup>. In this project new molecules that target these essential protein-protein interactions will be rationally designed and synthesized, and evaluated for their antimicrobial efficacy. These new small molecules would represent lead compounds for the development of new antibiotics.</p>
+                                    </div>
+                                    <div class="project-image">
+                                        <img src="{{ site.baseurl }}/assets/images/pfas.jpg" alt="Inhibitors of Bacterial Transcription Initiation" >
                                     </div>
                                 </div>
                             </div>

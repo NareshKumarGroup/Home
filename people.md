@@ -155,6 +155,34 @@ title: People
                         <p class="text-muted">—</p>
                         <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/elias-shiferaw-mekonen.jpg" alt="Elias Shiferaw Mekonen">
+                        <h4>Elias Shiferaw Mekonen</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Antimicrobial resistance and novel antimicrobial peptides</p>
+                        <div class="social-links"><a href="mailto:e.mekonen@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
+                    </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/kuma-diriba-urgeya.jpg" alt="Kuma Diriba Urgeya">
+                        <h4>Kuma Diriba Urgeya</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Assessing the effects of a single phage, a phage cocktail, and a phage–antibiotic combination against P. aeruginosa biofilms isolated from corneal patients</p>
+                        <div class="social-links"><a href="mailto:k.diriba@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
+                    </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/naveed-saleem.jpeg" alt="Naveed Saleem">
+                        <h4>Naveed Saleem</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Antimicrobial peptides</p>
+                        <div class="social-links"><a href="mailto:n.saleem@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
+                    </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/teshome-belachew-eshete.jpg" alt="Teshome Belachew Eshete">
+                        <h4>Teshome Belachew Eshete</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Dual-acting antimicrobials</p>
+                        <div class="social-links"><a href="mailto:t.eshete@unsw.edu.au"><i class="fas fa-envelope"></i></a></div>
+                    </div>
 
                    
 

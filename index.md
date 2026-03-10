@@ -25,7 +25,10 @@ title: Home
 <section class="section research-showcase-section">
     <div class="container">
         <div class="research-showcase-header">
-            <h2 class="research-showcase-title">Our Research</h2>
+            <div class="research-showcase-title-wrap">
+                <img src="{{ site.baseurl }}/assets/images/MPgi.gif" alt="" class="research-showcase-gif">
+                <h2 class="research-showcase-title">Our Research</h2>
+            </div>
             <p class="research-showcase-subtitle">Discover our research areas in Organic chemistry and drug discovery</p>
             <a href="{{ '/research' | relative_url }}" class="btn research-showcase-btn">Explore All Research</a>
         </div>
@@ -60,9 +63,11 @@ title: Home
                     <p>Our research integrates chemical synthesis with biological studies to understand disease mechanisms and develop new therapeutic strategies.</p>
                 </div>
             </a>
-            <a href="{{ '/research' | relative_url }}" class="research-card">
+            <a href="{{ '/research' | relative_url }}" class="research-card research-card-center">
                 <div class="research-card-image">
-                    <img src="{{ site.baseurl }}/assets/images/ai.jpg" alt="Computational Drug Discovery">
+                    <video class="research-card-video" autoplay loop muted playsinline preload="auto">
+                        <source src="{{ site.baseurl }}/assets/images/simulation.mp4" type="video/mp4">
+                    </video>
                     <div class="research-card-overlay"></div>
                 </div>
                 <div class="research-card-content">
@@ -210,7 +215,7 @@ title: Home
 /* Research Showcase - stylish cards with images */
 .research-showcase-section {
   padding: 4rem 0;
-  background: linear-gradient(180deg, #ffffff 0%, #f8faff 50%, #ffffff 100%);
+  background: #ffffff;
 }
 
 .research-showcase-header {
@@ -218,10 +223,27 @@ title: Home
   margin-bottom: 3rem;
 }
 
+.research-showcase-title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.research-showcase-gif {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+}
+
 .research-showcase-title {
   font-size: 2rem;
   color: #2c3e50;
-  margin-bottom: 0.5rem;
+  margin: 0;
   font-weight: 700;
 }
 
@@ -259,9 +281,12 @@ title: Home
 
 .research-card-image {
   position: relative;
-  height: 200px;
+  height: 220px;
   overflow: hidden;
-  background: white;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .research-card-image img {
@@ -272,8 +297,19 @@ title: Home
   transition: transform 0.4s ease;
 }
 
-.research-card:hover .research-card-image img {
-  transform: scale(1.08);
+.research-card-image .research-card-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease;
+  display: block;
+  background: #ffffff;
+}
+
+.research-card:hover .research-card-image img,
+.research-card:hover .research-card-image .research-card-video {
+  transform: scale(1.05);
 }
 
 .research-card-overlay {
@@ -306,9 +342,19 @@ title: Home
   margin: 0;
 }
 
+.research-card-center {
+  grid-column: 2;
+}
+
 @media (max-width: 992px) {
   .research-cards-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .research-card-center {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: calc((100% - 1.5rem) / 2);
   }
 }
 
@@ -317,8 +363,14 @@ title: Home
     grid-template-columns: 1fr;
   }
   
+  .research-card-center {
+    grid-column: 1;
+    justify-self: stretch;
+    max-width: none;
+  }
+  
   .research-card-image {
-    height: 180px;
+    height: 200px;
   }
 }
 
@@ -392,19 +444,31 @@ title: Home
 }
 
 .btn-outline {
-  background: transparent;
-  color: #818cf9;
-  border: 2px solid #818cf9;
+  background: white;
+  color: #2c3e50;
+  border: 2px solid white;
   transition: all 0.3s ease;
 }
 
 .btn-outline:hover {
-  background: #818cf9;
-  color: white;
+  background: #f8faff;
+  color: #2c3e50;
+  border-color: #818cf9;
   transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
+  .research-showcase-title-wrap {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .research-showcase-gif {
+    width: 90px;
+    height: 90px;
+    padding: 6px;
+  }
+  
   .welcome-note {
     padding: 1.5rem 1.25rem;
   }

@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Autoplay research simulation video (browsers often block autoplay without explicit play())
+    const researchVideo = document.querySelector('.research-card-video');
+    if (researchVideo) {
+        researchVideo.muted = true;
+        researchVideo.play().catch(() => {}); // Ignore autoplay policy errors
+    }
+
     // Mobile menu toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');

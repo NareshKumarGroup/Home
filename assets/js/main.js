@@ -3,7 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const researchVideo = document.querySelector('.research-card-video');
     if (researchVideo) {
         researchVideo.muted = true;
-        researchVideo.play().catch(() => {}); // Ignore autoplay policy errors
+        researchVideo.setAttribute('playsinline', '');
+        const attemptPlay = () => researchVideo.play().catch(() => {});
+        attemptPlay();
+        researchVideo.addEventListener('loadeddata', attemptPlay);
+        researchVideo.addEventListener('canplay', attemptPlay);
+        // Play when video scrolls into view (helps on mobile)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) attemptPlay(); });
+        }, { threshold: 0.25 });
+        observer.observe(researchVideo);
     }
 
     // Mobile menu toggle

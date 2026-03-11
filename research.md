@@ -112,6 +112,18 @@ title: Research
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="antimicrobial-project">
+                                <h4>5. Natural Products as Antibacterial Agents</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>The rise of antimicrobial resistance highlights the urgent need for new antibacterial agents. This project investigates marine sponges as a source of structurally unique natural products with potential antibacterial activity. Bioactive compounds are isolated from an Australian <em>Aplysina</em> sp. sponge using chromatographic techniques and identified through spectroscopic analysis (NMR and HRES-MS). In addition, synthetic analogues are prepared to explore the development of new antibacterial leads.</p>
+                                    </div>
+                                    <div class="project-image">
+                                        <img src="{{ site.baseurl }}/assets/NATURAL.jpg" alt="Natural Products as Antibacterial Agents" >
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

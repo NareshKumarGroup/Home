@@ -164,7 +164,98 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 12. Dr Rajesh Kuppusamy -->
+            <!-- 12. Prof. Levon Khachigian -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/levon.JPG" alt="Levon Khachigian">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Prof. Levon Khachigian</h3>
+                    <p class="affiliation">School of Biomedical Sciences, UNSW</p>
+                    <p class="bio">Vascular biology and translational research. Heads the Vascular Biology and Translational Research Laboratory. Research on transcriptional control, novel experimental drugs for cardiovascular disease, cancer, and eye disease.</p>
+                    <a href="https://www.unsw.edu.au/staff/levon-khachigian" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 13. Prof. Graham Kelly -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/GrahamKelly.jpg" alt="Graham Kelly">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Prof. Graham Kelly</h3>
+                    <p class="affiliation">Filamon Ltd</p>
+                    <p class="bio">Co-Founder, CEO and Managing Director of Filamon. Career in cancer research, drug development and public company corporate experience. Founded Novogen (Kazia Therapeutics), MEI Pharma, Noxopharm and Nyrada.</p>
+                    <a href="https://filamon.com/team-members/graham-kelly/" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 14. Prof. William Alexander Donald -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/WilliamDonald.jpg" alt="William Alexander Donald">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Prof. William Alexander Donald</h3>
+                    <p class="affiliation">School of Chemistry, UNSW</p>
+                    <p class="bio">ARC Future Fellow developing analytical and mass spectrometry methodologies for chemistry and biochemistry. Expertise in ion mobility, native mass spectrometry and single-cell analysis.</p>
+                    <a href="https://www.unsw.edu.au/staff/w--alexander-donald" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 15. Prof. Cyrille Boyer -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/Cyrille Boyer new.jpg" alt="Cyrille Boyer">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Prof. Cyrille Boyer</h3>
+                    <p class="affiliation">School of Chemical Engineering, UNSW</p>
+                    <p class="bio">Co-director of Australian Centre for NanoMedicine. Research on photopolymerization, photoredox catalysis, RAFT polymerization, smart nanomaterials and functional polymeric materials for drug delivery.</p>
+                    <a href="https://www.unsw.edu.au/staff/cyrille-boyer" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 16. Assoc. Prof. Tushar Kumeria -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/Tushar.jpg" alt="Tushar Kumeria">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Assoc. Prof. Tushar Kumeria</h3>
+                    <p class="affiliation">School of Materials Science & Engineering, UNSW</p>
+                    <p class="bio">NHMRC Early Career Fellow. Research on porous materials for drug delivery, tissue engineering scaffolds and photonic crystal-based sensors for biomedical and environmental applications.</p>
+                    <a href="https://www.unsw.edu.au/staff/tushar-kumeria" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 17. Assoc. Prof. Pramod Koshy -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/Koshy ph.jpg" alt="Pramod Koshy">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Assoc. Prof. Pramod Koshy</h3>
+                    <p class="affiliation">School of Materials Science & Engineering, UNSW</p>
+                    <p class="bio">Co-leader of NEMCAT group. Research on advanced materials for environmental and energy applications, waste transformation into value-added materials, photocatalytic films and bioceramic coatings.</p>
+                    <a href="https://www.unsw.edu.au/staff/pramod-koshy" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 18. Dr Edgar Wong -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/Edgar Wong.jpg" alt="Edgar Wong">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Dr Edgar Wong</h3>
+                    <p class="affiliation">School of Chemical Engineering, UNSW</p>
+                    <p class="bio">ARC Future Fellow and Scientia Fellow. Research on smart antimicrobial polymers, peptide-mimicking anticancer and antiviral macromolecules, and antimicrobial coatings.</p>
+                    <a href="https://www.unsw.edu.au/staff/edgar-wong" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 19. Dr Rajesh Kuppusamy -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/rajesh-kuppusamy.png" alt="Rajesh Kuppusamy">
@@ -177,7 +268,7 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 13. Dr Daniel Wenholz -->
+            <!-- 20. Dr Daniel Wenholz -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/DanielWenholz.jpg" alt="Daniel Wenholz">
@@ -191,7 +282,7 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 14. Dr Frances Byrne -->
+            <!-- 21. Dr Frances Byrne -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/frances-byrne.jpg" alt="Frances Byrne">
@@ -204,7 +295,7 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 15. Dr Renxun Chen -->
+            <!-- 22. Dr Renxun Chen -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/Renxun-Chen-2.jpg" alt="Renxun Chen">

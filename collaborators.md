@@ -151,7 +151,20 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 11. Dr Rajesh Kuppusamy -->
+            <!-- 11. Adjunct Prof. Peter Karuso -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/collaborators/PeterKaruso.jpg" alt="Peter Karuso">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Adjunct Prof. Peter Karuso</h3>
+                    <p class="affiliation">School of Biotechnology & Biomolecular Sciences, UNSW</p>
+                    <p class="bio">Isolation of bioactive molecules and drugs from natural products.</p>
+                    <a href="https://www.unsw.edu.au/staff/peter-karuso" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                </div>
+            </div>
+
+            <!-- 12. Dr Rajesh Kuppusamy -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/rajesh-kuppusamy.png" alt="Rajesh Kuppusamy">
@@ -164,7 +177,7 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 12. Dr Daniel Wenholz -->
+            <!-- 13. Dr Daniel Wenholz -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/DanielWenholz.jpg" alt="Daniel Wenholz">
@@ -178,7 +191,7 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 13. Dr Frances Byrne -->
+            <!-- 14. Dr Frances Byrne -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/frances-byrne.jpg" alt="Frances Byrne">
@@ -191,7 +204,7 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 14. Dr Renxun Chen -->
+            <!-- 15. Dr Renxun Chen -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/Renxun-Chen-2.jpg" alt="Renxun Chen">

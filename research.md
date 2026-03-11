@@ -37,6 +37,14 @@ title: Research
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/ppetidemimics.jpg" alt="Antimicrobial Peptide Research" >
                                     </div>
+                                    <div class="peptide-mimics-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Ghayah Bahatheg, Rajesh Kuppusamy, Lissy Hartmann, Charles Gordon Cranfield, David StClair Black, Mark D. P. Willcox, Naresh Kumar. Antibacterial peptidomimetics based on guanidine-functionalized di-tertiary amides. <em>RSC Medicinal Chemistry</em> 2025. <a href="https://doi.org/10.1039/D5MD00688K" target="_blank">DOI: 10.1039/D5MD00688K</a></li>
+                                            <li>Kuppusamy R, Yasir M, Yu TT, Voli F, Vittorio O, Miller MJ, Lewis P, Black DS, Willcox M, Kumar N. Tuning the anthranilamide peptidomimetic design to selectively target planktonic bacteria and biofilm. <em>Antibiotics</em> 2023, 12, 585. <a href="https://doi.org/10.3390/antibiotics12030585" target="_blank">DOI: 10.3390/antibiotics12030585</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -54,6 +62,14 @@ title: Research
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/antimicrobial-hydrogen.jpg" alt="Antimicrobial Hydrogel Research" >
                                     </div>
+                                    <div class="hydrogel-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Attard, S.T.; Aldilla, V.R.; Kuppusamy, R.; Chen, R.; Black, D.S.; Thordarson, P.; Willcox, M.D.P.; Kumar, N. Tuning the Structure–Functional Properties Within Peptide-Mimicking Antimicrobial Hydrogels. <em>Antibiotics</em> 2025, 14, 1118. <a href="https://doi.org/10.3390/antibiotics14111118" target="_blank">DOI: 10.3390/antibiotics14111118</a></li>
+                                            <li>Aldilla, V.R., Chen, R., Kuppusamy, R. et al. Hydrogels with intrinsic antibacterial activity prepared from naphthyl anthranilamide (NaA) capped peptide mimics. <em>Sci Rep</em> 12, 22259 (2022). <a href="https://doi.org/10.1038/s41598-022-26426-1" target="_blank">DOI: 10.1038/s41598-022-26426-1</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -66,6 +82,14 @@ title: Research
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/quorum-sensing.jpg" alt="Quorum Sensing Research" >
                                     </div>
+                                    <div class="quorum-sensing-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Kosana Sai Chaitanya, Tsz Tin Yu, Hrushikesh Chaudhari, Nidhi Orekonday, Naresh Kumar, Ruchi Jain Dey, Sankaranarayanan Murugesan, Kondapalli Venkata Gowri Chandra Sekhar. Design, Synthesis and Evaluation of Indole-Based 1,2,3-Triazoles as Potential Quorum Sensing and Biofilm Inhibitors Against Pseudomonas aeruginosa. <em>Archiv der Pharmazie</em> 2026, 359, e70209. <a href="https://doi.org/10.1002/ardp.70209" target="_blank">DOI: 10.1002/ardp.70209</a></li>
+                                            <li>Suresh D, Yu TT, Kuppusamy R, Sabir S, Das T, Black DStC, Willcox M, Kumar N. Novel cationic dihydropyrrol-2-one compounds as antimicrobial agents and quorum sensing inhibitors. <em>Bioorg. Med. Chem.</em> 2025, 122, 118137. <a href="https://doi.org/10.1016/j.bmc.2025.118137" target="_blank">DOI</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -77,6 +101,14 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/pfas.jpg" alt="Inhibitors of Bacterial Transcription Initiation" >
+                                    </div>
+                                    <div class="transcription-inhibitors-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Kumar N et al. Small molecule inhibitors of bacterial transcription complex formation. <em>Bioorganic and Medicinal Chemistry Letters</em> 2017. <a href="https://doi.org/10.1016/j.bmcl.2017.08.036" target="_blank">DOI: 10.1016/j.bmcl.2017.08.036</a></li>
+                                            <li>Mielczarek M, Thomas RV, Ma C, Kandemir H, Yang X, Bhadbhade M, Black DStC, Griffith R, Lewis P, Kumar N. Synthesis and biological activity of novel mono-indole and mono-benzofuran inhibitors of bacterial transcription initiation complex formation. <em>Bioorganic &amp; Medicinal Chemistry</em> 2015, 23(8):1763–1775. <a href="https://doi.org/10.1016/j.bmc.2015.02.037" target="_blank">DOI: 10.1016/j.bmc.2015.02.037</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -131,9 +163,17 @@ title: Research
                                         <p>The isoflavones are the largest and most widely studied class of phytoestrogens displaying potent and selective cytotoxicity against cancer cells, with low toxicity to healthy cells. During the past five years we have developed several new phenoxodiol conjugates with potent biological activities, and have also incorporated phenoxodiol in a cyclodextrin formulation, which shows increased aqueous solubility. Furthermore we have covalently conjugated phenoxodiol to dextran to generate a new product with enhanced stability and efficacy. In addition, we have developed methodologies for the synthesis of novel analogues of fused flavonoid natural products, including dependensin, rottlerin and kamalachalcone A. The overall aim of the project is to synthesize novel heterocyclic analogues of isoflavones. The specific objectives of the proposal are to synthesize aza-isoflavone structural analogues and to evaluate their biological activity using in vitro assays to identify structure-activity relationships as a means of refining synthetic targets to ultimately develop lead candidates.</p>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/Isoflavonesh.jpg" alt="Novel Heterocyclic Analogues of Isoflavones" >
+                                        <img src="{{ site.baseurl }}/assets/images/isoflavones.jpg" alt="Novel Heterocyclic Analogues of Isoflavones" >
                                     </div>
                                 </div>
+                            </div>
+                            <div class="cancer-publications">
+                                <h4>Key Publications</h4>
+                                <ul>
+                                    <li>Gadde S, Kleynhans A, Holien JK, Bhadbhade M, Nguyen PLD, Mittra R, Yu TT, Carter DR, Parker MW, Marshall GM, Cheung BB, Kumar N. Pyrimido[1,2-a]benzimidazoles as inhibitors of oncoproteins ubiquitin specific protease 5 and MYCN in the childhood cancer neuroblastoma. <em>Bioorganic Chemistry</em> 2023, 136, 106462. <a href="https://doi.org/10.1016/j.bioorg.2023.106462" target="_blank">DOI: 10.1016/j.bioorg.2023.106462</a></li>
+                                    <li>Falasca V, Wenholz DS, Yu TT, Kumar N. Synthesis of novel isoflavene derivatives with anti-tumour activity. <em>Bioorganic &amp; Medicinal Chemistry Letters</em> 2025, 130350. <a href="https://doi.org/10.1016/j.bmcl.2025.130350" target="_blank">DOI: 10.1016/j.bmcl.2025.130350</a></li>
+                                </ul>
+                                <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
                             </div>
                         </div>
                     </div>
@@ -154,6 +194,14 @@ title: Research
                                     </div>
                                     <div class="project-image">
                                         <img src="{{ site.baseurl }}/assets/images/pfas.jpg" alt="PFAS Remediation Research" >
+                                    </div>
+                                    <div class="pfas-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Jun Sun, Sreenu Jennepalli, Matthew Lee, Adele Jones, Denis M. O'Carroll, Michael J. Manefield, Mohan Bhadbhade, Björn Åkermark, Biswanath Das, and Naresh Kumar. <em>Environmental Science & Technology</em> 2022, 56 (12), 7830-7839. <a href="https://doi.org/10.1021/acs.est.1c08254" target="_blank">DOI: 10.1021/acs.est.1c08254</a></li>
+                                            <li>Jun Sun, Tsz Tin Yu, Maryam Mirabediny, Matthew Lee, Adele Jones, Denis M. O'Carroll, Michael J. Manefield, Priyank V. Kumar, Russell Pickford, Zeno Rizqi Ramadhan, Saroj Kumar Bhattacharyya, Björn Åkermark, Biswanath Das, Naresh Kumar. Soluble metal porphyrins - Zero-valent zinc system for effective reductive defluorination of branched per and polyfluoroalkyl substances (PFASs). <em>Water Research</em> 2024, 258, 121803. <a href="https://doi.org/10.1016/j.watres.2024.121803" target="_blank">DOI: 10.1016/j.watres.2024.121803</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -195,6 +243,13 @@ title: Research
                                     </div>
                                 </div>
                             </div>
+                            <div class="computational-publications">
+                                <h4>Key Publications</h4>
+                                <ul>
+                                    <li>Naveed Saleem, Naresh Kumar, Emad El-Omar, Mark Willcox, Xiao-Tao Jiang. Harnessing Machine Learning Approaches for the Identification, Characterization, and Optimization of Novel Antimicrobial Peptides. <em>Antibiotics</em> 2025, 14, 1263. <a href="https://doi.org/10.3390/antibiotics14121263" target="_blank">DOI: 10.3390/antibiotics14121263</a></li>
+                                </ul>
+                                <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -227,6 +282,14 @@ title: Research
                                 <div class="project-image">
                                     <img src="{{ site.baseurl }}/assets/images/yaoproj2.jpg" alt="Benzodiazepine Synthesis Project">
                                 </div>
+                            </div>
+                            <div class="synthetic-methodologies-publications">
+                                <h4>Key Publications</h4>
+                                <ul>
+                                    <li>Yao Cheng, Tom Yu, Mohan Bhadbhade, David StC Black, Naresh Kumar. Synthesis of Indoles through C2−C3 Bond Formation Using Lawesson's Reagent. <em>J. Org. Chem.</em> 2025, 90, 3290-3300. <a href="https://doi.org/10.1021/acs.joc.4c02922" target="_blank">DOI: 10.1021/acs.joc.4c02922</a></li>
+                                    <li>Yao Cheng, Thanh Le, Tsz Tin Yu, Mohan Bhadbhade, David StC. Black, and Naresh Kumar. Synthesis of 1,4-Benzodiazepin-2-ones from Isatins. <em>The Journal of Organic Chemistry</em> 2025, 90 (22), 7372-7384. <a href="https://doi.org/10.1021/acs.joc.5c00647" target="_blank">DOI: 10.1021/acs.joc.5c00647</a></li>
+                                </ul>
+                                <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
                             </div>
                         </div>
                     </div>
@@ -358,6 +421,106 @@ title: Research
     margin-bottom: 0.5rem;
 }
 
+.pfas-publications,
+.synthetic-methodologies-publications,
+.hydrogel-publications,
+.peptide-mimics-publications,
+.quorum-sensing-publications,
+.transcription-inhibitors-publications,
+.cancer-publications,
+.computational-publications {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.pfas-publications h4,
+.synthetic-methodologies-publications h4,
+.hydrogel-publications h4,
+.peptide-mimics-publications h4,
+.quorum-sensing-publications h4,
+.transcription-inhibitors-publications h4,
+.cancer-publications h4,
+.computational-publications h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.pfas-publications ul,
+.synthetic-methodologies-publications ul,
+.hydrogel-publications ul,
+.peptide-mimics-publications ul,
+.quorum-sensing-publications ul,
+.transcription-inhibitors-publications ul,
+.cancer-publications ul,
+.computational-publications ul {
+    list-style: none;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+.pfas-publications li,
+.synthetic-methodologies-publications li,
+.hydrogel-publications li,
+.peptide-mimics-publications li,
+.quorum-sensing-publications li,
+.transcription-inhibitors-publications li,
+.cancer-publications li,
+.computational-publications li {
+    margin-bottom: 1rem;
+    padding-left: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.pfas-publications a,
+.synthetic-methodologies-publications a,
+.hydrogel-publications a,
+.peptide-mimics-publications a,
+.quorum-sensing-publications a,
+.transcription-inhibitors-publications a,
+.cancer-publications a,
+.computational-publications a {
+    color: #818cf9;
+    text-decoration: none;
+}
+
+.pfas-publications a:hover,
+.synthetic-methodologies-publications a:hover,
+.hydrogel-publications a:hover,
+.peptide-mimics-publications a:hover,
+.quorum-sensing-publications a:hover,
+.transcription-inhibitors-publications a:hover,
+.cancer-publications a:hover,
+.computational-publications a:hover {
+    text-decoration: underline;
+}
+
+.pfas-publications .btn,
+.synthetic-methodologies-publications .btn,
+.hydrogel-publications .btn,
+.peptide-mimics-publications .btn,
+.quorum-sensing-publications .btn,
+.transcription-inhibitors-publications .btn,
+.cancer-publications .btn,
+.computational-publications .btn {
+    color: white !important;
+}
+
+.pfas-publications .btn:hover,
+.synthetic-methodologies-publications .btn:hover,
+.hydrogel-publications .btn:hover,
+.peptide-mimics-publications .btn:hover,
+.quorum-sensing-publications .btn:hover,
+.transcription-inhibitors-publications .btn:hover,
+.cancer-publications .btn:hover,
+.computational-publications .btn:hover {
+    color: white !important;
+}
+
 .project-image img {
     width: 100%;
     height: auto;
@@ -481,6 +644,7 @@ title: Research
 .project-content-inner {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 2rem;
     margin-bottom: 1.5rem;

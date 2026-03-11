@@ -16,7 +16,7 @@ title: Home
             <h2 class="welcome-note-title">Welcome to Our Group</h2>
             <p class="welcome-note-intro">We are delighted to have you explore our research. Our group is dedicated to advancing the frontiers of organic chemistry, medicinal chemistry, and drug discovery.</p>
             <div class="welcome-note-summary">
-                <p>Our research centres on the discovery and development of novel bioactive molecules for industrial and medical applications. Naturally produced chemicals play fundamental roles in biological systems, yet many are available only in trace amounts. Through innovative organic synthesis, we access these molecules and their analogues—enabling full assessment of biological activity, mode of action, and the development of new therapeutic leads. Our work is multi-disciplinary, combining synthetic organic chemistry, molecular modelling, and biological screening.</p>
+                <p>Our research centres on the discovery and development of novel bioactive molecules for industrial and medical applications. Naturally produced chemicals play fundamental roles in biological systems, yet many are available only in trace amounts. Through innovative organic synthesis, we access these molecules and their analogues, enabling full assessment of biological activity, mode of action, and the development of new therapeutic leads. Our work is multi-disciplinary, combining synthetic organic chemistry, molecular modelling, and biological screening.</p>
             </div>
         </div>
     </div>

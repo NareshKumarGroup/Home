@@ -139,19 +139,21 @@ title: Research
                                 <h4>1. Targeting MYCN with New Scaffolds for Anticancer Discovery</h4>
                                 <div class="project-content-inner">
                                     <div class="project-text">
-                                        <p>In collaboration with Dr Belamy Cheung and Prof Glenn Marshall (CCIA, <a href="https://www.unsw.edu.au" target="_blank">UNSW</a>), we are developing novel therapeutic approaches for neuroblastoma (NB), the most common extracranial solid tumour in early childhood. Our research focuses on:</p>
-                                        <ul>
-                                            <li>Targeting MYCN oncogene amplification and overexpression</li>
-                                            <li>Development of novel inhibitors for ubiquitin specific protease 5 (USP5)</li>
-                                            <li>Restoration of cell cycle checkpoint control and induction of apoptosis</li>
-                                            <li>In vitro and in vivo evaluation of new therapeutic scaffolds</li>
-                                        </ul>
+                                        <p>Neuroblastoma (NB) and glioblastoma (GBM) are aggressive cancers with poor prognosis, often driven by MYCN overexpression. MYCN is challenging to target directly due to its nuclear localization and lack of druggable pockets. Its stability is regulated by ubiquitination, and de-ubiquitinating enzymes (DUBs) like USP5 prevent MYCN degradation. Inhibition of USP5 restores p53-mediated cell cycle control and induces apoptosis. This project aims to design and synthesize novel scaffolds to inhibit USP5, evaluating their anticancer efficacy in both NB and GBM models.</p>
                                     </div>
                                     <div class="project-image">
                                         <video class="research-video" autoplay loop muted playsinline>
                                             <source src="{{ site.baseurl }}/assets/videos/myncresearch.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
                                         </video>
+                                    </div>
+                                    <div class="cancer-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Gadde S, Leung YC, Bhadbade M, Cheung BB, Black DS, Kumar N (2020) Synthesis of a novel library of 1-substituted pyrido [1, 2-a] benzimidazoles. <em>Australian Journal of Chemistry</em> 73: 1208-1218. <a href="https://doi.org/10.1071/CH20173" target="_blank">DOI: 10.1071/CH20173</a></li>
+                                            <li>Gadde S, Kleynhans A, Holien JK, Bhadbhade M, Nguyen PLD, Mittra R, Yu TT, Carter DR, Parker MW, Marshall GM, Cheung BB, Kumar N. Pyrimido[1,2-a]benzimidazoles as inhibitors of oncoproteins ubiquitin specific protease 5 and MYCN in the childhood cancer neuroblastoma. <em>Bioorganic Chemistry</em> 2023, 136, 106462. <a href="https://doi.org/10.1016/j.bioorg.2023.106462" target="_blank">DOI: 10.1016/j.bioorg.2023.106462</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
                                     </div>
                                 </div>
                             </div>
@@ -175,17 +177,35 @@ title: Research
                                         <p>The isoflavones are the largest and most widely studied class of phytoestrogens displaying potent and selective cytotoxicity against cancer cells, with low toxicity to healthy cells. During the past five years we have developed several new phenoxodiol conjugates with potent biological activities, and have also incorporated phenoxodiol in a cyclodextrin formulation, which shows increased aqueous solubility. Furthermore we have covalently conjugated phenoxodiol to dextran to generate a new product with enhanced stability and efficacy. In addition, we have developed methodologies for the synthesis of novel analogues of fused flavonoid natural products, including dependensin, rottlerin and kamalachalcone A. The overall aim of the project is to synthesize novel heterocyclic analogues of isoflavones. The specific objectives of the proposal are to synthesize aza-isoflavone structural analogues and to evaluate their biological activity using in vitro assays to identify structure-activity relationships as a means of refining synthetic targets to ultimately develop lead candidates.</p>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/isoflavones.jpg" alt="Novel Heterocyclic Analogues of Isoflavones" >
+                                        <img src="{{ site.baseurl }}/assets/images/isoflavoness.jpg" alt="Novel Heterocyclic Analogues of Isoflavones" >
+                                    </div>
+                                    <div class="cancer-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Falasca V, Wenholz DS, Yu TT, Kumar N. Synthesis of novel isoflavene derivatives with anti-tumour activity. <em>Bioorganic &amp; Medicinal Chemistry Letters</em> 2025, 130350. <a href="https://doi.org/10.1016/j.bmcl.2025.130350" target="_blank">DOI: 10.1016/j.bmcl.2025.130350</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="cancer-publications">
-                                <h4>Key Publications</h4>
-                                <ul>
-                                    <li>Gadde S, Kleynhans A, Holien JK, Bhadbhade M, Nguyen PLD, Mittra R, Yu TT, Carter DR, Parker MW, Marshall GM, Cheung BB, Kumar N. Pyrimido[1,2-a]benzimidazoles as inhibitors of oncoproteins ubiquitin specific protease 5 and MYCN in the childhood cancer neuroblastoma. <em>Bioorganic Chemistry</em> 2023, 136, 106462. <a href="https://doi.org/10.1016/j.bioorg.2023.106462" target="_blank">DOI: 10.1016/j.bioorg.2023.106462</a></li>
-                                    <li>Falasca V, Wenholz DS, Yu TT, Kumar N. Synthesis of novel isoflavene derivatives with anti-tumour activity. <em>Bioorganic &amp; Medicinal Chemistry Letters</em> 2025, 130350. <a href="https://doi.org/10.1016/j.bmcl.2025.130350" target="_blank">DOI: 10.1016/j.bmcl.2025.130350</a></li>
-                                </ul>
-                                <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
+
+                            <div class="cancer-project">
+                                <h4>4. Compounds That Activate Glucose Oxidation</h4>
+                                <div class="project-content-inner">
+                                    <div class="project-text">
+                                        <p>Cancer is a major burden of disease, affecting the lives of tens of millions on a global scale. A hallmark feature of nearly all cancer cells is their altered metabolism of glucose compared to non-cancerous cells. Relative to most normal cells, cancer cells use a greater proportion of incoming glucose for non-oxidative purposes including the production of building blocks for cell division (lipid, DNA and protein), rather than oxidative pathways that produce carbon dioxide (CO2) in mitochondria. The goal of this proposal is to develop anticancer molecules that change cancer cell glucose metabolism to be more like that of non-cancerous cells. We have identified a small molecule that increases glucose oxidation and selectively kills cancer cells in vitro and in mice. The aim of this project is to generate new derivatives with enhanced activity and drug-like properties. The new compounds will be evaluated for anticancer activity in various cancer cell lines.</p>
+                                    </div>
+                                    <div class="project-image">
+                                        <img src="{{ site.baseurl }}/assets/images/glucose.jpg" alt="Compounds That Activate Glucose Oxidation" >
+                                    </div>
+                                    <div class="cancer-publications">
+                                        <h4>Key Publications</h4>
+                                        <ul>
+                                            <li>Byrne FL, Olzomer EM, Marriott GR, Quek LE, Katen A, Su J, Kumar N, Hoehn KL et al. (2020) Phenotypic screen for oxygen consumption rate identifies an anti-cancer naphthoquinone that induces mitochondrial oxidative stress. <em>Redox Biol</em> 28:101374. <a href="https://doi.org/10.1016/j.redox.2019.101374" target="_blank">DOI: 10.1016/j.redox.2019.101374</a></li>
+                                        </ul>
+                                        <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

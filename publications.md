@@ -31,6 +31,17 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>Nano-antimicrobial peptides (Nano-AMPs) to combat resistant gram-negative bacteria</h4>
+                            <p class="authors">Saleem, N., Kumar, N., El-Omar, E. et al.</p>
+                            <p class="journal">Drug Deliv. and Transl. Res. (2026)</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1007/s13346-026-02085-x" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>Design, Synthesis and Evaluation of Indole-Based 1,2,3-Triazoles as Potential Quorum Sensing and Biofilm Inhibitors Against Pseudomonas aeruginosa</h4>
                             <p class="authors">Kosana Sai Chaitanya, Tsz Tin Yu, Hrushikesh Chaudhari, Nidhi Orekonday, Naresh Kumar, Ruchi Jain Dey, Sankaranarayanan Murugesan, Kondapalli Venkata Gowri Chandra Sekhar</p>
                             <p class="journal">Archiv der Pharmazie 359 (2026): e70209</p>
@@ -723,6 +734,22 @@ title: Publications
                         </div>
                     </div>
 
+                </div>
+
+                <!-- 2020 -->
+                <div class="year-section">
+                    <h3>2020</h3>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Phenotypic screen for oxygen consumption rate identifies an anti-cancer naphthoquinone that induces mitochondrial oxidative stress</h4>
+                            <p class="authors">Byrne FL, Olzomer EM, Marriott GR, Quek LE, Katen A, Su J, Kumar N, Hoehn KL et al.</p>
+                            <p class="journal">Redox Biol 28:101374 (2020)</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1016/j.redox.2019.101374" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- 2018 -->

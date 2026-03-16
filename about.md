@@ -13,7 +13,30 @@ title: About
                 <p>The Naresh Kumar Research Group at <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Sydney is dedicated to advancing the field of Organic/Medicinal Chemistry through innovative research and collaboration. Our work focuses on developing novel therapeutic agents for various diseases, with a particular emphasis on infectious disease and cancer.</p>
 
                 <div class="about-image">
-                    <img src="{{ site.baseurl }}/assets/images/dec2024part.jpg" alt="December 2024 Party" class="about-hero-image">
+                    <div class="about-slideshow-container">
+                        <div class="about-slideshow-wrapper">
+                            <div class="about-slide fade">
+                                <img src="{{ site.baseurl }}/assets/images/group/group2.jpg" alt="Kumar Research Group">
+                            </div>
+                            <div class="about-slide fade">
+                                <img src="{{ site.baseurl }}/assets/images/dec2024part.jpg" alt="Kumar Research Group - December 2024 Party">
+                            </div>
+                            <div class="about-slide fade">
+                                <img src="{{ site.baseurl }}/assets/images/group/group3.jpg" alt="Kumar Research Group">
+                            </div>
+                            <div class="about-slide fade">
+                                <img src="{{ site.baseurl }}/assets/images/group/group4.jpg" alt="Kumar Research Group">
+                            </div>
+                        </div>
+                        <button class="about-slideshow-btn prev" onclick="aboutChangeSlide(-1)">&#10094;</button>
+                        <button class="about-slideshow-btn next" onclick="aboutChangeSlide(1)">&#10095;</button>
+                        <div class="about-slideshow-dots">
+                            <span class="about-dot active" onclick="aboutCurrentSlide(1)"></span>
+                            <span class="about-dot" onclick="aboutCurrentSlide(2)"></span>
+                            <span class="about-dot" onclick="aboutCurrentSlide(3)"></span>
+                            <span class="about-dot" onclick="aboutCurrentSlide(4)"></span>
+                        </div>
+                    </div>
                 </div>
                 
                 <h3>Our Mission</h3>
@@ -72,13 +95,76 @@ title: About
     margin: 4rem 0 2rem 0;
 }
 
-.about-hero-image {
+.about-slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.about-slideshow-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-slide {
+    display: none;
+}
+
+.about-slide img {
+    width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: block;
     margin: 0 auto;
+}
+
+.about-slideshow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(109, 95, 217, 0.8);
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.about-slideshow-btn:hover {
+    background: rgba(109, 95, 217, 1);
+}
+
+.about-slideshow-btn.prev {
+    left: 0.5rem;
+}
+
+.about-slideshow-btn.next {
+    right: 0.5rem;
+}
+
+.about-slideshow-dots {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.about-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.about-dot:hover,
+.about-dot.active {
+    background: #6d5fd9;
 }
 
 .about-text {
@@ -130,4 +216,41 @@ title: About
         grid-template-columns: 1fr;
     }
 }
-</style> 
+</style>
+
+<script>
+(function() {
+    let aboutSlideIndex = 1;
+    const aboutSlides = document.getElementsByClassName("about-slide");
+    const aboutDots = document.getElementsByClassName("about-dot");
+
+    function aboutShowSlides(n) {
+        if (aboutSlides.length === 0) return;
+        if (n > aboutSlides.length) aboutSlideIndex = 1;
+        if (n < 1) aboutSlideIndex = aboutSlides.length;
+        for (let i = 0; i < aboutSlides.length; i++) {
+            aboutSlides[i].style.display = "none";
+        }
+        for (let i = 0; i < aboutDots.length; i++) {
+            aboutDots[i].className = aboutDots[i].className.replace(" active", "");
+        }
+        aboutSlides[aboutSlideIndex - 1].style.display = "block";
+        if (aboutDots[aboutSlideIndex - 1]) {
+            aboutDots[aboutSlideIndex - 1].className += " active";
+        }
+    }
+
+    window.aboutChangeSlide = function(n) {
+        aboutShowSlides(aboutSlideIndex += n);
+    };
+
+    window.aboutCurrentSlide = function(n) {
+        aboutShowSlides(aboutSlideIndex = n);
+    };
+
+    aboutShowSlides(aboutSlideIndex);
+    setInterval(function() {
+        aboutChangeSlide(1);
+    }, 5000);
+})();
+</script>

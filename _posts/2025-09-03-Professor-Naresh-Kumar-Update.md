@@ -7,7 +7,7 @@ categories: news achievements congratulations leadership
 
 <div class="post-content">
     <div class="post-image">
-        <img src="{{ site.baseurl }}/assets/images/naresh-kumar.jpg" alt="Professor Naresh Kumar" class="featured-image">
+        <img src="{{ site.baseurl }}/assets/images/Naresh copy.jpg.pdf" alt="Professor Naresh Kumar" class="featured-image">
     </div>
 
     <p> <strong>Congratulations to Professor Naresh Kumar</strong> </p>

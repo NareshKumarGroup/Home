@@ -35,7 +35,7 @@ title: Home
         <div class="research-cards-grid">
             <a href="{{ '/research' | relative_url }}" class="research-card">
                 <div class="research-card-image">
-                    <img src="{{ site.baseurl }}/assets/images/ppetidemimics.jpg" alt="Organic/Medicinal Chemistry">
+                    <img src="{{ site.baseurl }}/assets/images/758.jpeg" alt="Organic/Medicinal Chemistry">
                     <div class="research-card-overlay"></div>
                 </div>
                 <div class="research-card-content">

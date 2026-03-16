@@ -11,7 +11,7 @@ title: Research
         
         <div class="research-content">
             <div class="research-intro">
-                <p>Our research group focuses on the design and development of novel therapeutic agents through the integration of medicinal chemistry, chemical biology, and advance computatioanl drug discovery approaches. We work on various projects targeting different disease areas, with a particular emphasis on cancer and infectious diseases.</p>
+                <p>Our research group focuses on the design and development of novel therapeutic agents through the integration of medicinal chemistry, chemical biology, and advanced computational drug discovery approaches. We work on various projects targeting different disease areas, with a particular emphasis on cancer and infectious diseases.</p>
             </div>
 
             <div class="research-projects">
@@ -35,7 +35,7 @@ title: Research
                                         </ul>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/ppetidemimics.jpg" alt="Antimicrobial Peptide Research" >
+                                        <img src="{{ site.baseurl }}/assets/images/758.jpeg" alt="Antimicrobial Peptide Research" >
                                     </div>
                                     <div class="peptide-mimics-publications">
                                         <h4>Key Publications</h4>
@@ -225,7 +225,7 @@ title: Research
                                         <p>Per- and poly-fluoroalkyl substances (PFAS), a class of organofluorine compounds, are attracting intense regulatory scrutiny and public awareness due to their xenobiotic nature and adverse impact to health. PFAS contain extremely stable C-F bonds, have excellent stability, surface activity, oleophobic and hydrophobic properties, and are widely used as water and oil repellents (e.g. in carpets, leather, fire extinguishing agents, non-stick pans, food packaging and other fields). Perfluorooctane sulfonate (PFOS) and perfluorooctanoic acid (PFOA) are the two most common PFAS with half-lives of 5.4 years and 3.8 years, respectively. PFASs are widely used and discharged worldwide, and a variety of PFAS can be detected in the environment, wildlife and in humans. It is now known that PFAS bioaccumulate, biomagnify and are linked to immune suppression and cancer. In this project, we aim to create a platform that combines a sorbent and redox active catalysts (RACs) to remediate PFAS.</p>
                                     </div>
                                     <div class="project-image">
-                                        <img src="{{ site.baseurl }}/assets/images/pfas.jpg" alt="PFAS Remediation Research" >
+                                        <img src="{{ site.baseurl }}/assets/pfasnewimage1.jpg" alt="PFAS Remediation Research" >
                                     </div>
                                     <div class="pfas-publications">
                                         <h4>Key Publications</h4>

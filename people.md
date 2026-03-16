@@ -19,12 +19,12 @@ title: People
             <div class="pi-section">
                 <div class="pi-card">
                     <div class="pi-image">
-                        <img src="{{ site.baseurl }}/assets/images/naresh-kumar.jpg" alt="Naresh Kumar">
+                        <img src="{{ site.baseurl }}/assets/images/Naresh copy.jpg.pdf" alt="Naresh Kumar">
                     </div>
                     <div class="pi-info">
                         <h3>Professor Naresh Kumar</h3>
                         <p class="title">Principal Investigator</p>
-                        <p class="bio">Prof Naresh Kumar completed his PhD in organic chemistry at Wollongong University in 1983, and after working as a Research Scientist at the <a href="https://www.unsw.edu.au/science/our-schools/chemistry" target="_blank">School of Chemistry</a>, University of <a href="https://www.unsw.edu.au" target="_blank">NSW</a> was appointed a Lecturer in 2003. He moved through the ranks to become Professor of chemistry in 2009. Prof Kumar has a full-time research and teaching appointment at the University of New South Wales. During the past ten years, he has carried out both vigorous independent and strong collaborative research in organic synthesis, natural products chemistry and biomaterials. This activity is reflected in 7 book chapters, and 250 publications that have appeared in major peer-reviewed international journals of chemistry. The major emphasis of his research has been in the area of heterocyclic chemistry and, more recently, in the areas of medicinal chemistry and biomaterials. These projects have been well supported by ARC grants, NHMRC grants, and commercial research contracts. Prof Kumar's group has access to state-of-the-art research facilities through the <a href="https://www.unsw.edu.au/science/our-schools/chemistry" target="_blank">School of Chemistry</a> and the <a href="https://www.unsw.edu.au" target="_blank">UNSW</a> Mark Wainwright Analytical Centre.</p>
+                        <p class="bio">The main focus of the research undertaken in my group is the discovery and development of novel bioactive molecules and their application in industrial and medical settings. Naturally produced chemicals are of fundamental importance in biological systems. Such chemicals are used to mediate interactions across all levels of biological hierarchy. Very often such diverse molecules are produced only in minute quantities. New or innovative organic syntheses not only provide access to sufficient quantities of these molecules but also their analogues. The access to various structurally-related analogues allows full assessment of their biological activity and mode of action, and offers opportunities to develop new therapeutic leads. The research is multi-disciplinary in nature and involves a combination of synthetic organic chemistry, molecular modelling and biological screening.</p>
                         <div class="contact-info">
                             <p><i class="fas fa-envelope"></i> n.kumar@unsw.edu.au</p>
                             <p><i class="fas fa-phone"></i> 9385 4698</p>
@@ -152,7 +152,7 @@ title: People
                         <img src="{{ site.baseurl }}/assets/rob.jpg" alt="Robert Rourke">
                         <h4>Robert Rourke</h4>
                         <p class="position">PhD Student</p>
-                        <p class="text-muted">—</p>
+                        <p class="text-muted">Organic synthesis</p>
                         <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
                     <div class="team-member">

@@ -86,7 +86,21 @@ title: Collaborators
                 </div>
             </div>
 
-            <!-- 6. Kyle Hoehn -->
+            <!-- 6. Satyanarayana Gadde -->
+            <div class="collaborator-card">
+                <div class="collaborator-image">
+                    <img src="{{ site.baseurl }}/assets/images/satya.jpeg" alt="Satyanarayana Gadde">
+                </div>
+                <div class="collaborator-content">
+                    <h3>Dr. Satyanarayana Gadde</h3>
+                    <p class="affiliation"><a href="https://www.ccia.org.au" target="_blank" rel="noopener">Children's Cancer Institute</a></p>
+                    <p class="bio">Collaborates on Targeting MYCN with New Scaffolds for Anticancer Discovery.</p>
+                    <a href="https://www.ccia.org.au" target="_blank" rel="noopener" class="profile-link"><i class="fas fa-external-link-alt"></i> View Profile</a>
+                    <a href="https://www.linkedin.com/company/children-s-cancer-institute-australia-ccia-/" target="_blank" rel="noopener" class="profile-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <!-- 7. Kyle Hoehn -->
             <div class="collaborator-card">
                 <div class="collaborator-image">
                     <img src="{{ site.baseurl }}/assets/images/collaborators/KyleHoehn.JPG" alt="Kyle Hoehn">

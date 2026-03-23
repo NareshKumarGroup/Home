@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Congratulations to Valerio and Josh on Their Graduation"
+title: "Congratulations to Valerio and Josh on their Graduation"
 date: 2026-03-23 20:00:00 +1000
 categories: news achievements
 excerpt: "Congratulations to Dr. Valerio Falasca on completing his PhD, and to Josh Fleming on completing Honours. We are proud of your achievements with the Kumar Group and wish you both the very best for what comes next."
@@ -42,10 +42,9 @@ excerpt: "Congratulations to Dr. Valerio Falasca on completing his PhD, and to J
   if (!el) return;
   var slides = [
     "{{ site.baseurl }}/assets/valerioandjosh/0c212947-9eb6-4f6a-a6bb-ddbdf72cb7db.JPG",
-    "{{ site.baseurl }}/assets/valerioandjosh/1de570ad-b81c-4b43-a9fe-b92620d7471c.JPG",
     "{{ site.baseurl }}/assets/valerioandjosh/228dc4b3-78ce-4780-9c15-12bdee2d817d.JPG",
     "{{ site.baseurl }}/assets/valerioandjosh/5213631e-ce59-42f8-8f9b-bf11998afa03.JPG",
-    "{{ site.baseurl }}/assets/valerioandjosh/57b7b801-d30f-4590-8a8f-9fb4740d2c95.JPG",
+    "{{ site.baseurl }}/assets/valerioandjosh/1de570ad-b81c-4b43-a9fe-b92620d7471c.JPG",
     "{{ site.baseurl }}/assets/valerioandjosh/f8c9d845-99b9-4c2a-a3aa-e0cff782ac61.JPG"
   ];
   var i = 0;

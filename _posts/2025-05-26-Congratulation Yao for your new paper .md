@@ -12,7 +12,7 @@ categories: news achievements
 
     <p>We're thrilled to share the exciting news that **Yao** has published a new paper titled <strong>"Synthesis of 1,4-Benzodiazepin-2-ones from Isatins"</strong> in <em>The Journal of Organic Chemistry</em>!</p>
 
-    <p>The study, published in May 2025, showcases an innovative synthetic approach for constructing 1,4-benzodiazepin-2-ones—a class of compounds with significant pharmacological relevance. This elegant transformation opens up new avenues in medicinal chemistry and demonstrates Yao’s continued contributions to advancing organic synthesis.</p>
+    <p>The study, published in May 2025, showcases an innovative synthetic approach for constructing 1,4-benzodiazepin-2-ones, a class of compounds with significant pharmacological relevance. This elegant transformation opens up new avenues in medicinal chemistry and demonstrates Yao’s continued contributions to advancing organic synthesis.</p>
 
     <p><strong>Publication details:</strong></p>
     <ul>

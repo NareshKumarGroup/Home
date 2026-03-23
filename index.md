@@ -102,12 +102,16 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Sam" %}
                           <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% elsif latest_post.title contains "Valerio and Josh" %}
+                          <img src="{{ site.baseurl }}/assets/valerioandjosh/4ba466b0-4b99-44bf-9d73-875a83d52bfb.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Valerio" %}
                           <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Yao" %}
                           <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% elsif latest_post.title contains "Ghayah" %}
                           <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% elsif latest_post.title contains "Tope" %}
+                          <img src="{{ site.baseurl }}/assets/fbinf-06-1749404-g002.webp" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% else %}
                           <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
                         {% endif %}

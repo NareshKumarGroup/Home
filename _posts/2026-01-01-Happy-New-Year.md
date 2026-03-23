@@ -30,7 +30,7 @@ excerpt: "Wishing all members of the Kumar Group, our collaborators, and the ent
     <p><strong>Best wishes for a successful and fulfilling 2026!</strong></p>
 
     <p style="text-align: center; margin-top: 2rem; font-size: 1.2rem;">
-        — The Kumar Research Group
+        The Kumar Research Group
     </p>
 </div>
 

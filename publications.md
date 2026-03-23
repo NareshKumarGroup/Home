@@ -31,6 +31,18 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>Recent advances in computational antimicrobial peptide discovery through big data, modeling, and artificial intelligence and their interplay in ushering the next golden era of drug development</h4>
+                            <p class="authors">Ibisanmi, T.A., Jiang, X., Willcox, M., & Kumar, N.</p>
+                            <p class="journal">Front. Bioinform. 6:1749404 (2026)</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3389/fbinf.2026.1749404" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                                <a href="{{ site.baseurl }}/assets/fbinf-6-1749404.pdf" target="_blank"><i class="fas fa-file-pdf"></i> PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>Nano-antimicrobial peptides (Nano-AMPs) to combat resistant gram-negative bacteria</h4>
                             <p class="authors">Saleem, N., Kumar, N., El-Omar, E. et al.</p>
                             <p class="journal">Drug Deliv. and Transl. Res. (2026)</p>

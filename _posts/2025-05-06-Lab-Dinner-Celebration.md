@@ -12,7 +12,7 @@ categories: news
 
     <h3>Celebrating Success and Bidding Farewell</h3>
     <p>
-        On the evening of May 6th, 2025, our research group gathered for a memorable dinner to celebrate two significant milestones. First, we congratulated Alyssa on the successful completion of her Honours—a testament to her dedication, hard work, and intellectual curiosity. Alyssa, your achievements have inspired us all, and we are proud to have witnessed your growth and contributions to the lab.
+        On the evening of May 6th, 2025, our research group gathered for a memorable dinner to celebrate two significant milestones. First, we congratulated Alyssa on the successful completion of her Honours, a testament to her dedication, hard work, and intellectual curiosity. Alyssa, your achievements have inspired us all, and we are proud to have witnessed your growth and contributions to the lab.
     </p>
     <p>
         The dinner was also a heartfelt send-off for another valued member of our group Sam, who is embarking on an exciting journey to the United States. As you take this next step, know that you carry with you our best wishes for continued success and adventure. Your presence and enthusiasm have enriched our lab, and you will be greatly missed.

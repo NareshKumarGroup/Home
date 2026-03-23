@@ -278,6 +278,7 @@ title: Research
                             <div class="computational-publications">
                                 <h4>Key Publications</h4>
                                 <ul>
+                                    <li>Ibisanmi, T.A., Jiang, X., Willcox, M., Kumar, N. Recent advances in computational antimicrobial peptide discovery through big data, modeling, and artificial intelligence and their interplay in ushering the next golden era of drug development. <em>Front. Bioinform.</em> 2026, 6:1749404. <a href="https://doi.org/10.3389/fbinf.2026.1749404" target="_blank">DOI: 10.3389/fbinf.2026.1749404</a> · <a href="{{ site.baseurl }}/assets/fbinf-6-1749404.pdf" target="_blank">PDF</a></li>
                                     <li>Naveed Saleem, Naresh Kumar, Emad El-Omar, Mark Willcox, Xiao-Tao Jiang. Harnessing Machine Learning Approaches for the Identification, Characterization, and Optimization of Novel Antimicrobial Peptides. <em>Antibiotics</em> 2025, 14, 1263. <a href="https://doi.org/10.3390/antibiotics14121263" target="_blank">DOI: 10.3390/antibiotics14121263</a></li>
                                 </ul>
                                 <a href="{{ '/publications' | relative_url }}" class="btn">View Publications for More Details</a>

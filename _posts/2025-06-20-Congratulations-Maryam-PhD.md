@@ -15,7 +15,7 @@ categories: news
 
     <blockquote>
         <p>“Today I officially graduate, and I couldn’t be prouder.<br/>
-        This journey wasn’t just about earning a degree—it was about pushing my limits, following my passion for environmental research, and traveling across the world to pursue what truly inspires me.<br/><br/>
+        This journey wasn’t just about earning a degree. It was about pushing my limits, following my passion for environmental research, and traveling across the world to pursue what truly inspires me.<br/><br/>
         Through my PhD on PFAS water remediation, I’ve learned the power of hard work, adaptability, thinking outside the box, and embracing the warmth of Australian culture.<br/><br/>
         A heartfelt thank you to my supervisor, Professor Naresh Kumar, and the wonderful Naresh Research Group. Your support, encouragement, and kindness made this all possible. I’m truly grateful to have shared this journey with you.”
         </p>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prof. Naresh Delivers Engaging Talk at Asia-Pacific Biofilms 2026"
+title: "Professor Naresh Delivers Engaging Talk at Asia-Pacific Biofilms 2026"
 date: 2026-03-31 10:00:00 +1100
 categories: news conferences
 excerpt: "Professor Naresh Kumar presented new quinazolinone-based PqsR antagonists at Asia-Pacific Biofilms 2026, highlighting promising anti-virulence strategies against Pseudomonas aeruginosa."
@@ -18,11 +18,11 @@ excerpt: "Professor Naresh Kumar presented new quinazolinone-based PqsR antagoni
 
     <p>On the first day of the conference, Professor Naresh delivered a compelling talk titled <strong>"Novel Quinazolinone-Based PqsR Antagonists as Quorum Sensing Inhibitors in <em>Pseudomonas aeruginosa</em>."</strong> In his presentation, he highlighted the urgent need for new strategies to address antimicrobial resistance and discussed the role of quorum sensing in regulating virulence factors, including pyocyanin production and biofilm formation, in the WHO-designated priority pathogen <em>Pseudomonas aeruginosa</em>.</p>
 
-    <p>Prof. Naresh presented his team's development of novel quinazolinone-based compounds targeting the PqsR receptor, a key regulator of the Pseudomonas quinolone signal system. The most potent compound strongly inhibited quorum sensing, suppressed pyocyanin production, significantly reduced biofilm formation, and showed synergistic activity with existing antibiotics at sub-MIC levels.</p>
+    <p>Professor Naresh presented his team's development of novel quinazolinone-based compounds targeting the PqsR receptor, a key regulator of the Pseudomonas quinolone signal system. The most potent compound strongly inhibited quorum sensing, suppressed pyocyanin production, significantly reduced biofilm formation, and showed synergistic activity with existing antibiotics at sub-MIC levels.</p>
 
     <p>The talk generated lively discussion among attendees, with insightful questions raised both during and after the presentation. These interactions are expected to continue beyond the conference, potentially paving the way for new collaborations and future joint research initiatives.</p>
 
-    <p>Prof. Naresh's work was widely praised and represents a promising step toward developing next-generation anti-virulence therapies, offering cost-effective strategies to combat antimicrobial resistance and improve treatment options for difficult-to-treat infections.</p>
+    <p>Professor Naresh's work was widely praised and represents a promising step toward developing next-generation anti-virulence therapies, offering cost-effective strategies to combat antimicrobial resistance and improve treatment options for difficult-to-treat infections.</p>
 
     <div class="conference-slideshow-section">
         <h3 class="slideshow-heading">More moments from APB 2026</h3>

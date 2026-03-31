@@ -86,41 +86,48 @@ title: Home
         </div>
         
         <!-- Featured News - Latest Publication -->
-        {% assign latest_post = site.posts.first %}
-        {% if latest_post %}
+        {% assign featured_home_post = site.posts | where_exp: "post", "post.title == 'Prof. Naresh Delivers Engaging Talk at Asia-Pacific Biofilms 2026 in Melbourne'" | first %}
+        {% if featured_home_post == nil %}
+          {% assign featured_home_post = site.posts.first %}
+        {% endif %}
+        {% if featured_home_post %}
         <div class="featured-news-home">
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if latest_post.title contains "Welcome" and latest_post.title contains "Lab Members" %}
-                          <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Poster Award" or latest_post.title contains "PhD Review" %}
-                          <img src="{{ site.baseurl }}/assets/images/new/1771942652593.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Rasel" %}
-                          <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/oralrasel.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "New Year" %}
-                          <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Sam" %}
-                          <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Valerio and Josh" %}
-                          <img src="{{ site.baseurl }}/assets/valerioandjosh/4ba466b0-4b99-44bf-9d73-875a83d52bfb.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Valerio" %}
-                          <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Yao" %}
-                          <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Ghayah" %}
-                          <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
-                        {% elsif latest_post.title contains "Tope" %}
-                          <img src="{{ site.baseurl }}/assets/fbinf-06-1749404-g002.webp" alt="{{ latest_post.title }}" class="featured-img-home">
+                        {% if featured_home_post.title contains "Welcome" and featured_home_post.title contains "Lab Members" %}
+                          <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Poster Award" or featured_home_post.title contains "PhD Review" %}
+                          <img src="{{ site.baseurl }}/assets/images/new/1771942652593.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Rasel" %}
+                          <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/oralrasel.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "New Year" %}
+                          <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Sam" %}
+                          <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Tope A. Ibisanmi" or featured_home_post.title contains "Peptidomimetic Research at Asia-Pacific Biofilms 2026" %}
+                          <img src="{{ site.baseurl }}/assets/images/topetalk/PHOTO-2026-03-29-12-08-08.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Asia-Pacific Biofilms" or featured_home_post.title contains "Naresh Delivers Engaging Talk" %}
+                          <img src="{{ site.baseurl }}/assets/images/nareshtalk/PHOTO-2026-03-27-13-21-29%202.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Valerio and Josh" %}
+                          <img src="{{ site.baseurl }}/assets/valerioandjosh/4ba466b0-4b99-44bf-9d73-875a83d52bfb.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Valerio" %}
+                          <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Yao" %}
+                          <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Ghayah" %}
+                          <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Tope" %}
+                          <img src="{{ site.baseurl }}/assets/fbinf-06-1749404-g002.webp" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% else %}
-                          <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ latest_post.title }}" class="featured-img-home">
+                          <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% endif %}
                     </div>
                     <div class="featured-text-home">
-                        <h3 class="featured-title-home">{{ latest_post.title }}</h3>
-                        <p class="featured-date-home">{{ latest_post.date | date: "%B %d, %Y" }}</p>
-                        <p class="featured-excerpt-home">{{ latest_post.excerpt | strip_html | truncatewords: 30 }}</p>
-                        <a href="{{ latest_post.url | relative_url }}" class="btn btn-featured-home">Read More</a>
+                        <h3 class="featured-title-home">{{ featured_home_post.title }}</h3>
+                        <p class="featured-date-home">{{ featured_home_post.date | date: "%B %d, %Y" }}</p>
+                        <p class="featured-excerpt-home">{{ featured_home_post.excerpt | strip_html | truncatewords: 30 }}</p>
+                        <a href="{{ featured_home_post.url | relative_url }}" class="btn btn-featured-home">Read More</a>
                     </div>
                 </div>
             </div>

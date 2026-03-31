@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Prof. Naresh Delivers Engaging Talk at Asia-Pacific Biofilms 2026 in Melbourne"
-date: 2026-03-27 10:00:00 +1100
+title: "Prof. Naresh Delivers Engaging Talk at Asia-Pacific Biofilms 2026"
+date: 2026-03-31 10:00:00 +1100
 categories: news conferences
 excerpt: "Professor Naresh Kumar presented new quinazolinone-based PqsR antagonists at Asia-Pacific Biofilms 2026, highlighting promising anti-virulence strategies against Pseudomonas aeruginosa."
 ---

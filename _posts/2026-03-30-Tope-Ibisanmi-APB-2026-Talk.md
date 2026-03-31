@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tope A. Ibisanmi Showcases Innovative Peptidomimetic Research at Asia-Pacific Biofilms 2026"
+title: "Tope A. Ibisanmi Delivered a Talk at Asia-Pacific Biofilms 2026"
 date: 2026-03-29 16:00:00 +1100
 categories: news conferences
 excerpt: "At Asia-Pacific Biofilms 2026 in Melbourne, Tope A. Ibisanmi presented multidisciplinary peptidomimetic research targeting multidrug-resistant bacteria and biofilm-associated infections."

@@ -27,6 +27,12 @@ permalink: /news/
               <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Sam" %}
               <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Nathan Carey" or latest_post.title contains "JoVE Protocol for Antimicrobial" %}
+              <img src="{{ site.baseurl }}/assets/images/nathanpaper/VideoComingSoonTeaser.webp" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Tope A. Ibisanmi" or latest_post.title contains "Peptidomimetic Research at Asia-Pacific Biofilms 2026" %}
+              <img src="{{ site.baseurl }}/assets/images/topetalk/PHOTO-2026-03-29-12-08-08.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Asia-Pacific Biofilms" or latest_post.title contains "Naresh Delivers Engaging Talk" or latest_post.title contains "Professor Naresh Delivers" %}
+              <img src="{{ site.baseurl }}/assets/images/nareshtalk/PHOTO-2026-03-27-13-21-29%202.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Valerio and Josh" %}
               <img src="{{ site.baseurl }}/assets/valerioandjosh/4ba466b0-4b99-44bf-9d73-875a83d52bfb.JPG" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Valerio" %}

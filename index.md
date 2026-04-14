@@ -85,11 +85,8 @@ title: Home
             <h2>Latest News</h2>
         </div>
         
-        <!-- Featured News - Latest Publication -->
-        {% assign featured_home_post = site.posts | where_exp: "post", "post.title == 'Prof. Naresh Delivers Engaging Talk at Asia-Pacific Biofilms 2026 in Melbourne'" | first %}
-        {% if featured_home_post == nil %}
-          {% assign featured_home_post = site.posts.first %}
-        {% endif %}
+        <!-- Featured News - latest post by date -->
+        {% assign featured_home_post = site.posts.first %}
         {% if featured_home_post %}
         <div class="featured-news-home">
             <div class="featured-card-home">
@@ -105,6 +102,8 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Sam" %}
                           <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Nathan Carey" or featured_home_post.title contains "JoVE Protocol for Antimicrobial" %}
+                          <img src="{{ site.baseurl }}/assets/images/nathanpaper/VideoComingSoonTeaser.webp" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Tope A. Ibisanmi" or featured_home_post.title contains "Peptidomimetic Research at Asia-Pacific Biofilms 2026" %}
                           <img src="{{ site.baseurl }}/assets/images/topetalk/PHOTO-2026-03-29-12-08-08.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Asia-Pacific Biofilms" or featured_home_post.title contains "Naresh Delivers Engaging Talk" %}

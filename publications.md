@@ -31,6 +31,18 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>Multimodal computational discovery of MvfR inhibitors targeting quorum sensing in multi-drug-resistant <em>Pseudomonas aeruginosa</em></h4>
+                            <p class="authors">Ibisanmi, T.A., Jiang, X., Khan, R.A., Yu, T.T., Willcox, M.D.P., &amp; Kumar, N.</p>
+                            <p class="journal">Sci. Rep. (2026). Published 5 May 2026.</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1038/s41598-026-50613-z" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                                <a href="https://www.nature.com/articles/s41598-026-50613-z" target="_blank"><i class="fas fa-external-link-alt"></i> Article</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>Recent advances in computational antimicrobial peptide discovery through big data, modeling, and artificial intelligence and their interplay in ushering the next golden era of drug development</h4>
                             <p class="authors">Ibisanmi, T.A., Jiang, X., Willcox, M., & Kumar, N.</p>
                             <p class="journal">Front. Bioinform. 6:1749404 (2026)</p>

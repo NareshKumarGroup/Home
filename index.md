@@ -116,6 +116,8 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/yaogroupdinner/225a5713-4ce0-435d-815a-5cb91aa4443d.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Ghayah" %}
                           <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "MvfR" or featured_home_post.title contains "Scientific Reports: MvfR" %}
+                          <img src="{{ site.baseurl }}/assets/images/images-9.png" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Tope" %}
                           <img src="{{ site.baseurl }}/assets/fbinf-06-1749404-g002.webp" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% else %}

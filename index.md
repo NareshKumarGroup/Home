@@ -118,6 +118,8 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/ghayahpaperoct2025.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "MvfR" or featured_home_post.title contains "Scientific Reports: MvfR" %}
                           <img src="{{ site.baseurl }}/assets/images/images-9.png" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Josh Fleming" or featured_home_post.title contains "Antibiotics Publication" %}
+                          <img src="{{ site.baseurl }}/assets/images/antibiotics-15-00484-g002.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Tope" %}
                           <img src="{{ site.baseurl }}/assets/fbinf-06-1749404-g002.webp" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% else %}

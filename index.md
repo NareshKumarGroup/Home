@@ -103,7 +103,7 @@ title: Home
                         {% elsif featured_home_post.title contains "Sam" %}
                           <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Nathan Carey" or featured_home_post.title contains "JoVE Protocol for Antimicrobial" %}
-                          <img src="{{ site.baseurl }}/assets/images/nathanpaper/VideoComingSoonTeaser.webp" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                          <img src="{{ site.baseurl }}/assets/images/Nathan.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Tope A. Ibisanmi" or featured_home_post.title contains "Peptidomimetic Research at Asia-Pacific Biofilms 2026" %}
                           <img src="{{ site.baseurl }}/assets/images/topetalk/PHOTO-2026-03-29-12-08-08.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Asia-Pacific Biofilms" or featured_home_post.title contains "Naresh Delivers Engaging Talk" %}

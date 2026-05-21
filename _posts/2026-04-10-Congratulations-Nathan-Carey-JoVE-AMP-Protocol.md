@@ -23,11 +23,11 @@ excerpt: "Congratulations to Nathan Carey and co-authors on a new protocol in Jo
     </ul>
 
     <div class="jove-video-teaser">
-        <p class="jove-video-teaser-label">The JoVE video for this protocol is coming soon.</p>
-        <figure class="jove-video-teaser-figure">
-            <img src="{{ site.baseurl }}/assets/images/nathanpaper/VideoComingSoonTeaser.webp" alt="Video coming soon — JoVE protocol article e70178" class="jove-video-teaser-img">
-            <figcaption>Video coming soon for this article.</figcaption>
-        </figure>
+        <p class="jove-video-teaser-label">Watch the filmed protocol on Jove platform</p>
+      
+        <p>
+            <a class="jove-video-watch-btn" href="https://www.jove.com/v/70178/production-and-testing-of-antimicrobial-peptides-and-their-mimics" target="_blank" rel="noopener">Watch on JoVE</a>
+        </p>
     </div>
 
     <p>Congratulations to Nathan and everyone involved on this valuable contribution to open, visual methods in antimicrobial peptide research.</p>
@@ -62,6 +62,10 @@ excerpt: "Congratulations to Nathan Carey and co-authors on a new protocol in Jo
     text-align: center;
 }
 
+.post-content .jove-video-teaser p {
+    text-align: center;
+}
+
 .jove-video-teaser-label {
     margin-bottom: 1rem;
     font-weight: 600;
@@ -69,24 +73,27 @@ excerpt: "Congratulations to Nathan Carey and co-authors on a new protocol in Jo
     text-align: center;
 }
 
-.jove-video-teaser-figure {
-    margin: 0 auto;
-    max-width: 100%;
+.jove-video-teaser .jove-video-watch-btn {
+    display: inline-block;
+    padding: 0.65rem 1.35rem;
+    background: #2c3e50;
+    color: #fff !important;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
-.jove-video-teaser-img {
-    display: block;
-    max-width: min(100%, 640px);
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.jove-video-teaser .jove-video-watch-btn:hover {
+    opacity: 0.92;
 }
 
-.jove-video-teaser-figure figcaption {
-    margin-top: 0.65rem;
-    font-size: 0.9rem;
+.jove-video-teaser > p:not(.jove-video-teaser-label) {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.jove-video-teaser > p:first-of-type + p {
+    font-size: 0.95rem;
     color: #4b5563;
 }
 </style>

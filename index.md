@@ -98,6 +98,8 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/new/1771942652593.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Rasel" %}
                           <img src="{{ site.baseurl }}/assets/images/raseloralpresenetation/oralrasel.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Happy Birthday" and featured_home_post.title contains "Matthew Erlik" %}
+                          <img src="{{ site.baseurl }}/assets/images/mattbday/pngtree-colorful-happy-birthday-hat-and-balloons-png-image_19692697.png" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "New Year" %}
                           <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Sam" %}

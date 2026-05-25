@@ -13,7 +13,7 @@ excerpt: "Warm birthday wishes from the Kumar Research Group to Matthew Erlik. W
 
     <p>The Kumar Research Group extends its warm wishes to <strong>Matthew Erlik</strong> on his birthday.</p>
 
-    <p> we wish you a ontinued success on your researchs.</p>
+    <p> we wish you a continued success on your researchs.</p>
 
 
 

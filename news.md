@@ -19,6 +19,12 @@ permalink: /news/
           <div class="featured-image">
             {% if latest_post.title contains "Welcome" and latest_post.title contains "Lab Members" %}
               <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Daniel Guo" %}
+              <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Dittu and Robert" %}
+              <img src="{{ site.baseurl }}/assets/june2026news/51lzzdD1IML.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Lilla, Matthew, and Tope" %}
+              <img src="{{ site.baseurl }}/assets/june2026news/milestone.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Poster Award" or latest_post.title contains "PhD Review" %}
               <img src="{{ site.baseurl }}/assets/images/new/1771942652593.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Rasel" %}

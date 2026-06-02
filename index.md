@@ -94,6 +94,12 @@ title: Home
                     <div class="featured-image-home">
                         {% if featured_home_post.title contains "Welcome" and featured_home_post.title contains "Lab Members" %}
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Daniel Guo" %}
+                          <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Dittu and Robert" %}
+                          <img src="{{ site.baseurl }}/assets/june2026news/51lzzdD1IML.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Lilla, Matthew, and Tope" %}
+                          <img src="{{ site.baseurl }}/assets/june2026news/milestone.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Poster Award" or featured_home_post.title contains "PhD Review" %}
                           <img src="{{ site.baseurl }}/assets/images/new/1771942652593.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Rasel" %}

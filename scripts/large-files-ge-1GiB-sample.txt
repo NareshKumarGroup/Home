@@ -1,0 +1,44 @@
+================================================================
+Large file report (>= ~1 GiB; find uses bytes > 1023 MiB threshold)
+================================================================
+Hostname:    topes-MacBook-Pro.local
+Started:      2026-05-25 20:59:28 +1000
+Search root: /Users/tope
+Output file: /Users/tope/Desktop/pipe/website/scripts/large-files-ge-1GiB-sample.txt
+
+BYTES	LAST_MODIFIED	PATH
+1210429440	2026-03-15 12:49:01	/Users/tope/Library/Application Support/Cursor/User/globalStorage/state.vscdb.corrupted.1773538964509
+1309870080	2025-03-28 04:24:21	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Proposal template/simulation/30A/charmm-gui.tar
+1270540288	2025-03-28 04:25:40	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Proposal template/simulation/30A/charmm-gui-2.tar
+1332192768	2025-03-28 04:26:00	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Proposal template/simulation/30A/charmm-gui-3.tar
+1167364608	2025-03-29 11:59:50	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Proposal template/simulation/charmm-gui.tar
+1180974080	2025-03-29 11:59:59	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Proposal template/simulation/charmm-gui-2.tar
+1191388672	2025-03-29 12:00:12	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Proposal template/simulation/charmm-gui-3.tar
+3933743012	2024-12-11 10:39:53	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Desktop/P aureginosa 2024 genomic/proposaldocking/test/md.xtc
+3933743012	2024-12-11 16:39:07	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Desktop/P aureginosa 2024 genomic/proposaldocking/stimulation/md.xtc
+48748560356	2025-01-09 14:00:10	/Users/tope/Library/CloudStorage/OneDrive-UNSW/Desktop/docmentold file/JIAWEI/modelling/traj_file_part_1.dcd
+4697477120	2024-10-10 21:06:26	/Users/tope/Library/Parallels/Downloads/26100.2033.241004-2336.ge_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_en-us.iso
+1309870080	2025-03-28 04:24:21	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Proposal template/simulation/30A/charmm-gui.tar
+1270540288	2025-03-28 04:25:40	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Proposal template/simulation/30A/charmm-gui-2.tar
+1332192768	2025-03-28 04:26:00	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Proposal template/simulation/30A/charmm-gui-3.tar
+1167364608	2025-03-29 11:59:50	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/"OneDrive - UNSW/Proposal template/simulation"/charmm-gui.tar
+1180974080	2025-03-29 11:59:59	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Proposal template/simulation/charmm-gui-2.tar
+1191388672	2025-03-29 12:00:12	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Proposal template/simulation/charmm-gui-3.tar
+3933743012	2024-12-11 10:39:53	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Desktop/P aureginosa 2024 genomic/proposaldocking/test/md.xtc
+3933743012	2024-12-11 16:39:07	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Desktop/P aureginosa 2024 genomic/proposaldocking/stimulation/md.xtc
+48748560356	2025-01-09 14:00:10	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Desktop/docmentold file/JIAWEI/modelling/traj_file_part_1.dcd
+29408428032	2025-08-29 11:16:16	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Documents/katana/Allwell_completed/charmm-gui-3601661409/gromacs/GPU10A/complete/md.xtc
+2486236512	2025-08-29 11:07:11	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Documents/katana/Allwell_completed/charmm-gui-3601661409/gromacs/GPU10A/md_noPBC_noWAT.xtc
+2500298076	2025-08-29 11:07:54	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Documents/katana/Allwell_completed/charmm-gui-3601661409/gromacs/GPU10A/md_noWAT_noPBC_noJUMP.xtc
+2503672096	2025-08-29 11:08:29	/Users/tope/Library/Group Containers/UBF8T346G9.OneDriveSyncClientSuite/OneDrive - UNSW.noindex/OneDrive - UNSW/Documents/katana/Allwell_completed/charmm-gui-3601661409/gromacs/GPU10A/md_noWAT_noPBC_noJUMP_fit.xtc
+53519056896	2026-05-09 13:34:43	/Users/tope/Library/Containers/com.utmapp.UTM/Data/Documents/Windows.utm/Data/Windows11_InsiderPreview_Client_ARM64_en-us_26100.1150.qcow2
+245106737152	2026-01-06 21:02:01	/Users/tope/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw
+1338011712	2024-10-10 23:43:34	/Users/tope/Parallels/Windows 11.pvm/{a6c542d3-07ee-4071-ba44-c3f308bfc7d1}.mem
+14214496256	2024-10-10 23:43:34	/Users/tope/Parallels/Windows 11.pvm/harddisk.hdd/harddisk.hdd.0.{5fbaabe3-6958-40ff-92a7-860e329aab41}.hds
+7828576466	2025-12-27 21:04:33	/Users/tope/.cache/torch/hub/checkpoints/esm1b_t33_650M_UR50S.pt
+1683998896	2025-05-06 04:42:34	/Users/tope/.cache/huggingface/hub/models--Rostlab--prot_bert/blobs/05ab2c05bc8beb7b59f3b798933cbacd98a1582ad30c66f6eaec80b806d7aead
+1684058277	2025-05-06 04:31:25	/Users/tope/.cache/huggingface/hub/models--Rostlab--prot_bert/blobs/6ea3edd26cfefc3111176100ee2a027ed510f9c86b63e5b53a2a050b59f2af9d
+
+----------------------------------------------------------------
+Finished: 2026-05-25 21:01:10 +1000
+Tip: To limit to the boot disk only (skip /Volumes), edit the find line to add -xdev after the root path.

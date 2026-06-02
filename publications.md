@@ -25,28 +25,44 @@ title: Publications
 
             <!-- Publications List -->
             <div class="publications-list">
-                <!-- 2026 -->
+                <!-- 2026 (newest to oldest) -->
                 <div class="year-section">
                     <h3>2026</h3>
+                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Discovery of triazole-tethered glycinate and propanoate derivatives bearing a thiolactone moiety as quorum sensing inhibitors of <em>Pseudomonas aeruginosa</em>: design, synthesis, biological evaluation, and biofilm inhibition</h4>
+                            <p class="authors">Kosana Sai Chaitanya, Tsz Tin Yu, Hrushikesh Chaudhari, Nidhi Orenkonday, Pranali Vijaykumar Kuthe, Naresh Kumar, Ruchi Jain Dey, Sankaranarayanan Murugesan, Kondapalli Venkata Gowri Chandra Sekhar</p>
+                            <p class="journal">RSC Advances 16, 27977–27993 (2026)</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1039/D6RA00717A" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Conjugation of Antibiotics to Peptidomimetics Enhances Antimicrobial Spectrum of Activity</h4>
                             <p class="authors">Joshua Fleming, Nathan James Carey, Yao Cheng, Hao Luo, Tsz Tin Yu, Mark D. P. Willcox, David StC Black, Edgar H. H. Wong, Naresh Kumar</p>
-                            <p class="journal">Antibiotics</p>
+                            <p class="journal">Antibiotics 15(5), 484 (2026)</p>
                             <div class="publication-links">
-                                <a href="https://doi.org/10.3390/antibiotics15050484" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i> DOI
-                                </a>
+                                <a href="https://doi.org/10.3390/antibiotics15050484" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- 2026 (newest to oldest) -->
-                <div class="year-section">
-                    <h3>2026</h3>
-                    
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Production and Testing of Antimicrobial Peptides and Their Mimics</h4>
+                            <p class="authors">Nathan Carey, George Enninful, S. K. M. Baishnab, E. S. Mekonen, Naresh Kumar, Mark D. P. Willcox, Umme Laila Urmi</p>
+                            <p class="journal">J. Vis. Exp. (230), e70178 (2026)</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3791/70178" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                                <a href="https://www.jove.com/v/70178/production-and-testing-of-antimicrobial-peptides-and-their-mimics" target="_blank"><i class="fas fa-external-link-alt"></i> Video</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
                             <h4>Multimodal computational discovery of MvfR inhibitors targeting quorum sensing in multi-drug-resistant <em>Pseudomonas aeruginosa</em></h4>

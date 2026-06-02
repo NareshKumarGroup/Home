@@ -152,6 +152,8 @@ body {
 @media (max-width: 768px) {
     .site-header {
         .main-nav {
+            padding: 1rem 0;
+
             .nav-links {
                 display: none;
                 position: absolute;
@@ -518,7 +520,7 @@ a {
     }
 
     .site-content {
-        margin-top: 90px;
+        margin-top: 125px;
         padding: 1rem 0;
     }
 

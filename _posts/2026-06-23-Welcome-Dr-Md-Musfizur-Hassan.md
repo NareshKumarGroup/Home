@@ -13,7 +13,7 @@ excerpt: "Delighted to welcome Dr Md Musfizur Hassan to the Kumar Research Group
 
     <p>Delighted to welcome <strong>Dr Md Musfizur Hassan</strong> to the group as a Postdoctoral Research Fellow.</p>
 
-    <p>Dr Hassan is a highly accomplished peptide chemist and scientific leader with a strong track record across both industry and academia. He currently serves as a Staff Scientist and Scientific Lead in the Peptide Synthesis Facility at Children's Medical Research Institute (CMRI).</p>
+    <p>Dr Hassan is a highly accomplished peptide chemist and scientific leader with a strong track record across both industry and academia. He is also currently serving as a Staff Scientist and Scientific Lead in the Peptide Synthesis Facility at Children's Medical Research Institute (CMRI).</p>
 
     <p>He earned his PhD in 2018 from the School of Chemistry, UNSW, under the supervision of Professor Pall Thordarson, where his research focused on the design and synthesis of peptide-based biomaterials, with applications in drug delivery and cell culture scaffolds. Following his PhD, he worked as a Researcher at UNSW for Noxopharm Ltd with Professor Naresh Kumar, and later as a Postdoctoral Research Fellow at the School of Chemical Engineering, UNSW, under the leadership of Professor Guangzhao Mao.</p>
 

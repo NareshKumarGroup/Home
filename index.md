@@ -92,7 +92,9 @@ title: Home
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if featured_home_post.title contains "Welcome" and featured_home_post.title contains "Lab Members" %}
+                        {% if featured_home_post.title contains "Md Musfizur Hassan" %}
+                          <img src="{{ site.baseurl }}/assets/images/hassna/GettyImages-1269698264.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Welcome" and featured_home_post.title contains "Lab Members" %}
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Daniel Guo" %}
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">

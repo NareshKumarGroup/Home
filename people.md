@@ -89,6 +89,15 @@ title: People
                             <a href="mailto:tuong_anh.to@unsw.edu.au"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/new/md-hassan.jpg" alt="Md Musfizur Hassan">
+                        <h4>Md Musfizur Hassan</h4>
+                        <p class="position">Postdoctoral Researcher</p>
+                        <p class="text-muted">Pharmaceutical formulation</p>
+                        <div class="social-links">
+                            <a href="mailto:md.m.hassan@unsw.edu.au"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news-post
 title: "Welcome Dr Md Musfizur Hassan to the Kumar Group"
 date: 2026-06-23 10:00:00 +1000
 categories: news team
@@ -46,5 +46,18 @@ excerpt: "Delighted to welcome Dr Md Musfizur Hassan to the Kumar Research Group
     margin-bottom: 1.5rem;
     line-height: 1.65;
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .post-content {
+        max-width: 100%;
+        padding: 0 0.25rem;
+        box-sizing: border-box;
+    }
+
+    .post-content p {
+        text-align: left;
+        font-size: 1rem;
+    }
 }
 </style>

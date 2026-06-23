@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news-post
 title: "Happy Birthday, Lilla Nur Firli!"
 date: 2026-06-21 10:00:00 +1000
 categories: news events
@@ -39,5 +39,21 @@ excerpt: "Warm birthday wishes from the Kumar Research Group to Lilla Nur Firli.
 .post-content p {
     margin-bottom: 1.5rem;
     line-height: 1.65;
+}
+
+@media (max-width: 768px) {
+    .post-content {
+        max-width: 100%;
+        padding: 0 0.25rem;
+        box-sizing: border-box;
+    }
+
+    .featured-image {
+        max-width: 100%;
+    }
+
+    .post-content p {
+        font-size: 1rem;
+    }
 }
 </style>

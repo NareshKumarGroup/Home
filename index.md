@@ -112,6 +112,8 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Sam" %}
                           <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "ACS Infectious Diseases" %}
+                          <img src="{{ site.baseurl }}/assets/images/nathanpaper/images_medium_id6c00072_0005.gif" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Nathan Carey" or featured_home_post.title contains "JoVE Protocol for Antimicrobial" %}
                           <img src="{{ site.baseurl }}/assets/images/Nathan.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Tope A. Ibisanmi" or featured_home_post.title contains "Peptidomimetic Research at Asia-Pacific Biofilms 2026" %}

@@ -31,6 +31,17 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>A Review of Contact Lens-Associated Infections and Biomaterial-Based Solutions</h4>
+                            <p class="authors">Nathan Carey, Desie Kasew Assefa, Yalewayker Asrat, Muhammad Yasir, Naresh Kumar, Mark D. P. Willcox</p>
+                            <p class="journal">ACS Infectious Diseases (2026). Article ASAP.</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1021/acsinfecdis.6c00072" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>Discovery of triazole-tethered glycinate and propanoate derivatives bearing a thiolactone moiety as quorum sensing inhibitors of <em>Pseudomonas aeruginosa</em>: design, synthesis, biological evaluation, and biofilm inhibition</h4>
                             <p class="authors">Kosana Sai Chaitanya, Tsz Tin Yu, Hrushikesh Chaudhari, Nidhi Orenkonday, Pranali Vijaykumar Kuthe, Naresh Kumar, Ruchi Jain Dey, Sankaranarayanan Murugesan, Kondapalli Venkata Gowri Chandra Sekhar</p>
                             <p class="journal">RSC Advances 16, 27977–27993 (2026)</p>

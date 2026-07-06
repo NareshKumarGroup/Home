@@ -1,24 +1,24 @@
 ---
 layout: news-post
-title: "Happy Birthday, Vidi Nuraini!"
+title: "Happy Birthday, Vidia Nuraini!"
 date: 2026-07-05 10:00:00 +1000
 categories: news events
-excerpt: "The Kumar Research Group extends warm birthday wishes to Vidi Nuraini. We appreciate her dedication to antimicrobial resistance research and wish her continued success."
+excerpt: "The Kumar Research Group extends warm birthday wishes to Vidia Nuraini. We appreciate her dedication to antimicrobial resistance research and wish her continued success."
 ---
 
 <div class="post-content">
-    <p>The Kumar Research Group extends its warm wishes to <strong>Vidi Nuraini</strong> on her birthday.</p>
+    <p>The Kumar Research Group extends its warm wishes to <strong>Vidia Nuraini</strong> on her birthday.</p>
 
     <div class="birthday-visual-row">
         <figure class="birthday-visual-item">
-            <img src="{{ site.baseurl }}/assets/images/vidia/IMG_8287.jpg" alt="Vidi Nuraini" class="birthday-visual-image birthday-portrait-image">
+            <img src="{{ site.baseurl }}/assets/images/vidia/IMG_8287.jpg" alt="Vidia Nuraini" class="birthday-visual-image birthday-portrait-image">
         </figure>
         <figure class="birthday-visual-item">
             <img src="{{ site.baseurl }}/assets/images/vidia/happy-birthday-cake.gif" alt="Happy Birthday — animated festive cake with candles and golden confetti" class="birthday-visual-image birthday-cake-image">
         </figure>
     </div>
 
-    <p>We wish Vidi continued success in her research endeavours and a wonderful day of celebration.</p>
+    <p>We wish Vidia continued success in her research endeavours and a wonderful day of celebration.</p>
 
     <p style="text-align: center; margin-top: 2rem;">— Kumar Research Group</p>
 </div>

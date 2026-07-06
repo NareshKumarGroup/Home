@@ -17,9 +17,9 @@ permalink: /news/
       <div class="featured-card">
         <div class="featured-content">
           <div class="featured-image">
-            {% if latest_post.title contains "Happy Birthday" and latest_post.title contains "Vidi" %}
+            {% if latest_post.title contains "Happy Birthday" and latest_post.title contains "Vidia" %}
               <img src="{{ site.baseurl }}/assets/images/vidia/IMG_8287.jpg" alt="{{ latest_post.title }}" class="featured-img">
-            {% elsif latest_post.title contains "Vidi Nuraini" %}
+            {% elsif latest_post.title contains "Vidia Nuraini" %}
               <img src="{{ site.baseurl }}/assets/images/vidia/presnetation1.JPG" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Md Musfizur Hassan" %}
               <img src="{{ site.baseurl }}/assets/images/new/md-hassan.jpg" alt="{{ latest_post.title }}" class="featured-img">

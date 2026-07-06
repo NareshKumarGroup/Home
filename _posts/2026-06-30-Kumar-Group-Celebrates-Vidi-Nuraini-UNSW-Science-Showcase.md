@@ -1,6 +1,7 @@
 ---
 layout: news-post
 title: "Kumar Group Celebrates Vidia Nuraini at the UNSW Science 2026 Postgraduate Research Showcase"
+permalink: /news/achievements/presentations/2026/06/30/Kumar-Group-Celebrates-Vidi-Nuraini-UNSW-Science-Showcase.html
 date: 2026-06-30 10:00:00 +1000
 categories: news achievements presentations
 excerpt: "Congratulations to Vidia Nuraini on representing the Kumar Group at the UNSW Science 2026 Postgraduate Research Showcase, participating in both the One Minute Thesis and Poster Competition under the theme Building a Liveable and Healthy Future."

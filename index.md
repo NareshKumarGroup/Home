@@ -92,7 +92,9 @@ title: Home
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if featured_home_post.title contains "Vidi Nuraini" %}
+                        {% if featured_home_post.title contains "Happy Birthday" and featured_home_post.title contains "Vidi" %}
+                          <img src="{{ site.baseurl }}/assets/images/vidia/IMG_8287.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Vidi Nuraini" %}
                           <img src="{{ site.baseurl }}/assets/images/vidia/presnetation1.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Md Musfizur Hassan" %}
                           <img src="{{ site.baseurl }}/assets/images/hassna/GettyImages-1269698264.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
@@ -153,7 +155,7 @@ title: Home
         
         <!-- Recent News Grid -->
         <div class="grid">
-            {% for post in site.posts limit:3 %}
+            {% for post in site.posts limit:6 %}
             <div class="card">
                 <h3 class="card-title">{{ post.title }}</h3>
                 <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>

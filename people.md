@@ -98,6 +98,23 @@ title: People
                             <a href="mailto:md.m.hassan@unsw.edu.au"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/group/maryam.jpg" alt="Maryam Mirabediny">
+                        <h4>Maryam Mirabediny, PhD</h4>
+                        <p class="position">Postdoctoral Researcher</p>
+                        <p class="text-muted">Environmental chemistry and PFAS water remediation</p>
+                        <div class="social-links">
+                            <a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member-placeholder" aria-hidden="true">PL</div>
+                        <h4>Phuoc Linh Dan Nguyen, PhD</h4>
+                        <p class="position">Postdoctoral Researcher</p>
+                        <div class="social-links">
+                            <a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -260,8 +277,6 @@ title: People
                 </div>
                 <div class="alumni-container">
                     <div class="alumni-grid-visible">
-                        <div class="alumni-name-item"><p class="mb-0">Phuoc Linh Dan Nguyen <span class="text-muted">PhD, 2025</span></p></div>
-                        <div class="alumni-name-item"><p class="mb-0">Maryam Mirabediny <span class="text-muted">PhD, 2025</span></p></div>
                         <div class="alumni-name-item"><p class="mb-0">Ghayah Bahatheg <span class="text-muted">PhD, 2025</span></p></div>
                         <div class="alumni-name-item"><p class="mb-0">Alyssa Morellini <span class="text-muted">Honours, 2025</span></p></div>
                         <div class="alumni-name-item"><p class="mb-0"><a href="mailto:jun.sun@unsw.edu.au">Jun Sun</a> <span class="text-muted">PhD, 2025</span></p></div>
@@ -486,6 +501,29 @@ title: People
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+.team-member-placeholder {
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 8px solid #818cf9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4ff;
+    color: #818cf9;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    transition: all 0.3s ease;
+}
+
+.team-member:hover .team-member-placeholder {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
 .team-member h4 {
     color: #2c3e50;
     margin-bottom: 0.5rem;
@@ -620,7 +658,8 @@ title: People
         max-width: 300px;
         margin: 0 auto;
     }
-    .team-member img {
+    .team-member img,
+    .team-member-placeholder {
         width: 182px;
         height: 182px;
     }

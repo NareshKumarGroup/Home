@@ -51,6 +51,8 @@ permalink: /news/
               <img src="{{ site.baseurl }}/assets/images/nareshtalk/PHOTO-2026-03-27-13-21-29%202.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Valerio and Josh" %}
               <img src="{{ site.baseurl }}/assets/valerioandjosh/4ba466b0-4b99-44bf-9d73-875a83d52bfb.JPG" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "ChemMedChem" %}
+              <img src="{{ site.baseurl }}/assets/images/valerionewpaper/cmdc70376-blkfxd-0001-m.png" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Valerio" %}
               <img src="{{ site.baseurl }}/assets/images/Get.jpeg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Yao" %}

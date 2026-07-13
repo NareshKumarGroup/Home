@@ -4,7 +4,7 @@ title: News
 permalink: /news/
 ---
 
-<section class="section bg-light">
+<section class="section bg-light news-page">
   <div class="container">
     <div class="section-title">
       <h2>Latest News</h2>
@@ -95,6 +95,10 @@ permalink: /news/
 </section>
 
 <style>
+.news-page {
+  overflow-x: hidden;
+}
+
 .featured-news {
   margin-bottom: 3rem;
 }
@@ -127,12 +131,15 @@ permalink: /news/
 
 .featured-text {
   flex: 1;
+  min-width: 0;
 }
 
 .featured-title {
   color: white;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .featured-date {
@@ -145,6 +152,7 @@ permalink: /news/
   color: rgba(255,255,255,0.9);
   line-height: 1.6;
   margin-bottom: 1.5rem;
+  overflow-wrap: anywhere;
 }
 
 .btn-featured {
@@ -152,6 +160,8 @@ permalink: /news/
   color: white;
   border: 2px solid rgba(255,255,255,0.3);
   transition: all 0.3s ease;
+  min-height: 44px;
+  line-height: 1.4;
 }
 
 .btn-featured:hover {
@@ -160,67 +170,164 @@ permalink: /news/
   transform: translateY(-2px);
 }
 
+.news-page .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.news-page .card {
+  min-width: 0;
+}
+
+.news-page .card-title {
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+
+.news-page .card p {
+  overflow-wrap: anywhere;
+}
+
+.news-page .card .btn {
+  min-height: 44px;
+  line-height: 1.4;
+}
+
 @media (max-width: 768px) {
+  .news-page.section {
+    padding: 1.5rem 0;
+  }
+
+  .news-page .section-title {
+    margin-bottom: 1.5rem;
+    padding: 0 0.25rem;
+  }
+
+  .news-page .section-title h2 {
+    font-size: 1.45rem;
+  }
+
+  .news-page .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .featured-news {
+    margin-bottom: 2rem;
+  }
+
   .featured-card {
     padding: 1.25rem;
+    border-radius: 10px;
   }
 
   .featured-content {
     flex-direction: column;
+    align-items: stretch;
     text-align: center;
     gap: 1.25rem;
   }
 
   .featured-image {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   .featured-img {
     width: 100%;
-    max-width: 280px;
+    max-width: 100%;
     height: auto;
-    max-height: 220px;
-    object-fit: cover;
+    min-height: 0;
+    max-height: 240px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.12);
   }
 
   .featured-title {
-    font-size: 1.2rem;
-    line-height: 1.35;
-    overflow-wrap: anywhere;
+    font-size: 1.15rem;
+    text-align: left;
+  }
+
+  .featured-date {
+    text-align: left;
   }
 
   .featured-excerpt {
     text-align: left;
     font-size: 0.95rem;
+    margin-bottom: 1.25rem;
   }
 
-  .grid {
+  .btn-featured {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .news-page .grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
   }
 
-  .card p {
+  .news-page .card {
+    padding: 1.15rem;
+    margin-bottom: 0;
+  }
+
+  .news-page .card-title {
+    font-size: 1.05rem;
+  }
+
+  .news-page .card p {
     text-align: left;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .news-page .card .date {
+    font-size: 0.9rem;
+  }
+
+  .news-page .card .btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
   }
 }
 
 @media (max-width: 480px) {
+  .news-page.section {
+    padding: 1.25rem 0;
+  }
+
+  .news-page .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
   .featured-card {
     padding: 1rem;
   }
 
   .featured-title {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 
   .featured-img {
-    max-width: 100%;
-    max-height: 260px;
+    max-height: 220px;
   }
 
-  .card-title {
-    font-size: 1.05rem;
-    overflow-wrap: anywhere;
+  .news-page .card {
+    padding: 1rem;
+  }
+
+  .news-page .card-title {
+    font-size: 1rem;
   }
 }
 </style> 

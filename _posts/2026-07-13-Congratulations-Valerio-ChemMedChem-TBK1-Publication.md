@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news-post
 title: "Congratulations to Dr. Valerio on a New ChemMedChem Publication"
 date: 2026-07-13 10:00:00 +1000
 categories: news achievements
@@ -96,6 +96,16 @@ excerpt: "Congratulations to Dr. Valerio Falasca and co-authors on a new paper i
 }
 
 @media (max-width: 768px) {
+    .post-content {
+        max-width: 100%;
+        padding: 0 0.25rem;
+        box-sizing: border-box;
+    }
+
+    .post-content p {
+        text-align: left;
+    }
+
     .post-figure-conference {
         max-width: 100%;
     }

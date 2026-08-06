@@ -31,6 +31,17 @@ title: Publications
                     
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>Synthesis of nitric oxide releasing conjugated <em>ortho</em>-hindered nitroarenes and their application in dual-action antimicrobial peptide-mimics</h4>
+                            <p class="authors">Samuel T. Attard, Md Aquib, Hatu Gmedhin, Cyrille Boyer, Pall Thordarson, David StC Black, Naresh Kumar</p>
+                            <p class="journal">RSC Advances (2026)</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1039/D6RA04633A" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>A Review of Contact Lens-Associated Infections and Biomaterial-Based Solutions</h4>
                             <p class="authors">Nathan Carey, Desie Kasew Assefa, Yalewayker Asrat, Muhammad Yasir, Naresh Kumar, Mark D. P. Willcox</p>
                             <p class="journal">ACS Infectious Diseases (2026). Article ASAP.</p>

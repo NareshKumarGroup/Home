@@ -40,7 +40,7 @@ permalink: /news/
             {% elsif latest_post.title contains "New Year" %}
               <img src="{{ site.baseurl }}/assets/images/newyear/62bb425b-3eb2-43c1-9c7d-6a5a32080e2f.JPG" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Sam" %}
-              <img src="{{ site.baseurl }}/assets/images/new/Samlatestpappernov.jpeg" alt="{{ latest_post.title }}" class="featured-img">
+              <img src="{{ site.baseurl }}/assets/images/sampaper2026/d6ra04633a-ga.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "ACS Infectious Diseases" %}
               <img src="{{ site.baseurl }}/assets/images/nathanpaper/images_medium_id6c00072_0005.gif" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Nathan Carey" or latest_post.title contains "JoVE Protocol for Antimicrobial" %}

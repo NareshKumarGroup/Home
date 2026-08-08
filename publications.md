@@ -42,6 +42,18 @@ title: Publications
 
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">
+                            <h4>Computational investigation of hinokiflavone as a potential inhibitor of FabH in <em>Paenibacillus larvae</em> using QSAR, docking and molecular dynamics approaches</h4>
+                            <p class="authors">Sawsen Rebhi, Safa Laajili, Tope A. Ibisanmi, Naresh Kumar, Najla Sadfi-Zouaoui, Abdelmonaem Messaoudi, Hanen Najjaa</p>
+                            <p class="journal">Sci. Rep. (2026). Published 24 July 2026.</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.1038/s41598-026-61508-4" target="_blank"><i class="fas fa-external-link-alt"></i> DOI</a>
+                                <a href="https://www.nature.com/articles/s41598-026-61508-4" target="_blank"><i class="fas fa-external-link-alt"></i> Article</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
                             <h4>A Review of Contact Lens-Associated Infections and Biomaterial-Based Solutions</h4>
                             <p class="authors">Nathan Carey, Desie Kasew Assefa, Yalewayker Asrat, Muhammad Yasir, Naresh Kumar, Mark D. P. Willcox</p>
                             <p class="journal">ACS Infectious Diseases (2026). Article ASAP.</p>

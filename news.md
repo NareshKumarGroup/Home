@@ -27,6 +27,8 @@ permalink: /news/
               <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Daniel Guo" %}
               <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "PhD Graduation" and latest_post.title contains "Dittu" %}
+              <img src="{{ site.baseurl }}/assets/images/PHD826/DITTU/dittu-with-group.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Dittu and Robert" %}
               <img src="{{ site.baseurl }}/assets/june2026news/51lzzdD1IML.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Lilla, Matthew, and Tope" %}

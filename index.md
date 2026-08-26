@@ -102,6 +102,8 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Daniel Guo" %}
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "PhD Graduation" and featured_home_post.title contains "Dittu" %}
+                          <img src="{{ site.baseurl }}/assets/images/PHD826/DITTU/dittu-with-group.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Dittu and Robert" %}
                           <img src="{{ site.baseurl }}/assets/june2026news/51lzzdD1IML.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Lilla, Matthew, and Tope" %}

@@ -25,6 +25,24 @@ title: Publications
 
             <!-- Publications List -->
             <div class="publications-list">
+                <!-- 2026 -->
+                <div class="year-section">
+                    <h3>2026</h3>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Targeting WHO-Priority MDR and XDR Gram-Negative Ocular Isolates by Combining Conventional Antimicrobials with Membrane-Active Peptides</h4>
+                            <p class="authors">Teshome Belachew Eshete, Shyam Kumar Mishra, Naresh Kumar, Mark Willcox</p>
+                            <p class="journal">Antibiotics</p>
+                            <div class="publication-links">
+                                <a href="https://doi.org/10.3390/antibiotics15080793" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> DOI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- 2026 (newest to oldest) -->
                 <div class="year-section">
                     <h3>2026</h3>
@@ -1583,6 +1601,19 @@ title: Publications
                 <!-- 2015 -->
                 <div class="year-section">
                     <h3>2015</h3>
+
+                    <div class="publication-item" data-type="journal">
+                        <div class="publication-content">
+                            <h4>Photocatalytic TiO&amp;lt;inf&amp;gt;2&amp;lt;/inf&amp;gt; thin films on fluorinated ethylene propylene copolymer (FEP) substrates</h4>
+                            <p class="authors">Naresh Kumar et al.</p>
+                            <p class="journal">Journal of the Australian Ceramic Society</p>
+                            <div class="publication-links">
+                                <a href="https://www.scopus.com/inward/record.uri?eid=2-s2.0-84938879781&amp;partnerID=40&amp;md5=41dd6b86f9a0f3b0b094b610a52c02b1" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> DOI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="publication-item" data-type="journal">
                         <div class="publication-content">

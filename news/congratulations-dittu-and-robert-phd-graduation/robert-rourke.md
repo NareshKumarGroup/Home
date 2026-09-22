@@ -30,6 +30,16 @@ excerpt: "The Kumar Research Group congratulates Dr Robert Rourke on his PhD gra
         <figcaption>On stage: Doctor of Philosophy, officially.</figcaption>
     </figure>
 
+    <figure class="post-figure stage-figure">
+        <img src="{{ site.baseurl }}/assets/images/PHD826/rob-and-dittu-with-naresh.jpg" alt="Dr Robert Rourke and Dr Dittu Suresh with Professor Naresh Kumar" class="featured-image">
+        <figcaption>With Dr Dittu Suresh and Professor Naresh Kumar.</figcaption>
+    </figure>
+
+    <figure class="post-figure stage-figure">
+        <img src="{{ site.baseurl }}/assets/images/PHD826/rob-and-dittu-with-group.jpg" alt="Dr Robert Rourke and Dr Dittu Suresh with the Kumar Research Group" class="featured-image">
+        <figcaption>Both graduates with the Kumar Research Group.</figcaption>
+    </figure>
+
     <p class="closing">Well done, Rob. The gown suits you, and so does the title.</p>
 
     <p class="sibling-link">Also celebrating: <a href="{{ site.baseurl }}/news/congratulations-dittu-and-robert-phd-graduation/dittu-suresh/">Dr Dittu Suresh →</a></p>

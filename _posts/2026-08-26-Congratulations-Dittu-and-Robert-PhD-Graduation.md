@@ -16,7 +16,7 @@ excerpt: "The Kumar Research Group congratulates Dr Dittu Suresh and Dr Robert R
         <h3 class="slideshow-heading">Moments from graduation day</h3>
         <figure class="slideshow-figure">
             <div class="phd-slideshow-frame">
-                <img id="phd826-slideshow-img" src="{{ site.baseurl }}/assets/images/PHD826/DITTU/dittu-with-naresh.jpg" alt="Graduation celebration photo">
+                <img id="phd826-slideshow-img" src="{{ site.baseurl }}/assets/images/PHD826/rob-and-dittu-with-naresh.jpg" alt="Dr Dittu Suresh and Dr Robert Rourke with Professor Naresh Kumar">
             </div>
             <figcaption class="slideshow-legend">Slideshow of photos from Dittu and Robert's PhD graduation.</figcaption>
         </figure>
@@ -57,12 +57,16 @@ excerpt: "The Kumar Research Group congratulates Dr Dittu Suresh and Dr Robert R
   if (!el) return;
   var base = "{{ site.baseurl }}";
   var slides = [
+    base + "/assets/images/PHD826/rob-and-dittu-with-naresh.jpg",
+    base + "/assets/images/PHD826/rob-and-dittu-with-group.jpg",
     base + "/assets/images/PHD826/DITTU/dittu-with-naresh.jpg",
     base + "/assets/images/PHD826/ROB/rob-with-naresh.jpg",
     base + "/assets/images/PHD826/DITTU/dittu-with-group.jpg",
     base + "/assets/images/PHD826/ROB/rob-spotlight.jpg"
   ];
   var alts = [
+    "Dr Dittu Suresh and Dr Robert Rourke with Professor Naresh Kumar",
+    "Dr Dittu Suresh and Dr Robert Rourke with the Kumar Research Group",
     "Dr Dittu Suresh with Professor Naresh Kumar",
     "Dr Robert Rourke with Professor Naresh Kumar",
     "Dr Dittu Suresh with the Kumar Research Group",

@@ -17,7 +17,11 @@ permalink: /news/
       <div class="featured-card">
         <div class="featured-content">
           <div class="featured-image">
-            {% if latest_post.title contains "Happy Birthday" and latest_post.title contains "Vidia" %}
+            {% if latest_post.title contains "Ghayah" and latest_post.title contains "RSC Advances" %}
+              <img src="{{ site.baseurl }}/assets/images/d6ra07372g-ga.png" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Southern Highlands" or latest_post.title contains "Heterocyclic Chemistry 2026" %}
+              <img src="{{ site.baseurl }}/assets/images/kiama2026/sebel-harbourside-kiama.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Happy Birthday" and latest_post.title contains "Vidia" %}
               <img src="{{ site.baseurl }}/assets/images/vidia/IMG_8287.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Vidia Nuraini" or latest_post.title contains "Vidi Nuraini" %}
               <img src="{{ site.baseurl }}/assets/images/vidia/presnetation1.JPG" alt="{{ latest_post.title }}" class="featured-img">
@@ -28,7 +32,7 @@ permalink: /news/
             {% elsif latest_post.title contains "Daniel Guo" %}
               <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "PhD Graduation" and latest_post.title contains "Dittu" %}
-              <img src="{{ site.baseurl }}/assets/images/PHD826/DITTU/dittu-with-group.jpg" alt="{{ latest_post.title }}" class="featured-img">
+              <img src="{{ site.baseurl }}/assets/images/PHD826/rob-and-dittu-with-group.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Dittu and Robert" %}
               <img src="{{ site.baseurl }}/assets/june2026news/51lzzdD1IML.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Lilla, Matthew, and Tope" %}

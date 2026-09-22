@@ -28,6 +28,16 @@ excerpt: "The Kumar Research Group congratulates Dr Dittu Suresh on his PhD grad
         <figcaption>Celebrating with the group on campus after the ceremony.</figcaption>
     </figure>
 
+    <figure class="post-figure group-figure">
+        <img src="{{ site.baseurl }}/assets/images/PHD826/rob-and-dittu-with-naresh.jpg" alt="Dr Dittu Suresh and Dr Robert Rourke with Professor Naresh Kumar" class="featured-image">
+        <figcaption>With Dr Robert Rourke and Professor Naresh Kumar.</figcaption>
+    </figure>
+
+    <figure class="post-figure group-figure">
+        <img src="{{ site.baseurl }}/assets/images/PHD826/rob-and-dittu-with-group.jpg" alt="Dr Dittu Suresh and Dr Robert Rourke with the Kumar Research Group" class="featured-image">
+        <figcaption>Both graduates with the Kumar Research Group.</figcaption>
+    </figure>
+
     <p class="closing">Congratulations again, Dr Suresh, and thank you for everything you gave this team along the way.</p>
 
     <p class="sibling-link">Also celebrating: <a href="{{ site.baseurl }}/news/congratulations-dittu-and-robert-phd-graduation/robert-rourke/">Dr Robert Rourke →</a></p>

@@ -92,7 +92,11 @@ title: Home
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if featured_home_post.title contains "Happy Birthday" and featured_home_post.title contains "Vidia" %}
+                        {% if featured_home_post.title contains "Ghayah" and featured_home_post.title contains "RSC Advances" %}
+                          <img src="{{ site.baseurl }}/assets/images/d6ra07372g-ga.png" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Southern Highlands" or featured_home_post.title contains "Heterocyclic Chemistry 2026" %}
+                          <img src="{{ site.baseurl }}/assets/images/kiama2026/sebel-harbourside-kiama.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Happy Birthday" and featured_home_post.title contains "Vidia" %}
                           <img src="{{ site.baseurl }}/assets/images/vidia/IMG_8287.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Vidia Nuraini" or featured_home_post.title contains "Vidi Nuraini" %}
                           <img src="{{ site.baseurl }}/assets/images/vidia/presnetation1.JPG" alt="{{ featured_home_post.title }}" class="featured-img-home">
@@ -103,7 +107,7 @@ title: Home
                         {% elsif featured_home_post.title contains "Daniel Guo" %}
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "PhD Graduation" and featured_home_post.title contains "Dittu" %}
-                          <img src="{{ site.baseurl }}/assets/images/PHD826/DITTU/dittu-with-group.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                          <img src="{{ site.baseurl }}/assets/images/PHD826/rob-and-dittu-with-group.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Dittu and Robert" %}
                           <img src="{{ site.baseurl }}/assets/june2026news/51lzzdD1IML.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Lilla, Matthew, and Tope" %}

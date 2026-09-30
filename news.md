@@ -17,7 +17,9 @@ permalink: /news/
       <div class="featured-card">
         <div class="featured-content">
           <div class="featured-image">
-            {% if latest_post.title contains "Ghayah" and latest_post.title contains "RSC Advances" %}
+            {% if latest_post.title contains "Rasel" and latest_post.title contains "Bioorganic Chemistry" %}
+              <img src="{{ site.baseurl }}/assets/images/raselpaper2026/rasel-bioorg-chem-2026-graphical-abstract.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Ghayah" and latest_post.title contains "RSC Advances" %}
               <img src="{{ site.baseurl }}/assets/images/d6ra07372g-ga.png" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Southern Highlands" or latest_post.title contains "Heterocyclic Chemistry 2026" %}
               <img src="{{ site.baseurl }}/assets/images/kiama2026/sebel-harbourside-kiama.jpg" alt="{{ latest_post.title }}" class="featured-img">

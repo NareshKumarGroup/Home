@@ -92,7 +92,9 @@ title: Home
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if featured_home_post.title contains "Ghayah" and featured_home_post.title contains "RSC Advances" %}
+                        {% if featured_home_post.title contains "Rasel" and featured_home_post.title contains "Bioorganic Chemistry" %}
+                          <img src="{{ site.baseurl }}/assets/images/raselpaper2026/rasel-bioorg-chem-2026-graphical-abstract.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Ghayah" and featured_home_post.title contains "RSC Advances" %}
                           <img src="{{ site.baseurl }}/assets/images/d6ra07372g-ga.png" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Southern Highlands" or featured_home_post.title contains "Heterocyclic Chemistry 2026" %}
                           <img src="{{ site.baseurl }}/assets/images/kiama2026/sebel-harbourside-kiama.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">

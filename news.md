@@ -17,7 +17,11 @@ permalink: /news/
       <div class="featured-card">
         <div class="featured-content">
           <div class="featured-image">
-            {% if latest_post.title contains "Honours Scholarship" %}
+            {% if latest_post.title contains "Drug Resistance Updates" %}
+              <img src="{{ site.baseurl }}/assets/images/drup2026/drug-resistance-updates-cover.gif" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Sciworthy" %}
+              <img src="{{ site.baseurl }}/assets/images/octnewsupdate/sciworthy-mvfr.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Honours Scholarship" %}
               <img src="{{ site.baseurl }}/assets/images/award2026/realistic-golden-trophy-with-text-space-and-congratulations-text-on-textile-banner-illustration-vector.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Rasel" and latest_post.title contains "Bioorganic Chemistry" %}
               <img src="{{ site.baseurl }}/assets/images/raselpaper2026/rasel-bioorg-chem-2026-graphical-abstract.jpg" alt="{{ latest_post.title }}" class="featured-img">

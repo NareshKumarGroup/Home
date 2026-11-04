@@ -92,7 +92,11 @@ title: Home
             <div class="featured-card-home">
                 <div class="featured-content-home">
                     <div class="featured-image-home">
-                        {% if featured_home_post.title contains "Honours Scholarship" %}
+                        {% if featured_home_post.title contains "Drug Resistance Updates" %}
+                          <img src="{{ site.baseurl }}/assets/images/drup2026/drug-resistance-updates-cover.gif" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Sciworthy" %}
+                          <img src="{{ site.baseurl }}/assets/images/octnewsupdate/sciworthy-mvfr.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Honours Scholarship" %}
                           <img src="{{ site.baseurl }}/assets/images/award2026/realistic-golden-trophy-with-text-space-and-congratulations-text-on-textile-banner-illustration-vector.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Rasel" and featured_home_post.title contains "Bioorganic Chemistry" %}
                           <img src="{{ site.baseurl }}/assets/images/raselpaper2026/rasel-bioorg-chem-2026-graphical-abstract.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">

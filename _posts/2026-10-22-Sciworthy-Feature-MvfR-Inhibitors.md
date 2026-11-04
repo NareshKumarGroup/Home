@@ -3,7 +3,7 @@ layout: news-post
 title: "One of Our 2026 Nature Portfolio Studies Featured in Sciworthy"
 date: 2026-10-22 09:00:00 +1100
 categories: news achievements publications
-excerpt: "One of our papers published in Scientific Reports has been featured in Sciworthy, in the article Scientists found a compound that can disarm a drug-resistant bacterium by Halimat Chisom Atanda."
+excerpt: "One of our papers published in Scientific Reports has been featured in Sciworthy, in the article Scientists found a compound that can disarm a drug-resistant bacterium."
 ---
 
 <div class="post-content">

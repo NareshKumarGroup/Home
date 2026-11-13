@@ -9,6 +9,7 @@ excerpt: "Congratulations to Nathan Carey on delivering an excellent third-year 
 <div class="post-content">
     <div class="post-image">
         <img src="{{ site.baseurl }}/assets/images/nathan-third-year-talk/talk1.jpg" alt="Nathan Carey presenting his third-year PhD talk at UNSW" class="hero-featured-image">
+        <p class="photo-credit">Photo credit: Dr. Maryam</p>
     </div>
 
     <p>The Kumar Research Group is delighted to congratulate <strong>Nathan Carey</strong> on delivering an excellent third-year PhD talk today, titled:</p>
@@ -22,6 +23,7 @@ excerpt: "Congratulations to Nathan Carey on delivering an excellent third-year 
     <figure class="post-figure">
         <img src="{{ site.baseurl }}/assets/images/nathan-third-year-talk/talk2.jpg" alt="Nathan Carey explaining how antimicrobial peptides and their mimics disrupt bacterial membranes" class="featured-image">
         <figcaption>Nathan explaining how antimicrobial peptides and their mimics can directly disrupt bacterial membranes.</figcaption>
+        <p class="photo-credit">Photo credit: Dr. Maryam</p>
     </figure>
 
   
@@ -61,6 +63,14 @@ excerpt: "Congratulations to Nathan Carey on delivering an excellent third-year 
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-content p.photo-credit {
+    margin: 0.4rem 0 0;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #6b7280;
+    text-align: center;
 }
 
 .post-figure figcaption {

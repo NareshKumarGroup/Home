@@ -200,7 +200,6 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
-// Auto-advance slides every 5 seconds
 setInterval(function() {
     changeSlide(1);
 }, 5000);

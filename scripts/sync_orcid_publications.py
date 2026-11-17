@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""
-Sync publications from ORCID to publications.md (FULL METADATA VERSION)
-
-- Fetches work summaries from ORCID
-- Fetches full work records using put-code
-- Extracts complete authors, year, journal, DOI, URL
-- Avoids duplicates using DOI or normalized title
-- Inserts publications grouped by year
-- Uses ONLY Python standard library
-"""
 
 import html
 import os
@@ -21,8 +11,6 @@ import xml.etree.ElementTree as ET
 ORCID_API = "https://pub.orcid.org/v3.0"
 DEFAULT_ORCID = "0000-0002-0951-9621"
 
-
-# -------------------- XML HELPERS --------------------
 
 def local(tag):
     return tag.split("}")[-1] if "}" in tag else tag
@@ -39,8 +27,6 @@ def normalize_title(title):
     return re.sub(r"\s+", " ", title.lower().strip())[:200] if title else ""
 
 
-# -------------------- ORCID FETCHING --------------------
-
 def fetch_xml(url):
     req = urllib.request.Request(url, headers={"Accept": "application/orcid+xml"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -48,7 +34,6 @@ def fetch_xml(url):
 
 
 def get_put_code(ws):
-    """Get put-code from work-summary element (may be namespaced)."""
     put_code = ws.attrib.get("put-code")
     if put_code:
         return put_code
@@ -78,10 +63,7 @@ def fetch_full_work(orcid_id, put_code):
     return fetch_xml(f"{ORCID_API}/{orcid_id}/work/{put_code}")
 
 
-# -------------------- FULL METADATA PARSING --------------------
-
 def get_publication_date(root):
-    """Extract (year, month, day) from publication-date in ORCID work. Returns (year, month, day) as strings; month/day are "00" if missing."""
     year, month, day = "0000", "00", "00"
     for e in root.iter():
         if local(e.tag) == "publication-date":
@@ -124,7 +106,6 @@ def parse_full_work(root):
     else:
         url = find_text(root, "url") or ""
 
-    # Sort key YYYYMMDD for latest-first ordering (missing month/day treated as 01)
     m, d = month if month != "00" else "01", day if day != "00" else "01"
     date_sort = f"{year}{m}{d}"
 
@@ -139,8 +120,6 @@ def parse_full_work(root):
         "date_sort": date_sort,
     }
 
-
-# -------------------- EXISTING PUBLICATIONS --------------------
 
 def load_existing(filepath):
     dois, titles = set(), set()
@@ -159,8 +138,6 @@ def load_existing(filepath):
     return dois, titles
 
 
-# -------------------- HTML GENERATION --------------------
-
 def publication_block(w):
     return f"""
                     <div class="publication-item" data-type="{w['type']}">
@@ -178,15 +155,11 @@ def publication_block(w):
 """.rstrip()
 
 
-# -------------------- UPDATE EXISTING (FIX INCOMPLETE) --------------------
-
 def strip_html(s):
     return re.sub(r"<[^>]+>", "", s).strip() if s else ""
 
 
 def parse_publication_blocks(content):
-    """Find all publication blocks: (title, authors, journal, doi, match_obj)."""
-    # Capture h4, authors content, journal content with positions for replacement
     pat = re.compile(
         r"(<h4>)([^<]+)(</h4>\s*<p class=\"authors\">)([^<]*)(</p>\s*<p class=\"journal\">)([^<]*)(</p>)",
         re.DOTALL,
@@ -196,7 +169,6 @@ def parse_publication_blocks(content):
         title = strip_html(m.group(2))
         authors = (m.group(4) or "").strip()
         journal = (m.group(6) or "").strip()
-        # DOI: look in next 600 chars
         chunk = content[m.end() : m.end() + 600]
         doi_m = re.search(r'href="https://doi\.org/([^"]+)"', chunk)
         doi = doi_m.group(1).strip() if doi_m else None
@@ -214,21 +186,18 @@ def parse_publication_blocks(content):
 
 
 def is_incomplete(block):
-    """True if authors or journal look missing/incomplete."""
     a = (block.get("authors") or "").strip()
     j = (block.get("journal") or "").strip()
     if a == "Naresh Kumar et al." or not a:
         return True
     if not j or len(j) < 3:
         return True
-    # Truncated authors (ends with ...)
     if a.endswith("..."):
         return True
     return False
 
 
 def update_existing_publications(filepath, orcid_id):
-    """Find incomplete entries in publications.md, match to ORCID, fetch full metadata, replace."""
     with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
         content = f.read()
 
@@ -244,7 +213,6 @@ def update_existing_publications(filepath, orcid_id):
         t = normalize_title(s["title"])
         if t:
             title_to_put_code[t] = s["put_code"]
-    # Also by stripped title (no HTML)
     for s in summaries:
         t = normalize_title(strip_html(s["title"]))
         if t and t not in title_to_put_code:
@@ -255,7 +223,6 @@ def update_existing_publications(filepath, orcid_id):
         title_norm = normalize_title(block["title"])
         put_code = title_to_put_code.get(title_norm)
         if not put_code:
-            # Try without punctuation / extra chars
             t2 = re.sub(r"[^\w\s]", "", title_norm).strip()[:180]
             for k, pc in title_to_put_code.items():
                 k2 = re.sub(r"[^\w\s]", "", k).strip()[:180]
@@ -274,10 +241,8 @@ def update_existing_publications(filepath, orcid_id):
         new_journal = html.escape(w["journal"])
         new_block = m.group(1) + m.group(2) + m.group(3) + new_authors + m.group(5) + new_journal + m.group(7)
         replacements.append((m.start(), m.end(), new_block))
-        # Avoid rate limiting
         time.sleep(0.25)
 
-    # Apply from end to start so positions stay valid
     for start, end, new_block in sorted(replacements, key=lambda x: -x[0]):
         content = content[:start] + new_block + content[end:]
 
@@ -286,8 +251,6 @@ def update_existing_publications(filepath, orcid_id):
             f.write(content)
     return len(replacements)
 
-
-# -------------------- INSERT INTO MD --------------------
 
 def insert_publications(filepath, works):
     if not works:
@@ -300,7 +263,6 @@ def insert_publications(filepath, works):
     content = open(filepath, encoding="utf-8").read()
 
     for year in sorted(by_year.keys(), reverse=True):
-        # Sort by publication date (latest first); date_sort is YYYYMMDD
         items = sorted(by_year[year], key=lambda w: w.get("date_sort", w["year"] + "0101"), reverse=True)
         block = "\n".join(publication_block(w) for w in items)
 
@@ -325,8 +287,6 @@ def insert_publications(filepath, works):
     open(filepath, "w", encoding="utf-8").write(content)
     return sum(len(v) for v in by_year.values())
 
-
-# -------------------- MAIN --------------------
 
 def main():
     import argparse

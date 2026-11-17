@@ -746,10 +746,8 @@ function toggleSection(header) {
     const content = header.nextElementSibling;
     const icon = header.querySelector('i');
     
-    // Toggle active class on header
     header.classList.toggle('active');
-    
-    // Toggle content visibility
+
     if (content.style.display === 'none' || content.style.display === '') {
         content.style.display = 'block';
         content.style.opacity = '0';
@@ -764,7 +762,6 @@ function toggleSection(header) {
     }
 }
 
-// Initialize all sections as collapsed
 document.addEventListener('DOMContentLoaded', function() {
     const headers = document.querySelectorAll('.project-header');
     headers.forEach(header => {

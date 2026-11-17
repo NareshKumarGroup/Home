@@ -4085,7 +4085,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const publicationItems = document.querySelectorAll('.publication-item');
 
-    // Search functionality
     searchInput.addEventListener('input', function() {
         const searchTerm = this.value.toLowerCase();
         
@@ -4098,15 +4097,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Filter functionality
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
             const filter = this.dataset.filter;
-            // Update active button
             filterButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
 
-            // Hide/show year-section headings based on filter
             const yearSections = document.querySelectorAll('.year-section');
             if (filter === 'book' || filter === 'patent') {
                 yearSections.forEach(section => section.style.display = 'none');
@@ -4114,7 +4110,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 yearSections.forEach(section => section.style.display = '');
             }
 
-            // Filter publications
             publicationItems.forEach(item => {
                 if (filter === 'all' || item.dataset.type === filter) {
                     item.style.display = 'block';

@@ -234,13 +234,8 @@ title: Contact
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
-    
-    // Formspree will handle the form submission automatically
-    // You can add custom success/error handling here if needed
-    
+
     contactForm.addEventListener('submit', function(e) {
-        // Let Formspree handle the submission
-        // The form will be submitted to Formspree which will send emails to your specified addresses
     });
 });
 </script> 

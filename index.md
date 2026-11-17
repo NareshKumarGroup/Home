@@ -718,11 +718,10 @@ function showSlides(n) {
     
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
-        // Pause any videos when hiding slides
         let videos = slides[i].getElementsByTagName("video");
         for (let j = 0; j < videos.length; j++) {
             videos[j].pause();
-            videos[j].currentTime = 0; // Reset video to beginning
+            videos[j].currentTime = 0;
         }
     }
     for (i = 0; i < dots.length; i++) {
@@ -731,15 +730,13 @@ function showSlides(n) {
     
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    
-    // Autoplay video if the current slide contains one
+
     let currentVideos = slides[slideIndex-1].getElementsByTagName("video");
     for (let j = 0; j < currentVideos.length; j++) {
         currentVideos[j].play();
     }
 }
 
-// Auto-advance slides every 5 seconds
 setInterval(function() {
     changeSlide(1);
 }, 5000);

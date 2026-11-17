@@ -58,11 +58,11 @@ body {
             font-size: 0.9rem;
             font-family: "Outfit", "Roboto", sans-serif;
             font-weight: 500;
-            letter-spacing: 0.12em;
+            letter-spacing: 0.06em;
             text-transform: uppercase;
 
             li {
-                margin-left: 2rem;
+                margin-left: 1.15rem;
 
                 a {
                     position: relative;
@@ -149,7 +149,7 @@ body {
 }
 
 // Responsive design
-@media (max-width: 768px) {
+@media (max-width: 1180px) {
     .site-header {
         .main-nav {
             padding: 1rem 0;

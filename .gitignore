@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 moleculardockingtutorial
 
+# In-house tools kept off the public site for now
+tools/pepphyschem-hl.md
+
 # Build outputs
 _site/
 .jekyll-cache/

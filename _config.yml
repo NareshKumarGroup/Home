@@ -19,3 +19,5 @@ sass:
 
 exclude:
   - "Naresh Kumar (0000-0002-0951-9621) - ORCID _ Connecting Research and Researchers.html"
+  - tools.md
+  - tools/

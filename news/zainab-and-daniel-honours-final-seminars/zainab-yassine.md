@@ -37,7 +37,7 @@ excerpt: "Zainab Yassine delivered an Honours final seminar, Synthesis and biolo
         <video controls autoplay muted playsinline preload="auto" poster="{{ site.baseurl }}/assets/images/honours2026talk/Zainab/antibiotic-resistance.jpg">
             <source src="{{ site.baseurl }}/assets/images/honours2026talk/Zainab/VIDEO-2026-11-24-08-53-26.mp4" type="video/mp4">
         </video>
-        <figcaption>A short clip as Zainab Yassine closes on conclusions and future work. The clip starts as the page opens. Use the controls to turn the sound on.</figcaption>
+        <figcaption>A short clip as Zainab Yassine closes on conclusions and future work.</figcaption>
     </figure>
 
     <p class="closing">Well done, Zainab. The Kumar Research Group is proud of this seminar, and of the year of careful chemistry behind it.</p>

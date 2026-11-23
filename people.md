@@ -181,6 +181,13 @@ title: People
                         <p class="text-muted">Organic synthesis</p>
                         <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
+                    <div class="team-member">
+                        <img src="{{ site.baseurl }}/assets/images/newjosh.jpg" alt="Josh Fleming">
+                        <h4>Josh Fleming</h4>
+                        <p class="position">PhD Student</p>
+                        <p class="text-muted">Medicinal chemistry projects combining organic synthesis and biotesting</p>
+                        <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
+                    </div>
 
 
 
@@ -234,13 +241,6 @@ title: People
                         <p class="position">Research Assistant</p>
                         <p class="text-muted">Anticancer and antiinflammatory drug discovery</p>
                         <div class="social-links"><a href="mailto:valeriofalasca99@gmail.com"><i class="fas fa-envelope"></i></a></div>
-                    </div>
-                    <div class="team-member">
-                        <img src="{{ site.baseurl }}/assets/images/newjosh.jpg" alt="Josh Fleming">
-                        <h4>Josh Fleming</h4>
-                        <p class="position">Research Assistant</p>
-                        <p class="text-muted">Medicinal chemistry projects combining organic synthesis and biotesting</p>
-                        <div class="social-links"><a href="{{ '/contact' | relative_url }}"><i class="fas fa-envelope"></i></a></div>
                     </div>
                 </div>
             </div>

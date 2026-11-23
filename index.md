@@ -112,6 +112,8 @@ title: Home
                           <img src="{{ site.baseurl }}/assets/images/hassna/GettyImages-1269698264.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Welcome" and featured_home_post.title contains "Lab Members" %}
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
+                        {% elsif featured_home_post.title contains "Honours Final Seminars" %}
+                          <img src="{{ site.baseurl }}/assets/images/honours2026talk/Zainab/PHOTO-2026-11-24-07-31-43.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "Daniel Guo" %}
                           <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ featured_home_post.title }}" class="featured-img-home">
                         {% elsif featured_home_post.title contains "PhD Graduation" and featured_home_post.title contains "Dittu" %}

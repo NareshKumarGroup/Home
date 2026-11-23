@@ -37,6 +37,8 @@ permalink: /news/
               <img src="{{ site.baseurl }}/assets/images/new/md-hassan.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Welcome" and latest_post.title contains "Lab Members" %}
               <img src="{{ site.baseurl }}/assets/images/newlabmates/welcome-scaled.jpg" alt="{{ latest_post.title }}" class="featured-img">
+            {% elsif latest_post.title contains "Honours Final Seminars" %}
+              <img src="{{ site.baseurl }}/assets/images/honours2026talk/Zainab/PHOTO-2026-11-24-07-31-43.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "Daniel Guo" %}
               <img src="{{ site.baseurl }}/assets/images/newlabmates/danielimahge.jpg" alt="{{ latest_post.title }}" class="featured-img">
             {% elsif latest_post.title contains "PhD Graduation" and latest_post.title contains "Dittu" %}

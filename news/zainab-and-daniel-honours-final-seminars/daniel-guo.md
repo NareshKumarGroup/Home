@@ -1,9 +1,9 @@
 ---
 layout: news-post
-title: "Daniel Guo on Antimicrobial Peptide Mimics"
+title: "Daniel Guo: Synthesis and Biological Activity of Daidzein-Based Antimicrobial Peptide Mimics"
 date: 2026-11-24 09:30:00 +1100
 permalink: /news/zainab-and-daniel-honours-final-seminars/daniel-guo/
-excerpt: "Daniel Guo delivered a 2026 T3 School of Chemistry Honours final seminar on antimicrobial peptide mimics, supervised by Professor Naresh Kumar and Tsz Tin (Tom) Yu, with mentor Samuel Attard."
+excerpt: "Daniel Guo delivered a 2026 T3 School of Chemistry Honours final seminar, Synthesis and Biological Activity of Daidzein-Based Antimicrobial Peptide Mimics, supervised by Professor Naresh Kumar and Tsz Tin (Tom) Yu, with mentor Samuel Attard."
 ---
 
 <div class="post-content hon26-person">
@@ -14,13 +14,13 @@ excerpt: "Daniel Guo delivered a 2026 T3 School of Chemistry Honours final semin
         <figcaption>Daniel Guo at the lectern, taking the audience through the active compounds from the Honours project.<span class="photo-credit">Photo credit: Rasel</span></figcaption>
     </figure>
 
-    <p>Congratulations to <strong>Daniel Guo</strong>. The Honours final seminar had the quality this group likes best in a talk: structures on the screen, a clear argument about why each change matters, and the confidence to stand with the data.</p>
-
-    <p>Daniel Guo's research focus is <strong>antimicrobial peptide mimics</strong>. Natural antimicrobial peptides can punch through bacterial membranes, a mode of killing that bacteria struggle to shrug off. Peptide mimics keep that idea and rebuild the same idea as smaller molecules a chemist can tune, one substituent at a time.</p>
+    <p>Congratulations to <strong>Daniel Guo</strong>. The Honours final seminar had the quality this group likes best in a talk: structures on the screen, a clear argument about why each change matters, and the confidence to stand with the data. The seminar was titled:</p>
 
     <blockquote class="showcase-quote">
-        <p><strong>Research focus:</strong> Antimicrobial peptide mimics</p>
+        <p><strong>Synthesis and Biological Activity of Daidzein-Based Antimicrobial Peptide Mimics</strong></p>
     </blockquote>
+
+    <p>The title is the project. Daniel Guo builds antimicrobial peptide mimics on a daidzein scaffold, then tests the biological activity. Natural antimicrobial peptides can punch through bacterial membranes, a mode of killing that bacteria struggle to shrug off. These mimics keep that idea and rebuild it as smaller, tunable molecules.</p>
 
     <p>That tuning is structure–activity work, and that work was the heart of the seminar. Daniel Guo showed which substitutions left a scaffold quiet, and which substitutions produced a real jump in activity. Daniel Guo then brought the room to the active compounds: a set with higher activity than the previous generation, and a particularly welcome gain against Gram-negative <em>E. coli</em>, alongside activity against <em>Staphylococcus aureus</em>. Gram-negative bacteria hide behind an outer membrane that defeats plenty of otherwise promising molecules. Activity against that outer membrane is worth standing up for.</p>
 

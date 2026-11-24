@@ -32,7 +32,8 @@ excerpt: "The Kumar Group celebrates Zainab Yassine and Daniel Guo on engaging 2
         <article class="talk-blurb">
             <p class="talk-kicker">Peptide mimics</p>
             <h3>Daniel Guo</h3>
-            <p>Daniel Guo is designing <strong>antimicrobial peptide mimics</strong>. Daniel Guo took the room through structure–activity relationships and optimization: which changes to a scaffold do nothing, and which changes lift activity. The active compounds presented improved on the previous generation, with a clear step forward against Gram-negative <em>E. coli</em>.</p>
+            <p class="talk-title">Synthesis and Biological Activity of Daidzein-Based Antimicrobial Peptide Mimics</p>
+            <p>Daniel Guo took the room through structure–activity relationships and optimization: which changes to a daidzein scaffold do nothing, and which changes lift activity. The active compounds presented improved on the previous generation, with a clear step forward against Gram-negative <em>E. coli</em>.</p>
         </article>
     </div>
 
@@ -52,10 +53,10 @@ excerpt: "The Kumar Group celebrates Zainab Yassine and Daniel Guo on engaging 2
             </div>
         </a>
         <a class="grad-profile-card" href="{{ site.baseurl }}/news/zainab-and-daniel-honours-final-seminars/daniel-guo/">
-            <img src="{{ site.baseurl }}/assets/images/honours2026talk/Daniel/PHOTO-2026-11-24-07-13-45.jpg" alt="Daniel Guo presenting antimicrobial peptide mimics at his Honours final seminar">
+            <img src="{{ site.baseurl }}/assets/images/honours2026talk/Daniel/PHOTO-2026-11-24-07-13-45.jpg" alt="Daniel Guo presenting Synthesis and Biological Activity of Daidzein-Based Antimicrobial Peptide Mimics">
             <div class="grad-profile-info">
                 <h4>Daniel Guo</h4>
-                <p>Antimicrobial peptide mimics, with mentor Samuel Attard</p>
+                <p>Synthesis and Biological Activity of Daidzein-Based Antimicrobial Peptide Mimics</p>
                 <span class="grad-profile-link">View Daniel's page →</span>
             </div>
         </a>
